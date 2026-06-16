@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "@tailwindcss/typography";
 
 @layer base {
   :root {
@@ -19,7 +18,8 @@
   }
 
   h1, h2, h3, h4 {
-    @apply text-navy font-bold;
+    @apply font-bold;
+    color: var(--color-navy);
   }
 }
 

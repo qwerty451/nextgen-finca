@@ -1,16 +1,18 @@
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
+import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 import vercel from '@astrojs/vercel';
 import partytown from '@astrojs/partytown';
 
 export default defineConfig({
   site: 'https://nextgenfinca.com',
-  output: 'hybrid',
+  output: 'static',
   adapter: vercel(),
   trailingSlash: 'always',
+  vite: {
+    plugins: [tailwindcss()],
+  },
   integrations: [
-    tailwind({ applyBaseStyles: false }),
     sitemap({
       i18n: {
         defaultLocale: 'en',
