@@ -4,11 +4,11 @@
     "homeTitle": "Slimme Oplossingen voor Uw Spaanse Finca | NextGen Finca",
     "homeDesc": "Betrouwbaar internet, slimme beveiligingscamera's, domotica en zonne-energie voor finca's in zuidoost Spanje. Familiebedrijf gevestigd in Almansa — professionele resultaten.",
     "servicesTitle": "Onze Diensten | NextGen Finca",
-    "servicesDesc": "Betrouwbaar internet, slimme camera's, domotica en zonne-energie voor Spaanse finca's. Wij regelen de techniek zodat u kunt genieten van uw eigendom.",
+    "servicesDesc": "Betrouwbaar internet, slimme camera's, domotica en zonne-energie voor Spaanse finca's. Wij regelen de techniek zodat u kunt genieten van uw finca.",
     "connectivityTitle": "Betrouwbaar Internet voor Uw Finca | NextGen Finca",
-    "connectivityDesc": "Wij installeren Starlink, voegen mobiele back-up toe en zorgen voor sterk wifi in elke hoek van uw eigendom — inclusief de poort, het zwembad en het gastenverblijf.",
+    "connectivityDesc": "Wij installeren Starlink, voegen mobiele back-up toe en zorgen voor sterk wifi in elke hoek van uw finca — inclusief de poort, het zwembad en het gastenverblijf.",
     "securityTitle": "Slimme Beveiligingscamera's voor Uw Finca | NextGen Finca",
-    "securityDesc": "Camera's die u een melding sturen als er iemand aankomt, opnames bewaard op uw eigendom en overal ter wereld te bekijken. Wij ontwerpen en installeren het hele systeem.",
+    "securityDesc": "Camera's die u een melding sturen als er iemand aankomt, opnames bewaard op uw finca en overal ter wereld te bekijken. Wij ontwerpen en installeren het hele systeem.",
     "automationTitle": "Slimme Domotica voor Uw Finca | NextGen Finca",
     "automationDesc": "Automatische poorten, weerreactieve zonwering en slimme verlichting — uw finca beheert zichzelf. Wij regelen alles en maken het eenvoudig in gebruik.",
     "energyTitle": "Zonne-energie & Slimme Utilities voor Uw Finca | NextGen Finca",
@@ -30,7 +30,7 @@
   "hero": {
     "badge": "Slimme Oplossingen voor Finca-eigenaren",
     "headline": "Uw Finca — Verbonden, Beveiligd en Zelfvoorzienend.",
-    "subheadline": "Betrouwbaar internet, camera's die écht werken, slimme domotica en goed ingestelde zonne-energie. Wij regelen de technische kant zodat u gewoon kunt genieten van uw eigendom — of u nu ter plaatse bent of aan de andere kant van de wereld.",
+    "subheadline": "Betrouwbaar internet, camera's die écht werken, slimme domotica en goed ingestelde zonne-energie. Wij regelen de technische kant zodat u gewoon kunt genieten van uw finca — of u nu ter plaatse bent of aan de andere kant van de wereld.",
     "ctaPrimary": "Gratis Assessment Aanvragen",
     "ctaSecondary": "Bekijk Onze Diensten",
     "trustLine": "Gevestigd in Almansa — lokaal team voor eigenaren in zuidoost Spanje"
@@ -44,7 +44,7 @@
       "Home Assistant",
       "Reolink"
     ],
-    "note": "Wij kiezen de juiste apparatuur voor elk eigendom en leggen alles uit tijdens uw gratis assessment — zonder vakjargon, zonder druk."
+    "note": "Wij kiezen de juiste apparatuur voor elke finca en leggen alles uit tijdens uw gratis assessment — zonder vakjargon, zonder druk."
   },
   "servicesSection": {
     "badge": "Wat Wij Bieden",
@@ -54,21 +54,21 @@
   "services": {
     "connectivity": {
       "title": "Betrouwbaar Internet",
-      "shortDesc": "Altijd internet op uw finca — wij installeren Starlink, voegen een mobiele back-up toe voor gemoedsrust en brengen sterk wifi naar elke hoek van uw eigendom, inclusief het zwembad, de poort en het gastenverblijf.",
+      "shortDesc": "Altijd internet op uw finca — wij installeren Starlink, voegen een mobiele back-up toe voor gemoedsrust en brengen sterk wifi naar elke hoek van uw finca, inclusief het zwembad, de poort en het gastenverblijf.",
       "cta": "Meer Informatie",
       "hero": "Goed internet op een landelijke finca hoeft geen luxe te zijn — wij maken het vanzelfsprekend.",
       "sections": {
         "starlink": {
           "title": "Starlink Installatie",
-          "body": "Starlink is de beste manier om snel en betrouwbaar internet te krijgen op een landelijke finca — en wij installeren het goed. Dat betekent een stevige, permanente beugel die Spaanse wind doorstaat zonder ooit bijgesteld te hoeven worden, de juiste positie voor het beste signaal en nette kabelgeleiding door het hele eigendom."
+          "body": "Starlink is de beste manier om snel en betrouwbaar internet te krijgen op een landelijke finca — en wij installeren het goed. Dat betekent een stevige, permanente beugel die Spaanse wind doorstaat zonder ooit bijgesteld te hoeven worden, de juiste positie voor het beste signaal en nette kabelgeleiding door het hele terrein."
         },
         "wan": {
           "title": "Back-up Internet — Voor de Zekerheid",
           "body": "Wij koppelen uw hoofdverbinding aan een 4G/5G mobiele back-up. Als uw primaire internet uitvalt, schakelt de back-up binnen enkele seconden automatisch over — uw camera's, alarmen en externe toegang blijven online zonder dat u iets hoeft te doen."
         },
         "ubiquiti": {
-          "title": "Sterk Wifi Overal op Uw Eigendom",
-          "body": "Wij ontwerpen een wifi-netwerk dat uw hele eigendom dekt — niet alleen de woonkamer. Zwembadgebied, terras, garages, de poort aan het einde van de oprit, een gastenverblijf aan de andere kant van de tuin. Alles verbonden, alles snel."
+          "title": "Sterk Wifi Overal op Uw Finca",
+          "body": "Wij ontwerpen een wifi-netwerk dat uw hele finca dekt — niet alleen de woonkamer. Zwembadgebied, terras, garages, de poort aan het einde van de oprit, een gastenverblijf aan de andere kant van de tuin. Alles verbonden, alles snel."
         }
       },
       "faq": {
@@ -80,7 +80,7 @@
           },
           {
             "q": "Hoe lang duurt een typische installatie?",
-            "a": "De meeste installaties zijn klaar binnen 1–2 dagen, afhankelijk van de grootte van het eigendom en hoeveel gebieden dekking nodig hebben."
+            "a": "De meeste installaties zijn klaar binnen 1–2 dagen, afhankelijk van de grootte van de finca en hoeveel gebieden dekking nodig hebben."
           },
           {
             "q": "Werkt Starlink op mijn finca?",
@@ -95,16 +95,16 @@
     },
     "security": {
       "title": "Slimme Beveiliging",
-      "shortDesc": "Camera's die u een melding sturen als er een auto aankomt — niet elke keer als er een vogel voorbij vliegt. Opnames worden bewaard op uw eigendom, niet in iemands cloud, en u kunt ze overal bekijken.",
+      "shortDesc": "Camera's die u een melding sturen als er een auto aankomt — niet elke keer als er een vogel voorbij vliegt. Opnames worden bewaard op uw finca, niet in iemands cloud, en u kunt ze overal bekijken.",
       "cta": "Meer Informatie",
-      "hero": "Weet wat er op uw eigendom gebeurt — ook als u duizenden kilometers weg bent.",
+      "hero": "Weet wat er op uw finca gebeurt — ook als u duizenden kilometers weg bent.",
       "sections": {
         "cameras": {
           "title": "Camera's op Elke Belangrijke Plek",
-          "body": "Wij ontwerpen en installeren camerasystemen die elke ingang, de omtrek en alle blinde hoeken van uw eigendom dekken. Weerbestendig, netjes geïnstalleerd en gevoed via de netwerkkabel — geen batterijen vervangen, geen rommelige bedrading."
+          "body": "Wij ontwerpen en installeren camerasystemen die elke ingang, de omtrek en alle blinde hoeken van uw finca dekken. Weerbestendig, netjes geïnstalleerd en gevoed via de netwerkkabel — geen batterijen vervangen, geen rommelige bedrading."
         },
         "nvr": {
-          "title": "Uw Opnames, Bewaard op Uw Eigendom",
+          "title": "Uw Opnames, Bewaard op Uw Finca",
           "body": "Alles wordt opgenomen op een apparaat bij uw finca — niet geüpload naar iemands cloud. Uw beelden blijven van u, privé en ter plaatse. Wij dimensioneren de opslag op basis van het aantal camera's en hoeveel weken opnames u wilt bewaren."
         },
         "detection": {
@@ -117,11 +117,11 @@
         "items": [
           {
             "q": "Heeft mijn camerasysteem internet nodig?",
-            "a": "Nee — alles wordt altijd lokaal opgenomen op het eigendom. Bekijken op afstand via internet is optioneel en altijd via een beveiligde verbinding."
+            "a": "Nee — alles wordt altijd lokaal opgenomen op de finca. Bekijken op afstand via internet is optioneel en altijd via een beveiligde verbinding."
           },
           {
             "q": "Hoeveel camera's heb ik nodig?",
-            "a": "Dat werken wij uit tijdens het gratis locatiebezoek op basis van de indeling, ingangen en specifieke plekken van uw eigendom. Geen giswerk van tevoren."
+            "a": "Dat werken wij uit tijdens het gratis locatiebezoek op basis van de indeling, ingangen en specifieke plekken van uw finca. Geen giswerk van tevoren."
           },
           {
             "q": "Kan ik livebeelden bekijken vanuit het buitenland?",
@@ -145,7 +145,7 @@
           "body": "Wij koppelen uw bestaande poortmotor — of plaatsen een nieuwe — zodat u hem overal ter wereld via uw telefoon kunt bedienen. Stel een schema in, laat de poort automatisch openen als u aankomt, of bedien hem via een camera-melding. Elke opening en sluiting wordt geregistreerd."
         },
         "weather": {
-          "title": "Een Weerstation voor Uw Eigendom",
+          "title": "Een Weerstation voor Uw Finca",
           "body": "Wij plaatsen een professioneel weerstation dat de werkelijke omstandigheden op uw finca meet — windsnelheid, regenval, temperatuur, UV-niveaus. Uw geautomatiseerde systemen reageren op wat er écht op uw land gebeurt, niet op wat een weersverwachting zegt voor de dichtstbijzijnde stad."
         },
         "shades": {
@@ -166,7 +166,7 @@
           },
           {
             "q": "Werken automatiseringen zonder internet?",
-            "a": "Ja. De automatiseringshub draait volledig op uw eigendom. Uw poort, zonwering, verlichting en geplande routines blijven werken zonder internetverbinding."
+            "a": "Ja. De automatiseringshub draait volledig op uw finca. Uw poort, zonwering, verlichting en geplande routines blijven werken zonder internetverbinding."
           },
           {
             "q": "Kunnen jullie mijn bestaande slimme apparaten integreren?",
@@ -220,7 +220,7 @@
   "fincaCare": {
     "badge": "Terugkerende Onderhoudsplannen",
     "heading": "Finca Care Abonnementen",
-    "subheading": "Drie niveaus van altijd-actieve estate bescherming. Van digitaal beheer tot volledige hands-off luxe dekking — uw eigendom, permanent verzorgd.",
+    "subheading": "Drie niveaus van altijd-actieve estate bescherming. Van digitaal beheer tot volledige hands-off luxe dekking — uw finca, permanent verzorgd.",
     "plans": {
       "digital": {
         "name": "Digital Core",
@@ -244,7 +244,7 @@
         "price": "€129",
         "period": "/ maand",
         "badge": "Meest Populair",
-        "tagline": "Gemoedsrust voor eigendommen die lang leegstaan.",
+        "tagline": "Gemoedsrust voor finca's die lang leegstaan.",
         "features": [
           "Alles in Digital Core",
           "Kwartaalbezoek ter plaatse — 4 volledige inspecties per jaar",
@@ -294,14 +294,14 @@
         },
         {
           "q": "Moet ik aanwezig zijn tijdens bezoeken?",
-          "a": "Nee. Met sleutelkluis- of poortcodetoegang voltooien wij alle inspecties zonder dat u naar het eigendom hoeft te reizen."
+          "a": "Nee. Met sleutelkluis- of poortcodetoegang voltooien wij alle inspecties zonder dat u naar de finca hoeft te reizen."
         },
         {
           "q": "Wat gebeurt er als er iets kapot gaat tussen geplande bezoeken?",
           "a": "Digital Core klanten kunnen een reactief bezoek aanvragen tegen standaard dagtarief. Finca Essential klanten ontvangen prioriteit nooduitruk binnen 48 uur. Absolute Elite klanten hebben een gegarandeerde nooduitruk de volgende dag in het plan inbegrepen."
         },
         {
-          "q": "Kan ik het plan pauzeren als ik op het eigendom verblijf?",
+          "q": "Kan ik het plan pauzeren als ik op de finca verblijf?",
           "a": "Ja. Vraag een pauze aan met 30 dagen opzegtermijn en uw abonnement hervat tegen hetzelfde tarief wanneer u weer dekking nodig heeft."
         },
         {
@@ -321,7 +321,7 @@
     "promotion": {
       "badge": "Launch Founder Tarief",
       "headline": "20% korting op alle plannen — tot 30 november 2026",
-      "body": "Ter gelegenheid van onze publieke lancering in zuidoost Spanje lanceren we elk Finca Care plan met 20% korting op het standaardtarief. Klanten die vóór 1 december 2026 aansluiten, behouden dit tarief voor de volledige looptijd van hun abonnement.",
+      "body": "Ter gelegenheid van onze publieke lancering in zuidoost Spanje lanceren we elk Finca Care plan met 20% korting op het standaardtarief. Klanten die vóór 1 december 2026 aansluiten, behouden hun 20% oprichterskort permanent — ook als de standaardtarieven in de toekomst stijgen.",
       "expiry": "Aanbieding eindigt 30 november 2026"
     },
     "billing": {
@@ -339,7 +339,7 @@
   },
   "contact": {
     "heading": "Vraag Uw Gratis Assessment Aan",
-    "subheading": "Vertel ons over uw eigendom. Wij reageren binnen 24 uur.",
+    "subheading": "Vertel ons over uw finca. Wij reageren binnen 24 uur.",
     "responsePromise": "Typische reactietijd: onder 4 uur",
     "whatsappLabel": "WhatsApp ons direct",
     "regionsLabel": "Werkgebied",
@@ -347,11 +347,11 @@
       "name": "Volledige Naam",
       "email": "E-mailadres",
       "phone": "Telefoon (optioneel)",
-      "location": "Locatie Eigendom",
+      "location": "Locatie Finca",
       "locationPlaceholder": "bijv. Almansa, bij Villena...",
       "service": "Primaire Interesse",
       "message": "Vertel ons over uw finca",
-      "messagePlaceholder": "Grootte van het eigendom, huidige installatie, grootste uitdagingen...",
+      "messagePlaceholder": "Grootte van de finca, huidige installatie, grootste uitdagingen...",
       "submit": "Assessmentaanvraag Verzenden"
     },
     "serviceOptions": {
@@ -361,15 +361,15 @@
       "automation": "Slimme Automatisering",
       "energy": "Zonne-energie & Utilities",
       "fincaCare": "Finca Care Abonnement",
-      "all": "Volledig Eigendom Assessment"
+      "all": "Volledig Finca Assessment"
     },
     "success": {
       "heading": "Assessmentaanvraag Ontvangen",
-      "body": "Dank u. Wij beoordelen uw eigendomsdetails en reageren binnen 24 uur.",
+      "body": "Dank u. Wij beoordelen uw fincagegevens en reageren binnen 24 uur.",
       "cta": "Terug naar Home"
     },
     "basedInLabel": "Gevestigd in Almansa, Spanje",
-    "basedInBody": "Wij opereren vanuit Almansa in Castilla-La Mancha — ideaal gelegen om eigendommen in de Costa Blanca en de provincies Valencia, Alicante, Murcia en Albacete binnen ongeveer een uur te bereiken."
+    "basedInBody": "Wij opereren vanuit Almansa in Castilla-La Mancha — ideaal gelegen om finca's in de Costa Blanca en de provincies Valencia, Alicante, Murcia en Albacete binnen ongeveer een uur te bereiken."
   },
   "regions": {
     "heading": "Gevestigd in Almansa. Actief in Zuidoost Spanje.",
@@ -410,7 +410,7 @@
       },
       {
         "heading": "Waarom Wij Hier Zijn",
-        "body": "Wij zijn naar zuidoost Spanje verhuisd omdat wij dat wilden — en toen wij om ons heen keken, was de kans duidelijk. Prachtige eigendommen met frustrerende technologie. Geen betrouwbaar internet, poorten die met de hand geopend worden, zonne-installaties die al jaren niet zijn aangeraakt. Wij wisten precies hoe die problemen op te lossen, en daarom hebben wij NextGen Finca opgezet."
+        "body": "Wij zijn naar zuidoost Spanje verhuisd omdat wij dat wilden — en toen wij om ons heen keken, was de kans duidelijk. Prachtige finca's met frustrerende technologie. Geen betrouwbaar internet, poorten die met de hand geopend worden, zonne-installaties die al jaren niet zijn aangeraakt. Wij wisten precies hoe die problemen op te lossen, en daarom hebben wij NextGen Finca opgezet."
       },
       {
         "heading": "Hoe Wij Werken",
