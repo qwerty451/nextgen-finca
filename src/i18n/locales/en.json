@@ -247,7 +247,7 @@
         "tagline": "Peace of mind for properties that sit empty.",
         "features": [
           "Everything in Digital Core",
-          "Quarterly on-site audit — 4 full property walkthroughs per year",
+          "Annual on-site audit — 1 full property walkthrough per year",
           "Basic hardware maintenance: camera lens clean, sensor & rack inspection",
           "Priority 48-hour emergency dispatch",
           "WhatsApp support during business hours"
@@ -265,7 +265,7 @@
         "tagline": "Complete hands-off luxury property tech coverage.",
         "features": [
           "Everything in Digital Core & Finca Essential",
-          "Monthly on-site audit — 12 full visits per year",
+          "Quarterly on-site audit — 4 full visits per year",
           "Deep hardware tune-up: server clean, solar panel calima wipe, battery diagnostics",
           "Guaranteed next-day emergency dispatch for critical failures",
           "24/7 priority emergency support channel",
@@ -306,7 +306,7 @@
         },
         {
           "q": "Do you send a report after each on-site visit?",
-          "a": "Finca Essential clients receive a digital report after each quarterly audit. Absolute Elite clients receive a premium post-visit report with photographs delivered after every monthly visit."
+          "a": "Finca Essential clients receive a digital report after their annual audit. Absolute Elite clients receive a premium report with photographs after every quarterly visit."
         },
         {
           "q": "What does the monthly health report include?",

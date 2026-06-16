@@ -247,7 +247,7 @@
         "tagline": "Tranquilidad para propiedades que permanecen vacías.",
         "features": [
           "Todo lo incluido en Digital Core",
-          "Visita trimestral — 4 revisiones completas de la propiedad al año",
+          "Visita anual — 1 revisión completa de la finca al año",
           "Mantenimiento básico de hardware: limpieza de lentes de cámara, inspección de sensores y rack",
           "Despacho de emergencia prioritario en 48 horas",
           "Soporte por WhatsApp en horario laboral"
@@ -265,11 +265,11 @@
         "tagline": "Cobertura tecnológica de lujo sin intervención del propietario.",
         "features": [
           "Todo lo incluido en Digital Core y Finca Essential",
-          "Visita mensual — 12 revisiones completas al año",
+          "Visita trimestral — 4 revisiones completas al año",
           "Revisión profunda de hardware: limpieza del servidor, limpieza de calima en paneles solares, diagnóstico de baterías",
           "Despacho de emergencia garantizado al día siguiente para fallos críticos",
           "Canal de soporte de emergencia prioritario 24/7",
-          "Informe digital premium con fotos tras cada visita mensual"
+          "Informe digital premium con fotos tras cada visita trimestral"
         ],
         "cta": "Empezar Absolute Elite",
         "pricePromo": "€199",
@@ -306,7 +306,7 @@
         },
         {
           "q": "¿Envían un informe después de cada visita?",
-          "a": "Los clientes de Finca Essential reciben un informe digital tras cada revisión trimestral. Los clientes de Absolute Elite reciben un informe premium con fotografías tras cada visita mensual."
+          "a": "Los clientes de Finca Essential reciben un informe digital tras su revisión anual. Los clientes de Absolute Elite reciben un informe premium con fotografías tras cada visita trimestral."
         },
         {
           "q": "¿Qué incluye el informe de salud mensual?",
