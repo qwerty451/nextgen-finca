@@ -302,10 +302,6 @@
           "a": "Los clientes de Digital Core pueden contratarnos para ayuda de emergencia a una tarifa horaria reducida. Los clientes de Finca Essential tienen una visita de emergencia gratuita al año incluida en su suscripción. Los clientes de Absolute Elite reciben una visita de emergencia urgente ante cualquier avería — respuesta prioritaria sin cargo adicional."
         },
         {
-          "q": "¿Puedo pausar el plan cuando estoy en la propiedad?",
-          "a": "Sí. Solicite una pausa con 30 días de antelación y su suscripción se reanuda a la misma tarifa cuando necesite cobertura de nuevo."
-        },
-        {
           "q": "¿Envían un informe después de cada visita?",
           "a": "Los clientes de Finca Essential reciben un informe digital tras su revisión anual. Los clientes de Absolute Elite reciben un informe premium con fotografías tras cada visita trimestral."
         },
@@ -333,6 +329,10 @@
       "billedAnnually": "facturado anualmente",
       "promoTag": "Tarifa Fundador",
       "standardRate": "Tarifa estándar"
+    },
+    "serviceContext": {
+      "heading": "¿Qué es Finca Care?",
+      "body": "Finca Care es un servicio continuo de mantenimiento y monitorización — no es obligatorio con ningún trabajo de instalación. Instalamos sistemas como proyecto independiente: redes, seguridad, automatización, solar. Si prefiere gestionarlo usted mismo después, no necesita suscripción. Finca Care es para propietarios que prefieren que nos encarguemos de todo durante todo el año."
     }
   },
   "compliance": {

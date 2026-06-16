@@ -302,10 +302,6 @@
           "a": "Digital Core Kunden können uns für Notfallhilfe zum reduzierten Stundensatz beauftragen. Finca Essential Kunden haben einen kostenlosen Notfalleinsatz pro Jahr in ihrem Abonnement enthalten. Absolute Elite Kunden erhalten bei jeder Störung einen beschleunigten Notfalleinsatz — Prioritätsreaktion ohne Aufpreis."
         },
         {
-          "q": "Kann ich den Plan pausieren wenn ich auf dem Grundstück bin?",
-          "a": "Ja. Beantragen Sie eine Pause mit 30 Tagen Frist und Ihr Abonnement wird zum gleichen Preis wieder aufgenommen wenn Sie erneut Abdeckung benötigen."
-        },
-        {
           "q": "Erhalten Kunden einen Bericht nach jedem Vor-Ort-Besuch?",
           "a": "Finca Essential Kunden erhalten einen digitalen Bericht nach ihrer jährlichen Inspektion. Absolute Elite Kunden erhalten einen Premium-Bericht mit Fotos nach jeder vierteljährlichen Inspektion."
         },
@@ -333,6 +329,10 @@
       "billedAnnually": "jährlich abgerechnet",
       "promoTag": "Gründer-Tarif",
       "standardRate": "Standardpreis"
+    },
+    "serviceContext": {
+      "heading": "Was ist Finca Care?",
+      "body": "Finca Care ist ein laufender Wartungs- und Überwachungsservice — kein Pflichtbestandteil unserer Installationsarbeit. Wir installieren Systeme auch als eigenständige Projekte: Netzwerke, Sicherheit, Automatisierung, Solar. Wer danach alles selbst verwalten möchte, braucht kein Abonnement. Finca Care ist für Eigentümer, die möchten dass wir das ganze Jahr über alles im Blick behalten."
     }
   },
   "compliance": {

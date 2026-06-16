@@ -302,10 +302,6 @@
           "a": "Digital Core klanten kunnen ons inschakelen voor noodhulp tegen een verlaagd uurtarief. Finca Essential klanten hebben één gratis noodbezoek per jaar inbegrepen in het abonnement. Absolute Elite klanten ontvangen een versneld noodbezoek bij storingen — prioriteitsrespons zonder extra kosten."
         },
         {
-          "q": "Kan ik het plan pauzeren als ik op de finca verblijf?",
-          "a": "Ja. Vraag een pauze aan met 30 dagen opzegtermijn en uw abonnement hervat tegen hetzelfde tarief wanneer u weer dekking nodig heeft."
-        },
-        {
           "q": "Ontvangen klanten een rapport na elk bezoek?",
           "a": "Finca Essential klanten ontvangen een digitaal rapport na hun jaarlijkse inspectie. Absolute Elite klanten ontvangen een premium rapport met foto's na elke kwartaalinspectie."
         },
@@ -333,6 +329,10 @@
       "billedAnnually": "jaarlijks gefactureerd",
       "promoTag": "Founder Tarief",
       "standardRate": "Standaard tarief"
+    },
+    "serviceContext": {
+      "heading": "Wat is Finca Care?",
+      "body": "Finca Care is een doorlopende onderhouds- en monitoringservice — geen verplichting bij onze installatieprojecten. Wij installeren ook los: netwerken, beveiliging, domotica, zonne-energie. Wilt u daarna alles zelf beheren? Prima, dan is er geen abonnement nodig. Finca Care is er voor eigenaren die willen dat wij het jaar rond voor hen bijhouden."
     }
   },
   "compliance": {

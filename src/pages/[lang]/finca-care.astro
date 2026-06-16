@@ -52,6 +52,23 @@ const fc = t.fincaCare;
     </div>
   </section>
 
+  <!-- Service context note -->
+  <section class="bg-white border-b border-slate-border py-8">
+    <div class="container-xl max-w-4xl mx-auto">
+      <div class="flex gap-4 items-start bg-slate-bg rounded-2xl p-6 border border-slate-border">
+        <span class="shrink-0 mt-0.5 w-5 h-5 text-electric" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+          </svg>
+        </span>
+        <div>
+          <p class="font-semibold text-navy text-sm mb-1">{fc.serviceContext.heading}</p>
+          <p class="text-slate-600 text-sm leading-relaxed">{fc.serviceContext.body}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Billing Toggle + Plans -->
   <section class="py-16 md:py-24 bg-white">
     <div class="container-xl max-w-6xl mx-auto">

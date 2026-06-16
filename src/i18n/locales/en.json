@@ -302,10 +302,6 @@
           "a": "Digital Core clients can call us out for emergency help at a reduced hourly rate. Finca Essential clients have one free emergency call-out per year included in their subscription. Absolute Elite clients receive an expedited emergency call-out for any failure — priority response, no extra charge."
         },
         {
-          "q": "Can I pause my plan when I'm at the property?",
-          "a": "Yes. Request a pause with 30 days' notice and your subscription resumes at the same rate when you need coverage again."
-        },
-        {
           "q": "Do you send a report after each on-site visit?",
           "a": "Finca Essential clients receive a digital report after their annual audit. Absolute Elite clients receive a premium report with photographs after every quarterly visit."
         },
@@ -333,6 +329,10 @@
       "billedAnnually": "billed annually",
       "promoTag": "Founder Rate",
       "standardRate": "Standard rate"
+    },
+    "serviceContext": {
+      "heading": "What is Finca Care?",
+      "body": "Finca Care is an ongoing maintenance and monitoring service — not a requirement for any installation work. We install systems as a standalone job: networks, security, automation, solar. If you'd rather manage things yourself after that, no subscription needed. Finca Care is for owners who want us to keep an eye on everything all year round."
     }
   },
   "compliance": {
