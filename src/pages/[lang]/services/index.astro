@@ -27,16 +27,27 @@ const t = await getDictionary(lang);
 
   <!-- Page hero -->
   <section class="bg-slate-bg py-16 md:py-24 border-b border-slate-border">
-    <div class="container-xl text-center max-w-3xl mx-auto">
-      <span class="inline-block text-electric text-xs font-bold uppercase tracking-widest mb-3">
-        {t.servicesSection.badge}
-      </span>
-      <h1 class="text-4xl md:text-5xl font-bold text-navy mb-6">
-        {t.servicesSection.heading}
-      </h1>
-      <p class="text-slate-500 text-xl leading-relaxed">
-        {t.servicesSection.subheading}
-      </p>
+    <div class="container-xl">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="inline-block text-electric text-xs font-bold uppercase tracking-widest mb-3">
+          {t.servicesSection.badge}
+        </span>
+        <h1 class="text-4xl md:text-5xl font-bold text-navy mb-6">
+          {t.servicesSection.heading}
+        </h1>
+        <p class="text-slate-500 text-xl leading-relaxed">
+          {t.servicesSection.subheading}
+        </p>
+      </div>
+      <figure class="max-w-4xl mx-auto">
+        <img
+          src="/images/smart-home-devices.jpg"
+          alt="Smart home and IoT devices for estate management"
+          class="w-full rounded-2xl shadow-lg object-cover aspect-[21/9]"
+          width="1200"
+          height="514"
+        />
+      </figure>
     </div>
   </section>
 

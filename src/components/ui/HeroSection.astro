@@ -66,35 +66,15 @@ const { t, lang } = Astro.props;
       </p>
     </div>
 
-    <!-- Hero visual: tech dashboard card -->
+    <!-- Hero visual -->
     <div class="mt-16 relative max-w-3xl mx-auto">
-      <div class="bg-white rounded-2xl border border-slate-border shadow-2xl shadow-slate-200 overflow-hidden">
-        <!-- Dashboard header bar -->
-        <div class="bg-navy px-6 py-3 flex items-center gap-2">
-          <span class="w-3 h-3 rounded-full bg-red-400" aria-hidden="true"></span>
-          <span class="w-3 h-3 rounded-full bg-yellow-400" aria-hidden="true"></span>
-          <span class="w-3 h-3 rounded-full bg-green-400" aria-hidden="true"></span>
-          <span class="ml-4 text-slate-300 text-xs font-mono">NextGen Finca — Estate Dashboard</span>
-        </div>
-        <!-- Dashboard content preview -->
-        <div class="p-6 grid grid-cols-2 md:grid-cols-4 gap-4">
-          {[
-            { label: 'Connectivity', value: '↑ 589 Mbps', status: 'online' },
-            { label: 'Security', value: '4 Cameras', status: 'online' },
-            { label: 'Automation', value: '12 Devices', status: 'online' },
-            { label: 'Solar', value: '94% SoC', status: 'online' },
-          ].map((item) => (
-            <div class="bg-slate-bg rounded-xl p-4 border border-slate-border">
-              <div class="flex items-center gap-1.5 mb-2">
-                <span class={`w-2 h-2 rounded-full ${item.status === 'online' ? 'bg-green-400' : 'bg-red-400'}`} aria-hidden="true"></span>
-                <span class="text-slate-400 text-xs font-medium">{item.label}</span>
-              </div>
-              <p class="text-navy font-bold text-lg">{item.value}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-      <!-- Decorative glow -->
+      <img
+        src="/images/estate-dashboard.jpg"
+        alt="Estate management dashboard on mobile device"
+        class="w-full rounded-2xl shadow-2xl shadow-slate-200 object-cover"
+        width="900"
+        height="600"
+      />
       <div class="absolute -inset-4 bg-electric/5 rounded-3xl blur-2xl -z-10" aria-hidden="true"></div>
     </div>
   </div>
