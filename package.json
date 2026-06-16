@@ -1,0 +1,27 @@
+{
+  "name": "irregular-inclination",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^6.4.7"
+  },
+  "devDependencies": {
+    "@astrojs/partytown": "^2.1.7",
+    "@astrojs/sitemap": "^3.7.3",
+    "@astrojs/tailwind": "^6.0.2",
+    "@astrojs/vercel": "^10.0.8",
+    "@tailwindcss/typography": "^0.5.20",
+    "resend": "^6.12.4",
+    "sharp": "^0.35.1",
+    "tailwindcss": "^4.3.1"
+  }
+}

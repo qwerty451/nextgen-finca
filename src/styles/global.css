@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-navy: #0F1F3D;
+    --color-electric: #1D6AF5;
+    --color-slate-bg: #F8FAFC;
+    --font-sans: 'Inter', system-ui, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-slate-700 bg-white antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply text-navy font-bold;
+  }
+}
+
+@layer utilities {
+  .container-xl {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}

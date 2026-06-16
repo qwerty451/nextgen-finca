@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "siteName": "NextGen Finca",
+    "homeTitle": "Slimme Estate Engineering voor Spaanse Finca's | NextGen Finca",
+    "homeDesc": "Premium Starlink, Ubiquiti en Home Assistant integratie voor afgelegen eigendommen in Almansa, Ontinyent, Yecla en Villena.",
+    "servicesTitle": "Slimme Estate Diensten | NextGen Finca",
+    "servicesDesc": "Vier engineeringpijlers: connectiviteit, beveiliging, automatisering en slimme energie voor premium Spaanse finca's.",
+    "connectivityTitle": "Perfecte Connectiviteit — Starlink & Ubiquiti | NextGen Finca",
+    "connectivityDesc": "Starlink montage, 4G/5G multi-WAN redundantie en Ubiquiti mesh netwerk voor afgelegen finca's in Spanje.",
+    "securityTitle": "Autonome Beveiliging — Slimme IP Bewaking | NextGen Finca",
+    "securityDesc": "Slimme IP bewakingssystemen, lokale NVR, edge-AI voertuigdetectie en versleutelde externe toegang voor uw Spaans landgoed.",
+    "automationTitle": "Slimme Finca Automatisering — Home Assistant | NextGen Finca",
+    "automationDesc": "Home Assistant configuraties voor automatische poorten, weerstations en windgevoelige zonwering in Almansa, Yecla en Villena.",
+    "energyTitle": "Slimme Energie & Utilities — Victron Solar | NextGen Finca",
+    "energyDesc": "Zonnepaneel optimalisatie, Lithium/Victron upgrades, energiemonitoring en vochtdetectie waterafsluiting voor Spaanse finca's.",
+    "fincaCareTitle": "Finca Care Abonnementen — Remote & Ter Plaatse | NextGen Finca",
+    "fincaCareDesc": "Remote Guardian vanaf €39/mnd of Total Peace-of-Mind vanaf €99/mnd. Altijd-aan onderhoud voor Spaanse finca's.",
+    "contactTitle": "Vraag een Gratis Estate Beoordeling aan | NextGen Finca",
+    "contactDesc": "Gratis technische beoordeling voor uw finca. Wij bedienen Almansa, Ontinyent, Yecla en Villena. Reactie binnen 24 uur."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Diensten",
+    "fincaCare": "Finca Care",
+    "contact": "Offerte Aanvragen"
+  },
+  "hero": {
+    "badge": "Slimme Estate Engineering",
+    "headline": "Uw Afgelegen Eigendom. Volledig Verbonden. Volledig Beveiligd.",
+    "subheadline": "Elite integratie van Starlink, Ubiquiti, Home Assistant, Victron & Reolink voor premium finca's in Almansa, Ontinyent, Yecla en Villena.",
+    "ctaPrimary": "Gratis Beoordeling Aanvragen",
+    "ctaSecondary": "Diensten Bekijken",
+    "trustLine": "Vertrouwd door veeleisende eigenaren in het binnenland van Spanje"
+  },
+  "trustBadges": {
+    "heading": "Ecosystemen die wij beheersen",
+    "items": ["Ubiquiti UniFi", "Victron Energy", "Starlink", "Home Assistant", "Reolink"]
+  },
+  "servicesSection": {
+    "badge": "Vier Engineeringpijlers",
+    "heading": "Volledige Estate Intelligentie",
+    "subheading": "Elk systeem ontworpen voor betrouwbaarheid op afstand, landelijke omstandigheden en compromisloze prestaties."
+  },
+  "services": {
+    "connectivity": {
+      "title": "Perfecte Connectiviteit",
+      "shortDesc": "Starlink installatie, 4G/5G multi-WAN redundantie en Ubiquiti mesh netwerk over het hele terrein — inclusief P2P bruggen naar afgelegen poorten en gastenverblijven.",
+      "cta": "Meer Informatie",
+      "hero": "Uw finca verdient enterprise-kwaliteit connectiviteit, geen compromissen.",
+      "sections": {
+        "starlink": {
+          "title": "Starlink Structurele Montage",
+          "body": "Wij ontwerpen robuuste, grondverankerde of dakgemonteerde steunen voor Starlink schotels — geoptimaliseerd voor Spaanse windbelasting, de correcte elevatiehoek voor zuidelijke breedtegraden en nette kabelgeleiding."
+        },
+        "wan": {
+          "title": "4G/5G Multi-WAN Redundantie",
+          "body": "Wij configureren dual-WAN routers met automatische failover: Starlink als primaire verbinding, 4G/5G LTE als naadloze backup. Als één verbinding uitvalt, blijven uw camera's, automatisering en externe toegang actief."
+        },
+        "ubiquiti": {
+          "title": "Ubiquiti UniFi Estate Netwerk",
+          "body": "Volledige UniFi Dream Machine of Cloud Gateway implementaties. Wij plaatsen access points voor buitendekking van zwembaden, garages en terrassen. Point-to-point draadloze bruggen verbinden afgelegen poorten, gastenverblijven of werkschuren — tot 500m zonder kabelgrepel."
+        }
+      }
+    },
+    "security": {
+      "title": "Autonome Beveiliging",
+      "shortDesc": "Slimme IP bewakingsnetwerken, lokale NVR implementatie, edge-AI object- en voertuigdetectie en versleutelde remote cloud streaming toegang.",
+      "cta": "Meer Informatie",
+      "hero": "Weet precies wat er op uw eigendom is — vanuit elke plek ter wereld.",
+      "sections": {
+        "cameras": {
+          "title": "Slim IP Bewakingsnetwerk",
+          "body": "Wij ontwerpen en monteren Reolink IP camera netwerken die alle toegangspunten, perimeters en blinde hoeken dekken. PoE-gevoed vanuit uw UniFi switch — nette, weerbestendige installaties zonder zichtbare bedrading."
+        },
+        "nvr": {
+          "title": "Lokale NVR Implementatie",
+          "body": "Alle beelden worden lokaal opgeslagen op een geharde NVR appliance — geen verplicht cloud abonnement, geen data die uw eigendom verlaat zonder uw toestemming. RAID geconfigureerd voor redundantie."
+        },
+        "detection": {
+          "title": "Edge-AI Object & Voertuigdetectie",
+          "body": "Wij kalibreren slimme detectiezones per camera: classificatie van personen, voertuigen en dieren. Foutmeldingen door boombeweging of insecten worden geëlimineerd. Pushmelding op uw telefoon wanneer een voertuig de oprit oprijdt."
+        }
+      }
+    },
+    "automation": {
+      "title": "Slimme Finca Automatisering",
+      "shortDesc": "Gecentraliseerde Home Assistant configuraties voor automatische oprijpoorten, lokale weerstations en wind/regenreactieve zonwering of bioklimatische pergola's.",
+      "cta": "Meer Informatie",
+      "hero": "Uw finca reageert intelligent op omstandigheden — met of zonder uw aanwezigheid.",
+      "sections": {
+        "gates": {
+          "title": "Automatische Poortbesturing",
+          "body": "Wij integreren bestaande of nieuwe poortmotoren in Home Assistant via MQTT of lokale API. Open uw poort van overal via uw telefoon, stel schema's in of activeer op voertuigdetectie."
+        },
+        "weather": {
+          "title": "Lokale Weerstation Integratie",
+          "body": "Wij monteren professionele lokale weerstations en voeden live windsnelheid, regenval, UV-index en temperatuur in Home Assistant dashboards."
+        },
+        "shades": {
+          "title": "Wind & Regen Reactieve Zonwering",
+          "body": "Bioklimatische pergola lamellen, buitenrolluiken en zonneluifels worden gekoppeld aan Home Assistant. Ze trekken automatisch terug wanneer de wind veilige drempelwaarden overschrijdt of regen begint."
+        }
+      }
+    },
+    "energy": {
+      "title": "Slimme Energie & Utilities",
+      "shortDesc": "Zonnepaneel structurele optimalisatie, Lithium/Victron upgrades, remote energiemonitoring, slimme tuinverlichting en geautomatiseerde vochtdetectie waterafsluiting.",
+      "cta": "Meer Informatie",
+      "hero": "Energie-onafhankelijkheid — ontworpen, gemonitord en toekomstbestendig.",
+      "sections": {
+        "solar": {
+          "title": "Zonnepaneel Structurele Optimalisatie",
+          "body": "Wij inspecteren uw bestaande paneelopstellingen en montageconstructies op hoek, schaduwverliezen en structurele integriteit. Wij herontwerpen en hermonteer voor maximale opbrengst."
+        },
+        "victron": {
+          "title": "Lithium & Victron Upgrades",
+          "body": "Wij upgraden verouderde loodzuuraccupakketten naar moderne LiFePO4 configuraties met Victron MultiPlus of Quattro omvormer-laders. Remote monitoring via VRM Portal geeft u live laadstatus en historische trends."
+        },
+        "utilities": {
+          "title": "Slimme Verlichting & Waterafsluiting",
+          "body": "Tuin- en architectuurverlichting op slimme schema's of aanwezigheidsdetectie. Draadloze vochtdetectoren op hoofdaansluitpunten gekoppeld aan gemotoriseerde afsluiters — automatische waterafsluiting bij lekdetectie."
+        }
+      }
+    }
+  },
+  "fincaCare": {
+    "badge": "Terugkerende Onderhoudsplannen",
+    "heading": "Finca Care Abonnementen",
+    "subheading": "Altijd-aan estate onderhoud — remote monitoring of volledige service ter plaatse.",
+    "plans": {
+      "remote": {
+        "name": "Remote Guardian",
+        "price": "€39 – €49",
+        "period": "/ maand",
+        "badge": "",
+        "features": [
+          "Dashboard met serverstatistieken op afstand",
+          "Geautomatiseerde configuratie cloudback-ups",
+          "Remote firmware onderhoud & updates",
+          "Proactieve accudegradatie meldingen",
+          "Maandelijkse statusrapport e-mail"
+        ],
+        "cta": "Start Remote Plan"
+      },
+      "total": {
+        "name": "Total Peace-of-Mind",
+        "price": "€99 – €149",
+        "period": "/ maand",
+        "badge": "Meest Populair",
+        "features": [
+          "Alles in Remote Guardian",
+          "Maandelijkse fysieke inspectie ter plaatse",
+          "Cameralens reiniging & zonnepaneel wip",
+          "Volledige sensor- en detectietest",
+          "Prioriteit volgende-dag noodinzet",
+          "Dedicated WhatsApp ondersteuningslijn"
+        ],
+        "cta": "Start Total Plan"
+      }
+    },
+    "faq": {
+      "heading": "Veelgestelde Vragen",
+      "items": [
+        {
+          "q": "Kan ik op elk moment opzeggen?",
+          "a": "Ja. Beide plannen zijn doorlopende maandabonnementen zonder minimale looptijd. Opzeggen met 30 dagen opzegtermijn."
+        },
+        {
+          "q": "Welk gebied bedekt u voor bezoeken ter plaatse?",
+          "a": "Wij bedienen Almansa, Ontinyent, Yecla, Villena en omliggende gemeenten in het binnenland van Valencia en de grensregio met Murcia."
+        },
+        {
+          "q": "Is elektriciteitswerk inbegrepen?",
+          "a": "Wij ontwerpen, monteren en configureren alle technische infrastructuur. Hoogspanning gecertificeerde netaansluitingen worden gecoördineerd via ons netwerk van erkende lokale elektriciens."
+        },
+        {
+          "q": "Moet ik aanwezig zijn tijdens bezoeken?",
+          "a": "Nee. Met sleutelkluis- of poortcodetoegang kunnen wij maandelijkse inspecties uitvoeren zonder dat u naar het eigendom hoeft te reizen."
+        }
+      ]
+    }
+  },
+  "compliance": {
+    "notice": "NextGen Finca ontwerpt, monteert en configureert alle technische infrastructuur. Hoogspanning gecertificeerde netaansluitingen worden gecoördineerd via ons netwerk van erkende lokale elektriciens."
+  },
+  "contact": {
+    "heading": "Vraag Uw Gratis Estate Beoordeling Aan",
+    "subheading": "Vertel ons over uw eigendom. Wij reageren binnen 24 uur.",
+    "responsePromise": "Typische reactietijd: onder 4 uur",
+    "whatsappLabel": "WhatsApp ons direct",
+    "regionsLabel": "Werkgebied",
+    "fields": {
+      "name": "Volledige Naam",
+      "email": "E-mailadres",
+      "phone": "Telefoon (optioneel)",
+      "location": "Locatie Eigendom",
+      "locationPlaceholder": "bijv. Almansa, bij Villena...",
+      "service": "Primaire Interesse",
+      "message": "Vertel ons over uw finca",
+      "messagePlaceholder": "Grootte van het eigendom, huidige installatie, grootste uitdagingen...",
+      "submit": "Beoordelingsaanvraag Verzenden"
+    },
+    "serviceOptions": {
+      "": "Selecteer een dienst...",
+      "connectivity": "Perfecte Connectiviteit",
+      "security": "Autonome Beveiliging",
+      "automation": "Slimme Finca Automatisering",
+      "energy": "Slimme Energie & Utilities",
+      "fincaCare": "Finca Care Abonnement",
+      "all": "Volledig Estate Audit"
+    },
+    "success": {
+      "heading": "Beoordelingsaanvraag Ontvangen",
+      "body": "Dank u. Wij beoordelen uw eigendomsdetails en reageren binnen 24 uur.",
+      "cta": "Terug naar Home"
+    }
+  },
+  "regions": {
+    "heading": "Actief in het Binnenland van Spanje",
+    "subheading": "Gevestigd in het campo. Expert in uitdagingen van afgelegen eigendommen.",
+    "items": ["Almansa", "Ontinyent", "Yecla", "Villena", "& omliggende gemeenten"]
+  },
+  "ctaBanner": {
+    "heading": "Klaar om uw landgoed te transformeren?",
+    "subheading": "Gratis beoordeling. Geen verplichtingen. Reactie binnen 24 uur.",
+    "cta": "Start Uw Beoordeling"
+  },
+  "footer": {
+    "tagline": "Premium Slimme Estate Engineering. Binnenland Spanje.",
+    "regions": "Almansa · Ontinyent · Yecla · Villena",
+    "navLabel": "Navigatie",
+    "contactLabel": "Contact",
+    "legal": "© 2025 NextGen Finca. Alle rechten voorbehouden.",
+    "privacy": "Privacybeleid",
+    "whatsapp": "WhatsApp"
+  }
+}
