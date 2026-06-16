@@ -35,9 +35,51 @@ const fc = t.fincaCare;
     </div>
   </section>
 
-  <!-- Subscription Plans -->
+  <!-- Promotion Banner -->
+  <section class="bg-electric/5 border-b border-electric/20 py-5">
+    <div class="container-xl">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-6">
+        <span class="shrink-0 bg-electric text-white text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full">
+          {fc.promotion.badge}
+        </span>
+        <div class="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 flex-1">
+          <p class="text-navy font-semibold text-sm">{fc.promotion.headline}</p>
+          <p class="text-slate-500 text-sm hidden sm:block">—</p>
+          <p class="text-slate-500 text-sm leading-snug">{fc.promotion.body}</p>
+        </div>
+        <p class="shrink-0 text-xs text-slate-400 italic">{fc.promotion.expiry}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Billing Toggle + Plans -->
   <section class="py-16 md:py-24 bg-white">
-    <div class="container-xl max-w-4xl mx-auto">
+    <div class="container-xl max-w-6xl mx-auto">
+
+      <!-- Toggle -->
+      <div class="flex flex-col items-center gap-3 mb-12">
+        <div class="inline-flex items-center bg-slate-bg border border-slate-border rounded-xl p-1.5 gap-1" role="group" aria-label="Billing period">
+          <button
+            id="btn-monthly"
+            class="billing-btn px-6 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 bg-white text-navy shadow-sm"
+            aria-pressed="true"
+          >
+            {fc.billing.monthly}
+          </button>
+          <button
+            id="btn-annual"
+            class="billing-btn px-6 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 text-slate-500 hover:text-navy flex items-center gap-2"
+            aria-pressed="false"
+          >
+            {fc.billing.annual}
+            <span class="bg-green-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">
+              {fc.billing.annualBadge}
+            </span>
+          </button>
+        </div>
+        <p id="annual-commitment-note" class="hidden text-xs text-slate-400 text-center">{fc.billing.annualNote}</p>
+      </div>
+
       <SubscriptionTable t={t} lang={lang} />
     </div>
   </section>
@@ -83,3 +125,38 @@ const fc = t.fincaCare;
     </div>
   </section>
 </Page>
+
+<script>
+  const btnMonthly = document.getElementById('btn-monthly');
+  const btnAnnual = document.getElementById('btn-annual');
+  const monthlyPrices = document.querySelectorAll('.plan-price-monthly');
+  const annualPrices = document.querySelectorAll('.plan-price-annual');
+  const annualNote = document.getElementById('annual-commitment-note');
+
+  function setMonthly() {
+    monthlyPrices.forEach(el => el.classList.remove('hidden'));
+    annualPrices.forEach(el => el.classList.add('hidden'));
+    annualNote?.classList.add('hidden');
+    btnMonthly?.classList.add('bg-white', 'text-navy', 'shadow-sm');
+    btnMonthly?.classList.remove('text-slate-500');
+    btnMonthly?.setAttribute('aria-pressed', 'true');
+    btnAnnual?.classList.remove('bg-white', 'text-navy', 'shadow-sm');
+    btnAnnual?.classList.add('text-slate-500');
+    btnAnnual?.setAttribute('aria-pressed', 'false');
+  }
+
+  function setAnnual() {
+    monthlyPrices.forEach(el => el.classList.add('hidden'));
+    annualPrices.forEach(el => el.classList.remove('hidden'));
+    annualNote?.classList.remove('hidden');
+    btnAnnual?.classList.add('bg-white', 'text-navy', 'shadow-sm');
+    btnAnnual?.classList.remove('text-slate-500');
+    btnAnnual?.setAttribute('aria-pressed', 'true');
+    btnMonthly?.classList.remove('bg-white', 'text-navy', 'shadow-sm');
+    btnMonthly?.classList.add('text-slate-500');
+    btnMonthly?.setAttribute('aria-pressed', 'false');
+  }
+
+  btnMonthly?.addEventListener('click', setMonthly);
+  btnAnnual?.addEventListener('click', setAnnual);
+</script>

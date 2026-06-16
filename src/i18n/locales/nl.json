@@ -2,7 +2,7 @@
   "meta": {
     "siteName": "NextGen Finca",
     "homeTitle": "Slimme Estate Engineering voor Spaanse Finca's | NextGen Finca",
-    "homeDesc": "Premium Starlink, Ubiquiti en Home Assistant integratie voor afgelegen eigendommen in Almansa, Ontinyent, Yecla en Villena.",
+    "homeDesc": "Premium satellietinternet, enterprise netwerken, IP bewaking, domotica en energieopslag voor afgelegen eigendommen in zuidoost Spanje — van Valencia en Alicante tot Murcia en de Costa Blanca.",
     "servicesTitle": "Slimme Estate Diensten | NextGen Finca",
     "servicesDesc": "Vier engineeringpijlers: connectiviteit, beveiliging, automatisering en slimme energie voor premium Spaanse finca's.",
     "connectivityTitle": "Perfecte Connectiviteit — Starlink & Ubiquiti | NextGen Finca",
@@ -13,10 +13,10 @@
     "automationDesc": "Home Assistant configuraties voor automatische poorten, weerstations en windgevoelige zonwering in Almansa, Yecla en Villena.",
     "energyTitle": "Slimme Energie & Utilities — Victron Solar | NextGen Finca",
     "energyDesc": "Zonnepaneel optimalisatie, Lithium/Victron upgrades, energiemonitoring en vochtdetectie waterafsluiting voor Spaanse finca's.",
-    "fincaCareTitle": "Finca Care Abonnementen — Remote & Ter Plaatse | NextGen Finca",
-    "fincaCareDesc": "Remote Guardian vanaf €39/mnd of Total Peace-of-Mind vanaf €99/mnd. Altijd-aan onderhoud voor Spaanse finca's.",
+    "fincaCareTitle": "Finca Care Abonnementen — Drieledige Estate Bescherming | NextGen Finca",
+    "fincaCareDesc": "Digital Core €49/mnd, Finca Essential €129/mnd of Absolute Elite €249/mnd. Altijd-actieve slimme estate bescherming voor finca's in zuidoost Spanje.",
     "contactTitle": "Vraag een Gratis Estate Beoordeling aan | NextGen Finca",
-    "contactDesc": "Gratis technische beoordeling voor uw finca. Wij bedienen Almansa, Ontinyent, Yecla en Villena. Reactie binnen 24 uur."
+    "contactDesc": "Gratis technische beoordeling voor uw finca. Wij bedienen zuidoost Spanje inclusief Valencia, Alicante, Murcia, de Costa Blanca en binnenlandse provincies. Reactie binnen 24 uur."
   },
   "nav": {
     "home": "Home",
@@ -27,14 +27,21 @@
   "hero": {
     "badge": "Slimme Estate Engineering",
     "headline": "Uw Afgelegen Eigendom. Volledig Verbonden. Volledig Beveiligd.",
-    "subheadline": "Elite integratie van Starlink, Ubiquiti, Home Assistant, Victron & Reolink voor premium finca's in Almansa, Ontinyent, Yecla en Villena.",
+    "subheadline": "Elite integratie van satellietinternet, enterprise mesh netwerken, slimme IP bewaking, domotica en duurzame energiesystemen — voor premium finca's in zuidoost Spanje, van Valencia en Alicante tot Murcia en de Costa Blanca.",
     "ctaPrimary": "Gratis Beoordeling Aanvragen",
     "ctaSecondary": "Diensten Bekijken",
-    "trustLine": "Vertrouwd door veeleisende eigenaren in het binnenland van Spanje"
+    "trustLine": "Gevestigd in Almansa — lokale experts voor eigenaren in zuidoost Spanje"
   },
   "trustBadges": {
-    "heading": "Ecosystemen die wij beheersen",
-    "items": ["Ubiquiti UniFi", "Victron Energy", "Starlink", "Home Assistant", "Reolink"]
+    "heading": "Technologieën waarmee wij doorgaans werken",
+    "items": [
+      "Ubiquiti UniFi",
+      "Victron Energy",
+      "Starlink",
+      "Home Assistant",
+      "Reolink"
+    ],
+    "note": "Apparatuurselectie wordt bepaald tijdens uw locatieassessment — wij kiezen de beste oplossing voor elk specifiek project en locatie."
   },
   "servicesSection": {
     "badge": "Vier Engineeringpijlers",
@@ -60,6 +67,27 @@
           "title": "Ubiquiti UniFi Estate Netwerk",
           "body": "Volledige UniFi Dream Machine of Cloud Gateway implementaties. Wij plaatsen access points voor buitendekking van zwembaden, garages en terrassen. Point-to-point draadloze bruggen verbinden afgelegen poorten, gastenverblijven of werkschuren — tot 500m zonder kabelgrepel."
         }
+      },
+      "faq": {
+        "heading": "Veelgestelde vragen over connectiviteit",
+        "items": [
+          {
+            "q": "Kunnen jullie werken met mijn bestaande router of netwerkapparatuur?",
+            "a": "Ja. Wij beoordelen uw bestaande installatie tijdens de locatiesurvey en integreren daarmee of adviseren vervanging als de prestaties onvoldoende zijn."
+          },
+          {
+            "q": "Hoe lang duurt een volledige installatie?",
+            "a": "De meeste installaties zijn klaar binnen 1–2 dagen, afhankelijk van de omvang van het terrein en het aantal vereiste access points of draadloze bruggen."
+          },
+          {
+            "q": "Werkt satellietinternet op de locatie van mijn finca?",
+            "a": "Wij beoordelen uw locatie op vrij zicht naar de zuidelijke hemel. Afgelegen finca's zijn doorgaans uitstekende kandidaten — wij bevestigen de haalbaarheid voor enige verplichting."
+          },
+          {
+            "q": "Wat gebeurt er als de primaire verbinding uitvalt?",
+            "a": "Automatische failover activeert de mobiele databack-up binnen enkele seconden. Geen handmatige actie nodig — uw camera's, externe toegang en automatisering blijven actief."
+          }
+        ]
       }
     },
     "security": {
@@ -80,6 +108,27 @@
           "title": "Edge-AI Object & Voertuigdetectie",
           "body": "Wij kalibreren slimme detectiezones per camera: classificatie van personen, voertuigen en dieren. Foutmeldingen door boombeweging of insecten worden geëlimineerd. Pushmelding op uw telefoon wanneer een voertuig de oprit oprijdt."
         }
+      },
+      "faq": {
+        "heading": "Veelgestelde vragen over beveiliging",
+        "items": [
+          {
+            "q": "Heeft mijn camerasysteem een internetverbinding nodig?",
+            "a": "Nee. Alle beelden worden lokaal opgeslagen op een recorder op het terrein. Externe toegang via internet is optioneel en altijd versleuteld."
+          },
+          {
+            "q": "Hoeveel camera's heb ik nodig?",
+            "a": "Wij bepalen dit tijdens de gratis locatiesurvey, op basis van de toegangspunten, omtrek en blinde hoeken van uw eigendom."
+          },
+          {
+            "q": "Kan ik livebeelden bekijken vanuit het buitenland?",
+            "a": "Ja — veilig, via een versleutelde tunnel. Uw beelden passeren nooit servers van derden zonder uw uitdrukkelijke toestemming."
+          },
+          {
+            "q": "Werken camera's bij stroomuitval?",
+            "a": "Wij kunnen accuback-up (UPS) integreren zodat kritieke camera's en de recorder actief blijven bij kortdurende storingen. Zonnekoppelingen kunnen dit aanzienlijk verlengen."
+          }
+        ]
       }
     },
     "automation": {
@@ -100,6 +149,27 @@
           "title": "Wind & Regen Reactieve Zonwering",
           "body": "Bioklimatische pergola lamellen, buitenrolluiken en zonneluifels worden gekoppeld aan Home Assistant. Ze trekken automatisch terug wanneer de wind veilige drempelwaarden overschrijdt of regen begint."
         }
+      },
+      "faq": {
+        "heading": "Veelgestelde vragen over automatisering",
+        "items": [
+          {
+            "q": "Moet ik technisch onderlegd zijn om het systeem te gebruiken?",
+            "a": "Nee. Wij bouwen eenvoudige, intuïtieve dashboards en apps op maat. U ziet precies wat relevant is — niet meer."
+          },
+          {
+            "q": "Kunnen jullie mijn bestaande poort automatiseren?",
+            "a": "In de meeste gevallen wel. Wij beoordelen uw poortmotor tijdens de locatiesurvey en integreren deze. Als de motor te oud of incompatibel is, zorgen wij voor een geschikte vervanging."
+          },
+          {
+            "q": "Werken automatiseringen zonder internet?",
+            "a": "Ja. De automatiseringshub draait volledig lokaal op uw eigendom. Poorten, zonwering, verlichting en alle geprogrammeerde routines werken zonder internetverbinding."
+          },
+          {
+            "q": "Welke slimme apparaten kunnen jullie integreren?",
+            "a": "Het platform waarmee wij doorgaans werken ondersteunt duizenden integraties voor de meeste grote merken. Wij beoordelen compatibiliteit tijdens de locatiesurvey."
+          }
+        ]
       }
     },
     "energy": {
@@ -120,42 +190,88 @@
           "title": "Slimme Verlichting & Waterafsluiting",
           "body": "Tuin- en architectuurverlichting op slimme schema's of aanwezigheidsdetectie. Draadloze vochtdetectoren op hoofdaansluitpunten gekoppeld aan gemotoriseerde afsluiters — automatische waterafsluiting bij lekdetectie."
         }
+      },
+      "faq": {
+        "heading": "Veelgestelde vragen over energie",
+        "items": [
+          {
+            "q": "Kunnen jullie mijn bestaande zonnepanelen uitbreiden?",
+            "a": "Ja. Wij beoordelen de draagkracht en elektrische compatibiliteit en coördineren eventuele netuitbreiding met onze gecertificeerde elektriciteitspartners tegen transparante tarieven."
+          },
+          {
+            "q": "Wat is de typische terugverdientijd van een accuupgrade?",
+            "a": "Zeer variabel, maar veel klanten zien terugverdientijden van 4–6 jaar dankzij minder netafhankelijkheid en vermeden toekomstige vervangingskosten."
+          },
+          {
+            "q": "Kunnen jullie mijn energiesysteem op afstand monitoren?",
+            "a": "Ja. Wij configureren portalen voor externe monitoring die u — en ons — 24/7 inzicht geven in de opbrengst, laadstatus en eventuele meldingen van uw systeem."
+          },
+          {
+            "q": "Is vergunning nodig voor zonnepanelen in Spanje?",
+            "a": "Voor residentiële installaties voor eigen gebruik onder 10kWp geldt een vereenvoudigde meldingsplicht in plaats van een volledige vergunning. Wij begeleiden u door de lokale vereisten van uw gemeente."
+          }
+        ]
       }
     }
   },
   "fincaCare": {
     "badge": "Terugkerende Onderhoudsplannen",
     "heading": "Finca Care Abonnementen",
-    "subheading": "Altijd-aan estate onderhoud — remote monitoring of volledige service ter plaatse.",
+    "subheading": "Drie niveaus van altijd-actieve estate bescherming. Van digitaal beheer tot volledige hands-off luxe dekking — uw eigendom, permanent verzorgd.",
     "plans": {
-      "remote": {
-        "name": "Remote Guardian",
-        "price": "€39 – €49",
+      "digital": {
+        "name": "Digital Core",
+        "price": "€49",
         "period": "/ maand",
         "badge": "",
+        "tagline": "Uw digitale ruggengraat, permanent beheerd.",
         "features": [
-          "Dashboard met serverstatistieken op afstand",
-          "Geautomatiseerde configuratie cloudback-ups",
-          "Remote firmware onderhoud & updates",
-          "Proactieve accudegradatie meldingen",
-          "Maandelijkse statusrapport e-mail"
+          "Wekelijkse automatische back-ups — netwerkconfiguratie, slimme scripts & NVR",
+          "Remote firmware & beveiligingspatches, 's nachts ingepland",
+          "Realtime meldingen — internetuptime, servergezondheid, accudegradatie & leksensoren",
+          "Maandelijks digitaal gezondheidsrapport in uw inbox"
         ],
-        "cta": "Start Remote Plan"
+        "cta": "Start Digital Core",
+        "pricePromo": "€39",
+        "priceAnnual": "€35",
+        "priceAnnualBilled": "€420 per jaar"
       },
-      "total": {
-        "name": "Total Peace-of-Mind",
-        "price": "€99 – €149",
+      "essential": {
+        "name": "Finca Essential",
+        "price": "€129",
         "period": "/ maand",
         "badge": "Meest Populair",
+        "tagline": "Gemoedsrust voor eigendommen die lang leegstaan.",
         "features": [
-          "Alles in Remote Guardian",
-          "Maandelijkse fysieke inspectie ter plaatse",
-          "Cameralens reiniging & zonnepaneel wip",
-          "Volledige sensor- en detectietest",
-          "Prioriteit volgende-dag noodinzet",
-          "Dedicated WhatsApp ondersteuningslijn"
+          "Alles in Digital Core",
+          "Kwartaalbezoek ter plaatse — 4 volledige inspecties per jaar",
+          "Basisonderhoud hardware: cameralens reinigen, sensor- & rackinspectie",
+          "Prioriteit nooduitruk binnen 48 uur",
+          "WhatsApp ondersteuning tijdens kantooruren"
         ],
-        "cta": "Start Total Plan"
+        "cta": "Start Finca Essential",
+        "pricePromo": "€99",
+        "priceAnnual": "€89",
+        "priceAnnualBilled": "€1.068 per jaar"
+      },
+      "elite": {
+        "name": "Absolute Elite",
+        "price": "€249",
+        "period": "/ maand",
+        "badge": "",
+        "tagline": "Volledige hands-off luxe technische estate dekking.",
+        "features": [
+          "Alles in Digital Core & Finca Essential",
+          "Maandelijks bezoek ter plaatse — 12 volledige bezoeken per jaar",
+          "Diepgaand hardware-onderhoud: serverreiniging, zonnepaneel calima wip, accudiagnostiek",
+          "Gegarandeerde nooduitruk volgende dag bij kritieke storingen",
+          "24/7 prioriteit noodondersteuningskanaal",
+          "Premium digitaal rapport met foto's na elke maandelijkse inspectie"
+        ],
+        "cta": "Start Absolute Elite",
+        "pricePromo": "€199",
+        "priceAnnual": "€179",
+        "priceAnnualBilled": "€2.148 per jaar"
       }
     },
     "faq": {
@@ -163,11 +279,11 @@
       "items": [
         {
           "q": "Kan ik op elk moment opzeggen?",
-          "a": "Ja. Beide plannen zijn doorlopende maandabonnementen zonder minimale looptijd. Opzeggen met 30 dagen opzegtermijn."
+          "a": "Ja. Alle drie plannen zijn doorlopende maandabonnementen zonder minimale looptijd. Opzeggen met 30 dagen opzegtermijn."
         },
         {
           "q": "Welk gebied bedekt u voor bezoeken ter plaatse?",
-          "a": "Wij bedienen Almansa, Ontinyent, Yecla, Villena en omliggende gemeenten in het binnenland van Valencia en de grensregio met Murcia."
+          "a": "Wij zijn gevestigd in Almansa en bedienen zuidoost Spanje — Valencia, Alicante, Murcia, de Costa Blanca en alles binnen ruwweg een uur rijden."
         },
         {
           "q": "Is elektriciteitswerk inbegrepen?",
@@ -175,9 +291,44 @@
         },
         {
           "q": "Moet ik aanwezig zijn tijdens bezoeken?",
-          "a": "Nee. Met sleutelkluis- of poortcodetoegang kunnen wij maandelijkse inspecties uitvoeren zonder dat u naar het eigendom hoeft te reizen."
+          "a": "Nee. Met sleutelkluis- of poortcodetoegang voltooien wij alle inspecties zonder dat u naar het eigendom hoeft te reizen."
+        },
+        {
+          "q": "Wat gebeurt er als er iets kapot gaat tussen geplande bezoeken?",
+          "a": "Digital Core klanten kunnen een reactief bezoek aanvragen tegen standaard dagtarief. Finca Essential klanten ontvangen prioriteit nooduitruk binnen 48 uur. Absolute Elite klanten hebben een gegarandeerde nooduitruk de volgende dag in het plan inbegrepen — geen extra kosten bij kritieke storingen."
+        },
+        {
+          "q": "Kan ik het plan pauzeren als ik op het eigendom verblijf?",
+          "a": "Ja. Vraag een pauze aan met 30 dagen opzegtermijn en uw abonnement hervat tegen hetzelfde tarief wanneer u weer dekking nodig heeft."
+        },
+        {
+          "q": "Ontvangen klanten een rapport na elk bezoek?",
+          "a": "Finca Essential klanten ontvangen een digitaal rapport na elke kwartaalinspectie. Absolute Elite klanten ontvangen een premium rapport met foto's na elke maandelijkse inspectie."
+        },
+        {
+          "q": "Wat staat er in het maandelijkse gezondheidsrapport?",
+          "a": "Connectiviteitsuptime, gezondheidsscores per apparaat, laadstatustrends van de accu, actuele firmwareversies en een samenvatting van eventuele meldingen gedurende de maand."
+        },
+        {
+          "q": "Is er een eenmalige installatiekost?",
+          "a": "Een eenmalig onboardingassessment omvat de initiële locatieaudit, systeemdocumentatie en planconfiguratie. De kosten worden transparant opgegeven bij uw eerste consultatie."
         }
       ]
+    },
+    "promotion": {
+      "badge": "Launch Founder Tarief",
+      "headline": "20% korting op alle plannen — tot 30 november 2026",
+      "body": "Ter gelegenheid van onze publieke lancering in zuidoost Spanje lanceren we elk Finca Care plan met 20% korting op het standaardtarief. Klanten die vóór 1 december 2026 aansluiten, behouden dit tarief voor de volledige looptijd van hun abonnement.",
+      "expiry": "Aanbieding eindigt 30 november 2026"
+    },
+    "billing": {
+      "monthly": "Maandelijks",
+      "annual": "Jaarlijks",
+      "annualBadge": "10% korting",
+      "annualNote": "Gefactureerd als één jaarlijkse betaling · Minimaal 12 maanden",
+      "billedAnnually": "jaarlijks gefactureerd",
+      "promoTag": "Founder Tarief",
+      "standardRate": "Standaard tarief"
     }
   },
   "compliance": {
@@ -213,12 +364,23 @@
       "heading": "Beoordelingsaanvraag Ontvangen",
       "body": "Dank u. Wij beoordelen uw eigendomsdetails en reageren binnen 24 uur.",
       "cta": "Terug naar Home"
-    }
+    },
+    "basedInLabel": "Gevestigd in Almansa, Spanje",
+    "basedInBody": "Wij opereren vanuit Almansa in Castilla-La Mancha — ideaal gelegen om eigendommen in de Costa Blanca en de provincies Valencia, Alicante, Murcia en Albacete binnen ongeveer een uur te bereiken."
   },
   "regions": {
-    "heading": "Actief in het Binnenland van Spanje",
-    "subheading": "Gevestigd in het campo. Expert in uitdagingen van afgelegen eigendommen.",
-    "items": ["Almansa", "Ontinyent", "Yecla", "Villena", "& omliggende gemeenten"]
+    "heading": "Gevestigd in Almansa. Actief in Zuidoost Spanje.",
+    "subheading": "Wij zijn gevestigd in Almansa en bedienen alles binnen ruwweg een uur rijden — de Costa Blanca, Valencia, Alicante, Murcia, Albacete en het landelijke achterland daartussenin.",
+    "items": [
+      "Valencia",
+      "Alicante",
+      "Murcia",
+      "Elche",
+      "Albacete",
+      "Torrevieja",
+      "Benidorm",
+      "Almansa"
+    ]
   },
   "ctaBanner": {
     "heading": "Klaar om uw landgoed te transformeren?",
@@ -226,8 +388,8 @@
     "cta": "Start Uw Beoordeling"
   },
   "footer": {
-    "tagline": "Premium Slimme Estate Engineering. Binnenland Spanje.",
-    "regions": "Almansa · Ontinyent · Yecla · Villena",
+    "tagline": "Premium Slimme Estate Engineering — Gevestigd in Almansa.",
+    "regions": "Gevestigd in Almansa · Actief aan de Costa Blanca & Zuidoost Spanje",
     "navLabel": "Navigatie",
     "contactLabel": "Contact",
     "legal": "© 2025 NextGen Finca. Alle rechten voorbehouden.",

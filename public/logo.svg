@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 120">
+  <defs>
+    <linearGradient id="cleanTechGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D2FF" />
+      <stop offset="100%" stop-color="#0070F3" />
+    </linearGradient>
+  </defs>
+
+  <g id="Logo-Mark" transform="translate(25, 15)">
+    <path d="M 25 80 L 25 30 L 65 80 L 65 30"
+          fill="none"
+          stroke="#0F172A"
+          stroke-width="12"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+    <path d="M 117 30 L 92 30 L 77 45 L 77 80 L 117 80 L 117 55 L 97 55"
+          fill="none"
+          stroke="url(#cleanTechGradient)"
+          stroke-width="12"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+  </g>
+
+  <g id="Logo-Text" transform="translate(155, 75)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+          font-size="52"
+          font-weight="800"
+          letter-spacing="-1px"
+          fill="#0F172A">NextGen</text>
+    <text x="218" y="0"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+          font-size="52"
+          font-weight="300"
+          letter-spacing="2px"
+          fill="#0070F3">FINCA</text>
+    <text x="5" y="30"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+          font-size="14"
+          font-weight="600"
+          letter-spacing="5px"
+          fill="#94A3B8">Smart Estate Systems</text>
+  </g>
+</svg>

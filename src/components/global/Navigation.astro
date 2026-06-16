@@ -13,23 +13,11 @@ const { lang, currentPath, t } = Astro.props;
 const links = NAV_LINKS(lang);
 ---
 
-<header class="sticky top-0 z-50 bg-white/90 backdrop-blur-sm border-b border-slate-border">
-  <nav class="container-xl flex items-center justify-between h-16" aria-label="Main navigation">
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-border">
+  <nav class="container-xl flex items-center justify-between h-20" aria-label="Main navigation">
     <!-- Logo -->
-    <a href={`/${lang}/`} class="flex items-center gap-2 group" aria-label="NextGen Finca — Home">
-      <svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true">
-        <rect width="32" height="32" rx="6" fill="#0F1F3D"/>
-        <circle cx="16" cy="16" r="3" fill="#1D6AF5"/>
-        <circle cx="16" cy="16" r="7" fill="none" stroke="#1D6AF5" stroke-width="1.5" opacity="0.6"/>
-        <circle cx="16" cy="16" r="11" fill="none" stroke="#1D6AF5" stroke-width="1" opacity="0.3"/>
-        <line x1="16" y1="5" x2="16" y2="9" stroke="#1D6AF5" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="16" y1="23" x2="16" y2="27" stroke="#1D6AF5" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="5" y1="16" x2="9" y2="16" stroke="#1D6AF5" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="23" y1="16" x2="27" y2="16" stroke="#1D6AF5" stroke-width="1.5" stroke-linecap="round"/>
-      </svg>
-      <span class="font-bold text-navy text-lg tracking-tight">
-        NextGen<span class="text-electric">Finca</span>
-      </span>
+    <a href={`/${lang}/`} class="flex items-center shrink-0" aria-label="NextGen Finca — Home">
+      <img src="/logo.svg" alt="NextGen Finca" style="height: 73px; width: auto;" />
     </a>
 
     <!-- Desktop nav -->
@@ -62,23 +50,26 @@ const links = NAV_LINKS(lang);
       </a>
     </div>
 
-    <!-- Mobile: hamburger toggle (CSS-only) -->
-    <label class="md:hidden flex items-center cursor-pointer p-2 rounded-md hover:bg-slate-100" aria-label="Toggle navigation menu">
-      <input type="checkbox" id="mobile-nav-toggle" class="sr-only peer" aria-expanded="false" />
-      <!-- Hamburger icon -->
-      <svg class="peer-checked:hidden w-6 h-6 text-navy" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+    <!-- Mobile: hamburger button -->
+    <button
+      id="mobile-nav-btn"
+      class="md:hidden flex items-center justify-center w-10 h-10 rounded-md text-navy hover:bg-slate-100 transition-colors"
+      aria-label="Toggle navigation menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg id="icon-hamburger" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
       </svg>
-      <!-- Close icon -->
-      <svg class="hidden peer-checked:block w-6 h-6 text-navy" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <svg id="icon-close" class="w-6 h-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
       </svg>
-    </label>
+    </button>
   </nav>
 
   <!-- Mobile menu panel -->
-  <div class="md:hidden overflow-hidden max-h-0 peer-checked:max-h-screen transition-all duration-300 border-t border-slate-border bg-white" id="mobile-menu" style="display:none">
-    <div class="container-xl py-4 flex flex-col gap-4">
+  <div id="mobile-menu" class="hidden border-t border-slate-border bg-white shadow-lg">
+    <div class="container-xl py-5 flex flex-col gap-2">
       <ul class="flex flex-col gap-1 list-none m-0 p-0">
         {links.slice(0, -1).map((link) => {
           const isActive = currentPath === link.href || (link.href !== `/${lang}/` && currentPath.startsWith(link.href));
@@ -86,7 +77,7 @@ const links = NAV_LINKS(lang);
             <li>
               <a
                 href={link.href}
-                class={`block px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive ? 'bg-blue-50 text-electric' : 'text-slate-700 hover:bg-slate-50'}`}
+                class={`block px-4 py-3 rounded-lg text-base font-medium transition-colors ${isActive ? 'bg-blue-50 text-electric' : 'text-slate-700 hover:bg-slate-50'}`}
                 aria-current={isActive ? 'page' : undefined}
               >
                 {t.nav[link.key as keyof typeof t.nav]}
@@ -95,11 +86,11 @@ const links = NAV_LINKS(lang);
           );
         })}
       </ul>
-      <div class="border-t border-slate-border pt-3 flex items-center justify-between">
+      <div class="border-t border-slate-border pt-4 mt-2 flex items-center justify-between gap-4">
         <LanguageSwitcher currentLang={lang} currentPath={currentPath} />
         <a
           href={`/${lang}/contact/`}
-          class="inline-flex items-center gap-1 bg-electric text-white text-sm font-semibold px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+          class="inline-flex items-center gap-1.5 bg-electric text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-blue-700 transition-colors"
         >
           {t.nav.contact}
         </a>
@@ -108,26 +99,27 @@ const links = NAV_LINKS(lang);
   </div>
 </header>
 
-<style>
-  /* CSS-only mobile menu: sibling toggle */
-  #mobile-nav-toggle:checked ~ * #mobile-menu,
-  #mobile-nav-toggle:checked + * + #mobile-menu {
-    display: block;
-  }
-
-  /* Simpler approach: use the label + checkbox trick with adjacent sibling */
-  .mobile-menu-wrapper:has(#mobile-nav-toggle:checked) #mobile-menu {
-    display: block;
-  }
-</style>
-
 <script>
-  // Minimal JS fallback for mobile menu (progressive enhancement)
-  const toggle = document.getElementById('mobile-nav-toggle') as HTMLInputElement | null;
+  const btn = document.getElementById('mobile-nav-btn');
   const menu = document.getElementById('mobile-menu');
-  if (toggle && menu) {
-    toggle.addEventListener('change', () => {
-      menu.style.display = toggle.checked ? 'block' : 'none';
+  const iconHamburger = document.getElementById('icon-hamburger');
+  const iconClose = document.getElementById('icon-close');
+
+  btn?.addEventListener('click', () => {
+    const isOpen = menu?.classList.contains('hidden');
+    menu?.classList.toggle('hidden', !isOpen);
+    iconHamburger?.classList.toggle('hidden', isOpen);
+    iconClose?.classList.toggle('hidden', !isOpen);
+    btn.setAttribute('aria-expanded', String(isOpen));
+  });
+
+  // Close menu when a nav link is clicked
+  menu?.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      menu.classList.add('hidden');
+      iconHamburger?.classList.remove('hidden');
+      iconClose?.classList.add('hidden');
+      btn?.setAttribute('aria-expanded', 'false');
     });
-  }
+  });
 </script>

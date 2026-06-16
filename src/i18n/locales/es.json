@@ -2,7 +2,7 @@
   "meta": {
     "siteName": "NextGen Finca",
     "homeTitle": "Ingeniería Inteligente de Fincas en España | NextGen Finca",
-    "homeDesc": "Integración premium de Starlink, Ubiquiti y Home Assistant para propiedades rurales en Almansa, Ontinyent, Yecla y Villena.",
+    "homeDesc": "Integración premium de internet por satélite, redes empresariales, vigilancia IP, automatización inteligente y almacenamiento de energía para propiedades rurales en el sureste de España — de Valencia y Alicante a Murcia y la Costa Blanca.",
     "servicesTitle": "Servicios de Finca Inteligente | NextGen Finca",
     "servicesDesc": "Cuatro pilares de ingeniería: conectividad, seguridad, automatización y energía inteligente para fincas premium en España.",
     "connectivityTitle": "Conectividad Total — Starlink & Ubiquiti | NextGen Finca",
@@ -13,10 +13,10 @@
     "automationDesc": "Configuraciones Home Assistant para portones automáticos, estaciones meteorológicas y toldos reactivos al viento en Almansa, Yecla y Villena.",
     "energyTitle": "Energía Inteligente — Solar & Victron | NextGen Finca",
     "energyDesc": "Optimización solar, actualizaciones Litio/Victron, monitorización remota y válvulas de corte de agua con sensores de humedad.",
-    "fincaCareTitle": "Finca Care — Planes de Mantenimiento | NextGen Finca",
-    "fincaCareDesc": "Remote Guardian desde €39/mes o Total Peace-of-Mind desde €99/mes. Mantenimiento continuo para fincas españolas.",
+    "fincaCareTitle": "Suscripciones Finca Care — Protección de Tres Niveles | NextGen Finca",
+    "fincaCareDesc": "Digital Core €49/mes, Finca Essential €129/mes o Absolute Elite €249/mes. Protección continua para fincas en el sureste de España — con sede en Almansa.",
     "contactTitle": "Solicitar Evaluación Gratuita de la Finca | NextGen Finca",
-    "contactDesc": "Evaluación técnica gratuita para su finca. Cubrimos Almansa, Ontinyent, Yecla y Villena. Respuesta en 24 horas."
+    "contactDesc": "Evaluación técnica gratuita para su finca. Cubrimos el sureste de España incluyendo Valencia, Alicante, Murcia, la Costa Blanca y las provincias interiores. Respuesta en 24 horas."
   },
   "nav": {
     "home": "Inicio",
@@ -27,14 +27,21 @@
   "hero": {
     "badge": "Ingeniería Inteligente de Fincas",
     "headline": "Su Propiedad Rural. Totalmente Conectada. Totalmente Protegida.",
-    "subheadline": "Integración elite de Starlink, Ubiquiti, Home Assistant, Victron y Reolink para fincas premium en Almansa, Ontinyent, Yecla y Villena.",
+    "subheadline": "Integración elite de internet por satélite, redes mesh empresariales, vigilancia IP inteligente, automatización del hogar y sistemas de energía renovable — para fincas premium en el sureste de España, de Valencia y Alicante a Murcia y la Costa Blanca.",
     "ctaPrimary": "Solicitar Evaluación Gratuita",
     "ctaSecondary": "Ver Servicios",
-    "trustLine": "De confianza para propietarios exigentes en el interior de España"
+    "trustLine": "Con sede en Almansa — expertos locales al servicio de propietarios en el sureste de España"
   },
   "trustBadges": {
-    "heading": "Ecosistemas que dominamos",
-    "items": ["Ubiquiti UniFi", "Victron Energy", "Starlink", "Home Assistant", "Reolink"]
+    "heading": "Tecnologías con las que solemos trabajar",
+    "items": [
+      "Ubiquiti UniFi",
+      "Victron Energy",
+      "Starlink",
+      "Home Assistant",
+      "Reolink"
+    ],
+    "note": "La selección de equipos se define durante la evaluación de su propiedad — elegimos la mejor solución para cada proyecto y ubicación específicos."
   },
   "servicesSection": {
     "badge": "Cuatro Pilares de Ingeniería",
@@ -60,6 +67,27 @@
           "title": "Red Ubiquiti UniFi en la Finca",
           "body": "Implementaciones completas de UniFi Dream Machine o Cloud Gateway. Colocamos puntos de acceso para cobertura exterior de piscinas, garajes y terrazas. Puentes inalámbricos punto a punto conectan portones remotos, casas de invitados o cobertizos — hasta 500m sin canalización de cable."
         }
+      },
+      "faq": {
+        "heading": "Preguntas frecuentes sobre conectividad",
+        "items": [
+          {
+            "q": "¿Pueden trabajar con mi router o equipo de red existente?",
+            "a": "Sí. Evaluamos su instalación actual durante la visita a la propiedad e integramos con ella o recomendamos una sustitución si el rendimiento no alcanza los requisitos de la propiedad."
+          },
+          {
+            "q": "¿Cuánto tiempo dura una instalación completa?",
+            "a": "La mayoría de instalaciones se completan en 1–2 días, según el tamaño de la propiedad y el número de puntos de acceso o puentes inalámbricos necesarios."
+          },
+          {
+            "q": "¿Funcionará el internet por satélite en mi finca?",
+            "a": "Evaluamos su ubicación para verificar visión despejada hacia el sur. Las fincas rurales son candidatas ideales — confirmamos la viabilidad antes de cualquier compromiso."
+          },
+          {
+            "q": "¿Qué ocurre si la conexión principal falla?",
+            "a": "La conmutación automática activa el enlace de datos móvil de respaldo en segundos. Sin intervención manual — sus cámaras, acceso remoto y automatizaciones siguen activos."
+          }
+        ]
       }
     },
     "security": {
@@ -80,6 +108,27 @@
           "title": "Detección IA de Objetos y Vehículos",
           "body": "Calibramos zonas de detección inteligentes por cámara: clasificación de personas, vehículos y animales. Se eliminan las falsas alarmas por movimiento de árboles o insectos. Notificación push en su teléfono cuando un vehículo entra en la entrada."
         }
+      },
+      "faq": {
+        "heading": "Preguntas frecuentes sobre seguridad",
+        "items": [
+          {
+            "q": "¿Necesita internet mi sistema de cámaras para funcionar?",
+            "a": "No. Todas las grabaciones se almacenan localmente en un grabador dedicado en la propiedad. El acceso remoto por internet es opcional y siempre utiliza conexiones cifradas."
+          },
+          {
+            "q": "¿Cuántas cámaras necesito?",
+            "a": "Lo determinamos durante la visita gratuita a la propiedad, basándonos en los puntos de acceso, el perímetro y los ángulos muertos específicos que desea cubrir."
+          },
+          {
+            "q": "¿Puedo acceder a las imágenes en directo desde el extranjero?",
+            "a": "Sí — de forma segura, mediante un túnel cifrado. Sus grabaciones nunca pasan por servidores de terceros sin su consentimiento explícito."
+          },
+          {
+            "q": "¿Funcionan las cámaras durante un corte de luz?",
+            "a": "Podemos integrar batería de respaldo (SAI) para que las cámaras críticas y el grabador permanezcan activos durante cortes breves. Los sistemas acoplados a solar pueden extender esto considerablemente."
+          }
+        ]
       }
     },
     "automation": {
@@ -100,6 +149,27 @@
           "title": "Toldos Reactivos al Viento y la Lluvia",
           "body": "Las lamas de pérgolas bioclimáticas, persianas exteriores y toldos se conectan a Home Assistant. Se retraen automáticamente cuando el viento supera umbrales seguros o comienza a llover — protegiendo su inversión."
         }
+      },
+      "faq": {
+        "heading": "Preguntas frecuentes sobre automatización",
+        "items": [
+          {
+            "q": "¿Necesito conocimientos técnicos para usar el sistema?",
+            "a": "No. Creamos paneles de control e interfaces sencillas e intuitivas adaptadas a su forma de vivir. Verá exactamente lo que importa — nada más."
+          },
+          {
+            "q": "¿Pueden automatizar mi portón existente?",
+            "a": "En la mayoría de los casos sí. Evaluamos el motor de su portón durante la visita y lo integramos. Si el motor es demasiado antiguo o incompatible, buscamos un reemplazo adecuado."
+          },
+          {
+            "q": "¿Funcionan las automatizaciones sin internet?",
+            "a": "Sí. El hub de automatización funciona completamente de forma local en su propiedad. Portones, toldos, iluminación y todas las rutinas programadas continúan sin conexión a internet."
+          },
+          {
+            "q": "¿Qué dispositivos domésticos inteligentes pueden integrar?",
+            "a": "La plataforma con la que solemos trabajar soporta miles de integraciones para la mayoría de las grandes marcas. Evaluamos la compatibilidad con sus dispositivos existentes durante la visita a la propiedad."
+          }
+        ]
       }
     },
     "energy": {
@@ -120,42 +190,88 @@
           "title": "Iluminación Inteligente y Corte de Agua",
           "body": "Iluminación de jardín y arquitectónica en horarios inteligentes o activadores de presencia. Sensores inalámbricos de humedad en puntos de suministro clave integrados con válvulas de corte motorizadas — aislamiento automático de agua al detectar fugas."
         }
+      },
+      "faq": {
+        "heading": "Preguntas frecuentes sobre energía",
+        "items": [
+          {
+            "q": "¿Pueden ampliar mi sistema solar existente?",
+            "a": "Sí. Evaluamos la capacidad estructural y la compatibilidad eléctrica, luego coordinamos cualquier ampliación con nuestros socios electricistas certificados a precios transparentes."
+          },
+          {
+            "q": "¿Cuál es el período de retorno típico de una actualización de baterías?",
+            "a": "Muy variable, pero muchos clientes recuperan la inversión en 4–6 años gracias a la reducción de dependencia de la red y a evitar costosas sustituciones de baterías en el futuro."
+          },
+          {
+            "q": "¿Pueden monitorizar mi sistema energético de forma remota?",
+            "a": "Sí. Configuramos portales de monitorización remota que le ofrecen a usted — y a nosotros — visibilidad 24/7 de la producción, estado de carga y cualquier alerta de su sistema."
+          },
+          {
+            "q": "¿Se necesita permiso de obras para placas solares en España?",
+            "a": "Para instalaciones residenciales de autoconsumo por debajo de 10kWp se aplica una notificación simplificada en lugar de un permiso completo. Le guiamos a través de los requisitos locales de su municipio específico."
+          }
+        ]
       }
     }
   },
   "fincaCare": {
     "badge": "Planes de Mantenimiento Recurrente",
     "heading": "Suscripciones Finca Care",
-    "subheading": "Mantenimiento continuo de la finca — monitorización remota o servicio completo en obra.",
+    "subheading": "Tres niveles de protección continua para su finca. Desde la gestión del núcleo digital hasta la cobertura de lujo totalmente delegada — su propiedad, permanentemente atendida.",
     "plans": {
-      "remote": {
-        "name": "Remote Guardian",
-        "price": "€39 – €49",
+      "digital": {
+        "name": "Digital Core",
+        "price": "€49",
         "period": "/ mes",
         "badge": "",
+        "tagline": "Su núcleo digital, gestionado de forma permanente.",
         "features": [
-          "Panel de métricas de salud del servidor remoto",
-          "Copias de seguridad automáticas de configuración en la nube",
-          "Mantenimiento y actualizaciones de firmware remoto",
-          "Alertas proactivas de degradación de batería",
-          "Informe de estado mensual por email"
+          "Copias de seguridad automáticas semanales — red, scripts inteligentes y NVR",
+          "Actualizaciones de firmware y parches de seguridad remotos, programados de noche",
+          "Alertas en tiempo real — uptime de internet, salud del servidor, degradación de batería y sensores de fuga",
+          "Informe mensual de salud digital en su bandeja de entrada"
         ],
-        "cta": "Iniciar Plan Remote"
+        "cta": "Iniciar Digital Core",
+        "pricePromo": "€39",
+        "priceAnnual": "€35",
+        "priceAnnualBilled": "€420 al año"
       },
-      "total": {
-        "name": "Total Peace-of-Mind",
-        "price": "€99 – €149",
+      "essential": {
+        "name": "Finca Essential",
+        "price": "€129",
         "period": "/ mes",
         "badge": "Más Popular",
+        "tagline": "Tranquilidad para propiedades que permanecen vacías.",
         "features": [
-          "Todo lo del Remote Guardian",
-          "Auditoría física mensual en la finca",
-          "Limpieza de objetivos y paneles solares",
-          "Batería completa de pruebas de sensores",
-          "Despacho de emergencia prioritario al día siguiente",
-          "Línea de soporte WhatsApp dedicada"
+          "Todo lo del Digital Core",
+          "Auditoría trimestral presencial — 4 inspecciones completas al año",
+          "Mantenimiento básico de hardware: limpieza de objetivos, inspección de sensores y rack",
+          "Despacho de emergencia prioritario en 48 horas",
+          "Soporte WhatsApp en horario comercial"
         ],
-        "cta": "Iniciar Plan Total"
+        "cta": "Iniciar Finca Essential",
+        "pricePromo": "€99",
+        "priceAnnual": "€89",
+        "priceAnnualBilled": "€1.068 al año"
+      },
+      "elite": {
+        "name": "Absolute Elite",
+        "price": "€249",
+        "period": "/ mes",
+        "badge": "",
+        "tagline": "Cobertura tecnológica de lujo totalmente delegada.",
+        "features": [
+          "Todo lo del Digital Core y Finca Essential",
+          "Auditoría presencial mensual — 12 visitas completas al año",
+          "Mantenimiento profundo: limpieza de servidores, paneles solares de calima, diagnóstico de baterías",
+          "Despacho de emergencia garantizado al día siguiente para fallos críticos",
+          "Canal de soporte de emergencia 24/7 prioritario",
+          "Informe digital premium con fotos enviado tras cada auditoría mensual"
+        ],
+        "cta": "Iniciar Absolute Elite",
+        "pricePromo": "€199",
+        "priceAnnual": "€179",
+        "priceAnnualBilled": "€2.148 al año"
       }
     },
     "faq": {
@@ -163,11 +279,11 @@
       "items": [
         {
           "q": "¿Puedo cancelar en cualquier momento?",
-          "a": "Sí. Ambos planes son suscripciones mensuales renovables sin permanencia mínima. Cancelación con 30 días de preaviso."
+          "a": "Sí. Los tres planes son suscripciones mensuales renovables sin permanencia mínima. Cancelación con 30 días de preaviso."
         },
         {
           "q": "¿Qué zona cubren para las visitas presenciales?",
-          "a": "Cubrimos Almansa, Ontinyent, Yecla, Villena y municipios colindantes en el interior de Valencia y la zona fronteriza con Murcia."
+          "a": "Estamos ubicados en Almansa y cubrimos el sureste de España — Valencia, Alicante, Murcia, la Costa Blanca y todo lo que está a aproximadamente una hora en coche."
         },
         {
           "q": "¿Está incluido el trabajo eléctrico?",
@@ -175,9 +291,44 @@
         },
         {
           "q": "¿Debo estar presente durante las visitas?",
-          "a": "No. Con acceso por caja de llaves o código de portón podemos completar las auditorías mensuales sin que usted viaje a la propiedad."
+          "a": "No. Con acceso por caja de llaves o código de portón completamos todas las auditorías sin que usted viaje a la propiedad."
+        },
+        {
+          "q": "¿Qué ocurre si algo falla entre visitas programadas?",
+          "a": "Los clientes de Digital Core pueden solicitar una visita reactiva a tarifa diaria estándar. Los clientes de Finca Essential reciben despacho de emergencia prioritario en 48 horas. Los clientes de Absolute Elite tienen incluido el despacho garantizado al día siguiente — sin coste extra para fallos críticos."
+        },
+        {
+          "q": "¿Puedo pausar el plan cuando estoy en la finca?",
+          "a": "Sí. Solicite una pausa con 30 días de preaviso y su suscripción se reanuda a la misma tarifa cuando vuelva a necesitar cobertura."
+        },
+        {
+          "q": "¿Envían un informe tras cada visita presencial?",
+          "a": "Los clientes de Finca Essential reciben un informe digital tras cada auditoría trimestral. Los clientes de Absolute Elite reciben un informe premium con fotografías entregado tras cada visita mensual."
+        },
+        {
+          "q": "¿Qué incluye el informe mensual de salud?",
+          "a": "Porcentaje de uptime de conectividad, puntuaciones de salud por dispositivo, tendencias del estado de carga de la batería, versiones actuales de firmware y un resumen de las alertas generadas durante el mes."
+        },
+        {
+          "q": "¿Hay una tarifa de configuración inicial?",
+          "a": "Una evaluación de incorporación única cubre la auditoría inicial de la propiedad, la documentación del sistema y la configuración del plan. La tarifa se cotiza de forma transparente en su primera consulta."
         }
       ]
+    },
+    "promotion": {
+      "badge": "Tarifa Founder de Lanzamiento",
+      "headline": "20% de descuento en todos los planes — hasta el 30 de noviembre de 2026",
+      "body": "Para conmemorar nuestro lanzamiento público en el sureste de España, todos los planes Finca Care se ofrecen con un 20% de descuento sobre la tarifa estándar. Los clientes que se unan antes del 1 de diciembre de 2026 mantienen esta tarifa durante toda la vigencia de su suscripción.",
+      "expiry": "Oferta válida hasta el 30 de noviembre de 2026"
+    },
+    "billing": {
+      "monthly": "Mensual",
+      "annual": "Anual",
+      "annualBadge": "Ahorra 10%",
+      "annualNote": "Facturado como un único pago anual · Compromiso mínimo de 12 meses",
+      "billedAnnually": "facturado anualmente",
+      "promoTag": "Tarifa Founder",
+      "standardRate": "Tarifa estándar"
     }
   },
   "compliance": {
@@ -213,12 +364,23 @@
       "heading": "Solicitud de Evaluación Recibida",
       "body": "Gracias. Revisaremos los detalles de su propiedad y responderemos en 24 horas.",
       "cta": "Volver al Inicio"
-    }
+    },
+    "basedInLabel": "Con sede en Almansa, España",
+    "basedInBody": "Operamos desde Almansa en Castilla-La Mancha — idealmente situados para atender propiedades en la Costa Blanca y las provincias de Valencia, Alicante, Murcia y Albacete en aproximadamente una hora."
   },
   "regions": {
-    "heading": "Cubrimos el Interior de España",
-    "subheading": "Afincados en el campo. Expertos en los retos de propiedades rurales.",
-    "items": ["Almansa", "Ontinyent", "Yecla", "Villena", "y municipios colindantes"]
+    "heading": "Con sede en Almansa. Cubriendo el Sureste de España.",
+    "subheading": "Estamos ubicados en Almansa y cubrimos todo lo que está a aproximadamente una hora en coche — la Costa Blanca, Valencia, Alicante, Murcia, Albacete y el interior rural entre medias.",
+    "items": [
+      "Valencia",
+      "Alicante",
+      "Murcia",
+      "Elche",
+      "Albacete",
+      "Torrevieja",
+      "Benidorm",
+      "Almansa"
+    ]
   },
   "ctaBanner": {
     "heading": "¿Listo para transformar su finca?",
@@ -226,8 +388,8 @@
     "cta": "Iniciar su Evaluación"
   },
   "footer": {
-    "tagline": "Ingeniería Premium de Fincas Inteligentes. Interior de España.",
-    "regions": "Almansa · Ontinyent · Yecla · Villena",
+    "tagline": "Ingeniería Premium de Fincas Inteligentes — Con sede en Almansa.",
+    "regions": "Con sede en Almansa · Costa Blanca y Sureste de España",
     "navLabel": "Navegación",
     "contactLabel": "Contacto",
     "legal": "© 2025 NextGen Finca. Todos los derechos reservados.",
