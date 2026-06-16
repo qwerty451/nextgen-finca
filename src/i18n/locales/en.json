@@ -232,7 +232,6 @@
           "Weekly automated backups — network config, smart scripts & NVR",
           "Remote firmware & security patching, scheduled overnight",
           "Real-time alerts — internet uptime, server health, battery degradation & leak sensors",
-          "Monthly digital health report delivered to your inbox",
           "Emergency call-out available at a reduced hourly rate"
         ],
         "cta": "Start Digital Core",
@@ -304,10 +303,6 @@
         {
           "q": "Do you send a report after each on-site visit?",
           "a": "Finca Essential clients receive a digital report after their annual audit. Absolute Elite clients receive a premium report with photographs after every quarterly visit."
-        },
-        {
-          "q": "What does the monthly health report include?",
-          "a": "Connectivity uptime, device health scores, battery state-of-charge trends, current firmware versions, and a summary of any alerts triggered during the month."
         },
         {
           "q": "Is there a one-time setup fee?",

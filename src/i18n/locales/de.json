@@ -232,7 +232,6 @@
           "Wöchentliche automatische Backups — Netzwerkkonfiguration, Smart-Skripte & NVR",
           "Remote-Firmware & Sicherheits-Patching, nächtlich eingeplant",
           "Echtzeit-Warnmeldungen — Internet-Uptime, Serverzustand, Akkudegradation & Lecksensoren",
-          "Monatlicher digitaler Gesundheitsbericht in Ihrem Posteingang",
           "Notfalleinsatz zum reduzierten Stundensatz verfügbar"
         ],
         "cta": "Digital Core Starten",
@@ -304,10 +303,6 @@
         {
           "q": "Erhalten Kunden einen Bericht nach jedem Vor-Ort-Besuch?",
           "a": "Finca Essential Kunden erhalten einen digitalen Bericht nach ihrer jährlichen Inspektion. Absolute Elite Kunden erhalten einen Premium-Bericht mit Fotos nach jeder vierteljährlichen Inspektion."
-        },
-        {
-          "q": "Was enthält der monatliche Gesundheitsbericht?",
-          "a": "Konnektivitäts-Uptime, Gerätezustandsbewertungen, Batterieladezustandstrends, aktuelle Firmware-Versionen und eine Zusammenfassung aller im Monat ausgelösten Warnmeldungen."
         },
         {
           "q": "Gibt es eine einmalige Einrichtungsgebühr?",

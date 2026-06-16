@@ -232,7 +232,6 @@
           "Copias de seguridad automatizadas semanales — configuración de red, scripts y NVR",
           "Actualizaciones de firmware y parches de seguridad en remoto, programados de noche",
           "Alertas en tiempo real — estado de internet, salud del servidor, degradación de baterías y sensores de fuga",
-          "Informe de salud digital mensual en su bandeja de entrada",
           "Visita de emergencia disponible a tarifa horaria reducida"
         ],
         "cta": "Empezar Digital Core",
@@ -304,10 +303,6 @@
         {
           "q": "¿Envían un informe después de cada visita?",
           "a": "Los clientes de Finca Essential reciben un informe digital tras su revisión anual. Los clientes de Absolute Elite reciben un informe premium con fotografías tras cada visita trimestral."
-        },
-        {
-          "q": "¿Qué incluye el informe de salud mensual?",
-          "a": "Disponibilidad de la conexión, puntuaciones de salud de los dispositivos, tendencias del nivel de carga de las baterías, versiones de firmware actuales y un resumen de las alertas generadas durante el mes."
         },
         {
           "q": "¿Hay una tarifa de configuración inicial?",

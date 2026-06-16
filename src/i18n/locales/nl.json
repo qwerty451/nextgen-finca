@@ -232,7 +232,6 @@
           "Wekelijkse automatische back-ups — netwerkconfiguratie, slimme scripts & NVR",
           "Remote firmware & beveiligingspatches, 's nachts ingepland",
           "Realtime meldingen — internetuptime, servergezondheid, accudegradatie & leksensoren",
-          "Maandelijks digitaal gezondheidsrapport in uw inbox",
           "Noodhulp beschikbaar tegen verlaagd uurtarief"
         ],
         "cta": "Start Digital Core",
@@ -304,10 +303,6 @@
         {
           "q": "Ontvangen klanten een rapport na elk bezoek?",
           "a": "Finca Essential klanten ontvangen een digitaal rapport na hun jaarlijkse inspectie. Absolute Elite klanten ontvangen een premium rapport met foto's na elke kwartaalinspectie."
-        },
-        {
-          "q": "Wat staat er in het maandelijkse gezondheidsrapport?",
-          "a": "Connectiviteitsuptime, gezondheidsscores per apparaat, laadstatustrends van de accu, actuele firmwareversies en een samenvatting van eventuele meldingen gedurende de maand."
         },
         {
           "q": "Is er een eenmalige installatiekost?",
