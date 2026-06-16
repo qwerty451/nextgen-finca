@@ -400,29 +400,25 @@
     "whatsapp": "WhatsApp"
   },
   "about": {
-    "badge": "Nuestra Historia",
-    "heading": "Un Equipo Familiar con Ética Holandesa y Base Española",
-    "intro": "Somos NextGen Finca — una pequeña empresa familiar que se toma en serio la parte técnica y no toma atajos.",
+    "badge": "Quiénes Somos",
+    "heading": "Experiencia en Construcción. Expertise en IT. Un Equipo Familiar.",
+    "intro": "Once años de experiencia combinada — la mitad en construcción, la mitad en IT. Creamos esta empresa porque teníamos las habilidades para cubrir un vacío que nadie más por aquí estaba llenando bien.",
     "sections": [
       {
-        "heading": "De Dónde Venimos",
-        "body": "Entre los dos acumulamos más de once años de experiencia profesional práctica — aproximadamente la mitad en construcción y gestión de proyectos, la otra mitad en infraestructura informática y sistemas domóticos. En los Países Bajos llevamos años montando y configurando exactamente el tipo de instalaciones que ahora hacemos en fincas en España: redes fiables, sistemas de seguridad de verdad, domótica y monitorización energética. No como afición — como profesión, para clientes reales que esperaban resultados reales."
+        "heading": "La Base",
+        "body": "Entre los dos acumulamos más de once años de experiencia profesional práctica — la mitad en construcción y gestión de proyectos, la otra mitad en infraestructura informática y sistemas domóticos. En los Países Bajos llevamos años realizando exactamente el tipo de instalaciones que ahora hacemos en fincas en España: redes, sistemas de seguridad, domótica y monitorización energética. Para clientes reales, en proyectos reales, con plazos reales."
       },
       {
-        "heading": "Por Qué España",
-        "body": "El traslado a España fue en parte personal, en parte profesional. Nos instalamos en el sureste español — el clima, el paisaje y el estilo de vida nos atrajeron. Pero al mirar alrededor nos dimos cuenta de algo: fincas preciosas con problemas tecnológicos frustrantes. Sin internet fiable. Puertas que hay que abrir a mano. Instalaciones solares que llevan años sin revisarse. Cámaras que apenas funcionan. Nosotros sabíamos exactamente cómo solucionar esas cosas."
+        "heading": "Por Qué Estamos Aquí",
+        "body": "Nos mudamos al sureste de España porque quisimos hacerlo — y cuando miramos a nuestro alrededor, la oportunidad era evidente. Propiedades preciosas con tecnología frustrante. Sin internet fiable, puertas que se abren a mano, instalaciones solares que nadie había revisado en años. Sabíamos exactamente cómo resolver esas cosas, así que creamos NextGen Finca para hacerlo."
       },
       {
-        "heading": "Lo que Estamos Construyendo Aquí",
-        "body": "NextGen Finca nació cuando dejamos de hablar y empezamos a hacer. No somos una empresa grande con un call center y soluciones estándar — somos un equipo pequeño que se acerca, mira su propiedad concreta y busca el mejor enfoque para su situación. Estamos construyendo nuestra reputación en España con cuidado, lo que significa que cada trabajo tiene que hacerse bien. Con un equipo pequeño no hay dónde esconderse."
-      },
-      {
-        "heading": "Honestos sobre Dónde Estamos",
-        "body": "Llevamos años haciendo este tipo de trabajo — pero NextGen Finca como empresa en España es nueva, y creemos que vale la pena decirlo. Lo que significa en la práctica: usted trata directamente con las personas que hacen el trabajo, nos importa genuinamente hacerlo bien, y no somos demasiado grandes para preocuparnos por una sola finca. Nuestro trabajo en los Países Bajos habla por sí solo. Simplemente traemos el mismo nivel de exigencia a un nuevo país."
+        "heading": "Cómo Trabajamos",
+        "body": "Somos un equipo pequeño y enfocado — no una franquicia, no un call center. Cada proyecto lo gestiona el mismo equipo que lo evalúa, lo presupuesta y lo instala. Nos trasladamos desde los Países Bajos a España para expandir lo que hacemos, aplicando los mismos estándares profesionales que mantenemos desde hace más de una década. Estamos construyendo nuestra cartera de clientes aquí de forma deliberada, lo que significa que cada trabajo recibe toda nuestra atención."
       }
     ],
-    "closingHeading": "Nos encantaría conocer su finca.",
-    "closingBody": "Tenga un problema concreto o no sepa muy bien por dónde empezar — una conversación no cuesta nada. Le daremos una imagen honesta de lo que haríamos y lo que costaría de forma realista.",
-    "ctaLabel": "Contactar"
+    "closingHeading": "Cuéntenos sobre su finca.",
+    "closingBody": "Una visita no le cuesta nada. Venimos a ver lo que tiene, le decimos qué haríamos y le damos un presupuesto claro.",
+    "ctaLabel": "Solicitar Evaluación Gratuita"
   }
 }

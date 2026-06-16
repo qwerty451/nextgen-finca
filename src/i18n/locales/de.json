@@ -400,29 +400,25 @@
     "whatsapp": "WhatsApp"
   },
   "about": {
-    "badge": "Unsere Geschichte",
-    "heading": "Ein Familienteam mit Niederländischer Arbeitsethik und Spanischer Basis",
-    "intro": "Wir sind NextGen Finca — ein kleines Familienunternehmen das die technische Seite ernst nimmt und keine Abkürzungen nimmt.",
+    "badge": "Wer Wir Sind",
+    "heading": "Bau-Know-how. IT-Expertise. Ein Familienteam.",
+    "intro": "Elf Jahre kombinierte Erfahrung — die Hälfte im Bau, die Hälfte in der IT. Wir haben dieses Unternehmen gegründet weil wir die Fähigkeiten hatten eine Lücke zu füllen die hier niemand anders ordentlich ausfüllt.",
     "sections": [
       {
-        "heading": "Woher Wir Kommen",
-        "body": "Zusammen haben wir über elf Jahre Berufserfahrung — ungefähr die Hälfte in Bau und Projektmanagement, die andere Hälfte in IT-Infrastruktur und Smart-Home-Systemen. In den Niederlanden haben wir jahrelang genau die Art von Installationen gebaut und konfiguriert die wir jetzt bei Fincas in Spanien einrichten: zuverlässige Netzwerke, ordentliche Sicherheitssysteme, Hausautomation und Energieüberwachung. Nicht als Hobby — als Beruf, für echte Kunden die echte Ergebnisse erwarteten."
+        "heading": "Der Hintergrund",
+        "body": "Zusammen haben wir über elf Jahre Berufserfahrung — die Hälfte in Bau und Projektmanagement, die Hälfte in IT-Infrastruktur und Smart-Home-Systemen. In den Niederlanden haben wir jahrelang genau die Art von Installationen durchgeführt die wir jetzt bei Fincas in Spanien einrichten: Netzwerke, Sicherheitssysteme, Hausautomation und Energieüberwachung. Für echte Kunden, bei echten Projekten, mit echten Fristen."
       },
       {
-        "heading": "Warum Spanien",
-        "body": "Der Schritt nach Spanien war teils persönlich, teils beruflich. Wir haben uns in Südostspanien niedergelassen — angezogen vom Klima, der Landschaft und dem Lebensstil. Aber als wir uns umsahen, fiel uns etwas auf: viele wunderschöne Fincas mit frustrierenden Technologieproblemen. Kein zuverlässiges Internet. Tore die von Hand geöffnet werden müssen. Solaranlagen die seit Jahren nicht angeschaut wurden. Kameras die kaum funktionieren. Wir wussten genau wie man diese Dinge behebt."
+        "heading": "Warum Wir Hier Sind",
+        "body": "Wir sind nach Südostspanien gezogen weil wir das wollten — und als wir uns umsahen war die Möglichkeit offensichtlich. Wunderschöne Immobilien mit frustrierender Technik. Kein zuverlässiges Internet, Tore die per Hand geöffnet werden, Solaranlagen die seit Jahren niemand angeschaut hat. Wir wussten genau wie man das behebt, also haben wir NextGen Finca gegründet um es zu tun."
       },
       {
-        "heading": "Was Wir Hier Aufbauen",
-        "body": "NextGen Finca ist das Ergebnis als wir aufhörten darüber zu reden und anfingen es zu tun. Wir sind kein großes Unternehmen mit Callcenter und Standardlösungen — wir sind ein kleines Team das vorbeikommt, Ihre spezifische Immobilie anschaut und den besten Ansatz für Ihre Situation herausarbeitet. Wir bauen unseren Ruf in Spanien sorgfältig auf, was bedeutet dass jede Arbeit ordentlich gemacht werden muss."
-      },
-      {
-        "heading": "Ehrlich über Unsere Situation",
-        "body": "Wir machen diese Art von Arbeit seit Jahren — aber NextGen Finca als Unternehmen in Spanien ist neu, und das halten wir für wichtig zu sagen. Was das in der Praxis bedeutet: Sie haben direkten Kontakt mit den Menschen die die Arbeit erledigen, wir sind wirklich daran interessiert es richtig zu machen, und wir sind nicht zu groß um uns für eine Finca eines Kunden zu engagieren. Unsere Arbeit in den Niederlanden spricht für sich. Wir bringen einfach denselben Standard an einen neuen Ort."
+        "heading": "Wie Wir Arbeiten",
+        "body": "Wir sind ein kleines, fokussiertes Team — keine Franchise, kein Callcenter. Jedes Projekt wird von denselben Menschen abgewickelt die es bewerten, anbieten und installieren. Wir sind von den Niederlanden nach Spanien umgezogen um zu expandieren, und wir wenden dieselben professionellen Standards an die wir seit über einem Jahrzehnt halten. Wir bauen unseren Kundenstamm hier bewusst auf, was bedeutet dass jede Arbeit unsere volle Aufmerksamkeit bekommt."
       }
     ],
-    "closingHeading": "Wir würden gerne von Ihrer Finca hören.",
-    "closingBody": "Ob Sie ein spezifisches Problem haben oder noch nicht genau wissen wo Sie anfangen sollen — ein Gespräch kostet nichts. Wir geben Ihnen ein ehrliches Bild davon was wir tun würden und was es realistischerweise kosten würde.",
-    "ctaLabel": "Kontakt Aufnehmen"
+    "closingHeading": "Erzählen Sie uns von Ihrer Finca.",
+    "closingBody": "Ein Vor-Ort-Besuch kostet Sie nichts. Wir kommen und schauen uns an was Sie haben, sagen Ihnen was wir tun würden und geben Ihnen ein klares Angebot.",
+    "ctaLabel": "Kostenloses Assessment Anfordern"
   }
 }

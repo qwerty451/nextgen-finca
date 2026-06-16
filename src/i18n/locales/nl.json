@@ -400,29 +400,25 @@
     "whatsapp": "WhatsApp"
   },
   "about": {
-    "badge": "Ons Verhaal",
-    "heading": "Een Familieteam met Nederlandse Werkmores en een Spaanse Basis",
-    "intro": "Wij zijn NextGen Finca — een klein familiebedrijf dat de technische kant serieus neemt en geen concessies doet aan kwaliteit.",
+    "badge": "Wie Wij Zijn",
+    "heading": "Bouwkennis. IT-expertise. Eén Familieteam.",
+    "intro": "Elf jaar gecombineerde ervaring — de helft in bouw, de helft in IT. Wij hebben dit bedrijf opgericht omdat wij de vaardigheden hadden om een gat te vullen dat hier niemand anders goed invult.",
     "sections": [
       {
-        "heading": "Waar Wij Vandaan Komen",
-        "body": "Samen hebben wij ruim elf jaar praktijkervaring — ruwweg de helft in bouw en projectbeheer, de helft in IT-infrastructuur en slimme thuissystemen. In Nederland hebben wij jarenlang precies de soort installaties gebouwd en geconfigureerd die wij nu plaatsen bij finca's in Spanje: betrouwbare netwerken, goede beveiligingssystemen, domotica en energiemonitoring. Niet als hobby — als beroep, voor echte opdrachtgevers die echte resultaten verwachtten."
+        "heading": "De Achtergrond",
+        "body": "Samen hebben wij ruim elf jaar praktijkervaring — de helft in bouw en projectbeheer, de helft in IT-infrastructuur en slimme thuissystemen. In Nederland hebben wij jaren lang precies de soort installaties gedaan die wij nu bij finca's in Spanje neerzetten: netwerken, beveiligingssystemen, domotica en energiemonitoring. Voor echte opdrachtgevers, op echte projecten, met echte deadlines."
       },
       {
-        "heading": "Waarom Spanje",
-        "body": "De stap naar Spanje was deels persoonlijk, deels zakelijk. Wij vestigden ons in zuidoost Spanje — aangetrokken door het klimaat, het landschap en de manier van leven. Maar toen wij om ons heen keken, viel ons iets op: prachtige finca's met frustrerende technologieproblemen. Geen betrouwbaar internet. Poorten die met de hand geopend moeten worden. Zonne-installaties die al jaren niet meer zijn bekeken. Camera's die nauwelijks werken. Wij wisten precies hoe die problemen op te lossen."
+        "heading": "Waarom Wij Hier Zijn",
+        "body": "Wij zijn naar zuidoost Spanje verhuisd omdat wij dat wilden — en toen wij om ons heen keken, was de kans duidelijk. Prachtige eigendommen met frustrerende technologie. Geen betrouwbaar internet, poorten die met de hand geopend worden, zonne-installaties die al jaren niet zijn aangeraakt. Wij wisten precies hoe die problemen op te lossen, en daarom hebben wij NextGen Finca opgezet."
       },
       {
-        "heading": "Wat Wij Hier Aan het Opbouwen Zijn",
-        "body": "NextGen Finca is wat er ontstond toen wij ophielden met praten en begonnen met doen. Wij zijn geen groot bedrijf met een callcenter en standaardoplossingen — wij zijn een klein team dat langskomt, naar uw specifieke eigendom kijkt en de beste aanpak voor uw situatie bepaalt. Wij bouwen onze reputatie in Spanje zorgvuldig op, wat betekent dat elk project goed uitgevoerd moet worden. Achter een grote bedrijfsnaam kun je je niet verschuilen als je met een klein team werkt."
-      },
-      {
-        "heading": "Eerlijk over Waar Wij Staan",
-        "body": "Wij doen dit soort werk al jaren — maar NextGen Finca als bedrijf in Spanje is nieuw, en dat vinden wij eerlijk om te zeggen. Wat dat in de praktijk betekent: u heeft direct contact met de mensen die het werk doen, wij zijn er oprecht op gebrand om het goed te doen, en wij zijn niet te groot om ons druk te maken om één finca van één klant. Ons werk in Nederland spreekt voor zichzelf. Wij brengen diezelfde standaard gewoon naar een nieuw land."
+        "heading": "Hoe Wij Werken",
+        "body": "Wij zijn een klein, gefocust team — geen franchise, geen callcenter. Elk project wordt afgehandeld door dezelfde mensen die het beoordelen, offreren en installeren. Wij zijn vanuit Nederland naar Spanje verhuisd om uit te breiden, en wij hanteren dezelfde professionele standaarden die wij al meer dan tien jaar aanhouden. Wij bouwen ons klantenbestand hier bewust op, wat betekent dat elk project onze volledige aandacht krijgt."
       }
     ],
-    "closingHeading": "Wij horen graag over uw finca.",
-    "closingBody": "Of u nu een specifiek probleem heeft of nog niet goed weet waar te beginnen — een gesprek kost niets. Wij geven u een eerlijk beeld van wat wij zouden doen en wat het realistisch zou kosten.",
-    "ctaLabel": "Neem Contact Op"
+    "closingHeading": "Vertel ons over uw finca.",
+    "closingBody": "Een locatiebezoek kost u niets. Wij komen kijken wat u heeft, vertellen u wat wij zouden doen en geven u een duidelijke offerte.",
+    "ctaLabel": "Gratis Assessment Aanvragen"
   }
 }

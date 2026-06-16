@@ -400,29 +400,25 @@
     "whatsapp": "WhatsApp"
   },
   "about": {
-    "badge": "Our Story",
-    "heading": "A Family Team with a Dutch Work Ethic and a Spanish Base",
-    "intro": "We're NextGen Finca — a small, family-run business that takes the technical side of things seriously and takes shortcuts in nothing.",
+    "badge": "Who We Are",
+    "heading": "Construction Know-How. IT Expertise. One Family Team.",
+    "intro": "Eleven years of combined experience — half in construction, half in IT. We built this company because we had the skills to fill a gap nobody else around here was filling properly.",
     "sections": [
       {
-        "heading": "Where We Come From",
-        "body": "Between us, we have over eleven years of hands-on professional experience — roughly half in construction and project management, half in IT infrastructure and smart home systems. In the Netherlands, we spent years building and configuring exactly the kind of setups we now install at fincas in Spain: reliable networks, proper security systems, home automation, and solar energy monitoring. Not as a hobby — as a profession, for real clients who expected real results."
+        "heading": "The Background",
+        "body": "Between us we have over eleven years of hands-on professional experience — half in construction and project management, half in IT infrastructure and smart home systems. In the Netherlands we spent years installing exactly the kind of setups we now bring to fincas in Spain: networks, security systems, home automation, and solar monitoring. For real clients, on real projects, with real deadlines."
       },
       {
-        "heading": "Why Spain",
-        "body": "The move to Spain was partly personal, partly professional. We settled in southeast Spain — drawn in by the climate, the landscape, and the way of life. But when we started looking around at the properties here, we noticed something: a lot of stunning fincas with frustrating technology problems. No reliable internet. Gates that have to be opened by hand. Solar systems that haven't been looked at in years. Cameras that barely work. We knew exactly how to fix those things."
+        "heading": "Why We're Here",
+        "body": "We moved to southeast Spain because we wanted to — and when we looked around, the opportunity was obvious. Stunning properties with frustrating technology. No reliable internet, gates opened by hand, solar systems nobody had looked at in years. We knew exactly how to fix those things, so we built NextGen Finca to do it."
       },
       {
-        "heading": "What We're Building Here",
-        "body": "NextGen Finca is what happened when we stopped talking about it and started doing it. We're not a large company with a call centre and off-the-shelf solutions — we're a small team that shows up, looks at your specific property, and works out the best approach for your situation. We're building our reputation in Spain carefully and deliberately, which means every job has to be done properly. There's no hiding behind a big company name on a small team."
-      },
-      {
-        "heading": "Honest About Where We Are",
-        "body": "We've been doing this kind of work for years — but NextGen Finca as a company in Spain is new, and we think that's worth saying. What it means in practice: you deal directly with the people who do the work, we're genuinely invested in getting it right, and we're not too big to care about one client's finca. Our work in the Netherlands speaks for itself. We're simply bringing that same standard somewhere new."
+        "heading": "How We Operate",
+        "body": "We're a small, focused team — not a franchise, not a call centre. Every project is handled by the same people who assess it, quote it, and install it. We relocated from the Netherlands to Spain to expand what we do, and we're applying the same professional standards that we've held for over a decade. We're growing our client base here deliberately, which means every job gets our full attention."
       }
     ],
-    "closingHeading": "We'd love to hear about your finca.",
-    "closingBody": "Whether you have a specific problem or you're not quite sure where to start — a conversation costs nothing. We'll give you an honest picture of what we'd do and what it would realistically cost.",
-    "ctaLabel": "Get in Touch"
+    "closingHeading": "Tell us about your finca.",
+    "closingBody": "A site visit costs you nothing. We'll come and look at what you have, tell you what we'd do, and give you a clear quote.",
+    "ctaLabel": "Book a Free Assessment"
   }
 }
