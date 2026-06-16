@@ -232,7 +232,8 @@
           "Weekly automated backups — network config, smart scripts & NVR",
           "Remote firmware & security patching, scheduled overnight",
           "Real-time alerts — internet uptime, server health, battery degradation & leak sensors",
-          "Monthly digital health report delivered to your inbox"
+          "Monthly digital health report delivered to your inbox",
+          "Emergency call-out available at a reduced hourly rate"
         ],
         "cta": "Start Digital Core",
         "pricePromo": "€39",
@@ -249,7 +250,7 @@
           "Everything in Digital Core",
           "Annual on-site audit — 1 full property walkthrough per year",
           "Basic hardware maintenance: camera lens clean, sensor & rack inspection",
-          "Priority 48-hour emergency dispatch",
+          "One free emergency call-out per year included",
           "WhatsApp support during business hours"
         ],
         "cta": "Start Finca Essential",
@@ -267,7 +268,7 @@
           "Everything in Digital Core & Finca Essential",
           "Quarterly on-site audit — 4 full visits per year",
           "Deep hardware tune-up: server clean, solar panel calima wipe, battery diagnostics",
-          "Guaranteed next-day emergency dispatch for critical failures",
+          "Expedited emergency call-out included — priority response at no extra cost",
           "24/7 priority emergency support channel",
           "Premium post-visit digital report with photos after every audit"
         ],
@@ -298,7 +299,7 @@
         },
         {
           "q": "What happens if something breaks between scheduled visits?",
-          "a": "Digital Core clients can request a reactive visit at standard day-rate. Finca Essential clients receive priority 48-hour emergency dispatch. Absolute Elite clients have guaranteed next-day dispatch built into the plan — no extra charge for critical failures."
+          "a": "Digital Core clients can call us out for emergency help at a reduced hourly rate. Finca Essential clients have one free emergency call-out per year included in their subscription. Absolute Elite clients receive an expedited emergency call-out for any failure — priority response, no extra charge."
         },
         {
           "q": "Can I pause my plan when I'm at the property?",

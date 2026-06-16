@@ -232,7 +232,8 @@
           "Copias de seguridad automatizadas semanales — configuración de red, scripts y NVR",
           "Actualizaciones de firmware y parches de seguridad en remoto, programados de noche",
           "Alertas en tiempo real — estado de internet, salud del servidor, degradación de baterías y sensores de fuga",
-          "Informe de salud digital mensual en su bandeja de entrada"
+          "Informe de salud digital mensual en su bandeja de entrada",
+          "Visita de emergencia disponible a tarifa horaria reducida"
         ],
         "cta": "Empezar Digital Core",
         "pricePromo": "€39",
@@ -249,7 +250,7 @@
           "Todo lo incluido en Digital Core",
           "Visita anual — 1 revisión completa de la finca al año",
           "Mantenimiento básico de hardware: limpieza de lentes de cámara, inspección de sensores y rack",
-          "Despacho de emergencia prioritario en 48 horas",
+          "Una visita de emergencia gratuita al año incluida",
           "Soporte por WhatsApp en horario laboral"
         ],
         "cta": "Empezar Finca Essential",
@@ -267,7 +268,7 @@
           "Todo lo incluido en Digital Core y Finca Essential",
           "Visita trimestral — 4 revisiones completas al año",
           "Revisión profunda de hardware: limpieza del servidor, limpieza de calima en paneles solares, diagnóstico de baterías",
-          "Despacho de emergencia garantizado al día siguiente para fallos críticos",
+          "Visita de emergencia urgente incluida ante cualquier avería — respuesta prioritaria sin coste adicional",
           "Canal de soporte de emergencia prioritario 24/7",
           "Informe digital premium con fotos tras cada visita trimestral"
         ],
@@ -298,7 +299,7 @@
         },
         {
           "q": "¿Qué pasa si algo se estropea entre visitas programadas?",
-          "a": "Los clientes de Digital Core pueden solicitar una visita reactiva a tarifa estándar por jornada. Los clientes de Finca Essential tienen despacho de emergencia prioritario en 48 horas. Los clientes de Absolute Elite tienen garantizado el despacho al día siguiente sin coste adicional por fallos críticos."
+          "a": "Los clientes de Digital Core pueden contratarnos para ayuda de emergencia a una tarifa horaria reducida. Los clientes de Finca Essential tienen una visita de emergencia gratuita al año incluida en su suscripción. Los clientes de Absolute Elite reciben una visita de emergencia urgente ante cualquier avería — respuesta prioritaria sin cargo adicional."
         },
         {
           "q": "¿Puedo pausar el plan cuando estoy en la propiedad?",
