@@ -1,39 +1,42 @@
 {
   "meta": {
     "siteName": "NextGen Finca",
-    "homeTitle": "Smart Estate Engineering for Spanish Fincas | NextGen Finca",
-    "homeDesc": "Premium satellite internet, enterprise networking, IP surveillance, smart automation, and energy storage integration for remote properties across southeast Spain — from Valencia and Alicante to Murcia and the Costa Blanca.",
-    "servicesTitle": "Smart Estate Services | NextGen Finca",
-    "servicesDesc": "Four engineering pillars: connectivity, security, automation, and smart energy for premium Spanish fincas.",
-    "connectivityTitle": "Flawless Connectivity — Satellite Internet & Enterprise Networking | NextGen Finca",
-    "connectivityDesc": "Starlink structural mounting, 4G/5G multi-WAN redundancy, and property-wide Ubiquiti mesh networking for remote fincas.",
-    "securityTitle": "Autonomous Security — Smart IP Surveillance | NextGen Finca",
-    "securityDesc": "Smart IP surveillance grids, local NVR, edge-AI vehicle detection, and encrypted remote access for your Spanish estate.",
-    "automationTitle": "Smart Finca Automation — Home Assistant Integration | NextGen Finca",
-    "automationDesc": "Home Assistant configurations for automated gates, weather stations, and bioclimatic pergolas in Almansa, Yecla and Villena.",
-    "energyTitle": "Smart Energy & Utilities — Victron Solar | NextGen Finca",
-    "energyDesc": "Solar structural optimization, Lithium/Victron upgrades, remote energy monitoring and moisture-sensing water shut-off valves.",
-    "fincaCareTitle": "Finca Care Subscriptions — Three-Tier Estate Protection | NextGen Finca",
-    "fincaCareDesc": "Digital Core €49/mo, Finca Essential €129/mo, or Absolute Elite €249/mo. Always-on smart estate protection for fincas across southeast Spain — based in Almansa.",
-    "contactTitle": "Request a Free Estate Assessment | NextGen Finca",
-    "contactDesc": "Free technical assessment for your finca. We serve southeast Spain including Valencia, Alicante, Murcia, the Costa Blanca, and inland provinces. Response within 24 hours."
+    "homeTitle": "Smart Solutions for Your Spanish Finca | NextGen Finca",
+    "homeDesc": "Reliable internet, smart security cameras, home automation, and solar energy for fincas across southeast Spain. Family-run, based in Almansa — professional results.",
+    "servicesTitle": "Our Services | NextGen Finca",
+    "servicesDesc": "Reliable internet, smart cameras, home automation, and solar energy for Spanish fincas. We take care of the technical side so you can enjoy your property.",
+    "connectivityTitle": "Reliable Internet for Your Finca | NextGen Finca",
+    "connectivityDesc": "We install Starlink, add a mobile backup, and make sure every corner of your property has strong Wi-Fi — including the gate, the pool, and the guest house.",
+    "securityTitle": "Smart Security Cameras for Your Finca | NextGen Finca",
+    "securityDesc": "Cameras that alert you when someone arrives, footage stored at your property, viewable from anywhere in the world. We design and install the whole system.",
+    "automationTitle": "Smart Home Automation for Your Finca | NextGen Finca",
+    "automationDesc": "Automated gates, weather-responsive awnings, and smart lighting — your finca runs itself. We handle the setup and make it genuinely simple to use.",
+    "energyTitle": "Solar Energy & Smart Utilities for Your Finca | NextGen Finca",
+    "energyDesc": "Solar optimisation, modern battery upgrades, and smart water shut-off. We keep your energy system working and alert you when something needs attention.",
+    "fincaCareTitle": "Finca Care Subscriptions — Ongoing Estate Protection | NextGen Finca",
+    "fincaCareDesc": "Digital Core €49/mo, Finca Essential €129/mo, or Absolute Elite €249/mo. Ongoing monitoring and maintenance for fincas across southeast Spain.",
+    "contactTitle": "Book a Free Assessment | NextGen Finca",
+    "contactDesc": "Free site assessment for your finca. We serve southeast Spain including Valencia, Alicante, Murcia, and the Costa Blanca. Response within 24 hours.",
+    "aboutTitle": "About Us — The Story Behind NextGen Finca | NextGen Finca",
+    "aboutDesc": "A family team with 11 years of combined experience in construction and IT, bringing smart property solutions to southeast Spain."
   },
   "nav": {
     "home": "Home",
     "services": "Services",
     "fincaCare": "Finca Care",
+    "about": "About Us",
     "contact": "Get a Quote"
   },
   "hero": {
-    "badge": "Smart Estate Engineering",
-    "headline": "Your Remote Property. Fully Connected. Fully Defended.",
-    "subheadline": "Elite integration of satellite internet, enterprise mesh networking, smart IP surveillance, home automation, and renewable energy systems — for premium fincas across southeast Spain, from Valencia and Alicante to Murcia and the Costa Blanca.",
-    "ctaPrimary": "Request Free Assessment",
-    "ctaSecondary": "Explore Services",
-    "trustLine": "Based in Almansa — local experts serving property owners across southeast Spain"
+    "badge": "Smart Solutions for Finca Owners",
+    "headline": "Your Finca — Connected, Secure, and Taking Care of Itself.",
+    "subheadline": "Reliable internet, cameras that actually work, smart home automation, and solar energy that's properly set up. We handle the technical side so you can simply enjoy your property — whether you're there or on the other side of the world.",
+    "ctaPrimary": "Get a Free Assessment",
+    "ctaSecondary": "See What We Do",
+    "trustLine": "Based in Almansa — local team serving property owners across southeast Spain"
   },
   "trustBadges": {
-    "heading": "Technologies We Typically Work With",
+    "heading": "Some of the Brands We Work With",
     "items": [
       "Ubiquiti UniFi",
       "Victron Energy",
@@ -41,72 +44,72 @@
       "Home Assistant",
       "Reolink"
     ],
-    "note": "Equipment selection is finalised during your site assessment — we choose the best solution for each specific project and location."
+    "note": "We choose the right equipment for each property and explain everything during your free assessment — no jargon, no pressure."
   },
   "servicesSection": {
-    "badge": "Four Engineering Pillars",
-    "heading": "Complete Estate Intelligence",
-    "subheading": "Every system engineered for remote reliability, rural conditions, and zero-compromise performance."
+    "badge": "What We Offer",
+    "heading": "Everything Your Finca Needs",
+    "subheading": "Reliable internet, proper security, smart automation, and energy that works — we take care of it all, and we make it simple."
   },
   "services": {
     "connectivity": {
-      "title": "Flawless Connectivity",
-      "shortDesc": "Starlink structural mounting, 4G/5G multi-WAN redundancy, and property-wide Ubiquiti mesh — including P2P bridges to remote gates and guest houses.",
+      "title": "Reliable Internet",
+      "shortDesc": "Always-on internet for your finca — we install Starlink, add a mobile backup for peace of mind, and bring strong Wi-Fi to every corner of your property, including the pool, the gate, and the guest house.",
       "cta": "Learn More",
-      "hero": "Your finca deserves enterprise-grade connectivity, not compromises.",
+      "hero": "Good internet at a rural finca shouldn't feel like a luxury — we make it a given.",
       "sections": {
         "starlink": {
-          "title": "Starlink Structural Mounting",
-          "body": "We engineer robust, ground-penetrating or roof-anchored mounts for Starlink dishes — optimised for Spanish wind loads, angle of elevation for southern latitudes, and clean cable routing. No wobbling arms, no signal interruptions during Levante winds."
+          "title": "Starlink Installation",
+          "body": "Starlink is the best way to get fast, reliable internet at a rural finca — and we install it properly. That means a solid, permanent mount that handles Spanish winds without ever needing adjustment, correct positioning for the best possible signal, and clean cable routing throughout the property. No wobble, no signal drops during Levante storms."
         },
         "wan": {
-          "title": "4G/5G Multi-WAN Redundancy",
-          "body": "We configure dual-WAN routers with automatic failover: Starlink as primary, 4G/5G LTE as seamless backup. If one link drops, your cameras, automation, and remote access stay live. Zero manual intervention required."
+          "title": "Backup Internet — Just in Case",
+          "body": "We pair your main connection with a 4G/5G mobile backup. If your primary internet goes down for any reason, the backup kicks in automatically within seconds — your cameras, alarms, and remote access stay online without you having to do anything. You may not even notice it happened."
         },
         "ubiquiti": {
-          "title": "Ubiquiti UniFi Estate Networking",
-          "body": "Full UniFi Dream Machine or Cloud Gateway deployments. We place access points for outdoor coverage of pools, garages, and terraces. Point-to-point wireless bridges connect remote gates, guest casas, or machinery sheds — up to 500m without trenching cable."
+          "title": "Strong Wi-Fi Everywhere on Your Property",
+          "body": "We design a Wi-Fi network that actually covers your whole property — not just the living room. Pool area, terrace, garages, the gate at the end of the driveway, a guest house across the garden. All connected, all fast. We use professional networking equipment made for exactly these kinds of environments."
         }
       },
       "faq": {
         "heading": "Connectivity FAQs",
         "items": [
           {
-            "q": "Can you work with my existing router or network equipment?",
-            "a": "Yes. We assess your existing setup during the site survey and either integrate with it or recommend a replacement if performance falls short of what the property requires."
+            "q": "Can you work with my existing router or internet setup?",
+            "a": "Yes. We look at what you already have during the site visit and either work with it or recommend something better if it's not performing well enough — and we'll explain why."
           },
           {
-            "q": "How long does a full installation take?",
-            "a": "Most installations complete within 1–2 days depending on property size and number of access points or wireless bridges required."
+            "q": "How long does a typical installation take?",
+            "a": "Most installations are done within 1–2 days depending on the size of the property and how many areas need coverage."
           },
           {
-            "q": "Will satellite internet work at my finca location?",
-            "a": "We survey your site for an unobstructed sky view toward the south. Rural fincas typically make ideal candidates — we confirm viability before any commitment."
+            "q": "Will Starlink work at my finca?",
+            "a": "Usually yes — rural fincas are actually ideal for Starlink. We check your location for a clear view of the sky before any commitment, so there are no surprises."
           },
           {
-            "q": "What happens if the primary connection goes down?",
-            "a": "Automatic failover activates the backup mobile data link within seconds. No manual action required — your cameras, remote access, and automations stay live."
+            "q": "What happens if my internet goes down while I'm away?",
+            "a": "If you have a backup connection set up, it switches over automatically within seconds. Your cameras, remote access, and any automations stay running — no manual intervention needed."
           }
         ]
       }
     },
     "security": {
-      "title": "Autonomous Security",
-      "shortDesc": "Smart IP surveillance grids, local NVR deployment, edge-AI object and vehicle detection, and encrypted remote cloud streaming access.",
+      "title": "Smart Security",
+      "shortDesc": "Cameras that send you a notification when a car pulls up — not every time a bird flies past. Footage is saved at your property, not in someone else's cloud, and you can check it from anywhere.",
       "cta": "Learn More",
-      "hero": "Know exactly what is on your property — from anywhere in the world.",
+      "hero": "Know what's happening at your property — even when you're thousands of kilometres away.",
       "sections": {
         "cameras": {
-          "title": "Smart IP Surveillance Grid",
-          "body": "We design and mount Reolink IP camera networks covering all entry points, perimeters, and blind spots. PoE-powered from your UniFi switch — clean, weatherproof installations with zero visible cabling."
+          "title": "Cameras at Every Important Spot",
+          "body": "We design and install camera systems that cover every entrance, the perimeter, and any blind spots specific to your property. Weatherproof, neatly installed, and powered directly through the network cable — no batteries to change, no messy wiring. You get full coverage that looks like it belongs there."
         },
         "nvr": {
-          "title": "Local NVR Deployment",
-          "body": "All footage stored locally on a hardened NVR appliance — no mandatory cloud subscription, no data leaving your property without your consent. RAID-configured for redundancy. We size storage for your camera count and retention policy."
+          "title": "Your Footage, Stored at Your Property",
+          "body": "Everything is recorded on a dedicated device at your finca — not uploaded to someone else's cloud. Your footage stays yours, private, and on-site. We size the storage for how many cameras you have and how many weeks of recordings you want to keep."
         },
         "detection": {
-          "title": "Edge-AI Object & Vehicle Detection",
-          "body": "We calibrate smart detection zones per camera: person, vehicle, and animal classification. False alerts from tree movement or insects are eliminated. Push notifications to your phone when a vehicle enters the driveway — not every time a cat walks past."
+          "title": "Smart Alerts — Not Constant Alerts",
+          "body": "We set up each camera to actually understand what it's looking at. You'll get a message when a car turns up the driveway. Not when a cat walks past. Not when a branch moves in the wind. Just the things that actually matter — so you don't end up ignoring all your alerts."
         }
       },
       "faq": {
@@ -114,40 +117,40 @@
         "items": [
           {
             "q": "Does my camera system need an internet connection to work?",
-            "a": "No. All footage is recorded locally on a dedicated recorder at the property. Remote viewing over the internet is optional and always uses encrypted connections."
+            "a": "No — everything records locally at the property regardless. Remote viewing over the internet is optional and always uses a secure, encrypted connection."
           },
           {
             "q": "How many cameras do I need?",
-            "a": "We determine the right number during the free site survey, based on your property's entry points, perimeter length, and any specific blind spots you want covered."
+            "a": "We work that out during the free site visit based on your property's layout, entrances, and any specific spots you want covered. No guessing beforehand."
           },
           {
-            "q": "Can I access live footage from abroad?",
-            "a": "Yes — securely, via an encrypted tunnel. Your footage never passes through third-party servers without your explicit consent."
+            "q": "Can I watch live footage from abroad?",
+            "a": "Yes — securely. Your footage never goes through third-party servers without your explicit permission."
           },
           {
-            "q": "Do cameras stay on during a power cut?",
-            "a": "We can integrate battery backup (UPS) so critical cameras and the recording unit remain live during short outages. Solar-paired systems can extend this considerably."
+            "q": "What happens to my cameras during a power cut?",
+            "a": "We can fit a battery backup so your key cameras and the recording unit stay running during short outages. Combined with solar power this can be extended considerably."
           }
         ]
       }
     },
     "automation": {
-      "title": "Smart Finca Automation",
-      "shortDesc": "Centralised Home Assistant configurations for automated driveway gates, local weather stations, and wind/rain-responsive shades or bioclimatic pergolas.",
+      "title": "Smart Automation",
+      "shortDesc": "Your gate opens from your phone. Your pergola closes when it rains. Your lights come on at sunset. We wire it all together and make it genuinely easy to use — no technical knowledge needed on your part.",
       "cta": "Learn More",
-      "hero": "Your finca responds intelligently to conditions — with or without you present.",
+      "hero": "Your finca can manage itself — and we'll make it simple enough that you'll actually use it.",
       "sections": {
         "gates": {
-          "title": "Automated Gate Control",
-          "body": "We integrate existing or new gate motors into Home Assistant via MQTT or local API. Open your gate from anywhere via your phone, set schedules, or trigger on vehicle detection. Full audit log of every open/close event."
+          "title": "Gate Control From Your Phone",
+          "body": "We connect your existing gate motor — or fit a new one — so you can open and close it from your phone, wherever you are. Set a schedule, have it open automatically when you arrive, or trigger it from a camera notification. Every open and close is logged, so you always know who came and went."
         },
         "weather": {
-          "title": "Local Weather Station Integration",
-          "body": "We mount professional-grade local weather stations and feed live wind speed, rain accumulation, UV index, and temperature into Home Assistant dashboards. Your automations respond to real local conditions, not distant met office data."
+          "title": "A Weather Station for Your Property",
+          "body": "We fit a professional weather station that reads the actual conditions at your finca — wind speed, rainfall, temperature, UV levels. Your automated systems respond to what's really happening on your land, not what a forecast says for the nearest town 30 kilometres away."
         },
         "shades": {
-          "title": "Wind & Rain Responsive Shades",
-          "body": "Bioclimatic pergola louvres, exterior roller blinds, and awnings are wired to Home Assistant. They retract automatically when wind exceeds safe thresholds or rain begins — protecting your investment without you lifting a finger."
+          "title": "Awnings and Pergolas That Look After Themselves",
+          "body": "Your pergola louvres, roller blinds, or retractable awnings can close automatically when the wind picks up or rain starts — protecting your investment without you having to do anything, or even be there. They open again when conditions are fine."
         }
       },
       "faq": {
@@ -155,40 +158,40 @@
         "items": [
           {
             "q": "Do I need to be technically minded to use the system?",
-            "a": "No. We build simple, intuitive dashboards and apps tailored to how you live. You see exactly what matters — nothing more."
+            "a": "Not at all. We build simple interfaces around how you actually live. If you can use a phone, you can use the system — and we walk you through it before we leave."
           },
           {
             "q": "Can you automate my existing gate?",
-            "a": "In most cases yes. We assess your existing gate motor during the site survey and integrate it. If the motor is too old or incompatible, we source a suitable replacement."
+            "a": "In most cases yes. We assess your gate motor during the site visit and connect it if possible. If it's too old or incompatible, we'll let you know and recommend a suitable replacement."
           },
           {
             "q": "Do automations keep working without internet?",
-            "a": "Yes. The automation hub runs entirely locally on your property. Gates, shades, lighting, and all programmed routines continue without any internet connection."
+            "a": "Yes. The automation hub runs entirely at your property. Your gate, awnings, lighting, and any scheduled routines all continue to work with no internet connection whatsoever."
           },
           {
-            "q": "What existing smart home devices can you integrate?",
-            "a": "The platform we typically work with supports thousands of integrations across most major brands. We assess compatibility with your existing devices during the site survey."
+            "q": "Can you integrate my existing smart home devices?",
+            "a": "Most likely yes. The platform we work with supports a huge range of brands and devices. We check compatibility during the site visit — bring a list and we'll tell you what's possible."
           }
         ]
       }
     },
     "energy": {
-      "title": "Smart Energy & Utilities",
-      "shortDesc": "Solar structural optimisation, Lithium/Victron upgrades, remote energy monitoring, smart landscape lighting, and automated moisture-sensing water shut-off.",
+      "title": "Solar & Energy",
+      "shortDesc": "We make the most of your solar setup, upgrade old batteries, monitor everything remotely, and shut off the water automatically if a leak is detected while you're away.",
       "cta": "Learn More",
-      "hero": "Energy independence — engineered, monitored, and future-proofed.",
+      "hero": "Your solar system should be working hard for you — we make sure it is, and we tell you when it isn't.",
       "sections": {
         "solar": {
-          "title": "Solar Structural Optimisation",
-          "body": "We survey your existing panel layouts and mounting structures for angle, shading losses, and structural integrity. We redesign and re-mount for maximum yield across the Spanish solar calendar. Panel wiring and DC-side connections handled by our certified electrical partners."
+          "title": "Getting More From Your Solar Panels",
+          "body": "Many fincas have solar panels that were installed years ago and haven't been looked at since. We check how they're mounted, whether the angle is right for the Spanish sun, if anything is causing shading losses, and whether the wiring is still in good shape. There's often easy improvement available — and we'll tell you honestly if there isn't."
         },
         "victron": {
-          "title": "Lithium & Victron Upgrades",
-          "body": "We upgrade ageing lead-acid battery banks to modern LiFePO4 configurations with Victron MultiPlus or Quattro inverter-chargers. Remote monitoring via VRM Portal gives you live state-of-charge, historical trends, and proactive degradation alerts."
+          "title": "Better Batteries That You Can Actually Monitor",
+          "body": "If your finca runs on an older battery bank, a modern lithium upgrade makes a significant difference — more usable capacity, longer lifespan, and much better performance in the Spanish heat. We install Victron systems, which let you check your battery level, power output, and system health from your phone at any time."
         },
         "utilities": {
-          "title": "Smart Lighting & Water Shut-Off",
-          "body": "Landscape and architectural lighting on smart schedules or presence triggers. Wireless moisture sensors at key supply points integrated with inline motorised shut-off valves — automatic water isolation when a pipe leak is detected, minimising damage while you are away."
+          "title": "Smart Lighting and Water Shut-Off",
+          "body": "Outdoor and landscape lighting that comes on automatically at dusk or when someone moves nearby. And for peace of mind when you're away: small sensors at your water supply points that automatically shut off the water if a leak is detected — stopping a small drip from turning into a flooded property."
         }
       },
       "faq": {
@@ -196,19 +199,19 @@
         "items": [
           {
             "q": "Can you expand my existing solar system?",
-            "a": "Yes. We survey your structural capacity and electrical compatibility, then coordinate any grid-side expansion with our certified electrical partners at transparent rates."
+            "a": "Yes. We check your current setup first — panels, batteries, wiring — and tell you honestly what's possible and what it would cost. Any grid-side electrical work is done through our certified local electrician partners."
           },
           {
-            "q": "What is the typical payback period on a battery upgrade?",
-            "a": "Highly variable, but many clients see payback within 4–6 years through reduced grid dependency and avoided costly battery replacement down the line."
+            "q": "How quickly does a battery upgrade pay for itself?",
+            "a": "It varies, but many clients see payback within 4–6 years through lower grid bills and avoiding expensive battery replacements further down the line."
           },
           {
-            "q": "Can you monitor my energy system remotely?",
-            "a": "Yes. We configure remote monitoring portals giving you — and us — 24/7 visibility of your system's output, state of charge, and any alerts."
+            "q": "Can you keep an eye on my energy system remotely?",
+            "a": "Yes. We set up monitoring so both you and we can see your system's output, battery level, and any alerts — at any time, from anywhere."
           },
           {
-            "q": "Do you need planning permission for solar in Spain?",
-            "a": "For residential self-consumption installations below 10kWp, a simplified notification applies rather than full planning. We guide you through local requirements for your specific municipality."
+            "q": "Do I need planning permission for solar panels in Spain?",
+            "a": "For most home installations up to 10kWp, a simplified notification is all that's required rather than full planning permission. We'll guide you through what applies to your specific situation."
           }
         ]
       }
@@ -353,12 +356,12 @@
     },
     "serviceOptions": {
       "": "Select a service...",
-      "connectivity": "Flawless Connectivity",
-      "security": "Autonomous Security",
-      "automation": "Smart Finca Automation",
-      "energy": "Smart Energy & Utilities",
+      "connectivity": "Reliable Internet",
+      "security": "Smart Security",
+      "automation": "Smart Automation",
+      "energy": "Solar & Energy",
       "fincaCare": "Finca Care Subscription",
-      "all": "Full Estate Audit"
+      "all": "Full Estate Assessment"
     },
     "success": {
       "heading": "Assessment Request Received",
@@ -383,17 +386,43 @@
     ]
   },
   "ctaBanner": {
-    "heading": "Ready to transform your estate?",
+    "heading": "Ready to sort out your finca?",
     "subheading": "Free assessment. No obligation. Response within 24 hours.",
     "cta": "Start Your Assessment"
   },
   "footer": {
-    "tagline": "Premium Smart Estate Engineering — Based in Almansa.",
+    "tagline": "Smart Finca Solutions — Based in Almansa.",
     "regions": "Based in Almansa · Serving the Costa Blanca & Southeast Spain",
     "navLabel": "Navigation",
     "contactLabel": "Contact",
     "legal": "© 2025 NextGen Finca. All rights reserved.",
     "privacy": "Privacy Policy",
     "whatsapp": "WhatsApp"
+  },
+  "about": {
+    "badge": "Our Story",
+    "heading": "A Family Team with a Dutch Work Ethic and a Spanish Base",
+    "intro": "We're NextGen Finca — a small, family-run business that takes the technical side of things seriously and takes shortcuts in nothing.",
+    "sections": [
+      {
+        "heading": "Where We Come From",
+        "body": "Between us, we have over eleven years of hands-on professional experience — roughly half in construction and project management, half in IT infrastructure and smart home systems. In the Netherlands, we spent years building and configuring exactly the kind of setups we now install at fincas in Spain: reliable networks, proper security systems, home automation, and solar energy monitoring. Not as a hobby — as a profession, for real clients who expected real results."
+      },
+      {
+        "heading": "Why Spain",
+        "body": "The move to Spain was partly personal, partly professional. We settled in southeast Spain — drawn in by the climate, the landscape, and the way of life. But when we started looking around at the properties here, we noticed something: a lot of stunning fincas with frustrating technology problems. No reliable internet. Gates that have to be opened by hand. Solar systems that haven't been looked at in years. Cameras that barely work. We knew exactly how to fix those things."
+      },
+      {
+        "heading": "What We're Building Here",
+        "body": "NextGen Finca is what happened when we stopped talking about it and started doing it. We're not a large company with a call centre and off-the-shelf solutions — we're a small team that shows up, looks at your specific property, and works out the best approach for your situation. We're building our reputation in Spain carefully and deliberately, which means every job has to be done properly. There's no hiding behind a big company name on a small team."
+      },
+      {
+        "heading": "Honest About Where We Are",
+        "body": "We've been doing this kind of work for years — but NextGen Finca as a company in Spain is new, and we think that's worth saying. What it means in practice: you deal directly with the people who do the work, we're genuinely invested in getting it right, and we're not too big to care about one client's finca. Our work in the Netherlands speaks for itself. We're simply bringing that same standard somewhere new."
+      }
+    ],
+    "closingHeading": "We'd love to hear about your finca.",
+    "closingBody": "Whether you have a specific problem or you're not quite sure where to start — a conversation costs nothing. We'll give you an honest picture of what we'd do and what it would realistically cost.",
+    "ctaLabel": "Get in Touch"
   }
 }

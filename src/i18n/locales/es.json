@@ -1,39 +1,42 @@
 {
   "meta": {
     "siteName": "NextGen Finca",
-    "homeTitle": "Ingeniería Inteligente de Fincas en España | NextGen Finca",
-    "homeDesc": "Integración premium de internet por satélite, redes empresariales, vigilancia IP, automatización inteligente y almacenamiento de energía para propiedades rurales en el sureste de España — de Valencia y Alicante a Murcia y la Costa Blanca.",
-    "servicesTitle": "Servicios de Finca Inteligente | NextGen Finca",
-    "servicesDesc": "Cuatro pilares de ingeniería: conectividad, seguridad, automatización y energía inteligente para fincas premium en España.",
-    "connectivityTitle": "Conectividad Total — Starlink & Ubiquiti | NextGen Finca",
-    "connectivityDesc": "Instalación estructural de Starlink, redundancia multi-WAN 4G/5G y red Ubiquiti en toda la propiedad para fincas rurales.",
-    "securityTitle": "Seguridad Autónoma — Vigilancia IP Inteligente | NextGen Finca",
-    "securityDesc": "Redes de cámaras IP, NVR local, detección IA de vehículos y acceso remoto cifrado para su finca en España.",
-    "automationTitle": "Automatización Inteligente de Finca — Home Assistant | NextGen Finca",
-    "automationDesc": "Configuraciones Home Assistant para portones automáticos, estaciones meteorológicas y toldos reactivos al viento en Almansa, Yecla y Villena.",
-    "energyTitle": "Energía Inteligente — Solar & Victron | NextGen Finca",
-    "energyDesc": "Optimización solar, actualizaciones Litio/Victron, monitorización remota y válvulas de corte de agua con sensores de humedad.",
-    "fincaCareTitle": "Suscripciones Finca Care — Protección de Tres Niveles | NextGen Finca",
-    "fincaCareDesc": "Digital Core €49/mes, Finca Essential €129/mes o Absolute Elite €249/mes. Protección continua para fincas en el sureste de España — con sede en Almansa.",
-    "contactTitle": "Solicitar Evaluación Gratuita de la Finca | NextGen Finca",
-    "contactDesc": "Evaluación técnica gratuita para su finca. Cubrimos el sureste de España incluyendo Valencia, Alicante, Murcia, la Costa Blanca y las provincias interiores. Respuesta en 24 horas."
+    "homeTitle": "Soluciones Inteligentes para su Finca en España | NextGen Finca",
+    "homeDesc": "Internet fiable, cámaras de seguridad inteligentes, domótica y energía solar para fincas en el sureste de España. Empresa familiar en Almansa — resultados profesionales.",
+    "servicesTitle": "Nuestros Servicios | NextGen Finca",
+    "servicesDesc": "Internet fiable, cámaras inteligentes, domótica y energía solar para fincas españolas. Nos encargamos de la parte técnica para que usted pueda disfrutar de su propiedad.",
+    "connectivityTitle": "Internet Fiable para su Finca | NextGen Finca",
+    "connectivityDesc": "Instalamos Starlink, añadimos una línea de respaldo móvil y llevamos wifi potente a cada rincón de su propiedad, incluida la puerta, la piscina y la casa de invitados.",
+    "securityTitle": "Cámaras de Seguridad Inteligentes para su Finca | NextGen Finca",
+    "securityDesc": "Cámaras que le avisan cuando llega alguien, grabaciones guardadas en su propiedad y accesibles desde cualquier parte del mundo. Diseñamos e instalamos todo el sistema.",
+    "automationTitle": "Domótica Inteligente para su Finca | NextGen Finca",
+    "automationDesc": "Puertas automáticas, toldos que responden al clima e iluminación inteligente — su finca se gestiona sola. Nos encargamos de la instalación y lo hacemos fácil de usar.",
+    "energyTitle": "Energía Solar y Servicios Inteligentes para su Finca | NextGen Finca",
+    "energyDesc": "Optimización solar, modernización de baterías y corte automático del agua. Mantenemos su sistema energético en funcionamiento y le avisamos cuando algo necesita atención.",
+    "fincaCareTitle": "Suscripciones Finca Care — Protección Continua | NextGen Finca",
+    "fincaCareDesc": "Digital Core €49/mes, Finca Essential €129/mes o Absolute Elite €249/mes. Supervisión y mantenimiento continuo para fincas en el sureste de España.",
+    "contactTitle": "Solicitar Evaluación Gratuita | NextGen Finca",
+    "contactDesc": "Visita gratuita para su finca. Trabajamos en el sureste de España, Valencia, Alicante, Murcia y la Costa Blanca. Respuesta en 24 horas.",
+    "aboutTitle": "Quiénes Somos — La Historia de NextGen Finca | NextGen Finca",
+    "aboutDesc": "Un equipo familiar con 11 años de experiencia combinada en construcción e informática, trayendo soluciones inteligentes para propiedades al sureste de España."
   },
   "nav": {
     "home": "Inicio",
     "services": "Servicios",
     "fincaCare": "Finca Care",
-    "contact": "Solicitar Presupuesto"
+    "about": "Quiénes Somos",
+    "contact": "Pedir Presupuesto"
   },
   "hero": {
-    "badge": "Ingeniería Inteligente de Fincas",
-    "headline": "Su Propiedad Rural. Totalmente Conectada. Totalmente Protegida.",
-    "subheadline": "Integración elite de internet por satélite, redes mesh empresariales, vigilancia IP inteligente, automatización del hogar y sistemas de energía renovable — para fincas premium en el sureste de España, de Valencia y Alicante a Murcia y la Costa Blanca.",
+    "badge": "Soluciones Inteligentes para Propietarios de Fincas",
+    "headline": "Su Finca — Conectada, Segura y Autogestionada.",
+    "subheadline": "Internet fiable, cámaras que realmente funcionan, domótica inteligente y energía solar bien instalada. Nos encargamos de la parte técnica para que usted pueda simplemente disfrutar de su propiedad — esté donde esté en el mundo.",
     "ctaPrimary": "Solicitar Evaluación Gratuita",
-    "ctaSecondary": "Ver Servicios",
-    "trustLine": "Con sede en Almansa — expertos locales al servicio de propietarios en el sureste de España"
+    "ctaSecondary": "Ver Nuestros Servicios",
+    "trustLine": "Con base en Almansa — equipo local al servicio de propietarios del sureste de España"
   },
   "trustBadges": {
-    "heading": "Tecnologías con las que solemos trabajar",
+    "heading": "Marcas con las que Trabajamos",
     "items": [
       "Ubiquiti UniFi",
       "Victron Energy",
@@ -41,174 +44,174 @@
       "Home Assistant",
       "Reolink"
     ],
-    "note": "La selección de equipos se define durante la evaluación de su propiedad — elegimos la mejor solución para cada proyecto y ubicación específicos."
+    "note": "Elegimos el equipo adecuado para cada propiedad y lo explicamos todo durante la evaluación gratuita — sin tecnicismos, sin presiones."
   },
   "servicesSection": {
-    "badge": "Cuatro Pilares de Ingeniería",
-    "heading": "Inteligencia Total de la Finca",
-    "subheading": "Cada sistema diseñado para fiabilidad remota, condiciones rurales y rendimiento sin compromisos."
+    "badge": "Lo Que Ofrecemos",
+    "heading": "Todo lo que Necesita su Finca",
+    "subheading": "Internet fiable, seguridad de verdad, automatización inteligente y energía que funciona — nos encargamos de todo y lo hacemos sencillo."
   },
   "services": {
     "connectivity": {
-      "title": "Conectividad Total",
-      "shortDesc": "Instalación estructural de Starlink, redundancia multi-WAN 4G/5G y red Ubiquiti en toda la propiedad — incluidos puentes P2P a portones remotos y casas de invitados.",
+      "title": "Internet Fiable",
+      "shortDesc": "Internet siempre disponible en su finca — instalamos Starlink, añadimos una línea de respaldo móvil y llevamos wifi potente a cada rincón de su propiedad, incluida la piscina, la puerta y la casa de invitados.",
       "cta": "Saber Más",
-      "hero": "Su finca merece conectividad de nivel empresarial, sin compromisos.",
+      "hero": "Tener buena conexión en una finca rural no debería ser un lujo — nosotros lo hacemos posible.",
       "sections": {
         "starlink": {
-          "title": "Instalación Estructural de Starlink",
-          "body": "Diseñamos soportes robustos, anclados al suelo o al tejado para antenas Starlink — optimizados para cargas de viento españolas, el ángulo de elevación correcto para latitudes meridionales y cableado ordenado."
+          "title": "Instalación de Starlink",
+          "body": "Starlink es la mejor manera de tener internet rápido y fiable en una finca rural — y nosotros lo instalamos correctamente. Eso significa una estructura sólida y permanente que aguanta el viento de levante sin necesitar ajustes, la orientación correcta para la mejor señal posible y un tendido de cables ordenado por toda la propiedad."
         },
         "wan": {
-          "title": "Redundancia Multi-WAN 4G/5G",
-          "body": "Configuramos routers dual-WAN con conmutación automática: Starlink como primario, 4G/5G LTE como respaldo sin interrupciones. Si un enlace cae, sus cámaras, automatización y acceso remoto siguen activos."
+          "title": "Internet de Respaldo — Por si Acaso",
+          "body": "Combinamos su conexión principal con una línea de respaldo 4G/5G. Si su internet principal cae por cualquier motivo, el respaldo se activa automáticamente en segundos — sus cámaras, alarmas y acceso remoto siguen funcionando sin que tenga que hacer nada."
         },
         "ubiquiti": {
-          "title": "Red Ubiquiti UniFi en la Finca",
-          "body": "Implementaciones completas de UniFi Dream Machine o Cloud Gateway. Colocamos puntos de acceso para cobertura exterior de piscinas, garajes y terrazas. Puentes inalámbricos punto a punto conectan portones remotos, casas de invitados o cobertizos — hasta 500m sin canalización de cable."
+          "title": "Wifi Potente en Toda la Propiedad",
+          "body": "Diseñamos una red wifi que realmente cubre toda su propiedad — no solo el salón. Zona de piscina, terraza, garajes, la puerta al final del camino de entrada, una casa de invitados al otro lado del jardín. Todo conectado, todo rápido."
         }
       },
       "faq": {
-        "heading": "Preguntas frecuentes sobre conectividad",
+        "heading": "Preguntas Frecuentes sobre Conectividad",
         "items": [
           {
-            "q": "¿Pueden trabajar con mi router o equipo de red existente?",
-            "a": "Sí. Evaluamos su instalación actual durante la visita a la propiedad e integramos con ella o recomendamos una sustitución si el rendimiento no alcanza los requisitos de la propiedad."
+            "q": "¿Pueden trabajar con mi router o configuración de internet actual?",
+            "a": "Sí. Vemos lo que tiene durante la visita y trabajamos con ello o recomendamos algo mejor si no funciona bien — y le explicamos el porqué."
           },
           {
-            "q": "¿Cuánto tiempo dura una instalación completa?",
-            "a": "La mayoría de instalaciones se completan en 1–2 días, según el tamaño de la propiedad y el número de puntos de acceso o puentes inalámbricos necesarios."
+            "q": "¿Cuánto tiempo lleva una instalación típica?",
+            "a": "La mayoría de las instalaciones se completan en 1–2 días según el tamaño de la propiedad y cuántas zonas necesitan cobertura."
           },
           {
-            "q": "¿Funcionará el internet por satélite en mi finca?",
-            "a": "Evaluamos su ubicación para verificar visión despejada hacia el sur. Las fincas rurales son candidatas ideales — confirmamos la viabilidad antes de cualquier compromiso."
+            "q": "¿Funcionará Starlink en mi finca?",
+            "a": "Normalmente sí — las fincas rurales son ideales para Starlink. Comprobamos su ubicación antes de cualquier compromiso para que no haya sorpresas."
           },
           {
-            "q": "¿Qué ocurre si la conexión principal falla?",
-            "a": "La conmutación automática activa el enlace de datos móvil de respaldo en segundos. Sin intervención manual — sus cámaras, acceso remoto y automatizaciones siguen activos."
+            "q": "¿Qué pasa si mi internet cae mientras estoy fuera?",
+            "a": "Si tiene una conexión de respaldo configurada, cambia automáticamente en segundos. Sus cámaras, acceso remoto y automatizaciones siguen funcionando — sin intervención manual."
           }
         ]
       }
     },
     "security": {
-      "title": "Seguridad Autónoma",
-      "shortDesc": "Redes de vigilancia IP inteligente, implementación NVR local, detección de objetos y vehículos por IA en el borde y acceso remoto cifrado.",
+      "title": "Seguridad Inteligente",
+      "shortDesc": "Cámaras que le mandan una notificación cuando llega un coche — no cada vez que pasa un pájaro. Las grabaciones se guardan en su propiedad, no en la nube de otro, y puede verlas desde cualquier lugar.",
       "cta": "Saber Más",
-      "hero": "Sepa exactamente qué hay en su propiedad — desde cualquier lugar del mundo.",
+      "hero": "Saber qué pasa en su propiedad — aunque esté a miles de kilómetros.",
       "sections": {
         "cameras": {
-          "title": "Red de Vigilancia IP Inteligente",
-          "body": "Diseñamos e instalamos redes de cámaras IP Reolink que cubren todos los puntos de acceso, perímetros y ángulos muertos. Alimentadas por PoE desde su switch UniFi — instalaciones limpias y resistentes a la intemperie sin cableado visible."
+          "title": "Cámaras en Cada Punto Importante",
+          "body": "Diseñamos e instalamos sistemas de cámaras que cubren cada entrada, el perímetro y los puntos ciegos específicos de su propiedad. Resistentes a la intemperie, instaladas con orden y alimentadas directamente por el cable de red — sin cambiar pilas, sin cables a la vista."
         },
         "nvr": {
-          "title": "Implementación NVR Local",
-          "body": "Todas las grabaciones almacenadas localmente en un appliance NVR reforzado — sin suscripción cloud obligatoria, sin datos que salgan de su propiedad sin su consentimiento. Configurado en RAID para redundancia."
+          "title": "Sus Grabaciones, Guardadas en su Propiedad",
+          "body": "Todo se graba en un dispositivo en su finca — no se sube a la nube de nadie. Sus imágenes son suyas, privadas y en local. Dimensionamos el almacenamiento según el número de cámaras y las semanas de grabaciones que quiera conservar."
         },
         "detection": {
-          "title": "Detección IA de Objetos y Vehículos",
-          "body": "Calibramos zonas de detección inteligentes por cámara: clasificación de personas, vehículos y animales. Se eliminan las falsas alarmas por movimiento de árboles o insectos. Notificación push en su teléfono cuando un vehículo entra en la entrada."
+          "title": "Alertas Inteligentes — No Alertas Constantes",
+          "body": "Configuramos cada cámara para que entienda realmente lo que está viendo. Recibirá un mensaje cuando un coche suba por el camino. No cuando pase un gato. No cuando se mueva una rama con el viento. Solo las cosas que realmente importan."
         }
       },
       "faq": {
-        "heading": "Preguntas frecuentes sobre seguridad",
+        "heading": "Preguntas Frecuentes sobre Seguridad",
         "items": [
           {
-            "q": "¿Necesita internet mi sistema de cámaras para funcionar?",
-            "a": "No. Todas las grabaciones se almacenan localmente en un grabador dedicado en la propiedad. El acceso remoto por internet es opcional y siempre utiliza conexiones cifradas."
+            "q": "¿Necesita mi sistema de cámaras conexión a internet?",
+            "a": "No — todo se graba localmente en la propiedad de todas formas. Ver las imágenes en remoto es opcional y usa siempre una conexión segura y cifrada."
           },
           {
             "q": "¿Cuántas cámaras necesito?",
-            "a": "Lo determinamos durante la visita gratuita a la propiedad, basándonos en los puntos de acceso, el perímetro y los ángulos muertos específicos que desea cubrir."
+            "a": "Lo decidimos durante la visita gratuita según el diseño de su propiedad, las entradas y los puntos específicos que quiera cubrir."
           },
           {
-            "q": "¿Puedo acceder a las imágenes en directo desde el extranjero?",
-            "a": "Sí — de forma segura, mediante un túnel cifrado. Sus grabaciones nunca pasan por servidores de terceros sin su consentimiento explícito."
+            "q": "¿Puedo ver imágenes en directo desde el extranjero?",
+            "a": "Sí — de forma segura. Sus imágenes nunca pasan por servidores de terceros sin su permiso expreso."
           },
           {
-            "q": "¿Funcionan las cámaras durante un corte de luz?",
-            "a": "Podemos integrar batería de respaldo (SAI) para que las cámaras críticas y el grabador permanezcan activos durante cortes breves. Los sistemas acoplados a solar pueden extender esto considerablemente."
+            "q": "¿Qué pasa con las cámaras si hay un corte de luz?",
+            "a": "Podemos instalar una batería de respaldo para que las cámaras más importantes y el grabador sigan funcionando en cortes breves. Combinado con energía solar esto puede extenderse considerablemente."
           }
         ]
       }
     },
     "automation": {
-      "title": "Automatización Inteligente de Finca",
-      "shortDesc": "Configuraciones centralizadas de Home Assistant para portones automáticos, estaciones meteorológicas locales y toldos o pérgolas bioclimáticas reactivos al viento y la lluvia.",
+      "title": "Automatización Inteligente",
+      "shortDesc": "Su puerta se abre desde el móvil. Su pérgola se cierra cuando llueve. Las luces se encienden al atardecer. Lo conectamos todo y lo hacemos genuinamente fácil de usar — sin necesitar conocimientos técnicos.",
       "cta": "Saber Más",
-      "hero": "Su finca responde inteligentemente a las condiciones — con o sin su presencia.",
+      "hero": "Su finca puede gestionarse sola — y lo haremos lo suficientemente sencillo para que realmente lo use.",
       "sections": {
         "gates": {
-          "title": "Control de Portón Automático",
-          "body": "Integramos motores de portón existentes o nuevos en Home Assistant vía MQTT o API local. Abra su portón desde cualquier lugar con su teléfono, configure horarios o active por detección de vehículos."
+          "title": "Control de la Puerta desde el Móvil",
+          "body": "Conectamos el motor de su puerta actual — o instalamos uno nuevo — para que pueda abrirla y cerrarla desde el móvil, desde cualquier lugar. Programe un horario, que se abra automáticamente cuando llega, o actívela con una notificación de cámara. Cada apertura y cierre queda registrado."
         },
         "weather": {
-          "title": "Integración de Estación Meteorológica Local",
-          "body": "Instalamos estaciones meteorológicas locales profesionales y alimentamos velocidad del viento en tiempo real, acumulación de lluvia, índice UV y temperatura en los dashboards de Home Assistant."
+          "title": "Una Estación Meteorológica para su Propiedad",
+          "body": "Instalamos una estación meteorológica profesional que mide las condiciones reales en su finca — velocidad del viento, lluvia, temperatura, niveles de UV. Sus sistemas automatizados responden a lo que realmente pasa en su terreno, no a lo que dice la previsión del tiempo del pueblo de al lado."
         },
         "shades": {
-          "title": "Toldos Reactivos al Viento y la Lluvia",
-          "body": "Las lamas de pérgolas bioclimáticas, persianas exteriores y toldos se conectan a Home Assistant. Se retraen automáticamente cuando el viento supera umbrales seguros o comienza a llover — protegiendo su inversión."
+          "title": "Toldos y Pérgolas que se Cuidan Solos",
+          "body": "Las lamas de su pérgola, persianas o toldos retráctiles pueden cerrarse automáticamente cuando arrecia el viento o empieza a llover — protegiendo su inversión sin que tenga que hacer nada, ni siquiera estar presente."
         }
       },
       "faq": {
-        "heading": "Preguntas frecuentes sobre automatización",
+        "heading": "Preguntas Frecuentes sobre Automatización",
         "items": [
           {
-            "q": "¿Necesito conocimientos técnicos para usar el sistema?",
-            "a": "No. Creamos paneles de control e interfaces sencillas e intuitivas adaptadas a su forma de vivir. Verá exactamente lo que importa — nada más."
+            "q": "¿Necesito tener conocimientos técnicos para usar el sistema?",
+            "a": "Para nada. Creamos interfaces sencillas adaptadas a cómo vive usted. Si sabe usar un móvil, sabe usar el sistema — y se lo explicamos antes de irnos."
           },
           {
-            "q": "¿Pueden automatizar mi portón existente?",
-            "a": "En la mayoría de los casos sí. Evaluamos el motor de su portón durante la visita y lo integramos. Si el motor es demasiado antiguo o incompatible, buscamos un reemplazo adecuado."
+            "q": "¿Pueden automatizar mi puerta actual?",
+            "a": "En la mayoría de los casos sí. Evaluamos el motor de su puerta durante la visita y lo conectamos si es posible. Si es demasiado antiguo o incompatible, se lo decimos y recomendamos un sustituto adecuado."
           },
           {
             "q": "¿Funcionan las automatizaciones sin internet?",
-            "a": "Sí. El hub de automatización funciona completamente de forma local en su propiedad. Portones, toldos, iluminación y todas las rutinas programadas continúan sin conexión a internet."
+            "a": "Sí. El sistema de automatización funciona completamente en su propiedad. Su puerta, toldos, iluminación y rutinas programadas siguen funcionando sin conexión a internet."
           },
           {
-            "q": "¿Qué dispositivos domésticos inteligentes pueden integrar?",
-            "a": "La plataforma con la que solemos trabajar soporta miles de integraciones para la mayoría de las grandes marcas. Evaluamos la compatibilidad con sus dispositivos existentes durante la visita a la propiedad."
+            "q": "¿Pueden integrar mis dispositivos domóticos actuales?",
+            "a": "Muy probablemente sí. La plataforma con la que trabajamos es compatible con una gran cantidad de marcas. Comprobamos la compatibilidad durante la visita — traiga una lista y le decimos qué es posible."
           }
         ]
       }
     },
     "energy": {
-      "title": "Energía Inteligente y Servicios",
-      "shortDesc": "Optimización estructural solar, actualizaciones Litio/Victron, monitorización energética remota, iluminación inteligente y corte automático de agua con sensores de humedad.",
+      "title": "Solar y Energía",
+      "shortDesc": "Sacamos el máximo partido a su instalación solar, modernizamos baterías antiguas, monitorizamos todo en remoto y cortamos el agua automáticamente si se detecta una fuga mientras está fuera.",
       "cta": "Saber Más",
-      "hero": "Independencia energética — diseñada, monitorizadada y preparada para el futuro.",
+      "hero": "Su instalación solar debería trabajar duro para usted — nos aseguramos de que así sea, y le avisamos cuando no es el caso.",
       "sections": {
         "solar": {
-          "title": "Optimización Estructural Solar",
-          "body": "Inspeccionamos sus instalaciones de paneles y estructuras de montaje para analizar ángulo, pérdidas por sombra e integridad estructural. Rediseñamos y remontamos para maximizar la producción en el calendario solar español."
+          "title": "Sacar Más de sus Paneles Solares",
+          "body": "Muchas fincas tienen paneles solares instalados hace años que no se han revisado desde entonces. Comprobamos cómo están montados, si el ángulo es el correcto, si hay algo que cause pérdidas por sombra y si el cableado sigue en buen estado. A menudo hay mejoras fáciles de conseguir — y le decimos con honestidad si no las hay."
         },
         "victron": {
-          "title": "Actualizaciones Litio y Victron",
-          "body": "Actualizamos bancos de baterías de plomo-ácido envejecidos a configuraciones modernas de LiFePO4 con inversores-cargadores Victron MultiPlus o Quattro. La monitorización remota vía VRM Portal le ofrece estado de carga en tiempo real y alertas de degradación."
+          "title": "Mejores Baterías que También Puede Monitorizar",
+          "body": "Si su finca funciona con un banco de baterías antiguo, una modernización a litio supone una diferencia notable — más capacidad útil, mayor duración y mucho mejor rendimiento con el calor español. Instalamos sistemas Victron, con los que puede consultar el nivel de batería, la producción y el estado del sistema en cualquier momento desde el móvil."
         },
         "utilities": {
           "title": "Iluminación Inteligente y Corte de Agua",
-          "body": "Iluminación de jardín y arquitectónica en horarios inteligentes o activadores de presencia. Sensores inalámbricos de humedad en puntos de suministro clave integrados con válvulas de corte motorizadas — aislamiento automático de agua al detectar fugas."
+          "body": "Iluminación exterior y de jardín que se enciende automáticamente al anochecer o con movimiento. Y para mayor tranquilidad cuando está fuera: pequeños sensores en los puntos de suministro de agua que cortan el paso automáticamente si se detecta una fuga — para que una pequeña gotera no se convierta en una inundación."
         }
       },
       "faq": {
-        "heading": "Preguntas frecuentes sobre energía",
+        "heading": "Preguntas Frecuentes sobre Energía",
         "items": [
           {
-            "q": "¿Pueden ampliar mi sistema solar existente?",
-            "a": "Sí. Evaluamos la capacidad estructural y la compatibilidad eléctrica, luego coordinamos cualquier ampliación con nuestros socios electricistas certificados a precios transparentes."
+            "q": "¿Pueden ampliar mi instalación solar actual?",
+            "a": "Sí. Primero revisamos su instalación actual — paneles, baterías, cableado — y le decimos con honestidad qué es posible y qué costaría. Los trabajos eléctricos en la red los realizamos a través de nuestros instaladores electricistas certificados."
           },
           {
-            "q": "¿Cuál es el período de retorno típico de una actualización de baterías?",
-            "a": "Muy variable, pero muchos clientes recuperan la inversión en 4–6 años gracias a la reducción de dependencia de la red y a evitar costosas sustituciones de baterías en el futuro."
+            "q": "¿En cuánto tiempo se amortiza una mejora de baterías?",
+            "a": "Varía, pero muchos clientes ven la amortización en 4–6 años gracias a facturas de electricidad más bajas y evitando costosas sustituciones de baterías en el futuro."
           },
           {
-            "q": "¿Pueden monitorizar mi sistema energético de forma remota?",
-            "a": "Sí. Configuramos portales de monitorización remota que le ofrecen a usted — y a nosotros — visibilidad 24/7 de la producción, estado de carga y cualquier alerta de su sistema."
+            "q": "¿Pueden vigilar mi sistema energético en remoto?",
+            "a": "Sí. Configuramos una monitorización para que tanto usted como nosotros podamos ver la producción, el nivel de batería y las alertas de su sistema en cualquier momento y desde cualquier lugar."
           },
           {
-            "q": "¿Se necesita permiso de obras para placas solares en España?",
-            "a": "Para instalaciones residenciales de autoconsumo por debajo de 10kWp se aplica una notificación simplificada en lugar de un permiso completo. Le guiamos a través de los requisitos locales de su municipio específico."
+            "q": "¿Necesito licencia para paneles solares en España?",
+            "a": "Para la mayoría de instalaciones domésticas de hasta 10kWp solo hace falta una comunicación simplificada, no una licencia completa. Le explicamos qué aplica a su situación concreta."
           }
         ]
       }
@@ -217,24 +220,24 @@
   "fincaCare": {
     "badge": "Planes de Mantenimiento Recurrente",
     "heading": "Suscripciones Finca Care",
-    "subheading": "Tres niveles de protección continua para su finca. Desde la gestión del núcleo digital hasta la cobertura de lujo totalmente delegada — su propiedad, permanentemente atendida.",
+    "subheading": "Tres niveles de protección permanente. Desde la gestión digital básica hasta la cobertura de lujo total — su propiedad, siempre en buenas manos.",
     "plans": {
       "digital": {
         "name": "Digital Core",
         "price": "€49",
         "period": "/ mes",
         "badge": "",
-        "tagline": "Su núcleo digital, gestionado de forma permanente.",
+        "tagline": "Su base digital, gestionada de forma permanente.",
         "features": [
-          "Copias de seguridad automáticas semanales — red, scripts inteligentes y NVR",
-          "Actualizaciones de firmware y parches de seguridad remotos, programados de noche",
-          "Alertas en tiempo real — uptime de internet, salud del servidor, degradación de batería y sensores de fuga",
-          "Informe mensual de salud digital en su bandeja de entrada"
+          "Copias de seguridad automatizadas semanales — configuración de red, scripts y NVR",
+          "Actualizaciones de firmware y parches de seguridad en remoto, programados de noche",
+          "Alertas en tiempo real — estado de internet, salud del servidor, degradación de baterías y sensores de fuga",
+          "Informe de salud digital mensual en su bandeja de entrada"
         ],
-        "cta": "Iniciar Digital Core",
+        "cta": "Empezar Digital Core",
         "pricePromo": "€39",
         "priceAnnual": "€35",
-        "priceAnnualBilled": "€420 al año"
+        "priceAnnualBilled": "€420 facturado anualmente"
       },
       "essential": {
         "name": "Finca Essential",
@@ -243,35 +246,35 @@
         "badge": "Más Popular",
         "tagline": "Tranquilidad para propiedades que permanecen vacías.",
         "features": [
-          "Todo lo del Digital Core",
-          "Auditoría trimestral presencial — 4 inspecciones completas al año",
-          "Mantenimiento básico de hardware: limpieza de objetivos, inspección de sensores y rack",
+          "Todo lo incluido en Digital Core",
+          "Visita trimestral — 4 revisiones completas de la propiedad al año",
+          "Mantenimiento básico de hardware: limpieza de lentes de cámara, inspección de sensores y rack",
           "Despacho de emergencia prioritario en 48 horas",
-          "Soporte WhatsApp en horario comercial"
+          "Soporte por WhatsApp en horario laboral"
         ],
-        "cta": "Iniciar Finca Essential",
+        "cta": "Empezar Finca Essential",
         "pricePromo": "€99",
         "priceAnnual": "€89",
-        "priceAnnualBilled": "€1.068 al año"
+        "priceAnnualBilled": "€1.068 facturado anualmente"
       },
       "elite": {
         "name": "Absolute Elite",
         "price": "€249",
         "period": "/ mes",
         "badge": "",
-        "tagline": "Cobertura tecnológica de lujo totalmente delegada.",
+        "tagline": "Cobertura tecnológica de lujo sin intervención del propietario.",
         "features": [
-          "Todo lo del Digital Core y Finca Essential",
-          "Auditoría presencial mensual — 12 visitas completas al año",
-          "Mantenimiento profundo: limpieza de servidores, paneles solares de calima, diagnóstico de baterías",
+          "Todo lo incluido en Digital Core y Finca Essential",
+          "Visita mensual — 12 revisiones completas al año",
+          "Revisión profunda de hardware: limpieza del servidor, limpieza de calima en paneles solares, diagnóstico de baterías",
           "Despacho de emergencia garantizado al día siguiente para fallos críticos",
-          "Canal de soporte de emergencia 24/7 prioritario",
-          "Informe digital premium con fotos enviado tras cada auditoría mensual"
+          "Canal de soporte de emergencia prioritario 24/7",
+          "Informe digital premium con fotos tras cada visita mensual"
         ],
-        "cta": "Iniciar Absolute Elite",
+        "cta": "Empezar Absolute Elite",
         "pricePromo": "€199",
         "priceAnnual": "€179",
-        "priceAnnualBilled": "€2.148 al año"
+        "priceAnnualBilled": "€2.148 facturado anualmente"
       }
     },
     "faq": {
@@ -279,98 +282,98 @@
       "items": [
         {
           "q": "¿Puedo cancelar en cualquier momento?",
-          "a": "Sí. Los tres planes son suscripciones mensuales renovables sin permanencia mínima. Cancelación con 30 días de preaviso."
+          "a": "Sí. Los tres planes son suscripciones mensuales renovables sin permanencia mínima. Cancele con 30 días de antelación."
         },
         {
           "q": "¿Qué zona cubren para las visitas presenciales?",
-          "a": "Estamos ubicados en Almansa y cubrimos el sureste de España — Valencia, Alicante, Murcia, la Costa Blanca y todo lo que está a aproximadamente una hora en coche."
+          "a": "Tenemos base en Almansa y damos servicio al sureste de España — Valencia, Alicante, Murcia, la Costa Blanca y todo lo que quede a aproximadamente una hora en coche."
         },
         {
           "q": "¿Está incluido el trabajo eléctrico?",
-          "a": "Nosotros ingeniamos, instalamos y configuramos toda la infraestructura técnica. Las conexiones a red de alta tensión certificadas se coordinan a través de nuestra red de electricistas locales autorizados."
+          "a": "Diseñamos, montamos y configuramos toda la infraestructura técnica. Las conexiones a la red de alta tensión se coordinan con nuestros electricistas locales certificados a precios transparentes."
         },
         {
-          "q": "¿Debo estar presente durante las visitas?",
-          "a": "No. Con acceso por caja de llaves o código de portón completamos todas las auditorías sin que usted viaje a la propiedad."
+          "q": "¿Necesito estar presente durante las visitas?",
+          "a": "No. Con acceso mediante caja de llaves o código de puerta completamos todas las revisiones sin que tenga que desplazarse a la propiedad."
         },
         {
-          "q": "¿Qué ocurre si algo falla entre visitas programadas?",
-          "a": "Los clientes de Digital Core pueden solicitar una visita reactiva a tarifa diaria estándar. Los clientes de Finca Essential reciben despacho de emergencia prioritario en 48 horas. Los clientes de Absolute Elite tienen incluido el despacho garantizado al día siguiente — sin coste extra para fallos críticos."
+          "q": "¿Qué pasa si algo se estropea entre visitas programadas?",
+          "a": "Los clientes de Digital Core pueden solicitar una visita reactiva a tarifa estándar por jornada. Los clientes de Finca Essential tienen despacho de emergencia prioritario en 48 horas. Los clientes de Absolute Elite tienen garantizado el despacho al día siguiente sin coste adicional por fallos críticos."
         },
         {
-          "q": "¿Puedo pausar el plan cuando estoy en la finca?",
-          "a": "Sí. Solicite una pausa con 30 días de preaviso y su suscripción se reanuda a la misma tarifa cuando vuelva a necesitar cobertura."
+          "q": "¿Puedo pausar el plan cuando estoy en la propiedad?",
+          "a": "Sí. Solicite una pausa con 30 días de antelación y su suscripción se reanuda a la misma tarifa cuando necesite cobertura de nuevo."
         },
         {
-          "q": "¿Envían un informe tras cada visita presencial?",
-          "a": "Los clientes de Finca Essential reciben un informe digital tras cada auditoría trimestral. Los clientes de Absolute Elite reciben un informe premium con fotografías entregado tras cada visita mensual."
+          "q": "¿Envían un informe después de cada visita?",
+          "a": "Los clientes de Finca Essential reciben un informe digital tras cada revisión trimestral. Los clientes de Absolute Elite reciben un informe premium con fotografías tras cada visita mensual."
         },
         {
-          "q": "¿Qué incluye el informe mensual de salud?",
-          "a": "Porcentaje de uptime de conectividad, puntuaciones de salud por dispositivo, tendencias del estado de carga de la batería, versiones actuales de firmware y un resumen de las alertas generadas durante el mes."
+          "q": "¿Qué incluye el informe de salud mensual?",
+          "a": "Disponibilidad de la conexión, puntuaciones de salud de los dispositivos, tendencias del nivel de carga de las baterías, versiones de firmware actuales y un resumen de las alertas generadas durante el mes."
         },
         {
           "q": "¿Hay una tarifa de configuración inicial?",
-          "a": "Una evaluación de incorporación única cubre la auditoría inicial de la propiedad, la documentación del sistema y la configuración del plan. La tarifa se cotiza de forma transparente en su primera consulta."
+          "a": "Una evaluación inicial de incorporación cubre la primera auditoría de la ubicación, la documentación del sistema y la configuración del plan. La tarifa se presupuesta de forma transparente en su primera consulta."
         }
       ]
     },
     "promotion": {
-      "badge": "Tarifa Founder de Lanzamiento",
+      "badge": "Tarifa Fundador de Lanzamiento",
       "headline": "20% de descuento en todos los planes — hasta el 30 de noviembre de 2026",
-      "body": "Para conmemorar nuestro lanzamiento público en el sureste de España, todos los planes Finca Care se ofrecen con un 20% de descuento sobre la tarifa estándar. Los clientes que se unan antes del 1 de diciembre de 2026 mantienen esta tarifa durante toda la vigencia de su suscripción.",
+      "body": "Para celebrar nuestro lanzamiento en el sureste de España, todos los planes Finca Care se lanzan con un 20% de descuento sobre la tarifa estándar. Los clientes que se unan antes del 1 de diciembre de 2026 mantendrán esta tarifa reducida de por vida.",
       "expiry": "Oferta válida hasta el 30 de noviembre de 2026"
     },
     "billing": {
       "monthly": "Mensual",
       "annual": "Anual",
       "annualBadge": "Ahorra 10%",
-      "annualNote": "Facturado como un único pago anual · Compromiso mínimo de 12 meses",
+      "annualNote": "Facturado como pago único anual · Compromiso mínimo de 12 meses",
       "billedAnnually": "facturado anualmente",
-      "promoTag": "Tarifa Founder",
+      "promoTag": "Tarifa Fundador",
       "standardRate": "Tarifa estándar"
     }
   },
   "compliance": {
-    "notice": "NextGen Finca ingenia, instala y configura toda la infraestructura técnica. Las conexiones a red de alta tensión certificadas se coordinan a través de nuestra red de electricistas locales autorizados."
+    "notice": "NextGen Finca diseña, monta y configura toda la infraestructura técnica. Las conexiones a la red de alta tensión se coordinan con nuestra red de electricistas locales certificados."
   },
   "contact": {
-    "heading": "Solicite su Evaluación Gratuita de la Finca",
+    "heading": "Solicite su Evaluación Gratuita",
     "subheading": "Cuéntenos sobre su propiedad. Respondemos en 24 horas.",
-    "responsePromise": "Tiempo de respuesta típico: menos de 4 horas",
-    "whatsappLabel": "Contáctenos por WhatsApp",
-    "regionsLabel": "Zona de cobertura",
+    "responsePromise": "Tiempo de respuesta habitual: menos de 4 horas",
+    "whatsappLabel": "Escríbanos por WhatsApp",
+    "regionsLabel": "Zona de servicio",
     "fields": {
-      "name": "Nombre Completo",
-      "email": "Correo Electrónico",
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
       "phone": "Teléfono (opcional)",
-      "location": "Ubicación de la Propiedad",
-      "locationPlaceholder": "ej. Almansa, cerca de Villena...",
-      "service": "Servicio de Interés",
+      "location": "Ubicación de la propiedad",
+      "locationPlaceholder": "p. ej. Almansa, cerca de Villena...",
+      "service": "Interés principal",
       "message": "Cuéntenos sobre su finca",
       "messagePlaceholder": "Tamaño de la propiedad, instalación actual, principales necesidades...",
-      "submit": "Enviar Solicitud de Evaluación"
+      "submit": "Enviar Solicitud"
     },
     "serviceOptions": {
       "": "Seleccione un servicio...",
-      "connectivity": "Conectividad Total",
-      "security": "Seguridad Autónoma",
+      "connectivity": "Internet Fiable",
+      "security": "Seguridad Inteligente",
       "automation": "Automatización Inteligente",
-      "energy": "Energía Inteligente",
+      "energy": "Solar y Energía",
       "fincaCare": "Suscripción Finca Care",
-      "all": "Auditoría Completa de la Finca"
+      "all": "Evaluación Completa de la Propiedad"
     },
     "success": {
-      "heading": "Solicitud de Evaluación Recibida",
+      "heading": "Solicitud Recibida",
       "body": "Gracias. Revisaremos los detalles de su propiedad y responderemos en 24 horas.",
       "cta": "Volver al Inicio"
     },
-    "basedInLabel": "Con sede en Almansa, España",
-    "basedInBody": "Operamos desde Almansa en Castilla-La Mancha — idealmente situados para atender propiedades en la Costa Blanca y las provincias de Valencia, Alicante, Murcia y Albacete en aproximadamente una hora."
+    "basedInLabel": "Con base en Almansa, España",
+    "basedInBody": "Operamos desde Almansa en Castilla-La Mancha — perfectamente situados para llegar a propiedades en la Costa Blanca y las provincias de Valencia, Alicante, Murcia y Albacete en aproximadamente una hora."
   },
   "regions": {
-    "heading": "Con sede en Almansa. Cubriendo el Sureste de España.",
-    "subheading": "Estamos ubicados en Almansa y cubrimos todo lo que está a aproximadamente una hora en coche — la Costa Blanca, Valencia, Alicante, Murcia, Albacete y el interior rural entre medias.",
+    "heading": "Con Base en Almansa. Cubriendo el Sureste de España.",
+    "subheading": "Estamos en Almansa y cubrimos prácticamente todo lo que queda a una hora en coche — la Costa Blanca, Valencia, Alicante, Murcia, Albacete y el interior entre ellas.",
     "items": [
       "Valencia",
       "Alicante",
@@ -383,17 +386,43 @@
     ]
   },
   "ctaBanner": {
-    "heading": "¿Listo para transformar su finca?",
+    "heading": "¿Listo para poner su finca en orden?",
     "subheading": "Evaluación gratuita. Sin compromiso. Respuesta en 24 horas.",
-    "cta": "Iniciar su Evaluación"
+    "cta": "Solicitar Evaluación"
   },
   "footer": {
-    "tagline": "Ingeniería Premium de Fincas Inteligentes — Con sede en Almansa.",
-    "regions": "Con sede en Almansa · Costa Blanca y Sureste de España",
+    "tagline": "Soluciones Inteligentes para Fincas — Con base en Almansa.",
+    "regions": "Con base en Almansa · Costa Blanca y Sureste de España",
     "navLabel": "Navegación",
     "contactLabel": "Contacto",
     "legal": "© 2025 NextGen Finca. Todos los derechos reservados.",
     "privacy": "Política de Privacidad",
     "whatsapp": "WhatsApp"
+  },
+  "about": {
+    "badge": "Nuestra Historia",
+    "heading": "Un Equipo Familiar con Ética Holandesa y Base Española",
+    "intro": "Somos NextGen Finca — una pequeña empresa familiar que se toma en serio la parte técnica y no toma atajos.",
+    "sections": [
+      {
+        "heading": "De Dónde Venimos",
+        "body": "Entre los dos acumulamos más de once años de experiencia profesional práctica — aproximadamente la mitad en construcción y gestión de proyectos, la otra mitad en infraestructura informática y sistemas domóticos. En los Países Bajos llevamos años montando y configurando exactamente el tipo de instalaciones que ahora hacemos en fincas en España: redes fiables, sistemas de seguridad de verdad, domótica y monitorización energética. No como afición — como profesión, para clientes reales que esperaban resultados reales."
+      },
+      {
+        "heading": "Por Qué España",
+        "body": "El traslado a España fue en parte personal, en parte profesional. Nos instalamos en el sureste español — el clima, el paisaje y el estilo de vida nos atrajeron. Pero al mirar alrededor nos dimos cuenta de algo: fincas preciosas con problemas tecnológicos frustrantes. Sin internet fiable. Puertas que hay que abrir a mano. Instalaciones solares que llevan años sin revisarse. Cámaras que apenas funcionan. Nosotros sabíamos exactamente cómo solucionar esas cosas."
+      },
+      {
+        "heading": "Lo que Estamos Construyendo Aquí",
+        "body": "NextGen Finca nació cuando dejamos de hablar y empezamos a hacer. No somos una empresa grande con un call center y soluciones estándar — somos un equipo pequeño que se acerca, mira su propiedad concreta y busca el mejor enfoque para su situación. Estamos construyendo nuestra reputación en España con cuidado, lo que significa que cada trabajo tiene que hacerse bien. Con un equipo pequeño no hay dónde esconderse."
+      },
+      {
+        "heading": "Honestos sobre Dónde Estamos",
+        "body": "Llevamos años haciendo este tipo de trabajo — pero NextGen Finca como empresa en España es nueva, y creemos que vale la pena decirlo. Lo que significa en la práctica: usted trata directamente con las personas que hacen el trabajo, nos importa genuinamente hacerlo bien, y no somos demasiado grandes para preocuparnos por una sola finca. Nuestro trabajo en los Países Bajos habla por sí solo. Simplemente traemos el mismo nivel de exigencia a un nuevo país."
+      }
+    ],
+    "closingHeading": "Nos encantaría conocer su finca.",
+    "closingBody": "Tenga un problema concreto o no sepa muy bien por dónde empezar — una conversación no cuesta nada. Le daremos una imagen honesta de lo que haríamos y lo que costaría de forma realista.",
+    "ctaLabel": "Contactar"
   }
 }

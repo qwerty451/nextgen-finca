@@ -1,39 +1,42 @@
 {
   "meta": {
     "siteName": "NextGen Finca",
-    "homeTitle": "Slimme Estate Engineering voor Spaanse Finca's | NextGen Finca",
-    "homeDesc": "Premium satellietinternet, enterprise netwerken, IP bewaking, domotica en energieopslag voor afgelegen eigendommen in zuidoost Spanje — van Valencia en Alicante tot Murcia en de Costa Blanca.",
-    "servicesTitle": "Slimme Estate Diensten | NextGen Finca",
-    "servicesDesc": "Vier engineeringpijlers: connectiviteit, beveiliging, automatisering en slimme energie voor premium Spaanse finca's.",
-    "connectivityTitle": "Perfecte Connectiviteit — Starlink & Ubiquiti | NextGen Finca",
-    "connectivityDesc": "Starlink montage, 4G/5G multi-WAN redundantie en Ubiquiti mesh netwerk voor afgelegen finca's in Spanje.",
-    "securityTitle": "Autonome Beveiliging — Slimme IP Bewaking | NextGen Finca",
-    "securityDesc": "Slimme IP bewakingssystemen, lokale NVR, edge-AI voertuigdetectie en versleutelde externe toegang voor uw Spaans landgoed.",
-    "automationTitle": "Slimme Finca Automatisering — Home Assistant | NextGen Finca",
-    "automationDesc": "Home Assistant configuraties voor automatische poorten, weerstations en windgevoelige zonwering in Almansa, Yecla en Villena.",
-    "energyTitle": "Slimme Energie & Utilities — Victron Solar | NextGen Finca",
-    "energyDesc": "Zonnepaneel optimalisatie, Lithium/Victron upgrades, energiemonitoring en vochtdetectie waterafsluiting voor Spaanse finca's.",
-    "fincaCareTitle": "Finca Care Abonnementen — Drieledige Estate Bescherming | NextGen Finca",
-    "fincaCareDesc": "Digital Core €49/mnd, Finca Essential €129/mnd of Absolute Elite €249/mnd. Altijd-actieve slimme estate bescherming voor finca's in zuidoost Spanje.",
-    "contactTitle": "Vraag een Gratis Estate Beoordeling aan | NextGen Finca",
-    "contactDesc": "Gratis technische beoordeling voor uw finca. Wij bedienen zuidoost Spanje inclusief Valencia, Alicante, Murcia, de Costa Blanca en binnenlandse provincies. Reactie binnen 24 uur."
+    "homeTitle": "Slimme Oplossingen voor Uw Spaanse Finca | NextGen Finca",
+    "homeDesc": "Betrouwbaar internet, slimme beveiligingscamera's, domotica en zonne-energie voor finca's in zuidoost Spanje. Familiebedrijf gevestigd in Almansa — professionele resultaten.",
+    "servicesTitle": "Onze Diensten | NextGen Finca",
+    "servicesDesc": "Betrouwbaar internet, slimme camera's, domotica en zonne-energie voor Spaanse finca's. Wij regelen de techniek zodat u kunt genieten van uw eigendom.",
+    "connectivityTitle": "Betrouwbaar Internet voor Uw Finca | NextGen Finca",
+    "connectivityDesc": "Wij installeren Starlink, voegen mobiele back-up toe en zorgen voor sterk wifi in elke hoek van uw eigendom — inclusief de poort, het zwembad en het gastenverblijf.",
+    "securityTitle": "Slimme Beveiligingscamera's voor Uw Finca | NextGen Finca",
+    "securityDesc": "Camera's die u een melding sturen als er iemand aankomt, opnames bewaard op uw eigendom en overal ter wereld te bekijken. Wij ontwerpen en installeren het hele systeem.",
+    "automationTitle": "Slimme Domotica voor Uw Finca | NextGen Finca",
+    "automationDesc": "Automatische poorten, weerreactieve zonwering en slimme verlichting — uw finca beheert zichzelf. Wij regelen alles en maken het eenvoudig in gebruik.",
+    "energyTitle": "Zonne-energie & Slimme Utilities voor Uw Finca | NextGen Finca",
+    "energyDesc": "Zonnepaneel optimalisatie, moderne accu-upgrades en slimme waterafsluiting. Wij houden uw energiesysteem op orde en waarschuwen u wanneer er iets aandacht nodig heeft.",
+    "fincaCareTitle": "Finca Care Abonnementen — Doorlopende Bescherming | NextGen Finca",
+    "fincaCareDesc": "Digital Core €49/mnd, Finca Essential €129/mnd of Absolute Elite €249/mnd. Doorlopende monitoring en onderhoud voor finca's in zuidoost Spanje.",
+    "contactTitle": "Gratis Assessment Aanvragen | NextGen Finca",
+    "contactDesc": "Gratis locatiebezoek voor uw finca. Wij bedienen zuidoost Spanje, inclusief Valencia, Alicante, Murcia en de Costa Blanca. Reactie binnen 24 uur.",
+    "aboutTitle": "Over Ons — Het Verhaal achter NextGen Finca | NextGen Finca",
+    "aboutDesc": "Een familieteam met 11 jaar gecombineerde ervaring in bouw en IT, dat slimme oplossingen brengt naar zuidoost Spanje."
   },
   "nav": {
     "home": "Home",
     "services": "Diensten",
     "fincaCare": "Finca Care",
+    "about": "Over Ons",
     "contact": "Offerte Aanvragen"
   },
   "hero": {
-    "badge": "Slimme Estate Engineering",
-    "headline": "Uw Afgelegen Eigendom. Volledig Verbonden. Volledig Beveiligd.",
-    "subheadline": "Elite integratie van satellietinternet, enterprise mesh netwerken, slimme IP bewaking, domotica en duurzame energiesystemen — voor premium finca's in zuidoost Spanje, van Valencia en Alicante tot Murcia en de Costa Blanca.",
-    "ctaPrimary": "Gratis Beoordeling Aanvragen",
-    "ctaSecondary": "Diensten Bekijken",
-    "trustLine": "Gevestigd in Almansa — lokale experts voor eigenaren in zuidoost Spanje"
+    "badge": "Slimme Oplossingen voor Finca-eigenaren",
+    "headline": "Uw Finca — Verbonden, Beveiligd en Zelfvoorzienend.",
+    "subheadline": "Betrouwbaar internet, camera's die écht werken, slimme domotica en goed ingestelde zonne-energie. Wij regelen de technische kant zodat u gewoon kunt genieten van uw eigendom — of u nu ter plaatse bent of aan de andere kant van de wereld.",
+    "ctaPrimary": "Gratis Assessment Aanvragen",
+    "ctaSecondary": "Bekijk Onze Diensten",
+    "trustLine": "Gevestigd in Almansa — lokaal team voor eigenaren in zuidoost Spanje"
   },
   "trustBadges": {
-    "heading": "Technologieën waarmee wij doorgaans werken",
+    "heading": "Merken Waarmee Wij Werken",
     "items": [
       "Ubiquiti UniFi",
       "Victron Energy",
@@ -41,174 +44,174 @@
       "Home Assistant",
       "Reolink"
     ],
-    "note": "Apparatuurselectie wordt bepaald tijdens uw locatieassessment — wij kiezen de beste oplossing voor elk specifiek project en locatie."
+    "note": "Wij kiezen de juiste apparatuur voor elk eigendom en leggen alles uit tijdens uw gratis assessment — zonder vakjargon, zonder druk."
   },
   "servicesSection": {
-    "badge": "Vier Engineeringpijlers",
-    "heading": "Volledige Estate Intelligentie",
-    "subheading": "Elk systeem ontworpen voor betrouwbaarheid op afstand, landelijke omstandigheden en compromisloze prestaties."
+    "badge": "Wat Wij Bieden",
+    "heading": "Alles Wat Uw Finca Nodig Heeft",
+    "subheading": "Betrouwbaar internet, goede beveiliging, slimme automatisering en energie die werkt — wij regelen het allemaal en maken het eenvoudig."
   },
   "services": {
     "connectivity": {
-      "title": "Perfecte Connectiviteit",
-      "shortDesc": "Starlink installatie, 4G/5G multi-WAN redundantie en Ubiquiti mesh netwerk over het hele terrein — inclusief P2P bruggen naar afgelegen poorten en gastenverblijven.",
+      "title": "Betrouwbaar Internet",
+      "shortDesc": "Altijd internet op uw finca — wij installeren Starlink, voegen een mobiele back-up toe voor gemoedsrust en brengen sterk wifi naar elke hoek van uw eigendom, inclusief het zwembad, de poort en het gastenverblijf.",
       "cta": "Meer Informatie",
-      "hero": "Uw finca verdient enterprise-kwaliteit connectiviteit, geen compromissen.",
+      "hero": "Goed internet op een landelijke finca hoeft geen luxe te zijn — wij maken het vanzelfsprekend.",
       "sections": {
         "starlink": {
-          "title": "Starlink Structurele Montage",
-          "body": "Wij ontwerpen robuuste, grondverankerde of dakgemonteerde steunen voor Starlink schotels — geoptimaliseerd voor Spaanse windbelasting, de correcte elevatiehoek voor zuidelijke breedtegraden en nette kabelgeleiding."
+          "title": "Starlink Installatie",
+          "body": "Starlink is de beste manier om snel en betrouwbaar internet te krijgen op een landelijke finca — en wij installeren het goed. Dat betekent een stevige, permanente beugel die Spaanse wind doorstaat zonder ooit bijgesteld te hoeven worden, de juiste positie voor het beste signaal en nette kabelgeleiding door het hele eigendom."
         },
         "wan": {
-          "title": "4G/5G Multi-WAN Redundantie",
-          "body": "Wij configureren dual-WAN routers met automatische failover: Starlink als primaire verbinding, 4G/5G LTE als naadloze backup. Als één verbinding uitvalt, blijven uw camera's, automatisering en externe toegang actief."
+          "title": "Back-up Internet — Voor de Zekerheid",
+          "body": "Wij koppelen uw hoofdverbinding aan een 4G/5G mobiele back-up. Als uw primaire internet uitvalt, schakelt de back-up binnen enkele seconden automatisch over — uw camera's, alarmen en externe toegang blijven online zonder dat u iets hoeft te doen."
         },
         "ubiquiti": {
-          "title": "Ubiquiti UniFi Estate Netwerk",
-          "body": "Volledige UniFi Dream Machine of Cloud Gateway implementaties. Wij plaatsen access points voor buitendekking van zwembaden, garages en terrassen. Point-to-point draadloze bruggen verbinden afgelegen poorten, gastenverblijven of werkschuren — tot 500m zonder kabelgrepel."
+          "title": "Sterk Wifi Overal op Uw Eigendom",
+          "body": "Wij ontwerpen een wifi-netwerk dat uw hele eigendom dekt — niet alleen de woonkamer. Zwembadgebied, terras, garages, de poort aan het einde van de oprit, een gastenverblijf aan de andere kant van de tuin. Alles verbonden, alles snel."
         }
       },
       "faq": {
-        "heading": "Veelgestelde vragen over connectiviteit",
+        "heading": "Veelgestelde Vragen over Connectiviteit",
         "items": [
           {
-            "q": "Kunnen jullie werken met mijn bestaande router of netwerkapparatuur?",
-            "a": "Ja. Wij beoordelen uw bestaande installatie tijdens de locatiesurvey en integreren daarmee of adviseren vervanging als de prestaties onvoldoende zijn."
+            "q": "Kunnen jullie werken met mijn bestaande router of internetverbinding?",
+            "a": "Ja. Wij bekijken wat u al heeft tijdens het locatiebezoek en werken daarmee of raden iets beters aan als het onvoldoende presteert — met uitleg waarom."
           },
           {
-            "q": "Hoe lang duurt een volledige installatie?",
-            "a": "De meeste installaties zijn klaar binnen 1–2 dagen, afhankelijk van de omvang van het terrein en het aantal vereiste access points of draadloze bruggen."
+            "q": "Hoe lang duurt een typische installatie?",
+            "a": "De meeste installaties zijn klaar binnen 1–2 dagen, afhankelijk van de grootte van het eigendom en hoeveel gebieden dekking nodig hebben."
           },
           {
-            "q": "Werkt satellietinternet op de locatie van mijn finca?",
-            "a": "Wij beoordelen uw locatie op vrij zicht naar de zuidelijke hemel. Afgelegen finca's zijn doorgaans uitstekende kandidaten — wij bevestigen de haalbaarheid voor enige verplichting."
+            "q": "Werkt Starlink op mijn finca?",
+            "a": "Meestal wel — landelijke finca's zijn eigenlijk ideaal voor Starlink. Wij controleren uw locatie op vrij zicht naar de hemel voor enige verplichting, zodat er geen verrassingen zijn."
           },
           {
-            "q": "Wat gebeurt er als de primaire verbinding uitvalt?",
-            "a": "Automatische failover activeert de mobiele databack-up binnen enkele seconden. Geen handmatige actie nodig — uw camera's, externe toegang en automatisering blijven actief."
+            "q": "Wat gebeurt er als mijn internet uitvalt terwijl ik weg ben?",
+            "a": "Als u een back-upverbinding heeft, schakelt deze binnen enkele seconden automatisch over. Uw camera's, externe toegang en automatiseringen blijven werken — geen handmatige actie nodig."
           }
         ]
       }
     },
     "security": {
-      "title": "Autonome Beveiliging",
-      "shortDesc": "Slimme IP bewakingsnetwerken, lokale NVR implementatie, edge-AI object- en voertuigdetectie en versleutelde remote cloud streaming toegang.",
+      "title": "Slimme Beveiliging",
+      "shortDesc": "Camera's die u een melding sturen als er een auto aankomt — niet elke keer als er een vogel voorbij vliegt. Opnames worden bewaard op uw eigendom, niet in iemands cloud, en u kunt ze overal bekijken.",
       "cta": "Meer Informatie",
-      "hero": "Weet precies wat er op uw eigendom is — vanuit elke plek ter wereld.",
+      "hero": "Weet wat er op uw eigendom gebeurt — ook als u duizenden kilometers weg bent.",
       "sections": {
         "cameras": {
-          "title": "Slim IP Bewakingsnetwerk",
-          "body": "Wij ontwerpen en monteren Reolink IP camera netwerken die alle toegangspunten, perimeters en blinde hoeken dekken. PoE-gevoed vanuit uw UniFi switch — nette, weerbestendige installaties zonder zichtbare bedrading."
+          "title": "Camera's op Elke Belangrijke Plek",
+          "body": "Wij ontwerpen en installeren camerasystemen die elke ingang, de omtrek en alle blinde hoeken van uw eigendom dekken. Weerbestendig, netjes geïnstalleerd en gevoed via de netwerkkabel — geen batterijen vervangen, geen rommelige bedrading."
         },
         "nvr": {
-          "title": "Lokale NVR Implementatie",
-          "body": "Alle beelden worden lokaal opgeslagen op een geharde NVR appliance — geen verplicht cloud abonnement, geen data die uw eigendom verlaat zonder uw toestemming. RAID geconfigureerd voor redundantie."
+          "title": "Uw Opnames, Bewaard op Uw Eigendom",
+          "body": "Alles wordt opgenomen op een apparaat bij uw finca — niet geüpload naar iemands cloud. Uw beelden blijven van u, privé en ter plaatse. Wij dimensioneren de opslag op basis van het aantal camera's en hoeveel weken opnames u wilt bewaren."
         },
         "detection": {
-          "title": "Edge-AI Object & Voertuigdetectie",
-          "body": "Wij kalibreren slimme detectiezones per camera: classificatie van personen, voertuigen en dieren. Foutmeldingen door boombeweging of insecten worden geëlimineerd. Pushmelding op uw telefoon wanneer een voertuig de oprit oprijdt."
+          "title": "Slimme Meldingen — Niet Constante Meldingen",
+          "body": "Wij stellen elke camera in zodat hij echt begrijpt wat hij ziet. U krijgt een bericht als er een auto de oprit oprijdt. Niet als een kat voorbijloopt. Niet als een tak beweegt in de wind. Alleen de dingen die er echt toe doen."
         }
       },
       "faq": {
-        "heading": "Veelgestelde vragen over beveiliging",
+        "heading": "Veelgestelde Vragen over Beveiliging",
         "items": [
           {
-            "q": "Heeft mijn camerasysteem een internetverbinding nodig?",
-            "a": "Nee. Alle beelden worden lokaal opgeslagen op een recorder op het terrein. Externe toegang via internet is optioneel en altijd versleuteld."
+            "q": "Heeft mijn camerasysteem internet nodig?",
+            "a": "Nee — alles wordt altijd lokaal opgenomen op het eigendom. Bekijken op afstand via internet is optioneel en altijd via een beveiligde verbinding."
           },
           {
             "q": "Hoeveel camera's heb ik nodig?",
-            "a": "Wij bepalen dit tijdens de gratis locatiesurvey, op basis van de toegangspunten, omtrek en blinde hoeken van uw eigendom."
+            "a": "Dat werken wij uit tijdens het gratis locatiebezoek op basis van de indeling, ingangen en specifieke plekken van uw eigendom. Geen giswerk van tevoren."
           },
           {
             "q": "Kan ik livebeelden bekijken vanuit het buitenland?",
-            "a": "Ja — veilig, via een versleutelde tunnel. Uw beelden passeren nooit servers van derden zonder uw uitdrukkelijke toestemming."
+            "a": "Ja — veilig. Uw beelden gaan nooit via servers van derden zonder uw uitdrukkelijke toestemming."
           },
           {
-            "q": "Werken camera's bij stroomuitval?",
-            "a": "Wij kunnen accuback-up (UPS) integreren zodat kritieke camera's en de recorder actief blijven bij kortdurende storingen. Zonnekoppelingen kunnen dit aanzienlijk verlengen."
+            "q": "Wat gebeurt er met mijn camera's bij stroomuitval?",
+            "a": "Wij kunnen een accu-back-up installeren zodat uw belangrijkste camera's en het opnameapparaat blijven werken bij korte uitval. Gecombineerd met zonne-energie kan dit aanzienlijk worden verlengd."
           }
         ]
       }
     },
     "automation": {
-      "title": "Slimme Finca Automatisering",
-      "shortDesc": "Gecentraliseerde Home Assistant configuraties voor automatische oprijpoorten, lokale weerstations en wind/regenreactieve zonwering of bioklimatische pergola's.",
+      "title": "Slimme Automatisering",
+      "shortDesc": "Uw poort opent via uw telefoon. Uw pergola sluit als het regent. Uw verlichting gaat aan bij zonsondergang. Wij verbinden alles en maken het écht eenvoudig te gebruiken — geen technische kennis nodig.",
       "cta": "Meer Informatie",
-      "hero": "Uw finca reageert intelligent op omstandigheden — met of zonder uw aanwezigheid.",
+      "hero": "Uw finca kan zichzelf beheren — en wij maken het eenvoudig genoeg dat u het ook echt gebruikt.",
       "sections": {
         "gates": {
-          "title": "Automatische Poortbesturing",
-          "body": "Wij integreren bestaande of nieuwe poortmotoren in Home Assistant via MQTT of lokale API. Open uw poort van overal via uw telefoon, stel schema's in of activeer op voertuigdetectie."
+          "title": "Poortbediening via Uw Telefoon",
+          "body": "Wij koppelen uw bestaande poortmotor — of plaatsen een nieuwe — zodat u hem overal ter wereld via uw telefoon kunt bedienen. Stel een schema in, laat de poort automatisch openen als u aankomt, of bedien hem via een camera-melding. Elke opening en sluiting wordt geregistreerd."
         },
         "weather": {
-          "title": "Lokale Weerstation Integratie",
-          "body": "Wij monteren professionele lokale weerstations en voeden live windsnelheid, regenval, UV-index en temperatuur in Home Assistant dashboards."
+          "title": "Een Weerstation voor Uw Eigendom",
+          "body": "Wij plaatsen een professioneel weerstation dat de werkelijke omstandigheden op uw finca meet — windsnelheid, regenval, temperatuur, UV-niveaus. Uw geautomatiseerde systemen reageren op wat er écht op uw land gebeurt, niet op wat een weersverwachting zegt voor de dichtstbijzijnde stad."
         },
         "shades": {
-          "title": "Wind & Regen Reactieve Zonwering",
-          "body": "Bioklimatische pergola lamellen, buitenrolluiken en zonneluifels worden gekoppeld aan Home Assistant. Ze trekken automatisch terug wanneer de wind veilige drempelwaarden overschrijdt of regen begint."
+          "title": "Zonwering die voor Zichzelf Zorgt",
+          "body": "Uw pergola lamellen, rolluiken of oprolbare luifels kunnen automatisch sluiten als de wind aantrekt of het begint te regenen — uw investering beschermd zonder dat u iets hoeft te doen, of zelfs aanwezig hoeft te zijn."
         }
       },
       "faq": {
-        "heading": "Veelgestelde vragen over automatisering",
+        "heading": "Veelgestelde Vragen over Automatisering",
         "items": [
           {
             "q": "Moet ik technisch onderlegd zijn om het systeem te gebruiken?",
-            "a": "Nee. Wij bouwen eenvoudige, intuïtieve dashboards en apps op maat. U ziet precies wat relevant is — niet meer."
+            "a": "Helemaal niet. Wij bouwen eenvoudige interfaces rond hoe u werkelijk leeft. Als u een telefoon kunt gebruiken, kunt u het systeem gebruiken — en wij lopen het met u door voor we vertrekken."
           },
           {
             "q": "Kunnen jullie mijn bestaande poort automatiseren?",
-            "a": "In de meeste gevallen wel. Wij beoordelen uw poortmotor tijdens de locatiesurvey en integreren deze. Als de motor te oud of incompatibel is, zorgen wij voor een geschikte vervanging."
+            "a": "In de meeste gevallen wel. Wij beoordelen uw poortmotor tijdens het locatiebezoek en koppelen hem indien mogelijk. Als hij te oud of incompatibel is, laten wij dat weten en adviseren een geschikte vervanging."
           },
           {
             "q": "Werken automatiseringen zonder internet?",
-            "a": "Ja. De automatiseringshub draait volledig lokaal op uw eigendom. Poorten, zonwering, verlichting en alle geprogrammeerde routines werken zonder internetverbinding."
+            "a": "Ja. De automatiseringshub draait volledig op uw eigendom. Uw poort, zonwering, verlichting en geplande routines blijven werken zonder internetverbinding."
           },
           {
-            "q": "Welke slimme apparaten kunnen jullie integreren?",
-            "a": "Het platform waarmee wij doorgaans werken ondersteunt duizenden integraties voor de meeste grote merken. Wij beoordelen compatibiliteit tijdens de locatiesurvey."
+            "q": "Kunnen jullie mijn bestaande slimme apparaten integreren?",
+            "a": "Hoogstwaarschijnlijk wel. Het platform waarmee wij werken ondersteunt een enorm aantal merken. Wij controleren compatibiliteit tijdens het locatiebezoek — neem een lijst mee en wij vertellen u wat mogelijk is."
           }
         ]
       }
     },
     "energy": {
-      "title": "Slimme Energie & Utilities",
-      "shortDesc": "Zonnepaneel structurele optimalisatie, Lithium/Victron upgrades, remote energiemonitoring, slimme tuinverlichting en geautomatiseerde vochtdetectie waterafsluiting.",
+      "title": "Zonne-energie & Utilities",
+      "shortDesc": "Wij halen het maximale uit uw zonne-installatie, upgraden oude accu's, monitoren alles op afstand en sluiten automatisch het water af als er een lek wordt gedetecteerd terwijl u weg bent.",
       "cta": "Meer Informatie",
-      "hero": "Energie-onafhankelijkheid — ontworpen, gemonitord en toekomstbestendig.",
+      "hero": "Uw zonne-installatie zou hard voor u moeten werken — wij zorgen ervoor dat dat zo is, en we vertellen u wanneer dat niet het geval is.",
       "sections": {
         "solar": {
-          "title": "Zonnepaneel Structurele Optimalisatie",
-          "body": "Wij inspecteren uw bestaande paneelopstellingen en montageconstructies op hoek, schaduwverliezen en structurele integriteit. Wij herontwerpen en hermonteer voor maximale opbrengst."
+          "title": "Meer Halen uit Uw Zonnepanelen",
+          "body": "Veel finca's hebben zonnepanelen die jaren geleden zijn geïnstalleerd en sindsdien niet meer zijn bekeken. Wij controleren de montage, de hoek, of er beschaduwingsverlies is en of de bedrading nog in orde is. Er is vaak gemakkelijke winst te behalen — en wij vertellen u eerlijk als dat niet zo is."
         },
         "victron": {
-          "title": "Lithium & Victron Upgrades",
-          "body": "Wij upgraden verouderde loodzuuraccupakketten naar moderne LiFePO4 configuraties met Victron MultiPlus of Quattro omvormer-laders. Remote monitoring via VRM Portal geeft u live laadstatus en historische trends."
+          "title": "Betere Accu's die U Ook Kunt Monitoren",
+          "body": "Als uw finca draait op een oudere accubank, maakt een moderne lithium-upgrade een significant verschil — meer bruikbare capaciteit, langere levensduur en veel betere prestaties in de Spaanse hitte. Wij installeren Victron-systemen, waarmee u uw accuniveau, stroomopbrengst en systeemstatus altijd via uw telefoon kunt controleren."
         },
         "utilities": {
-          "title": "Slimme Verlichting & Waterafsluiting",
-          "body": "Tuin- en architectuurverlichting op slimme schema's of aanwezigheidsdetectie. Draadloze vochtdetectoren op hoofdaansluitpunten gekoppeld aan gemotoriseerde afsluiters — automatische waterafsluiting bij lekdetectie."
+          "title": "Slimme Verlichting en Waterafsluiting",
+          "body": "Buiten- en tuinverlichting die automatisch aangaat bij schemering of beweging. En voor gemoedsrust als u weg bent: kleine sensoren bij uw wateraansluitpunten die automatisch het water afsluiten als er een lek wordt gedetecteerd — zodat een kleine druppel geen overstroming wordt."
         }
       },
       "faq": {
-        "heading": "Veelgestelde vragen over energie",
+        "heading": "Veelgestelde Vragen over Energie",
         "items": [
           {
-            "q": "Kunnen jullie mijn bestaande zonnepanelen uitbreiden?",
-            "a": "Ja. Wij beoordelen de draagkracht en elektrische compatibiliteit en coördineren eventuele netuitbreiding met onze gecertificeerde elektriciteitspartners tegen transparante tarieven."
+            "q": "Kunnen jullie mijn bestaande zonne-installatie uitbreiden?",
+            "a": "Ja. Wij bekijken eerst uw huidige installatie — panelen, accu's, bedrading — en vertellen u eerlijk wat mogelijk is en wat het kost. Elektrisch werk aan het netwerk wordt gedaan via onze gecertificeerde lokale elektriciteitspartners."
           },
           {
-            "q": "Wat is de typische terugverdientijd van een accuupgrade?",
-            "a": "Zeer variabel, maar veel klanten zien terugverdientijden van 4–6 jaar dankzij minder netafhankelijkheid en vermeden toekomstige vervangingskosten."
+            "q": "Hoe snel verdient een accu-upgrade zichzelf terug?",
+            "a": "Het varieert, maar veel klanten zien terugverdientijden van 4–6 jaar door lagere stroomrekeningen en het vermijden van dure accuvervangingen verderop."
           },
           {
-            "q": "Kunnen jullie mijn energiesysteem op afstand monitoren?",
-            "a": "Ja. Wij configureren portalen voor externe monitoring die u — en ons — 24/7 inzicht geven in de opbrengst, laadstatus en eventuele meldingen van uw systeem."
+            "q": "Kunnen jullie mijn energiesysteem op afstand in de gaten houden?",
+            "a": "Ja. Wij zetten monitoring op zodat zowel u als wij de opbrengst, het accuniveau en eventuele meldingen van uw systeem altijd en overal kunnen zien."
           },
           {
-            "q": "Is vergunning nodig voor zonnepanelen in Spanje?",
-            "a": "Voor residentiële installaties voor eigen gebruik onder 10kWp geldt een vereenvoudigde meldingsplicht in plaats van een volledige vergunning. Wij begeleiden u door de lokale vereisten van uw gemeente."
+            "q": "Heb ik een vergunning nodig voor zonnepanelen in Spanje?",
+            "a": "Voor de meeste thuisinstallaties tot 10kWp is alleen een vereenvoudigde melding nodig in plaats van een volledige vergunning. Wij begeleiden u door wat van toepassing is op uw situatie."
           }
         ]
       }
@@ -295,7 +298,7 @@
         },
         {
           "q": "Wat gebeurt er als er iets kapot gaat tussen geplande bezoeken?",
-          "a": "Digital Core klanten kunnen een reactief bezoek aanvragen tegen standaard dagtarief. Finca Essential klanten ontvangen prioriteit nooduitruk binnen 48 uur. Absolute Elite klanten hebben een gegarandeerde nooduitruk de volgende dag in het plan inbegrepen — geen extra kosten bij kritieke storingen."
+          "a": "Digital Core klanten kunnen een reactief bezoek aanvragen tegen standaard dagtarief. Finca Essential klanten ontvangen prioriteit nooduitruk binnen 48 uur. Absolute Elite klanten hebben een gegarandeerde nooduitruk de volgende dag in het plan inbegrepen."
         },
         {
           "q": "Kan ik het plan pauzeren als ik op het eigendom verblijf?",
@@ -335,7 +338,7 @@
     "notice": "NextGen Finca ontwerpt, monteert en configureert alle technische infrastructuur. Hoogspanning gecertificeerde netaansluitingen worden gecoördineerd via ons netwerk van erkende lokale elektriciens."
   },
   "contact": {
-    "heading": "Vraag Uw Gratis Estate Beoordeling Aan",
+    "heading": "Vraag Uw Gratis Assessment Aan",
     "subheading": "Vertel ons over uw eigendom. Wij reageren binnen 24 uur.",
     "responsePromise": "Typische reactietijd: onder 4 uur",
     "whatsappLabel": "WhatsApp ons direct",
@@ -349,19 +352,19 @@
       "service": "Primaire Interesse",
       "message": "Vertel ons over uw finca",
       "messagePlaceholder": "Grootte van het eigendom, huidige installatie, grootste uitdagingen...",
-      "submit": "Beoordelingsaanvraag Verzenden"
+      "submit": "Assessmentaanvraag Verzenden"
     },
     "serviceOptions": {
       "": "Selecteer een dienst...",
-      "connectivity": "Perfecte Connectiviteit",
-      "security": "Autonome Beveiliging",
-      "automation": "Slimme Finca Automatisering",
-      "energy": "Slimme Energie & Utilities",
+      "connectivity": "Betrouwbaar Internet",
+      "security": "Slimme Beveiliging",
+      "automation": "Slimme Automatisering",
+      "energy": "Zonne-energie & Utilities",
       "fincaCare": "Finca Care Abonnement",
-      "all": "Volledig Estate Audit"
+      "all": "Volledig Eigendom Assessment"
     },
     "success": {
-      "heading": "Beoordelingsaanvraag Ontvangen",
+      "heading": "Assessmentaanvraag Ontvangen",
       "body": "Dank u. Wij beoordelen uw eigendomsdetails en reageren binnen 24 uur.",
       "cta": "Terug naar Home"
     },
@@ -383,17 +386,43 @@
     ]
   },
   "ctaBanner": {
-    "heading": "Klaar om uw landgoed te transformeren?",
-    "subheading": "Gratis beoordeling. Geen verplichtingen. Reactie binnen 24 uur.",
-    "cta": "Start Uw Beoordeling"
+    "heading": "Klaar om uw finca goed in te richten?",
+    "subheading": "Gratis assessment. Geen verplichtingen. Reactie binnen 24 uur.",
+    "cta": "Start Uw Assessment"
   },
   "footer": {
-    "tagline": "Premium Slimme Estate Engineering — Gevestigd in Almansa.",
+    "tagline": "Slimme Finca Oplossingen — Gevestigd in Almansa.",
     "regions": "Gevestigd in Almansa · Actief aan de Costa Blanca & Zuidoost Spanje",
     "navLabel": "Navigatie",
     "contactLabel": "Contact",
     "legal": "© 2025 NextGen Finca. Alle rechten voorbehouden.",
     "privacy": "Privacybeleid",
     "whatsapp": "WhatsApp"
+  },
+  "about": {
+    "badge": "Ons Verhaal",
+    "heading": "Een Familieteam met Nederlandse Werkmores en een Spaanse Basis",
+    "intro": "Wij zijn NextGen Finca — een klein familiebedrijf dat de technische kant serieus neemt en geen concessies doet aan kwaliteit.",
+    "sections": [
+      {
+        "heading": "Waar Wij Vandaan Komen",
+        "body": "Samen hebben wij ruim elf jaar praktijkervaring — ruwweg de helft in bouw en projectbeheer, de helft in IT-infrastructuur en slimme thuissystemen. In Nederland hebben wij jarenlang precies de soort installaties gebouwd en geconfigureerd die wij nu plaatsen bij finca's in Spanje: betrouwbare netwerken, goede beveiligingssystemen, domotica en energiemonitoring. Niet als hobby — als beroep, voor echte opdrachtgevers die echte resultaten verwachtten."
+      },
+      {
+        "heading": "Waarom Spanje",
+        "body": "De stap naar Spanje was deels persoonlijk, deels zakelijk. Wij vestigden ons in zuidoost Spanje — aangetrokken door het klimaat, het landschap en de manier van leven. Maar toen wij om ons heen keken, viel ons iets op: prachtige finca's met frustrerende technologieproblemen. Geen betrouwbaar internet. Poorten die met de hand geopend moeten worden. Zonne-installaties die al jaren niet meer zijn bekeken. Camera's die nauwelijks werken. Wij wisten precies hoe die problemen op te lossen."
+      },
+      {
+        "heading": "Wat Wij Hier Aan het Opbouwen Zijn",
+        "body": "NextGen Finca is wat er ontstond toen wij ophielden met praten en begonnen met doen. Wij zijn geen groot bedrijf met een callcenter en standaardoplossingen — wij zijn een klein team dat langskomt, naar uw specifieke eigendom kijkt en de beste aanpak voor uw situatie bepaalt. Wij bouwen onze reputatie in Spanje zorgvuldig op, wat betekent dat elk project goed uitgevoerd moet worden. Achter een grote bedrijfsnaam kun je je niet verschuilen als je met een klein team werkt."
+      },
+      {
+        "heading": "Eerlijk over Waar Wij Staan",
+        "body": "Wij doen dit soort werk al jaren — maar NextGen Finca als bedrijf in Spanje is nieuw, en dat vinden wij eerlijk om te zeggen. Wat dat in de praktijk betekent: u heeft direct contact met de mensen die het werk doen, wij zijn er oprecht op gebrand om het goed te doen, en wij zijn niet te groot om ons druk te maken om één finca van één klant. Ons werk in Nederland spreekt voor zichzelf. Wij brengen diezelfde standaard gewoon naar een nieuw land."
+      }
+    ],
+    "closingHeading": "Wij horen graag over uw finca.",
+    "closingBody": "Of u nu een specifiek probleem heeft of nog niet goed weet waar te beginnen — een gesprek kost niets. Wij geven u een eerlijk beeld van wat wij zouden doen en wat het realistisch zou kosten.",
+    "ctaLabel": "Neem Contact Op"
   }
 }

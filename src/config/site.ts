@@ -16,6 +16,7 @@ export const NAV_LINKS = (lang: Lang) => [
   { key: 'home', href: `/${lang}/` },
   { key: 'services', href: `/${lang}/services/` },
   { key: 'fincaCare', href: `/${lang}/finca-care/` },
+  { key: 'about', href: `/${lang}/about/` },
   { key: 'contact', href: `/${lang}/contact/` },
 ];
 

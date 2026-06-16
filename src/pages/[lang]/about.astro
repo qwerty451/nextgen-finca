@@ -1,0 +1,128 @@
+---
+import Page from '@/layouts/Page.astro';
+import { getDictionary, getLocalizedPath } from '@/i18n/index';
+import { SUPPORTED_LANGS } from '@/i18n/types';
+import type { Lang } from '@/i18n/types';
+
+export function getStaticPaths() {
+  return SUPPORTED_LANGS.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const t = await getDictionary(lang);
+const a = t.about;
+---
+
+<Page
+  lang={lang}
+  t={t}
+  title={t.meta.aboutTitle}
+  description={t.meta.aboutDesc}
+  canonicalPath="about"
+>
+  <!-- Hero -->
+  <section class="bg-slate-bg py-16 md:py-24 border-b border-slate-border">
+    <div class="container-xl max-w-3xl">
+      <span class="inline-block text-electric text-xs font-bold uppercase tracking-widest mb-3">
+        {a.badge}
+      </span>
+      <h1 class="text-4xl md:text-5xl font-bold text-navy mb-6">{a.heading}</h1>
+      <p class="text-slate-500 text-xl leading-relaxed">{a.intro}</p>
+    </div>
+  </section>
+
+  <!-- Story sections -->
+  <section class="py-16 md:py-24 bg-white">
+    <div class="container-xl">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-16">
+        <div class="lg:col-span-2 flex flex-col gap-14">
+          {a.sections.map((section, i) => (
+            <div class="flex flex-col gap-4">
+              <div class="flex items-center gap-3">
+                <span class="w-8 h-8 rounded-full bg-electric/10 text-electric text-sm font-bold flex items-center justify-center shrink-0">
+                  {i + 1}
+                </span>
+                <h2 class="text-2xl font-bold text-navy">{section.heading}</h2>
+              </div>
+              <p class="text-slate-600 leading-relaxed text-lg pl-11">{section.body}</p>
+            </div>
+          ))}
+
+          <!-- Closing -->
+          <div class="mt-4 bg-slate-bg rounded-2xl p-8 border border-slate-border">
+            <h3 class="text-xl font-bold text-navy mb-3">{a.closingHeading}</h3>
+            <p class="text-slate-600 leading-relaxed mb-6">{a.closingBody}</p>
+            <a
+              href={getLocalizedPath(lang, 'contact')}
+              class="inline-flex items-center gap-2 bg-electric text-white font-semibold px-6 py-3 rounded-xl hover:bg-blue-700 transition-colors"
+            >
+              {a.ctaLabel}
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="lg:col-span-1">
+          <div class="sticky top-24 flex flex-col gap-6">
+            <!-- Experience card -->
+            <div class="bg-navy rounded-2xl p-8 text-white">
+              <p class="text-slate-400 text-xs uppercase tracking-widest mb-4">Combined Experience</p>
+              <div class="flex flex-col gap-4">
+                <div class="flex items-start gap-3">
+                  <span class="text-electric text-2xl font-bold shrink-0">11+</span>
+                  <span class="text-slate-300 text-sm leading-snug">Years professional experience in construction & IT</span>
+                </div>
+                <div class="border-t border-slate-700 pt-4 flex items-start gap-3">
+                  <span class="text-electric text-2xl font-bold shrink-0">NL</span>
+                  <span class="text-slate-300 text-sm leading-snug">Based in the Netherlands — now operating from Almansa, Spain</span>
+                </div>
+                <div class="border-t border-slate-700 pt-4 flex items-start gap-3">
+                  <span class="text-electric text-2xl font-bold shrink-0">2</span>
+                  <span class="text-slate-300 text-sm leading-snug">Disciplines combined: construction know-how meets IT infrastructure</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Values card -->
+            <div class="bg-slate-bg rounded-2xl p-6 border border-slate-border">
+              <p class="text-navy text-xs font-bold uppercase tracking-widest mb-4">How We Work</p>
+              <ul class="flex flex-col gap-3">
+                {[
+                  'Free, no-obligation site assessment',
+                  'We explain everything — no jargon',
+                  'You deal directly with us, not a call centre',
+                  'Every job documented and signed off',
+                ].map((item) => (
+                  <li class="flex items-start gap-2 text-sm text-slate-600">
+                    <span class="w-1.5 h-1.5 rounded-full bg-electric mt-1.5 shrink-0" aria-hidden="true"></span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA banner -->
+  <section class="bg-navy py-16">
+    <div class="container-xl text-center">
+      <h2 class="text-3xl font-bold text-white mb-4">{t.ctaBanner.heading}</h2>
+      <p class="text-slate-300 mb-8 max-w-lg mx-auto">{t.ctaBanner.subheading}</p>
+      <a
+        href={getLocalizedPath(lang, 'contact')}
+        class="inline-flex items-center gap-2 bg-electric text-white font-semibold px-8 py-4 rounded-xl hover:bg-blue-400 transition-colors shadow-lg shadow-blue-900/40"
+      >
+        {t.ctaBanner.cta}
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+</Page>
