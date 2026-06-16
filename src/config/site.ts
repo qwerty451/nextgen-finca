@@ -11,3 +11,5 @@ export const NAV_LINKS = (lang: Lang) => [
   { key: 'fincaCare', href: `/${lang}/finca-care/` },
   { key: 'contact', href: `/${lang}/contact/` },
 ];
+
+export { SUPPORTED_LANGS, DEFAULT_LANG } from '@/i18n/types';

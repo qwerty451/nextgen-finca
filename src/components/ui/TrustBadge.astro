@@ -1,0 +1,52 @@
+---
+import type { TranslationKeys } from '@/i18n/types';
+
+interface Props {
+  t: TranslationKeys;
+}
+
+const { t } = Astro.props;
+
+const ecosystems = [
+  {
+    name: 'Ubiquiti UniFi',
+    icon: `<svg viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/><path d="M20 8v12l8 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="20" cy="20" r="3" fill="currentColor"/></svg>`,
+  },
+  {
+    name: 'Victron Energy',
+    icon: `<svg viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 20h6l4-10 4 20 4-10h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  },
+  {
+    name: 'Starlink',
+    icon: `<svg viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="10" r="4" stroke="currentColor" stroke-width="2"/><path d="M20 14v8M12 30l8-8 8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="20" cy="32" rx="10" ry="3" stroke="currentColor" stroke-width="2"/></svg>`,
+  },
+  {
+    name: 'Home Assistant',
+    icon: `<svg viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 20L20 8l14 12v14H26v-8h-12v8H6V20z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="20" cy="24" r="3" stroke="currentColor" stroke-width="2"/></svg>`,
+  },
+  {
+    name: 'Reolink',
+    icon: `<svg viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="20" r="8" stroke="currentColor" stroke-width="2"/><circle cx="18" cy="20" r="3" fill="currentColor"/><path d="M26 16l6-4v16l-6-4" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>`,
+  },
+];
+---
+
+<section class="bg-white border-y border-slate-border py-10" aria-label="Technology partners">
+  <div class="container-xl">
+    <p class="text-center text-slate-400 text-xs font-semibold uppercase tracking-widest mb-8">
+      {t.trustBadges.heading}
+    </p>
+    <div class="flex flex-wrap items-center justify-center gap-8 md:gap-16">
+      {ecosystems.map((eco) => (
+        <div class="flex flex-col items-center gap-2 group" aria-hidden="true">
+          <div class="text-slate-300 group-hover:text-navy transition-colors duration-200">
+            <Fragment set:html={eco.icon} />
+          </div>
+          <span class="text-slate-400 text-xs font-medium group-hover:text-navy transition-colors duration-200">
+            {eco.name}
+          </span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,85 @@
+---
+import Page from '@/layouts/Page.astro';
+import SubscriptionTable from '@/components/ui/SubscriptionTable.astro';
+import LocalBusinessSchema from '@/components/schema/LocalBusinessSchema.astro';
+import { getDictionary, getLocalizedPath } from '@/i18n/index';
+import { SUPPORTED_LANGS } from '@/i18n/types';
+import type { Lang } from '@/i18n/types';
+
+export function getStaticPaths() {
+  return SUPPORTED_LANGS.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const t = await getDictionary(lang);
+const fc = t.fincaCare;
+---
+
+<Page
+  lang={lang}
+  t={t}
+  title={t.meta.fincaCareTitle}
+  description={t.meta.fincaCareDesc}
+  canonicalPath="finca-care"
+>
+  <LocalBusinessSchema lang={lang} pageType="finca-care" pagePath="finca-care" slot="head" />
+
+  <!-- Hero -->
+  <section class="bg-slate-bg py-16 md:py-24 border-b border-slate-border">
+    <div class="container-xl text-center max-w-3xl mx-auto">
+      <span class="inline-block text-electric text-xs font-bold uppercase tracking-widest mb-3">
+        {fc.badge}
+      </span>
+      <h1 class="text-4xl md:text-5xl font-bold text-navy mb-6">{fc.heading}</h1>
+      <p class="text-slate-500 text-xl leading-relaxed">{fc.subheading}</p>
+    </div>
+  </section>
+
+  <!-- Subscription Plans -->
+  <section class="py-16 md:py-24 bg-white">
+    <div class="container-xl max-w-4xl mx-auto">
+      <SubscriptionTable t={t} lang={lang} />
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="py-16 md:py-20 bg-slate-bg border-t border-slate-border" aria-labelledby="faq-heading">
+    <div class="container-xl max-w-3xl mx-auto">
+      <h2 id="faq-heading" class="text-3xl font-bold text-navy mb-10 text-center">
+        {fc.faq.heading}
+      </h2>
+      <div class="flex flex-col gap-4">
+        {fc.faq.items.map((item) => (
+          <details class="group bg-white rounded-xl border border-slate-border overflow-hidden">
+            <summary class="flex items-center justify-between px-6 py-4 cursor-pointer list-none font-semibold text-navy hover:text-electric transition-colors">
+              {item.q}
+              <svg class="shrink-0 ml-4 w-5 h-5 text-slate-400 group-open:rotate-180 transition-transform duration-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M6 9l6 6 6-6"/>
+              </svg>
+            </summary>
+            <div class="px-6 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-border pt-4">
+              {item.a}
+            </div>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-navy py-16">
+    <div class="container-xl text-center">
+      <h2 class="text-3xl font-bold text-white mb-4">{t.ctaBanner.heading}</h2>
+      <p class="text-slate-300 mb-8 max-w-lg mx-auto">{t.ctaBanner.subheading}</p>
+      <a
+        href={getLocalizedPath(lang, 'contact')}
+        class="inline-flex items-center gap-2 bg-electric text-white font-semibold px-8 py-4 rounded-xl hover:bg-blue-400 transition-colors shadow-lg shadow-blue-900/40"
+      >
+        {t.ctaBanner.cta}
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+</Page>

@@ -1,0 +1,144 @@
+---
+import type { TranslationKeys } from '@/i18n/types';
+import type { Lang } from '@/i18n/types';
+
+interface Props {
+  t: TranslationKeys;
+  lang: Lang;
+  showSuccess?: boolean;
+}
+
+const { t, lang, showSuccess = false } = Astro.props;
+const { fields, serviceOptions, success } = t.contact;
+---
+
+{showSuccess ? (
+  <div class="text-center py-16 px-8">
+    <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-green-100 mb-6">
+      <svg class="text-green-600" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M20 6L9 17l-5-5"/>
+      </svg>
+    </div>
+    <h2 class="text-navy font-bold text-2xl mb-3">{success.heading}</h2>
+    <p class="text-slate-500 mb-8">{success.body}</p>
+    <a
+      href={`/${lang}/`}
+      class="inline-flex items-center gap-2 bg-electric text-white font-semibold px-6 py-3 rounded-xl hover:bg-blue-700 transition-colors"
+    >
+      {success.cta}
+    </a>
+  </div>
+) : (
+  <form
+    action="/api/contact"
+    method="POST"
+    class="flex flex-col gap-5"
+    novalidate
+  >
+    <!-- Honeypot -->
+    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true" />
+    <input type="hidden" name="lang" value={lang} />
+
+    <!-- Name + Email row -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      <div class="flex flex-col gap-1.5">
+        <label for="name" class="text-sm font-semibold text-navy">
+          {fields.name} <span class="text-red-500" aria-hidden="true">*</span>
+        </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          autocomplete="name"
+          class="w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow"
+          placeholder="Jan de Vries"
+        />
+      </div>
+      <div class="flex flex-col gap-1.5">
+        <label for="email" class="text-sm font-semibold text-navy">
+          {fields.email} <span class="text-red-500" aria-hidden="true">*</span>
+        </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          autocomplete="email"
+          class="w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow"
+          placeholder="jan@example.com"
+        />
+      </div>
+    </div>
+
+    <!-- Phone + Location row -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      <div class="flex flex-col gap-1.5">
+        <label for="phone" class="text-sm font-semibold text-navy">
+          {fields.phone}
+        </label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          autocomplete="tel"
+          class="w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow"
+          placeholder="+31 6 ..."
+        />
+      </div>
+      <div class="flex flex-col gap-1.5">
+        <label for="location" class="text-sm font-semibold text-navy">
+          {fields.location}
+        </label>
+        <input
+          type="text"
+          id="location"
+          name="location"
+          class="w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow"
+          placeholder={fields.locationPlaceholder}
+        />
+      </div>
+    </div>
+
+    <!-- Service select -->
+    <div class="flex flex-col gap-1.5">
+      <label for="service" class="text-sm font-semibold text-navy">
+        {fields.service}
+      </label>
+      <select
+        id="service"
+        name="service"
+        class="w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow appearance-none"
+      >
+        {Object.entries(serviceOptions).map(([value, label]) => (
+          <option value={value}>{label}</option>
+        ))}
+      </select>
+    </div>
+
+    <!-- Message -->
+    <div class="flex flex-col gap-1.5">
+      <label for="message" class="text-sm font-semibold text-navy">
+        {fields.message}
+      </label>
+      <textarea
+        id="message"
+        name="message"
+        rows={5}
+        class="w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow resize-none"
+        placeholder={fields.messagePlaceholder}
+      ></textarea>
+    </div>
+
+    <!-- Submit -->
+    <button
+      type="submit"
+      class="w-full inline-flex items-center justify-center gap-2 bg-electric text-white font-semibold px-8 py-4 rounded-xl hover:bg-blue-700 transition-all shadow-lg shadow-blue-200 hover:shadow-xl hover:shadow-blue-300 hover:-translate-y-0.5 text-base"
+    >
+      {fields.submit}
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </button>
+  </form>
+)}

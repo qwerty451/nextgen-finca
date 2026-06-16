@@ -1,0 +1,43 @@
+---
+interface Props {
+  icon: string;
+  title: string;
+  description: string;
+  href: string;
+  ctaLabel: string;
+}
+
+const { icon, title, description, href, ctaLabel } = Astro.props;
+---
+
+<article class="group relative bg-white rounded-2xl border border-slate-border p-6 md:p-8 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200 hover:border-electric/30 transition-all duration-200">
+  <!-- Icon ring -->
+  <div class="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-navy mb-5 group-hover:bg-electric transition-colors duration-200" aria-hidden="true">
+    <span class="text-electric group-hover:text-white transition-colors duration-200" set:html={icon} />
+  </div>
+
+  <!-- Title -->
+  <h3 class="text-navy font-bold text-xl mb-3 group-hover:text-electric transition-colors duration-200">
+    {title}
+  </h3>
+
+  <!-- Description -->
+  <p class="text-slate-500 text-sm leading-relaxed mb-6">
+    {description}
+  </p>
+
+  <!-- CTA link -->
+  <a
+    href={href}
+    class="inline-flex items-center gap-1.5 text-electric text-sm font-semibold hover:gap-2.5 transition-all duration-150"
+    aria-label={`${ctaLabel}: ${title}`}
+  >
+    {ctaLabel}
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M5 12h14M12 5l7 7-7 7"/>
+    </svg>
+  </a>
+
+  <!-- Full-card link overlay (accessible) -->
+  <a href={href} class="absolute inset-0 rounded-2xl" tabindex="-1" aria-hidden="true"></a>
+</article>

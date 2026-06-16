@@ -1,0 +1,86 @@
+---
+import ComplianceNotice from './ComplianceNotice.astro';
+import type { TranslationKeys } from '@/i18n/types';
+import type { Lang } from '@/i18n/types';
+
+interface Props {
+  t: TranslationKeys;
+  lang: Lang;
+}
+
+const { t, lang } = Astro.props;
+const { plans } = t.fincaCare;
+---
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+  <!-- Remote Guardian -->
+  <div class="relative bg-white rounded-2xl border-2 border-slate-border p-8 flex flex-col">
+    <div class="mb-6">
+      <h3 class="text-navy font-bold text-2xl mb-1">{plans.remote.name}</h3>
+      <div class="flex items-baseline gap-1 mt-3">
+        <span class="text-4xl font-bold text-navy">{plans.remote.price}</span>
+        <span class="text-slate-400 text-sm">{plans.remote.period}</span>
+      </div>
+    </div>
+
+    <ul class="flex flex-col gap-3 mb-8 flex-1 list-none m-0 p-0">
+      {plans.remote.features.map((feature) => (
+        <li class="flex items-start gap-3 text-slate-600 text-sm">
+          <svg class="shrink-0 mt-0.5 text-electric" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20 6L9 17l-5-5"/>
+          </svg>
+          {feature}
+        </li>
+      ))}
+    </ul>
+
+    <a
+      href={`/${lang}/contact/?plan=remote`}
+      class="block text-center bg-white text-navy font-semibold border-2 border-navy px-6 py-3 rounded-xl hover:bg-navy hover:text-white transition-all duration-200"
+    >
+      {plans.remote.cta}
+    </a>
+  </div>
+
+  <!-- Total Peace-of-Mind -->
+  <div class="relative bg-navy rounded-2xl border-2 border-electric p-8 flex flex-col">
+    {plans.total.badge && (
+      <div class="absolute -top-3.5 left-1/2 -translate-x-1/2">
+        <span class="bg-electric text-white text-xs font-bold uppercase tracking-wider px-4 py-1.5 rounded-full shadow-lg shadow-blue-400/30">
+          {plans.total.badge}
+        </span>
+      </div>
+    )}
+
+    <div class="mb-6 mt-2">
+      <h3 class="text-white font-bold text-2xl mb-1">{plans.total.name}</h3>
+      <div class="flex items-baseline gap-1 mt-3">
+        <span class="text-4xl font-bold text-white">{plans.total.price}</span>
+        <span class="text-slate-300 text-sm">{plans.total.period}</span>
+      </div>
+    </div>
+
+    <ul class="flex flex-col gap-3 mb-8 flex-1 list-none m-0 p-0">
+      {plans.total.features.map((feature) => (
+        <li class="flex items-start gap-3 text-slate-200 text-sm">
+          <svg class="shrink-0 mt-0.5 text-electric" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20 6L9 17l-5-5"/>
+          </svg>
+          {feature}
+        </li>
+      ))}
+    </ul>
+
+    <a
+      href={`/${lang}/contact/?plan=total`}
+      class="block text-center bg-electric text-white font-semibold px-6 py-3 rounded-xl hover:bg-blue-400 transition-all duration-200 shadow-lg shadow-blue-800/30"
+    >
+      {plans.total.cta}
+    </a>
+  </div>
+</div>
+
+<!-- Compliance notice below plans -->
+<div class="mt-6">
+  <ComplianceNotice t={t} />
+</div>

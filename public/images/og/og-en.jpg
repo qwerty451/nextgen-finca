@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#0F1F3D"/>
+  <rect x="0" y="0" width="6" height="630" fill="#1D6AF5"/>
+  <circle cx="900" cy="315" r="280" fill="none" stroke="#1D6AF5" stroke-width="1" opacity="0.15"/>
+  <circle cx="900" cy="315" r="200" fill="none" stroke="#1D6AF5" stroke-width="1" opacity="0.1"/>
+  <circle cx="900" cy="315" r="120" fill="#1D6AF5" opacity="0.08"/>
+  <text x="80" y="200" font-family="system-ui, sans-serif" font-size="20" fill="#1D6AF5" font-weight="700" letter-spacing="4">SMART ESTATE ENGINEERING</text>
+  <text x="80" y="310" font-family="system-ui, sans-serif" font-size="68" fill="white" font-weight="800" letter-spacing="-1">NextGen Finca</text>
+  <text x="80" y="390" font-family="system-ui, sans-serif" font-size="28" fill="#94a3b8">Elite integration for premium Spanish fincas</text>
+  <text x="80" y="540" font-family="system-ui, sans-serif" font-size="18" fill="#475569">Almansa · Ontinyent · Yecla · Villena</text>
+  <rect x="80" y="440" width="180" height="52" rx="10" fill="#1D6AF5"/>
+  <text x="170" y="472" font-family="system-ui, sans-serif" font-size="17" fill="white" font-weight="600" text-anchor="middle">Get a Quote</text>
+</svg>

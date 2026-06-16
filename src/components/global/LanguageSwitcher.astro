@@ -1,0 +1,49 @@
+---
+import { SUPPORTED_LANGS } from '@/i18n/types';
+import { buildLangHref } from '@/i18n/index';
+import type { Lang } from '@/i18n/types';
+
+interface Props {
+  currentLang: Lang;
+  currentPath: string;
+}
+
+const { currentLang, currentPath } = Astro.props;
+
+const langLabels: Record<Lang, { short: string; long: string }> = {
+  en: { short: 'EN', long: 'English' },
+  nl: { short: 'NL', long: 'Nederlands' },
+  de: { short: 'DE', long: 'Deutsch' },
+  es: { short: 'ES', long: 'Español' },
+};
+---
+
+<ul class="flex items-center gap-1 list-none m-0 p-0" role="list" aria-label="Language switcher">
+  {SUPPORTED_LANGS.map((lang) => {
+    const isActive = lang === currentLang;
+    const href = buildLangHref(lang, currentPath);
+    const label = langLabels[lang];
+    return (
+      <li>
+        {isActive ? (
+          <span
+            class="inline-block px-2 py-1 text-xs font-bold text-electric border-b-2 border-electric rounded-t-sm"
+            aria-current="true"
+            aria-label={`Current language: ${label.long}`}
+          >
+            {label.short}
+          </span>
+        ) : (
+          <a
+            href={href}
+            class="inline-block px-2 py-1 text-xs font-medium text-slate-500 hover:text-electric transition-colors rounded"
+            hreflang={lang}
+            aria-label={`Switch to ${label.long}`}
+          >
+            {label.short}
+          </a>
+        )}
+      </li>
+    );
+  })}
+</ul>

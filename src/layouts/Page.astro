@@ -1,0 +1,51 @@
+---
+import Base from './Base.astro';
+import Navigation from '@/components/global/Navigation.astro';
+import Footer from '@/components/global/Footer.astro';
+import { SUPPORTED_LANGS, SITE_URL } from '@/config/site';
+import type { Lang } from '@/i18n/types';
+import { buildLangHref } from '@/i18n/index';
+import type { TranslationKeys } from '@/i18n/types';
+
+interface Props {
+  lang: Lang;
+  t: TranslationKeys;
+  title: string;
+  description: string;
+  canonicalPath: string;   // e.g. "" for home, "services/connectivity" for service pages
+  ogImage?: string;
+}
+
+const { lang, t, title, description, canonicalPath, ogImage } = Astro.props;
+
+const canonicalUrl = `${SITE_URL}/${lang}/${canonicalPath ? canonicalPath + '/' : ''}`;
+
+const hreflangs = [
+  ...SUPPORTED_LANGS.map((l) => ({
+    lang: l === 'en' ? 'en-GB' : l === 'nl' ? 'nl-NL' : l === 'de' ? 'de-DE' : 'es-ES',
+    url: `${SITE_URL}${buildLangHref(l, `/${lang}/${canonicalPath ? canonicalPath + '/' : ''}`)}`,
+  })),
+  {
+    lang: 'x-default',
+    url: `${SITE_URL}/en/${canonicalPath ? canonicalPath + '/' : ''}`,
+  },
+];
+
+const currentPath = `/${lang}/${canonicalPath ? canonicalPath + '/' : ''}`;
+---
+
+<Base
+  lang={lang}
+  title={title}
+  description={description}
+  canonicalUrl={canonicalUrl}
+  ogImage={ogImage}
+  hreflangs={hreflangs}
+>
+  <slot name="head" slot="head" />
+  <Navigation lang={lang} currentPath={currentPath} t={t} />
+  <main id="main-content">
+    <slot />
+  </main>
+  <Footer lang={lang} t={t} />
+</Base>

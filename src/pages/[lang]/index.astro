@@ -1,0 +1,134 @@
+---
+import Page from '@/layouts/Page.astro';
+import HeroSection from '@/components/ui/HeroSection.astro';
+import TrustBadge from '@/components/ui/TrustBadge.astro';
+import ServiceCard from '@/components/ui/ServiceCard.astro';
+import SubscriptionTable from '@/components/ui/SubscriptionTable.astro';
+import LocalBusinessSchema from '@/components/schema/LocalBusinessSchema.astro';
+import { getDictionary, getLocalizedPath } from '@/i18n/index';
+import { SUPPORTED_LANGS } from '@/i18n/types';
+import { SERVICES } from '@/config/services';
+import type { Lang } from '@/i18n/types';
+
+export function getStaticPaths() {
+  return SUPPORTED_LANGS.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const t = await getDictionary(lang);
+---
+
+<Page
+  lang={lang}
+  t={t}
+  title={t.meta.homeTitle}
+  description={t.meta.homeDesc}
+  canonicalPath=""
+>
+  <LocalBusinessSchema lang={lang} pageType="home" slot="head" />
+
+  <!-- Hero -->
+  <HeroSection t={t} lang={lang} />
+
+  <!-- Trust badges -->
+  <TrustBadge t={t} />
+
+  <!-- Services grid -->
+  <section class="py-16 md:py-24 bg-white" aria-labelledby="services-heading">
+    <div class="container-xl">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="inline-block text-electric text-xs font-bold uppercase tracking-widest mb-3">
+          {t.servicesSection.badge}
+        </span>
+        <h2 id="services-heading" class="text-3xl md:text-4xl font-bold text-navy mb-4">
+          {t.servicesSection.heading}
+        </h2>
+        <p class="text-slate-500 text-lg">
+          {t.servicesSection.subheading}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {SERVICES.map((service) => (
+          <ServiceCard
+            icon={service.icon}
+            title={t.services[service.id].title}
+            description={t.services[service.id].shortDesc}
+            href={getLocalizedPath(lang, `services/${service.slug}`)}
+            ctaLabel={t.services[service.id].cta}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Finca Care teaser -->
+  <section class="py-16 md:py-24 bg-slate-bg" aria-labelledby="finca-care-heading">
+    <div class="container-xl">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="inline-block text-electric text-xs font-bold uppercase tracking-widest mb-3">
+          {t.fincaCare.badge}
+        </span>
+        <h2 id="finca-care-heading" class="text-3xl md:text-4xl font-bold text-navy mb-4">
+          {t.fincaCare.heading}
+        </h2>
+        <p class="text-slate-500 text-lg">
+          {t.fincaCare.subheading}
+        </p>
+      </div>
+
+      <SubscriptionTable t={t} lang={lang} />
+
+      <div class="text-center mt-8">
+        <a
+          href={getLocalizedPath(lang, 'finca-care')}
+          class="inline-flex items-center gap-2 text-electric font-semibold hover:underline text-sm"
+        >
+          View all plan details
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Regions section -->
+  <section class="py-16 md:py-20 bg-white" aria-labelledby="regions-heading">
+    <div class="container-xl text-center">
+      <span class="inline-block text-electric text-xs font-bold uppercase tracking-widest mb-3">
+        {t.regions.heading}
+      </span>
+      <p class="text-slate-500 mb-8 max-w-xl mx-auto">{t.regions.subheading}</p>
+      <div class="flex flex-wrap items-center justify-center gap-3">
+        {t.regions.items.map((region) => (
+          <span class="inline-flex items-center gap-2 bg-slate-bg border border-slate-border text-navy text-sm font-semibold px-5 py-2.5 rounded-full">
+            <span class="w-2 h-2 rounded-full bg-electric" aria-hidden="true"></span>
+            {region}
+          </span>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="bg-navy py-16 md:py-20" aria-label="Call to action">
+    <div class="container-xl text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+        {t.ctaBanner.heading}
+      </h2>
+      <p class="text-slate-300 text-lg mb-8 max-w-xl mx-auto">
+        {t.ctaBanner.subheading}
+      </p>
+      <a
+        href={getLocalizedPath(lang, 'contact')}
+        class="inline-flex items-center gap-2 bg-electric text-white font-semibold px-8 py-4 rounded-xl hover:bg-blue-400 transition-colors shadow-lg shadow-blue-900/40 text-lg"
+      >
+        {t.ctaBanner.cta}
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+</Page>

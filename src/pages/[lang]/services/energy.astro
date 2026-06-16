@@ -1,0 +1,90 @@
+---
+import Page from '@/layouts/Page.astro';
+import ComplianceNotice from '@/components/ui/ComplianceNotice.astro';
+import LocalBusinessSchema from '@/components/schema/LocalBusinessSchema.astro';
+import { getDictionary, getLocalizedPath } from '@/i18n/index';
+import { SUPPORTED_LANGS } from '@/i18n/types';
+import type { Lang } from '@/i18n/types';
+
+export function getStaticPaths() {
+  return SUPPORTED_LANGS.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const t = await getDictionary(lang);
+const s = t.services.energy;
+---
+
+<Page
+  lang={lang}
+  t={t}
+  title={t.meta.energyTitle}
+  description={t.meta.energyDesc}
+  canonicalPath="services/energy"
+>
+  <LocalBusinessSchema lang={lang} pageType="service" serviceName={s.title} pagePath="services/energy" slot="head" />
+
+  <!-- Hero -->
+  <section class="bg-slate-bg py-14 md:py-20 border-b border-slate-border">
+    <div class="container-xl max-w-3xl">
+      <nav aria-label="Breadcrumb" class="mb-6">
+        <ol class="flex items-center gap-2 text-xs text-slate-400 list-none m-0 p-0">
+          <li><a href={getLocalizedPath(lang, '')} class="hover:text-electric transition-colors">Home</a></li>
+          <li aria-hidden="true">›</li>
+          <li><a href={getLocalizedPath(lang, 'services')} class="hover:text-electric transition-colors">{t.nav.services}</a></li>
+          <li aria-hidden="true">›</li>
+          <li class="text-navy font-medium">{s.title}</li>
+        </ol>
+      </nav>
+      <span class="inline-block text-electric text-xs font-bold uppercase tracking-widest mb-3">
+        {t.servicesSection.badge}
+      </span>
+      <h1 class="text-4xl md:text-5xl font-bold text-navy mb-5">{s.title}</h1>
+      <p class="text-slate-500 text-xl leading-relaxed">{s.hero}</p>
+    </div>
+  </section>
+
+  <!-- Content + Sidebar -->
+  <section class="py-14 md:py-20 bg-white">
+    <div class="container-xl">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-16">
+        <div class="lg:col-span-2 flex flex-col gap-12">
+          {Object.values(s.sections).map((section) => (
+            <div class="flex flex-col gap-4">
+              <h2 class="text-2xl font-bold text-navy flex items-center gap-3">
+                <span class="w-1 h-6 bg-electric rounded-full inline-block shrink-0" aria-hidden="true"></span>
+                {section.title}
+              </h2>
+              <p class="text-slate-600 leading-relaxed text-lg">{section.body}</p>
+            </div>
+          ))}
+          <div class="mt-4">
+            <ComplianceNotice t={t} />
+          </div>
+        </div>
+        <aside class="lg:col-span-1">
+          <div class="sticky top-24 bg-navy rounded-2xl p-8 text-white">
+            <h3 class="font-bold text-xl mb-3">{t.ctaBanner.heading}</h3>
+            <p class="text-slate-300 text-sm mb-6">{t.ctaBanner.subheading}</p>
+            <a href={getLocalizedPath(lang, 'contact')} class="block text-center bg-electric text-white font-semibold px-6 py-3 rounded-xl hover:bg-blue-400 transition-colors mb-4">
+              {t.hero.ctaPrimary}
+            </a>
+            <div class="border-t border-slate-700 pt-4 mt-4">
+              <p class="text-slate-400 text-xs text-center">{t.contact.responsePromise}</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="bg-slate-bg border-t border-slate-border py-14">
+    <div class="container-xl text-center">
+      <h2 class="text-2xl font-bold text-navy mb-4">{t.ctaBanner.heading}</h2>
+      <a href={getLocalizedPath(lang, 'contact')} class="inline-flex items-center gap-2 bg-electric text-white font-semibold px-8 py-4 rounded-xl hover:bg-blue-700 transition-colors shadow-lg shadow-blue-200">
+        {t.hero.ctaPrimary}
+      </a>
+    </div>
+  </section>
+</Page>

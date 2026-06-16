@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "siteName": "NextGen Finca",
+    "homeTitle": "Ingeniería Inteligente de Fincas en España | NextGen Finca",
+    "homeDesc": "Integración premium de Starlink, Ubiquiti y Home Assistant para propiedades rurales en Almansa, Ontinyent, Yecla y Villena.",
+    "servicesTitle": "Servicios de Finca Inteligente | NextGen Finca",
+    "servicesDesc": "Cuatro pilares de ingeniería: conectividad, seguridad, automatización y energía inteligente para fincas premium en España.",
+    "connectivityTitle": "Conectividad Total — Starlink & Ubiquiti | NextGen Finca",
+    "connectivityDesc": "Instalación estructural de Starlink, redundancia multi-WAN 4G/5G y red Ubiquiti en toda la propiedad para fincas rurales.",
+    "securityTitle": "Seguridad Autónoma — Vigilancia IP Inteligente | NextGen Finca",
+    "securityDesc": "Redes de cámaras IP, NVR local, detección IA de vehículos y acceso remoto cifrado para su finca en España.",
+    "automationTitle": "Automatización Inteligente de Finca — Home Assistant | NextGen Finca",
+    "automationDesc": "Configuraciones Home Assistant para portones automáticos, estaciones meteorológicas y toldos reactivos al viento en Almansa, Yecla y Villena.",
+    "energyTitle": "Energía Inteligente — Solar & Victron | NextGen Finca",
+    "energyDesc": "Optimización solar, actualizaciones Litio/Victron, monitorización remota y válvulas de corte de agua con sensores de humedad.",
+    "fincaCareTitle": "Finca Care — Planes de Mantenimiento | NextGen Finca",
+    "fincaCareDesc": "Remote Guardian desde €39/mes o Total Peace-of-Mind desde €99/mes. Mantenimiento continuo para fincas españolas.",
+    "contactTitle": "Solicitar Evaluación Gratuita de la Finca | NextGen Finca",
+    "contactDesc": "Evaluación técnica gratuita para su finca. Cubrimos Almansa, Ontinyent, Yecla y Villena. Respuesta en 24 horas."
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "fincaCare": "Finca Care",
+    "contact": "Solicitar Presupuesto"
+  },
+  "hero": {
+    "badge": "Ingeniería Inteligente de Fincas",
+    "headline": "Su Propiedad Rural. Totalmente Conectada. Totalmente Protegida.",
+    "subheadline": "Integración elite de Starlink, Ubiquiti, Home Assistant, Victron y Reolink para fincas premium en Almansa, Ontinyent, Yecla y Villena.",
+    "ctaPrimary": "Solicitar Evaluación Gratuita",
+    "ctaSecondary": "Ver Servicios",
+    "trustLine": "De confianza para propietarios exigentes en el interior de España"
+  },
+  "trustBadges": {
+    "heading": "Ecosistemas que dominamos",
+    "items": ["Ubiquiti UniFi", "Victron Energy", "Starlink", "Home Assistant", "Reolink"]
+  },
+  "servicesSection": {
+    "badge": "Cuatro Pilares de Ingeniería",
+    "heading": "Inteligencia Total de la Finca",
+    "subheading": "Cada sistema diseñado para fiabilidad remota, condiciones rurales y rendimiento sin compromisos."
+  },
+  "services": {
+    "connectivity": {
+      "title": "Conectividad Total",
+      "shortDesc": "Instalación estructural de Starlink, redundancia multi-WAN 4G/5G y red Ubiquiti en toda la propiedad — incluidos puentes P2P a portones remotos y casas de invitados.",
+      "cta": "Saber Más",
+      "hero": "Su finca merece conectividad de nivel empresarial, sin compromisos.",
+      "sections": {
+        "starlink": {
+          "title": "Instalación Estructural de Starlink",
+          "body": "Diseñamos soportes robustos, anclados al suelo o al tejado para antenas Starlink — optimizados para cargas de viento españolas, el ángulo de elevación correcto para latitudes meridionales y cableado ordenado."
+        },
+        "wan": {
+          "title": "Redundancia Multi-WAN 4G/5G",
+          "body": "Configuramos routers dual-WAN con conmutación automática: Starlink como primario, 4G/5G LTE como respaldo sin interrupciones. Si un enlace cae, sus cámaras, automatización y acceso remoto siguen activos."
+        },
+        "ubiquiti": {
+          "title": "Red Ubiquiti UniFi en la Finca",
+          "body": "Implementaciones completas de UniFi Dream Machine o Cloud Gateway. Colocamos puntos de acceso para cobertura exterior de piscinas, garajes y terrazas. Puentes inalámbricos punto a punto conectan portones remotos, casas de invitados o cobertizos — hasta 500m sin canalización de cable."
+        }
+      }
+    },
+    "security": {
+      "title": "Seguridad Autónoma",
+      "shortDesc": "Redes de vigilancia IP inteligente, implementación NVR local, detección de objetos y vehículos por IA en el borde y acceso remoto cifrado.",
+      "cta": "Saber Más",
+      "hero": "Sepa exactamente qué hay en su propiedad — desde cualquier lugar del mundo.",
+      "sections": {
+        "cameras": {
+          "title": "Red de Vigilancia IP Inteligente",
+          "body": "Diseñamos e instalamos redes de cámaras IP Reolink que cubren todos los puntos de acceso, perímetros y ángulos muertos. Alimentadas por PoE desde su switch UniFi — instalaciones limpias y resistentes a la intemperie sin cableado visible."
+        },
+        "nvr": {
+          "title": "Implementación NVR Local",
+          "body": "Todas las grabaciones almacenadas localmente en un appliance NVR reforzado — sin suscripción cloud obligatoria, sin datos que salgan de su propiedad sin su consentimiento. Configurado en RAID para redundancia."
+        },
+        "detection": {
+          "title": "Detección IA de Objetos y Vehículos",
+          "body": "Calibramos zonas de detección inteligentes por cámara: clasificación de personas, vehículos y animales. Se eliminan las falsas alarmas por movimiento de árboles o insectos. Notificación push en su teléfono cuando un vehículo entra en la entrada."
+        }
+      }
+    },
+    "automation": {
+      "title": "Automatización Inteligente de Finca",
+      "shortDesc": "Configuraciones centralizadas de Home Assistant para portones automáticos, estaciones meteorológicas locales y toldos o pérgolas bioclimáticas reactivos al viento y la lluvia.",
+      "cta": "Saber Más",
+      "hero": "Su finca responde inteligentemente a las condiciones — con o sin su presencia.",
+      "sections": {
+        "gates": {
+          "title": "Control de Portón Automático",
+          "body": "Integramos motores de portón existentes o nuevos en Home Assistant vía MQTT o API local. Abra su portón desde cualquier lugar con su teléfono, configure horarios o active por detección de vehículos."
+        },
+        "weather": {
+          "title": "Integración de Estación Meteorológica Local",
+          "body": "Instalamos estaciones meteorológicas locales profesionales y alimentamos velocidad del viento en tiempo real, acumulación de lluvia, índice UV y temperatura en los dashboards de Home Assistant."
+        },
+        "shades": {
+          "title": "Toldos Reactivos al Viento y la Lluvia",
+          "body": "Las lamas de pérgolas bioclimáticas, persianas exteriores y toldos se conectan a Home Assistant. Se retraen automáticamente cuando el viento supera umbrales seguros o comienza a llover — protegiendo su inversión."
+        }
+      }
+    },
+    "energy": {
+      "title": "Energía Inteligente y Servicios",
+      "shortDesc": "Optimización estructural solar, actualizaciones Litio/Victron, monitorización energética remota, iluminación inteligente y corte automático de agua con sensores de humedad.",
+      "cta": "Saber Más",
+      "hero": "Independencia energética — diseñada, monitorizadada y preparada para el futuro.",
+      "sections": {
+        "solar": {
+          "title": "Optimización Estructural Solar",
+          "body": "Inspeccionamos sus instalaciones de paneles y estructuras de montaje para analizar ángulo, pérdidas por sombra e integridad estructural. Rediseñamos y remontamos para maximizar la producción en el calendario solar español."
+        },
+        "victron": {
+          "title": "Actualizaciones Litio y Victron",
+          "body": "Actualizamos bancos de baterías de plomo-ácido envejecidos a configuraciones modernas de LiFePO4 con inversores-cargadores Victron MultiPlus o Quattro. La monitorización remota vía VRM Portal le ofrece estado de carga en tiempo real y alertas de degradación."
+        },
+        "utilities": {
+          "title": "Iluminación Inteligente y Corte de Agua",
+          "body": "Iluminación de jardín y arquitectónica en horarios inteligentes o activadores de presencia. Sensores inalámbricos de humedad en puntos de suministro clave integrados con válvulas de corte motorizadas — aislamiento automático de agua al detectar fugas."
+        }
+      }
+    }
+  },
+  "fincaCare": {
+    "badge": "Planes de Mantenimiento Recurrente",
+    "heading": "Suscripciones Finca Care",
+    "subheading": "Mantenimiento continuo de la finca — monitorización remota o servicio completo en obra.",
+    "plans": {
+      "remote": {
+        "name": "Remote Guardian",
+        "price": "€39 – €49",
+        "period": "/ mes",
+        "badge": "",
+        "features": [
+          "Panel de métricas de salud del servidor remoto",
+          "Copias de seguridad automáticas de configuración en la nube",
+          "Mantenimiento y actualizaciones de firmware remoto",
+          "Alertas proactivas de degradación de batería",
+          "Informe de estado mensual por email"
+        ],
+        "cta": "Iniciar Plan Remote"
+      },
+      "total": {
+        "name": "Total Peace-of-Mind",
+        "price": "€99 – €149",
+        "period": "/ mes",
+        "badge": "Más Popular",
+        "features": [
+          "Todo lo del Remote Guardian",
+          "Auditoría física mensual en la finca",
+          "Limpieza de objetivos y paneles solares",
+          "Batería completa de pruebas de sensores",
+          "Despacho de emergencia prioritario al día siguiente",
+          "Línea de soporte WhatsApp dedicada"
+        ],
+        "cta": "Iniciar Plan Total"
+      }
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿Puedo cancelar en cualquier momento?",
+          "a": "Sí. Ambos planes son suscripciones mensuales renovables sin permanencia mínima. Cancelación con 30 días de preaviso."
+        },
+        {
+          "q": "¿Qué zona cubren para las visitas presenciales?",
+          "a": "Cubrimos Almansa, Ontinyent, Yecla, Villena y municipios colindantes en el interior de Valencia y la zona fronteriza con Murcia."
+        },
+        {
+          "q": "¿Está incluido el trabajo eléctrico?",
+          "a": "Nosotros ingeniamos, instalamos y configuramos toda la infraestructura técnica. Las conexiones a red de alta tensión certificadas se coordinan a través de nuestra red de electricistas locales autorizados."
+        },
+        {
+          "q": "¿Debo estar presente durante las visitas?",
+          "a": "No. Con acceso por caja de llaves o código de portón podemos completar las auditorías mensuales sin que usted viaje a la propiedad."
+        }
+      ]
+    }
+  },
+  "compliance": {
+    "notice": "NextGen Finca ingenia, instala y configura toda la infraestructura técnica. Las conexiones a red de alta tensión certificadas se coordinan a través de nuestra red de electricistas locales autorizados."
+  },
+  "contact": {
+    "heading": "Solicite su Evaluación Gratuita de la Finca",
+    "subheading": "Cuéntenos sobre su propiedad. Respondemos en 24 horas.",
+    "responsePromise": "Tiempo de respuesta típico: menos de 4 horas",
+    "whatsappLabel": "Contáctenos por WhatsApp",
+    "regionsLabel": "Zona de cobertura",
+    "fields": {
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono (opcional)",
+      "location": "Ubicación de la Propiedad",
+      "locationPlaceholder": "ej. Almansa, cerca de Villena...",
+      "service": "Servicio de Interés",
+      "message": "Cuéntenos sobre su finca",
+      "messagePlaceholder": "Tamaño de la propiedad, instalación actual, principales necesidades...",
+      "submit": "Enviar Solicitud de Evaluación"
+    },
+    "serviceOptions": {
+      "": "Seleccione un servicio...",
+      "connectivity": "Conectividad Total",
+      "security": "Seguridad Autónoma",
+      "automation": "Automatización Inteligente",
+      "energy": "Energía Inteligente",
+      "fincaCare": "Suscripción Finca Care",
+      "all": "Auditoría Completa de la Finca"
+    },
+    "success": {
+      "heading": "Solicitud de Evaluación Recibida",
+      "body": "Gracias. Revisaremos los detalles de su propiedad y responderemos en 24 horas.",
+      "cta": "Volver al Inicio"
+    }
+  },
+  "regions": {
+    "heading": "Cubrimos el Interior de España",
+    "subheading": "Afincados en el campo. Expertos en los retos de propiedades rurales.",
+    "items": ["Almansa", "Ontinyent", "Yecla", "Villena", "y municipios colindantes"]
+  },
+  "ctaBanner": {
+    "heading": "¿Listo para transformar su finca?",
+    "subheading": "Evaluación gratuita. Sin compromiso. Respuesta en 24 horas.",
+    "cta": "Iniciar su Evaluación"
+  },
+  "footer": {
+    "tagline": "Ingeniería Premium de Fincas Inteligentes. Interior de España.",
+    "regions": "Almansa · Ontinyent · Yecla · Villena",
+    "navLabel": "Navegación",
+    "contactLabel": "Contacto",
+    "legal": "© 2025 NextGen Finca. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "whatsapp": "WhatsApp"
+  }
+}
