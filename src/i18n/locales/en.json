@@ -338,6 +338,8 @@
     "subheading": "Tell us about your property. We respond within 24 hours.",
     "responsePromise": "Typical response: under 4 hours",
     "whatsappLabel": "WhatsApp us directly",
+    "infoEmailLabel": "General Enquiries",
+    "serviceEmailLabel": "Client Services",
     "regionsLabel": "Serving",
     "fields": {
       "name": "Full Name",

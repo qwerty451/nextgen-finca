@@ -338,6 +338,8 @@
     "subheading": "Erzählen Sie uns von Ihrer Immobilie. Wir antworten innerhalb von 24 Stunden.",
     "responsePromise": "Typische Antwortzeit: unter 4 Stunden",
     "whatsappLabel": "WhatsApp uns direkt",
+    "infoEmailLabel": "Allgemeine Anfragen",
+    "serviceEmailLabel": "Kundendienst",
     "regionsLabel": "Bedienungsgebiet",
     "fields": {
       "name": "Vollständiger Name",

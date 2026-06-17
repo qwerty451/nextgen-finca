@@ -338,6 +338,8 @@
     "subheading": "Vertel ons over uw finca. Wij reageren binnen 24 uur.",
     "responsePromise": "Typische reactietijd: onder 4 uur",
     "whatsappLabel": "WhatsApp ons direct",
+    "infoEmailLabel": "Algemene Vragen",
+    "serviceEmailLabel": "Klantenservice",
     "regionsLabel": "Werkgebied",
     "fields": {
       "name": "Volledige Naam",

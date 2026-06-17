@@ -338,6 +338,8 @@
     "subheading": "Cuéntenos sobre su propiedad. Respondemos en 24 horas.",
     "responsePromise": "Tiempo de respuesta habitual: menos de 4 horas",
     "whatsappLabel": "Escríbanos por WhatsApp",
+    "infoEmailLabel": "Consultas Generales",
+    "serviceEmailLabel": "Atención al Cliente",
     "regionsLabel": "Zona de servicio",
     "fields": {
       "name": "Nombre completo",
