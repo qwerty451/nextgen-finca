@@ -118,8 +118,9 @@ export const POST: APIRoute = async ({ request, redirect }) => {
 
   const safeLang: Lang = ['en', 'nl', 'de', 'es'].includes(lang) ? lang : 'en';
 
-  const smtpUser = import.meta.env.SMTP_USER;
-  const smtpPass = import.meta.env.SMTP_PASS;
+  const smtpUser = import.meta.env.SMTP_USER;   // tim@nextgenfinca.com — the real Google account
+  const smtpPass = import.meta.env.SMTP_PASS;   // App Password for that account
+  const smtpFrom = import.meta.env.SMTP_FROM ?? smtpUser;  // info@nextgenfinca.com — the alias to send from
   const notifyEmail = import.meta.env.NOTIFY_EMAIL ?? 'invoice@nextgenfinca.com';
 
   if (smtpUser && smtpPass) {
@@ -133,14 +134,14 @@ export const POST: APIRoute = async ({ request, redirect }) => {
 
       await Promise.all([
         transporter.sendMail({
-          from: `NextGen Finca <${smtpUser}>`,
+          from: `NextGen Finca <${smtpFrom}>`,
           to: notifyEmail,
           replyTo: email,
           subject: `New Assessment Request — ${name} (${service || 'General'})`,
           html: buildInternalHtml({ name, email, phone, location, propertyType, propertySize, currentInternet, timeline, service, budget, message, lang: safeLang }),
         }),
         transporter.sendMail({
-          from: `NextGen Finca <${smtpUser}>`,
+          from: `NextGen Finca <${smtpFrom}>`,
           to: email,
           subject: confirmations[safeLang].subject,
           html: buildConfirmationHtml(safeLang, name),
