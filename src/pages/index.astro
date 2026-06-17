@@ -1,3 +1,44 @@
 ---
-return Astro.redirect('/en/', 307);
+// Serve real OG meta tags at the root so WhatsApp/Discord/Google embeds work.
+// Browsers are redirected to /en/ instantly via meta-refresh + JS.
 ---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Smart Solutions for Your Spanish Finca | NextGen Finca</title>
+    <meta name="description" content="Reliable internet, smart security cameras, home automation, and solar energy for fincas across southeast Spain. Family-run, based in Almansa — professional results." />
+    <link rel="canonical" href="https://nextgenfinca.com/en/" />
+
+    <!-- Hreflang -->
+    <link rel="alternate" hreflang="en" href="https://nextgenfinca.com/en/" />
+    <link rel="alternate" hreflang="nl" href="https://nextgenfinca.com/nl/" />
+    <link rel="alternate" hreflang="de" href="https://nextgenfinca.com/de/" />
+    <link rel="alternate" hreflang="es" href="https://nextgenfinca.com/es/" />
+    <link rel="alternate" hreflang="x-default" href="https://nextgenfinca.com/en/" />
+
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nextgenfinca.com/" />
+    <meta property="og:site_name" content="NextGen Finca" />
+    <meta property="og:title" content="Smart Solutions for Your Spanish Finca | NextGen Finca" />
+    <meta property="og:description" content="Reliable internet, smart security cameras, home automation, and solar energy for fincas across southeast Spain. Family-run, based in Almansa — professional results." />
+    <meta property="og:image" content="https://nextgenfinca.com/images/og/og-en.jpg" />
+    <meta property="og:locale" content="en" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Smart Solutions for Your Spanish Finca | NextGen Finca" />
+    <meta name="twitter:description" content="Reliable internet, smart security cameras, home automation, and solar energy for fincas across southeast Spain. Family-run, based in Almansa — professional results." />
+    <meta name="twitter:image" content="https://nextgenfinca.com/images/og/og-en.jpg" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Instant redirect for browsers -->
+    <meta http-equiv="refresh" content="0;url=/en/" />
+  </head>
+  <body>
+    <script>window.location.replace('/en/');</script>
+  </body>
+</html>
