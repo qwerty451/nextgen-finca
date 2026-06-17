@@ -9,25 +9,25 @@ const confirmations: Record<Lang, { subject: string; greeting: (name: string) =>
   en: {
     subject: 'We\'ve received your request — NextGen Finca',
     greeting: (name) => `Hi ${name},`,
-    body: `Thank you for reaching out. We've received your assessment request and will review the details of your property shortly.<br><br>You can expect to hear from us <strong>within 4 hours</strong> during business hours. If your enquiry is urgent, feel free to WhatsApp us directly at <a href="https://wa.me/34639864420">+34 639 864 420</a>.`,
+    body: `Thank you for reaching out. We've received your assessment request and will review the details of your property shortly.<br><br>You can expect to hear from us <strong>within 4 hours on a workday</strong>. If your enquiry is urgent, feel free to WhatsApp us directly at <a href="https://wa.me/34639864420">+34 639 864 420</a>.`,
     sign: 'The NextGen Finca Team',
   },
   nl: {
     subject: 'Uw aanvraag is ontvangen — NextGen Finca',
     greeting: (name) => `Hallo ${name},`,
-    body: `Bedankt voor uw bericht. We hebben uw assessmentaanvraag ontvangen en zullen de details van uw finca binnenkort bekijken.<br><br>U kunt verwachten <strong>binnen 4 uur</strong> tijdens kantooruren van ons te horen. Als uw vraag urgent is, kunt u ons ook via WhatsApp bereiken: <a href="https://wa.me/34639864420">+34 639 864 420</a>.`,
+    body: `Bedankt voor uw bericht. We hebben uw assessmentaanvraag ontvangen en zullen de details van uw finca binnenkort bekijken.<br><br>U kunt verwachten <strong>binnen 4 uur op een werkdag</strong> van ons te horen. Als uw vraag urgent is, kunt u ons ook via WhatsApp bereiken: <a href="https://wa.me/34639864420">+34 639 864 420</a>.`,
     sign: 'Het NextGen Finca Team',
   },
   de: {
     subject: 'Ihre Anfrage ist eingegangen — NextGen Finca',
     greeting: (name) => `Hallo ${name},`,
-    body: `Vielen Dank für Ihre Nachricht. Wir haben Ihre Bewertungsanfrage erhalten und werden die Details Ihrer Immobilie in Kürze prüfen.<br><br>Sie können <strong>innerhalb von 4 Stunden</strong> während der Geschäftszeiten mit einer Antwort rechnen. Bei dringenden Fragen erreichen Sie uns auch per WhatsApp: <a href="https://wa.me/34639864420">+34 639 864 420</a>.`,
+    body: `Vielen Dank für Ihre Nachricht. Wir haben Ihre Bewertungsanfrage erhalten und werden die Details Ihrer Immobilie in Kürze prüfen.<br><br>Sie können <strong>innerhalb von 4 Stunden an einem Werktag</strong> mit einer Antwort rechnen. Bei dringenden Fragen erreichen Sie uns auch per WhatsApp: <a href="https://wa.me/34639864420">+34 639 864 420</a>.`,
     sign: 'Das NextGen Finca Team',
   },
   es: {
     subject: 'Hemos recibido su solicitud — NextGen Finca',
     greeting: (name) => `Hola ${name},`,
-    body: `Gracias por ponerse en contacto con nosotros. Hemos recibido su solicitud de evaluación y revisaremos los detalles de su propiedad en breve.<br><br>Puede esperar una respuesta nuestra <strong>en menos de 4 horas</strong> en horario laboral. Si su consulta es urgente, no dude en escribirnos por WhatsApp: <a href="https://wa.me/34639864420">+34 639 864 420</a>.`,
+    body: `Gracias por ponerse en contacto con nosotros. Hemos recibido su solicitud de evaluación y revisaremos los detalles de su propiedad en breve.<br><br>Puede esperar una respuesta nuestra <strong>en menos de 4 horas en un día laborable</strong>. Si su consulta es urgente, no dude en escribirnos por WhatsApp: <a href="https://wa.me/34639864420">+34 639 864 420</a>.`,
     sign: 'El Equipo de NextGen Finca',
   },
 };
@@ -148,8 +148,9 @@ export const POST: APIRoute = async ({ request, redirect }) => {
       ]);
     } catch (err) {
       console.error('Email send failed:', err);
+      return redirect(`/${safeLang}/contact/error/`, 302);
     }
   }
 
-  return redirect(`/${safeLang}/contact/?success=1`, 302);
+  return redirect(`/${safeLang}/contact/success/`, 302);
 };

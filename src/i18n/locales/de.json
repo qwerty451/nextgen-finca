@@ -339,7 +339,7 @@
   "contact": {
     "heading": "Kostenloses Assessment Anfordern",
     "subheading": "Erzählen Sie uns von Ihrer Immobilie. Wir antworten innerhalb von 24 Stunden.",
-    "responsePromise": "Typische Antwortzeit: unter 4 Stunden",
+    "responsePromise": "Typische Antwortzeit: innerhalb von 4 Stunden an einem Werktag",
     "whatsappLabel": "WhatsApp uns direkt",
     "infoEmailLabel": "Allgemeine Anfragen",
     "serviceEmailLabel": "Kundendienst",
@@ -404,9 +404,18 @@
       "discuss": "Lieber besprechen"
     },
     "success": {
-      "heading": "Bewertungsanfrage Erhalten",
-      "body": "Vielen Dank. Wir werden Ihre Immobiliendetails prüfen und innerhalb von 24 Stunden antworten.",
+      "heading": "Anfrage Erhalten",
+      "body": "Wir haben Ihre Anfrage erhalten und eine Bestätigung an Ihre E-Mail-Adresse gesendet. Sie können innerhalb von 4 Stunden an einem Werktag mit einer Antwort rechnen.",
+      "checkEmail": "Nichts erhalten? Schauen Sie in Ihrem Spam-Ordner nach.",
       "cta": "Zurück zur Startseite"
+    },
+    "error": {
+      "heading": "Etwas ist schiefgelaufen",
+      "body": "Wir entschuldigen uns für die Unannehmlichkeiten — bei uns ist etwas schiefgelaufen und Ihre Anfrage hat uns möglicherweise nicht erreicht. Kontaktieren Sie uns bitte direkt und wir kümmern uns darum.",
+      "whatsapp": "WhatsApp schreiben",
+      "call": "Anrufen",
+      "phone": "+34 639 864 420",
+      "tryAgain": "Formular erneut versuchen"
     },
     "basedInLabel": "Ansässig in Almansa, Spanien",
     "basedInBody": "Wir arbeiten von Almansa in Kastilien-La Mancha aus — ideal gelegen um Immobilien an der Costa Blanca und in den Provinzen Valencia, Alicante, Murcia und Albacete in etwa einer Stunde zu erreichen."

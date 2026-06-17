@@ -339,7 +339,7 @@
   "contact": {
     "heading": "Vraag Uw Gratis Assessment Aan",
     "subheading": "Vertel ons over uw finca. Wij reageren binnen 24 uur.",
-    "responsePromise": "Typische reactietijd: onder 4 uur",
+    "responsePromise": "Typische reactietijd: binnen 4 uur op een werkdag",
     "whatsappLabel": "WhatsApp ons direct",
     "infoEmailLabel": "Algemene Vragen",
     "serviceEmailLabel": "Klantenservice",
@@ -404,9 +404,18 @@
       "discuss": "Liever bespreken"
     },
     "success": {
-      "heading": "Assessmentaanvraag Ontvangen",
-      "body": "Dank u. Wij beoordelen uw fincagegevens en reageren binnen 24 uur.",
+      "heading": "Aanvraag Ontvangen",
+      "body": "We hebben uw aanvraag ontvangen en een bevestiging naar uw e-mailadres gestuurd. U kunt binnen 4 uur op een werkdag een reactie van ons verwachten.",
+      "checkEmail": "Niet ontvangen? Controleer uw spammap.",
       "cta": "Terug naar Home"
+    },
+    "error": {
+      "heading": "Er is iets misgegaan",
+      "body": "Onze excuses voor het ongemak — er is iets fout gegaan aan onze kant en uw aanvraag is mogelijk niet bij ons aangekomen. Neem rechtstreeks contact met ons op en we regelen het verder.",
+      "whatsapp": "WhatsApp ons",
+      "call": "Bel ons",
+      "phone": "+34 639 864 420",
+      "tryAgain": "Probeer het formulier opnieuw"
     },
     "basedInLabel": "Gevestigd in Almansa, Spanje",
     "basedInBody": "Wij opereren vanuit Almansa in Castilla-La Mancha — ideaal gelegen om finca's in de Costa Blanca en de provincies Valencia, Alicante, Murcia en Albacete binnen ongeveer een uur te bereiken."

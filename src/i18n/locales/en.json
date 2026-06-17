@@ -339,7 +339,7 @@
   "contact": {
     "heading": "Request Your Free Estate Assessment",
     "subheading": "Tell us about your property. We respond within 24 hours.",
-    "responsePromise": "Typical response: under 4 hours",
+    "responsePromise": "Typical response: within 4 hours on a workday",
     "whatsappLabel": "WhatsApp us directly",
     "infoEmailLabel": "General Enquiries",
     "serviceEmailLabel": "Client Services",
@@ -404,9 +404,18 @@
       "discuss": "Prefer to discuss"
     },
     "success": {
-      "heading": "Assessment Request Received",
-      "body": "Thank you. We will review your property details and respond within 24 hours.",
+      "heading": "Request Received",
+      "body": "We've got your request and sent a confirmation to your email. You can expect to hear from us within 4 hours on a workday.",
+      "checkEmail": "Can't find it? Check your spam folder.",
       "cta": "Back to Home"
+    },
+    "error": {
+      "heading": "Something went wrong",
+      "body": "We're sorry for the inconvenience — something went wrong on our end and your request may not have reached us. Please get in touch directly and we'll take it from there.",
+      "whatsapp": "WhatsApp us",
+      "call": "Call us",
+      "phone": "+34 639 864 420",
+      "tryAgain": "Try the form again"
     },
     "basedInLabel": "Based in Almansa, Spain",
     "basedInBody": "We operate from Almansa in Castilla-La Mancha — ideally positioned to reach properties across the Costa Blanca and the provinces of Valencia, Alicante, Murcia, and Albacete within roughly an hour."

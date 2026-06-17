@@ -339,7 +339,7 @@
   "contact": {
     "heading": "Solicite su Evaluación Gratuita",
     "subheading": "Cuéntenos sobre su propiedad. Respondemos en 24 horas.",
-    "responsePromise": "Tiempo de respuesta habitual: menos de 4 horas",
+    "responsePromise": "Tiempo de respuesta habitual: menos de 4 horas en un día laborable",
     "whatsappLabel": "Escríbanos por WhatsApp",
     "infoEmailLabel": "Consultas Generales",
     "serviceEmailLabel": "Atención al Cliente",
@@ -405,8 +405,17 @@
     },
     "success": {
       "heading": "Solicitud Recibida",
-      "body": "Gracias. Revisaremos los detalles de su propiedad y responderemos en 24 horas.",
+      "body": "Hemos recibido su solicitud y le hemos enviado una confirmación a su correo electrónico. Puede esperar una respuesta nuestra en menos de 4 horas en un día laborable.",
+      "checkEmail": "¿No lo encuentra? Revise su carpeta de spam.",
       "cta": "Volver al Inicio"
+    },
+    "error": {
+      "heading": "Algo ha salido mal",
+      "body": "Lamentamos las molestias — algo ha fallado en nuestro sistema y es posible que su solicitud no nos haya llegado. Por favor, contáctenos directamente y lo resolveremos.",
+      "whatsapp": "WhatsApp",
+      "call": "Llamarnos",
+      "phone": "+34 639 864 420",
+      "tryAgain": "Intentar el formulario de nuevo"
     },
     "basedInLabel": "Con base en Almansa, España",
     "basedInBody": "Operamos desde Almansa en Castilla-La Mancha — perfectamente situados para llegar a propiedades en la Costa Blanca y las provincias de Valencia, Alicante, Murcia y Albacete en aproximadamente una hora."
