@@ -50,6 +50,11 @@ const links = NAV_LINKS(lang);
       </a>
     </div>
 
+    <!-- Mobile: language switcher (visible in header, outside hamburger) -->
+    <div class="md:hidden">
+      <LanguageSwitcher currentLang={lang} currentPath={currentPath} />
+    </div>
+
     <!-- Mobile: hamburger button -->
     <button
       id="mobile-nav-btn"
