@@ -145,7 +145,7 @@ const showSuccess = url.searchParams.get('success') === '1';
             <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">
               {t.contact.regionsLabel}
             </p>
-            <ul class="flex flex-col gap-1.5 list-none m-0 p-0">
+            <ul class="grid grid-cols-2 gap-1.5 list-none m-0 p-0">
               {REGIONS.map((region) => (
                 <li class="flex items-center gap-2 text-sm text-navy font-medium">
                   <span class="w-1.5 h-1.5 rounded-full bg-electric shrink-0" aria-hidden="true"></span>
