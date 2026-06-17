@@ -480,9 +480,18 @@
     "glance": {
       "label": "Auf einen Blick",
       "stats": [
-        { "value": "11+", "text": "Jahre kombinierte Erfahrung in Bau & IT" },
-        { "value": "NL", "text": "Professionell tätig in den Niederlanden — jetzt ansässig in Almansa, Spanien" },
-        { "value": "2", "text": "Disziplinen unter einem Dach: Bau-Know-how + IT-Infrastruktur" }
+        {
+          "value": "11+",
+          "text": "Jahre kombinierte Erfahrung in Bau & IT"
+        },
+        {
+          "value": "NL",
+          "text": "Professionell tätig in den Niederlanden — jetzt ansässig in Almansa, Spanien"
+        },
+        {
+          "value": "2",
+          "text": "Disziplinen unter einem Dach: Bau-Know-how + IT-Infrastruktur"
+        }
       ],
       "howWeWorkLabel": "Unsere Arbeitsweise",
       "howWeWorkItems": [
@@ -575,6 +584,11 @@
         "number": "03",
         "title": "Installation & Übergabe",
         "body": "Die meisten Projekte dauern 1–2 Tage vor Ort. Wir gehen erst wenn alles funktioniert, und Sie erhalten eine vollständige schriftliche Zusammenfassung bevor wir gehen."
+      },
+      {
+        "number": "04",
+        "title": "Ihr System, Ihre Wahl",
+        "body": "Nach der Übergabe läuft alles selbstständig — keine weiteren Verpflichtungen. Möchten Sie, dass wir das ganze Jahr über überwachen, aktualisieren und erreichbar sind? Genau dafür ist Finca Care da. In jedem Fall erhalten Sie ein vollständig dokumentiertes System, das Ihnen gehört."
       }
     ]
   },

@@ -480,9 +480,18 @@
     "glance": {
       "label": "At a Glance",
       "stats": [
-        { "value": "11+", "text": "Years combined experience in construction & IT" },
-        { "value": "NL", "text": "Professionally active in the Netherlands — now based in Almansa, Spain" },
-        { "value": "2", "text": "Disciplines under one roof: construction know-how + IT infrastructure" }
+        {
+          "value": "11+",
+          "text": "Years combined experience in construction & IT"
+        },
+        {
+          "value": "NL",
+          "text": "Professionally active in the Netherlands — now based in Almansa, Spain"
+        },
+        {
+          "value": "2",
+          "text": "Disciplines under one roof: construction know-how + IT infrastructure"
+        }
       ],
       "howWeWorkLabel": "How We Work",
       "howWeWorkItems": [
@@ -575,6 +584,11 @@
         "number": "03",
         "title": "Installation & Handover",
         "body": "Most projects take 1–2 days on-site. We don't leave until it works, and you get a full written summary before we go."
+      },
+      {
+        "number": "04",
+        "title": "Your System, Your Choice",
+        "body": "After handover, everything runs independently — no ongoing obligation. Want us monitoring, patching, and on call year-round? That's what Finca Care is for. Either way, you leave with a fully documented system that's yours."
       }
     ]
   },

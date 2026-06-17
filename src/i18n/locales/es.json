@@ -480,9 +480,18 @@
     "glance": {
       "label": "De un Vistazo",
       "stats": [
-        { "value": "11+", "text": "Años de experiencia combinada en construcción e IT" },
-        { "value": "NL", "text": "Activos profesionalmente en los Países Bajos — ahora con base en Almansa, España" },
-        { "value": "2", "text": "Disciplinas bajo un mismo techo: conocimiento en construcción + infraestructura IT" }
+        {
+          "value": "11+",
+          "text": "Años de experiencia combinada en construcción e IT"
+        },
+        {
+          "value": "NL",
+          "text": "Activos profesionalmente en los Países Bajos — ahora con base en Almansa, España"
+        },
+        {
+          "value": "2",
+          "text": "Disciplinas bajo un mismo techo: conocimiento en construcción + infraestructura IT"
+        }
       ],
       "howWeWorkLabel": "Cómo Trabajamos",
       "howWeWorkItems": [
@@ -575,6 +584,11 @@
         "number": "03",
         "title": "Instalación y Entrega",
         "body": "La mayoría de los proyectos llevan 1–2 días en la propiedad. No nos vamos hasta que todo funciona, y recibe un resumen completo por escrito antes de que nos marchemos."
+      },
+      {
+        "number": "04",
+        "title": "Su Sistema, Su Elección",
+        "body": "Tras la entrega, todo funciona de forma independiente — sin obligaciones adicionales. ¿Prefiere que monitorizemos, actualicemos y estemos disponibles durante todo el año? Para eso existe Finca Care. De cualquier manera, se va con un sistema completamente documentado que es suyo."
       }
     ]
   },
