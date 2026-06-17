@@ -93,7 +93,8 @@
             "a": "Wenn Sie ein Backup-Internet eingerichtet haben, schaltet es automatisch innerhalb von Sekunden um. Ihre Kameras, Fernzugriff und Automatisierungen laufen weiter — kein manueller Eingriff nötig."
           }
         ]
-      }
+      },
+      "pricingNote": "Typische Startinvestition: ab €900. Bestätigt nach kostenlosem Vor-Ort-Besuch."
     },
     "security": {
       "title": "Smarte Sicherheit",
@@ -134,7 +135,8 @@
             "a": "Wir können ein Batterie-Backup einbauen damit Ihre wichtigsten Kameras und das Aufnahmegerät bei kurzen Ausfällen weiterlaufen. In Verbindung mit Solarenergie kann das erheblich verlängert werden."
           }
         ]
-      }
+      },
+      "pricingNote": "Typische Startinvestition: ab €1.200. Bestätigt nach kostenlosem Vor-Ort-Besuch."
     },
     "automation": {
       "title": "Smarte Automatisierung",
@@ -175,7 +177,8 @@
             "a": "Höchstwahrscheinlich ja. Die Plattform mit der wir arbeiten unterstützt eine riesige Anzahl von Marken. Wir prüfen die Kompatibilität beim Vor-Ort-Besuch — bringen Sie eine Liste mit und wir sagen Ihnen was möglich ist."
           }
         ]
-      }
+      },
+      "pricingNote": "Typische Startinvestition: ab €800. Bestätigt nach kostenlosem Vor-Ort-Besuch."
     },
     "energy": {
       "title": "Solar & Energie",
@@ -216,7 +219,8 @@
             "a": "Für die meisten Heimanlagen bis 10kWp ist nur eine vereinfachte Meldung erforderlich und keine volle Baugenehmigung. Wir erklären Ihnen was für Ihre spezifische Situation gilt."
           }
         ]
-      }
+      },
+      "pricingNote": "Typische Startinvestition: ab €1.500. Bestätigt nach kostenlosem Vor-Ort-Besuch."
     }
   },
   "fincaCare": {
@@ -407,7 +411,11 @@
       "heading": "Anfrage Erhalten",
       "body": "Wir haben Ihre Anfrage erhalten und eine Bestätigung an Ihre E-Mail-Adresse gesendet. Sie können innerhalb von 4 Stunden an einem Werktag mit einer Antwort rechnen.",
       "checkEmail": "Nichts erhalten? Schauen Sie in Ihrem Spam-Ordner nach.",
-      "cta": "Zurück zur Startseite"
+      "cta": "Zurück zur Startseite",
+      "fincaCareHeading": "Finca Care entdecken",
+      "fincaCareBody": "Laufende Pläne für den ganzjährigen Schutz Ihrer Finca.",
+      "whatsappPrompt": "Möchten Sie schneller antworten?",
+      "whatsappCta": "Schreiben Sie uns auf WhatsApp"
     },
     "error": {
       "heading": "Etwas ist schiefgelaufen",
@@ -451,15 +459,15 @@
   "about": {
     "badge": "Wer Wir Sind",
     "heading": "Bau-Know-how. IT-Expertise. Ein Familienteam.",
-    "intro": "Elf Jahre kombinierte Erfahrung — die Hälfte im Bau, die Hälfte in der IT. Wir haben dieses Unternehmen gegründet weil wir die Fähigkeiten hatten eine Lücke zu füllen die hier niemand anders ordentlich ausfüllt.",
+    "intro": "Wir sind in den Südosten Spaniens gezogen, weil wir es wollten — und als wir uns umsahen, lag die Gelegenheit auf der Hand. Traumhafte Anwesen, frustrierende Technik. Wir hatten genau die Fähigkeiten, das zu ändern, also haben wir NextGen Finca gegründet.",
     "sections": [
-      {
-        "heading": "Der Hintergrund",
-        "body": "Zusammen haben wir über elf Jahre Berufserfahrung — die Hälfte in Bau und Projektmanagement, die Hälfte in IT-Infrastruktur und Smart-Home-Systemen. In den Niederlanden haben wir jahrelang genau die Art von Installationen durchgeführt die wir jetzt bei Fincas in Spanien einrichten: Netzwerke, Sicherheitssysteme, Hausautomation und Energieüberwachung. Für echte Kunden, bei echten Projekten, mit echten Fristen."
-      },
       {
         "heading": "Warum Wir Hier Sind",
         "body": "Wir sind nach Südostspanien gezogen weil wir das wollten — und als wir uns umsahen war die Möglichkeit offensichtlich. Wunderschöne Immobilien mit frustrierender Technik. Kein zuverlässiges Internet, Tore die per Hand geöffnet werden, Solaranlagen die seit Jahren niemand angeschaut hat. Wir wussten genau wie man das behebt, also haben wir NextGen Finca gegründet um es zu tun."
+      },
+      {
+        "heading": "Der Hintergrund",
+        "body": "Zusammen haben wir über elf Jahre Berufserfahrung — die Hälfte in Bau und Projektmanagement, die Hälfte in IT-Infrastruktur und Smart-Home-Systemen. In den Niederlanden haben wir jahrelang genau die Art von Installationen durchgeführt die wir jetzt bei Fincas in Spanien einrichten: Netzwerke, Sicherheitssysteme, Hausautomation und Energieüberwachung. Für echte Kunden, bei echten Projekten, mit echten Fristen."
       },
       {
         "heading": "Wie Wir Arbeiten",
@@ -521,5 +529,74 @@
     ],
     "contactHeading": "Fragen zum Datenschutz",
     "contactBody": "Bei Fragen zu Ihren personenbezogenen Daten oder zur Ausübung Ihrer Rechte kontaktieren Sie uns bitte direkt:"
+  },
+  "promoBanner": {
+    "text": "Einführungsangebot: 20% Rabatt auf alle Finca Care-Pläne — dauerhaft, für Kunden die vor dem 1. Dezember 2026 einsteigen.",
+    "linkLabel": "Pläne ansehen",
+    "expiry": "Endet 30. Nov 2026"
+  },
+  "whyUs": {
+    "badge": "Warum Wir",
+    "heading": "Warum NextGen Finca",
+    "items": [
+      {
+        "title": "11+ Jahre Kombinierte Erfahrung",
+        "body": "Die Hälfte im Bau, die Hälfte in der IT-Infrastruktur. Beides zählt für diese Art von Arbeit — die meisten Installateure haben nur eines."
+      },
+      {
+        "title": "Vor Ort, Nicht Eingeflogen",
+        "body": "Wir leben in Südostspanien. Sie arbeiten direkt mit uns — kein Callcenter, kein Subunternehmer aus der Stadt."
+      },
+      {
+        "title": "Professionelle Ausrüstung",
+        "body": "Wir installieren Ubiquiti, Victron, Starlink und Reolink — was professionelle Installationen verwenden, keine Produkte von der Konsumgüterregale."
+      },
+      {
+        "title": "Dokumentierte Übergabe, Immer",
+        "body": "Jeder Auftrag endet mit einer schriftlichen Systemzusammenfassung und einer vollständigen Einweisung. Sie wissen genau was Sie haben und wie es funktioniert."
+      }
+    ]
+  },
+  "howItWorks": {
+    "badge": "Der Ablauf",
+    "heading": "Vom Erstgespräch zum fertigen System",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Kostenloser Vor-Ort-Besuch",
+        "body": "Wir kommen zu Ihrer Immobilie, schauen uns an was Sie haben, und sagen Ihnen genau was wir tun würden und warum. Keine Kosten, keine Verpflichtung."
+      },
+      {
+        "number": "02",
+        "title": "Klares Angebot, Keine Überraschungen",
+        "body": "Sie erhalten ein schriftliches Angebot mit Einzelpositionen. Wir erklären jede Entscheidung. Nichts wird nachträglich hinzugefügt."
+      },
+      {
+        "number": "03",
+        "title": "Installation & Übergabe",
+        "body": "Die meisten Projekte dauern 1–2 Tage vor Ort. Wir gehen erst wenn alles funktioniert, und Sie erhalten eine vollständige schriftliche Zusammenfassung bevor wir gehen."
+      }
+    ]
+  },
+  "homeFaq": {
+    "heading": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Muss ich während der Installation auf der Immobilie sein?",
+        "a": "Nein. Zugang über Schlüsselsafe oder Torcode funktioniert problemlos. Wir erledigen den Auftrag und senden Ihnen eine vollständige schriftliche Übergabe mit allem dokumentiert."
+      },
+      {
+        "q": "Was kostet ein typisches Projekt?",
+        "a": "Das hängt von der Immobilie ab. Eine Konnektivitätsinstallation kostet in der Regel €900–€2.500. Ein vollständiges Anwesen mit Internet, Sicherheit, Automatisierung und Energie wird pro Projekt nach dem kostenlosen Vor-Ort-Besuch angeboten — jede Finca ist anders."
+      },
+      {
+        "q": "Welche Gebiete decken Sie ab?",
+        "a": "Wir sind in Almansa ansässig und bedienen Südostspanien — Valencia, Alicante, Murcia, die Costa Blanca und alles innerhalb von etwa einer Stunde Fahrt."
+      },
+      {
+        "q": "Wir sind nicht ganzjährig in Spanien. Können Sie alles aus der Ferne verwalten?",
+        "a": "Ja — das ist der ganze Sinn. Alles was wir installieren ist fernüberwachbar. Finca Care Abonnenten erhalten proaktive Warnmeldungen wenn etwas Aufmerksamkeit benötigt."
+      }
+    ]
   }
 }

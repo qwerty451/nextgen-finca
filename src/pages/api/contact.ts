@@ -60,13 +60,7 @@ function buildInternalHtml(fields: Record<string, string>): string {
     ['Email', `<a href="mailto:${fields.email}">${fields.email}</a>`],
     ['Phone', fields.phone || '—'],
     ['Location', fields.location || '—'],
-    ['Property Type', fields.propertyType || '—'],
-    ['Property Size', fields.propertySize || '—'],
-    ['Current Internet', fields.currentInternet || '—'],
-    ['Timeline', fields.timeline || '—'],
     ['Service Interest', fields.service || '—'],
-    ['Budget', fields.budget || '—'],
-    ['Message', fields.message ? fields.message.replace(/\n/g, '<br>') : '—'],
     ['Language', fields.lang],
   ];
 
@@ -104,13 +98,7 @@ export const POST: APIRoute = async ({ request, redirect }) => {
   const lang = (String(formData.get('lang') ?? 'en').trim()) as Lang;
   const phone = String(formData.get('phone') ?? '').trim();
   const location = String(formData.get('location') ?? '').trim();
-  const propertyType = String(formData.get('propertyType') ?? '').trim();
-  const propertySize = String(formData.get('propertySize') ?? '').trim();
-  const currentInternet = String(formData.get('currentInternet') ?? '').trim();
-  const timeline = String(formData.get('timeline') ?? '').trim();
   const service = String(formData.get('service') ?? '').trim();
-  const budget = String(formData.get('budget') ?? '').trim();
-  const message = String(formData.get('message') ?? '').trim();
 
   if (!name || !email || !email.includes('@')) {
     return new Response('Missing required fields', { status: 400 });
@@ -138,7 +126,7 @@ export const POST: APIRoute = async ({ request, redirect }) => {
           to: notifyEmail,
           replyTo: email,
           subject: `New Assessment Request — ${name} (${service || 'General'})`,
-          html: buildInternalHtml({ name, email, phone, location, propertyType, propertySize, currentInternet, timeline, service, budget, message, lang: safeLang }),
+          html: buildInternalHtml({ name, email, phone, location, service, lang: safeLang }),
         }),
         transporter.sendMail({
           from: `NextGen Finca <${smtpFrom}>`,

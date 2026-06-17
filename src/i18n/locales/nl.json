@@ -93,7 +93,8 @@
             "a": "Als u een back-upverbinding heeft, schakelt deze binnen enkele seconden automatisch over. Uw camera's, externe toegang en automatiseringen blijven werken — geen handmatige actie nodig."
           }
         ]
-      }
+      },
+      "pricingNote": "Typische startinvestering: vanaf €900. Bevestigd na gratis locatiebezoek."
     },
     "security": {
       "title": "Slimme Beveiliging",
@@ -134,7 +135,8 @@
             "a": "Wij kunnen een accu-back-up installeren zodat uw belangrijkste camera's en het opnameapparaat blijven werken bij korte uitval. Gecombineerd met zonne-energie kan dit aanzienlijk worden verlengd."
           }
         ]
-      }
+      },
+      "pricingNote": "Typische startinvestering: vanaf €1.200. Bevestigd na gratis locatiebezoek."
     },
     "automation": {
       "title": "Slimme Automatisering",
@@ -175,7 +177,8 @@
             "a": "Hoogstwaarschijnlijk wel. Het platform waarmee wij werken ondersteunt een enorm aantal merken. Wij controleren compatibiliteit tijdens het locatiebezoek — neem een lijst mee en wij vertellen u wat mogelijk is."
           }
         ]
-      }
+      },
+      "pricingNote": "Typische startinvestering: vanaf €800. Bevestigd na gratis locatiebezoek."
     },
     "energy": {
       "title": "Zonne-energie & Utilities",
@@ -216,7 +219,8 @@
             "a": "Voor de meeste thuisinstallaties tot 10kWp is alleen een vereenvoudigde melding nodig in plaats van een volledige vergunning. Wij begeleiden u door wat van toepassing is op uw situatie."
           }
         ]
-      }
+      },
+      "pricingNote": "Typische startinvestering: vanaf €1.500. Bevestigd na gratis locatiebezoek."
     }
   },
   "fincaCare": {
@@ -407,7 +411,11 @@
       "heading": "Aanvraag Ontvangen",
       "body": "We hebben uw aanvraag ontvangen en een bevestiging naar uw e-mailadres gestuurd. U kunt binnen 4 uur op een werkdag een reactie van ons verwachten.",
       "checkEmail": "Niet ontvangen? Controleer uw spammap.",
-      "cta": "Terug naar Home"
+      "cta": "Terug naar Home",
+      "fincaCareHeading": "Ontdek Finca Care",
+      "fincaCareBody": "Doorlopende plannen om uw finca het hele jaar door beschermd te houden.",
+      "whatsappPrompt": "Wil je sneller antwoord?",
+      "whatsappCta": "Stuur ons een bericht via WhatsApp"
     },
     "error": {
       "heading": "Er is iets misgegaan",
@@ -451,15 +459,15 @@
   "about": {
     "badge": "Wie Wij Zijn",
     "heading": "Bouwkennis. IT-expertise. Eén Familieteam.",
-    "intro": "Elf jaar gecombineerde ervaring — de helft in bouw, de helft in IT. Wij hebben dit bedrijf opgericht omdat wij de vaardigheden hadden om een gat te vullen dat hier niemand anders goed invult.",
+    "intro": "We zijn naar het zuidoosten van Spanje verhuisd omdat we dat wilden — en toen we rondkeken, was de kans overduidelijk. Prachtige eigendommen, frustrerende technologie. We hadden precies de vaardigheden om dat op te lossen, dus hebben we NextGen Finca opgericht.",
     "sections": [
-      {
-        "heading": "De Achtergrond",
-        "body": "Samen hebben wij ruim elf jaar praktijkervaring — de helft in bouw en projectbeheer, de helft in IT-infrastructuur en slimme thuissystemen. In Nederland hebben wij jaren lang precies de soort installaties gedaan die wij nu bij finca's in Spanje neerzetten: netwerken, beveiligingssystemen, domotica en energiemonitoring. Voor echte opdrachtgevers, op echte projecten, met echte deadlines."
-      },
       {
         "heading": "Waarom Wij Hier Zijn",
         "body": "Wij zijn naar zuidoost Spanje verhuisd omdat wij dat wilden — en toen wij om ons heen keken, was de kans duidelijk. Prachtige finca's met frustrerende technologie. Geen betrouwbaar internet, poorten die met de hand geopend worden, zonne-installaties die al jaren niet zijn aangeraakt. Wij wisten precies hoe die problemen op te lossen, en daarom hebben wij NextGen Finca opgezet."
+      },
+      {
+        "heading": "De Achtergrond",
+        "body": "Samen hebben wij ruim elf jaar praktijkervaring — de helft in bouw en projectbeheer, de helft in IT-infrastructuur en slimme thuissystemen. In Nederland hebben wij jaren lang precies de soort installaties gedaan die wij nu bij finca's in Spanje neerzetten: netwerken, beveiligingssystemen, domotica en energiemonitoring. Voor echte opdrachtgevers, op echte projecten, met echte deadlines."
       },
       {
         "heading": "Hoe Wij Werken",
@@ -521,5 +529,74 @@
     ],
     "contactHeading": "Vragen over Gegevensbescherming",
     "contactBody": "Voor vragen over uw persoonsgegevens of om uw rechten uit te oefenen, kunt u rechtstreeks contact met ons opnemen:"
+  },
+  "promoBanner": {
+    "text": "Launch aanbieding: 20% korting op alle Finca Care abonnementen — permanent, voor klanten die vóór 1 december 2026 beginnen.",
+    "linkLabel": "Bekijk plannen",
+    "expiry": "Eindigt 30 nov 2026"
+  },
+  "whyUs": {
+    "badge": "Waarom Wij",
+    "heading": "Waarom NextGen Finca",
+    "items": [
+      {
+        "title": "11+ Jaar Gecombineerde Ervaring",
+        "body": "De helft in bouw, de helft in IT-infrastructuur. Beide zijn nodig voor dit soort werk — de meeste installateurs hebben er maar één."
+      },
+      {
+        "title": "Hier Gevestigd, Niet Ingevlogen",
+        "body": "Wij wonen in zuidoost Spanje. U werkt direct met ons — geen callcenter, geen onderaannemer vanuit de stad."
+      },
+      {
+        "title": "Professionele Apparatuur",
+        "body": "Wij installeren Ubiquiti, Victron, Starlink en Reolink — wat serieuze installaties gebruiken, geen consumentenproducten van de plank."
+      },
+      {
+        "title": "Gedocumenteerde Oplevering, Altijd",
+        "body": "Elk project eindigt met een schriftelijke systeembeschrijving en een volledige rondleiding. U weet precies wat u heeft en hoe het werkt."
+      }
+    ]
+  },
+  "howItWorks": {
+    "badge": "Het Proces",
+    "heading": "Van Eerste Gesprek tot Werkend Systeem",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Gratis Locatiebezoek",
+        "body": "Wij komen naar uw finca, bekijken wat u heeft en vertellen u precies wat wij zouden doen en waarom. Geen kosten, geen verplichting."
+      },
+      {
+        "number": "02",
+        "title": "Duidelijke Offerte, Geen Verrassingen",
+        "body": "U krijgt een schriftelijke offerte met specificaties. Wij leggen elke keuze uit. Er wordt niets toegevoegd nadat u ja zegt."
+      },
+      {
+        "number": "03",
+        "title": "Installatie & Oplevering",
+        "body": "De meeste projecten duren 1–2 dagen ter plaatse. Wij vertrekken pas als alles werkt, en u krijgt een volledige schriftelijke samenvatting voor we gaan."
+      }
+    ]
+  },
+  "homeFaq": {
+    "heading": "Veelgestelde Vragen",
+    "items": [
+      {
+        "q": "Moet ik aanwezig zijn op de finca tijdens de installatie?",
+        "a": "Nee. Toegang via sleutelkluis of poortcode werkt prima. Wij ronden het werk af en sturen u een volledige schriftelijke oplevering met alles gedocumenteerd."
+      },
+      {
+        "q": "Wat kost een typisch project?",
+        "a": "Dat hangt af van de finca. Een connectiviteitsinstallatie kost doorgaans €900–€2.500. Een volledig estate-project met internet, beveiliging, automatisering en energie wordt per project geoffreerd na het gratis locatiebezoek — elke finca is anders."
+      },
+      {
+        "q": "Welk gebied bedekt u?",
+        "a": "Wij zijn gevestigd in Almansa en bedienen zuidoost Spanje — Valencia, Alicante, Murcia, de Costa Blanca en alles binnen ruwweg een uur rijden."
+      },
+      {
+        "q": "We zijn niet het hele jaar in Spanje. Kunnen jullie alles op afstand beheren?",
+        "a": "Ja — dat is precies het punt. Alles wat wij installeren is op afstand te monitoren. Finca Care abonnees ontvangen proactieve meldingen als er iets aandacht nodig heeft."
+      }
+    ]
   }
 }

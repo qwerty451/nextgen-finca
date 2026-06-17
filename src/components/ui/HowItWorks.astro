@@ -1,0 +1,42 @@
+---
+import type { TranslationKeys } from '@/i18n/types';
+
+interface Props {
+  t: TranslationKeys;
+  lang: string;
+}
+
+const { t } = Astro.props;
+const howItWorks = (t as any).howItWorks;
+---
+
+<section class="bg-slate-bg py-16 md:py-24" aria-labelledby="how-it-works-heading">
+  <div class="container-xl">
+    <div class="text-center max-w-2xl mx-auto mb-4">
+      <span class="inline-block text-electric text-xs font-bold uppercase tracking-widest mb-3">
+        {howItWorks.badge}
+      </span>
+      <h2 id="how-it-works-heading" class="text-3xl md:text-4xl font-bold text-navy">
+        {howItWorks.heading}
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4 mt-14 relative">
+      <!-- Connector line visible on desktop only -->
+      <div
+        class="hidden md:block absolute top-8 left-[16.67%] right-[16.67%] h-px bg-slate-border"
+        aria-hidden="true"
+      ></div>
+
+      {howItWorks.steps.map((step: { number: string; title: string; body: string }) => (
+        <div class="flex flex-col items-center text-center relative">
+          <div class="w-16 h-16 rounded-full bg-white border-2 border-electric flex items-center justify-center mb-6 relative z-10 shadow-sm">
+            <span class="text-electric font-bold text-xl">{step.number}</span>
+          </div>
+          <h3 class="font-bold text-navy text-lg mb-3">{step.title}</h3>
+          <p class="text-slate-500 text-sm leading-relaxed max-w-xs">{step.body}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

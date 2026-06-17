@@ -6,50 +6,36 @@ interface Props {
 }
 
 const { t } = Astro.props;
+const whyUs = (t as any).whyUs;
 
-const ecosystems = [
-  {
-    name: 'Ubiquiti UniFi',
-    icon: `<svg viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/><path d="M20 8v12l8 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="20" cy="20" r="3" fill="currentColor"/></svg>`,
-  },
-  {
-    name: 'Victron Energy',
-    icon: `<svg viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 20h6l4-10 4 20 4-10h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
-  },
-  {
-    name: 'Starlink',
-    icon: `<svg viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="10" r="4" stroke="currentColor" stroke-width="2"/><path d="M20 14v8M12 30l8-8 8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="20" cy="32" rx="10" ry="3" stroke="currentColor" stroke-width="2"/></svg>`,
-  },
-  {
-    name: 'Home Assistant',
-    icon: `<svg viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 20L20 8l14 12v14H26v-8h-12v8H6V20z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="20" cy="24" r="3" stroke="currentColor" stroke-width="2"/></svg>`,
-  },
-  {
-    name: 'Reolink',
-    icon: `<svg viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="20" r="8" stroke="currentColor" stroke-width="2"/><circle cx="18" cy="20" r="3" fill="currentColor"/><path d="M26 16l6-4v16l-6-4" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>`,
-  },
+const icons = [
+  `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`,
+  `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
+  `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>`,
+  `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>`,
 ];
 ---
 
-<section class="bg-white border-y border-slate-border py-10" aria-label="Technology partners">
+<section class="bg-white py-16 md:py-20" aria-labelledby="why-us-heading">
   <div class="container-xl">
-    <p class="text-center text-slate-400 text-xs font-semibold uppercase tracking-widest mb-8">
-      {t.trustBadges.heading}
-    </p>
-    <div class="flex flex-wrap items-center justify-center gap-8 md:gap-16 mb-8">
-      {ecosystems.map((eco) => (
-        <div class="flex flex-col items-center gap-2 group" aria-hidden="true">
-          <div class="text-slate-300 group-hover:text-navy transition-colors duration-200">
-            <Fragment set:html={eco.icon} />
+    <div class="text-center mb-12">
+      <p class="text-electric text-xs font-bold uppercase tracking-widest mb-3">
+        {whyUs.badge}
+      </p>
+      <h2 id="why-us-heading" class="text-3xl md:text-4xl font-bold text-navy">
+        {whyUs.heading}
+      </h2>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+      {whyUs.items.map((item: { title: string; body: string }, index: number) => (
+        <div class="flex flex-col gap-4 p-6 bg-slate-bg rounded-2xl border border-slate-border">
+          <div class="w-11 h-11 rounded-xl bg-electric/10 flex items-center justify-center text-electric">
+            <div set:html={icons[index]} />
           </div>
-          <span class="text-slate-400 text-xs font-medium group-hover:text-navy transition-colors duration-200">
-            {eco.name}
-          </span>
+          <h3 class="font-bold text-navy text-lg">{item.title}</h3>
+          <p class="text-slate-500 text-sm leading-relaxed">{item.body}</p>
         </div>
       ))}
     </div>
-    <p class="text-center text-slate-400 text-xs max-w-lg mx-auto italic">
-      {t.trustBadges.note}
-    </p>
   </div>
 </section>

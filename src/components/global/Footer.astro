@@ -84,8 +84,19 @@ const year = new Date().getFullYear();
       </div>
     </div>
 
+    <!-- Footer CTA -->
+    <div class="border-t border-slate-700 pt-6 mt-10 text-center">
+      <p class="text-slate-300 text-sm mb-3">{t.ctaBanner.heading}</p>
+      <a
+        href={`/${lang}/contact/`}
+        class="inline-flex items-center gap-1.5 bg-electric text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-blue-400 transition-colors"
+      >
+        {t.ctaBanner.cta}
+      </a>
+    </div>
+
     <!-- Bottom bar -->
-    <div class="border-t border-slate-700 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
+    <div class="border-t border-slate-700 mt-6 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
       <p class="text-slate-400 text-xs">
         {t.footer.legal.replace('2025', String(year))}
       </p>

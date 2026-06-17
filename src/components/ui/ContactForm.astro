@@ -9,7 +9,7 @@ interface Props {
 }
 
 const { t, lang, showSuccess = false } = Astro.props;
-const { fields, serviceOptions, propertyTypeOptions, currentInternetOptions, timelineOptions, budgetOptions, success } = t.contact;
+const { fields, serviceOptions, success } = t.contact;
 
 const inputClass = "w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow";
 const selectClass = "w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow appearance-none";
@@ -71,42 +71,6 @@ const labelClass = "text-sm font-semibold text-navy";
       </div>
     </div>
 
-    <!-- Property Type + Size -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-      <div class="flex flex-col gap-1.5">
-        <label for="propertyType" class={labelClass}>{fields.propertyType}</label>
-        <select id="propertyType" name="propertyType" class={selectClass}>
-          {Object.entries(propertyTypeOptions).map(([value, label]) => (
-            <option value={value}>{label}</option>
-          ))}
-        </select>
-      </div>
-      <div class="flex flex-col gap-1.5">
-        <label for="propertySize" class={labelClass}>{fields.propertySize}</label>
-        <input type="text" id="propertySize" name="propertySize" class={inputClass} placeholder={fields.propertySizePlaceholder} />
-      </div>
-    </div>
-
-    <!-- Current Internet + Timeline -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-      <div class="flex flex-col gap-1.5">
-        <label for="currentInternet" class={labelClass}>{fields.currentInternet}</label>
-        <select id="currentInternet" name="currentInternet" class={selectClass}>
-          {Object.entries(currentInternetOptions).map(([value, label]) => (
-            <option value={value}>{label}</option>
-          ))}
-        </select>
-      </div>
-      <div class="flex flex-col gap-1.5">
-        <label for="timeline" class={labelClass}>{fields.timeline}</label>
-        <select id="timeline" name="timeline" class={selectClass}>
-          {Object.entries(timelineOptions).map(([value, label]) => (
-            <option value={value}>{label}</option>
-          ))}
-        </select>
-      </div>
-    </div>
-
     <!-- Service Interest -->
     <div class="flex flex-col gap-1.5">
       <label for="service" class={labelClass}>{fields.service}</label>
@@ -115,28 +79,6 @@ const labelClass = "text-sm font-semibold text-navy";
           <option value={value}>{label}</option>
         ))}
       </select>
-    </div>
-
-    <!-- Budget -->
-    <div class="flex flex-col gap-1.5">
-      <label for="budget" class={labelClass}>{fields.budget}</label>
-      <select id="budget" name="budget" class={selectClass}>
-        {Object.entries(budgetOptions).map(([value, label]) => (
-          <option value={value}>{label}</option>
-        ))}
-      </select>
-    </div>
-
-    <!-- Message -->
-    <div class="flex flex-col gap-1.5">
-      <label for="message" class={labelClass}>{fields.message}</label>
-      <textarea
-        id="message"
-        name="message"
-        rows={4}
-        class={`${inputClass} resize-none`}
-        placeholder={fields.messagePlaceholder}
-      ></textarea>
     </div>
 
     <!-- Submit -->

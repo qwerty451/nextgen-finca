@@ -93,7 +93,8 @@
             "a": "Si tiene una conexión de respaldo configurada, cambia automáticamente en segundos. Sus cámaras, acceso remoto y automatizaciones siguen funcionando — sin intervención manual."
           }
         ]
-      }
+      },
+      "pricingNote": "Inversión inicial típica: desde €900. Confirmada tras evaluación gratuita del sitio."
     },
     "security": {
       "title": "Seguridad Inteligente",
@@ -134,7 +135,8 @@
             "a": "Podemos instalar una batería de respaldo para que las cámaras más importantes y el grabador sigan funcionando en cortes breves. Combinado con energía solar esto puede extenderse considerablemente."
           }
         ]
-      }
+      },
+      "pricingNote": "Inversión inicial típica: desde €1.200. Confirmada tras evaluación gratuita del sitio."
     },
     "automation": {
       "title": "Automatización Inteligente",
@@ -175,7 +177,8 @@
             "a": "Muy probablemente sí. La plataforma con la que trabajamos es compatible con una gran cantidad de marcas. Comprobamos la compatibilidad durante la visita — traiga una lista y le decimos qué es posible."
           }
         ]
-      }
+      },
+      "pricingNote": "Inversión inicial típica: desde €800. Confirmada tras evaluación gratuita del sitio."
     },
     "energy": {
       "title": "Solar y Energía",
@@ -216,7 +219,8 @@
             "a": "Para la mayoría de instalaciones domésticas de hasta 10kWp solo hace falta una comunicación simplificada, no una licencia completa. Le explicamos qué aplica a su situación concreta."
           }
         ]
-      }
+      },
+      "pricingNote": "Inversión inicial típica: desde €1.500. Confirmada tras evaluación gratuita del sitio."
     }
   },
   "fincaCare": {
@@ -407,7 +411,11 @@
       "heading": "Solicitud Recibida",
       "body": "Hemos recibido su solicitud y le hemos enviado una confirmación a su correo electrónico. Puede esperar una respuesta nuestra en menos de 4 horas en un día laborable.",
       "checkEmail": "¿No lo encuentra? Revise su carpeta de spam.",
-      "cta": "Volver al Inicio"
+      "cta": "Volver al Inicio",
+      "fincaCareHeading": "Descubre Finca Care",
+      "fincaCareBody": "Planes continuos para mantener tu finca protegida todo el año.",
+      "whatsappPrompt": "¿Quieres una respuesta más rápida?",
+      "whatsappCta": "Escríbenos por WhatsApp"
     },
     "error": {
       "heading": "Algo ha salido mal",
@@ -451,15 +459,15 @@
   "about": {
     "badge": "Quiénes Somos",
     "heading": "Experiencia en Construcción. Expertise en IT. Un Equipo Familiar.",
-    "intro": "Once años de experiencia combinada — la mitad en construcción, la mitad en IT. Creamos esta empresa porque teníamos las habilidades para cubrir un vacío que nadie más por aquí estaba llenando bien.",
+    "intro": "Nos mudamos al sureste de España porque quisimos — y cuando miramos a nuestro alrededor, la oportunidad era evidente. Propiedades extraordinarias con tecnología frustrante. Teníamos exactamente las habilidades para solucionarlo, así que creamos NextGen Finca.",
     "sections": [
-      {
-        "heading": "La Base",
-        "body": "Entre los dos acumulamos más de once años de experiencia profesional práctica — la mitad en construcción y gestión de proyectos, la otra mitad en infraestructura informática y sistemas domóticos. En los Países Bajos llevamos años realizando exactamente el tipo de instalaciones que ahora hacemos en fincas en España: redes, sistemas de seguridad, domótica y monitorización energética. Para clientes reales, en proyectos reales, con plazos reales."
-      },
       {
         "heading": "Por Qué Estamos Aquí",
         "body": "Nos mudamos al sureste de España porque quisimos hacerlo — y cuando miramos a nuestro alrededor, la oportunidad era evidente. Propiedades preciosas con tecnología frustrante. Sin internet fiable, puertas que se abren a mano, instalaciones solares que nadie había revisado en años. Sabíamos exactamente cómo resolver esas cosas, así que creamos NextGen Finca para hacerlo."
+      },
+      {
+        "heading": "La Base",
+        "body": "Entre los dos acumulamos más de once años de experiencia profesional práctica — la mitad en construcción y gestión de proyectos, la otra mitad en infraestructura informática y sistemas domóticos. En los Países Bajos llevamos años realizando exactamente el tipo de instalaciones que ahora hacemos en fincas en España: redes, sistemas de seguridad, domótica y monitorización energética. Para clientes reales, en proyectos reales, con plazos reales."
       },
       {
         "heading": "Cómo Trabajamos",
@@ -521,5 +529,74 @@
     ],
     "contactHeading": "Consultas sobre Protección de Datos",
     "contactBody": "Para cualquier pregunta sobre sus datos personales o para ejercer sus derechos, contáctenos directamente:"
+  },
+  "promoBanner": {
+    "text": "Oferta de lanzamiento: 20% de descuento en todos los planes Finca Care — permanente para clientes que se unan antes del 1 de diciembre de 2026.",
+    "linkLabel": "Ver planes",
+    "expiry": "Finaliza el 30 nov 2026"
+  },
+  "whyUs": {
+    "badge": "Por Qué Nosotros",
+    "heading": "Por Qué NextGen Finca",
+    "items": [
+      {
+        "title": "11+ Años de Experiencia Combinada",
+        "body": "La mitad en construcción, la mitad en infraestructura IT. Ambas son necesarias para este tipo de trabajo — la mayoría de los instaladores solo tienen una."
+      },
+      {
+        "title": "Aquí, No de Paso",
+        "body": "Vivimos en el sureste de España. Trata directamente con nosotros — no con un call center ni con un subcontratista enviado desde la ciudad."
+      },
+      {
+        "title": "Equipos de Nivel Profesional",
+        "body": "Instalamos Ubiquiti, Victron, Starlink y Reolink — lo que usan las instalaciones serias, no productos de consumo del lineal."
+      },
+      {
+        "title": "Entrega Documentada, Siempre",
+        "body": "Cada trabajo termina con un resumen escrito del sistema y una explicación completa. Sabe exactamente lo que tiene y cómo funciona."
+      }
+    ]
+  },
+  "howItWorks": {
+    "badge": "El Proceso",
+    "heading": "Del Primer Contacto al Sistema en Marcha",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Evaluación Gratuita del Sitio",
+        "body": "Venimos a su propiedad, vemos lo que tiene y le decimos exactamente qué haríamos y por qué. Sin coste, sin compromiso."
+      },
+      {
+        "number": "02",
+        "title": "Presupuesto Claro, Sin Sorpresas",
+        "body": "Recibe un presupuesto por escrito con cada partida detallada. Explicamos cada decisión. No se añade nada después de que diga que sí."
+      },
+      {
+        "number": "03",
+        "title": "Instalación y Entrega",
+        "body": "La mayoría de los proyectos llevan 1–2 días en la propiedad. No nos vamos hasta que todo funciona, y recibe un resumen completo por escrito antes de que nos marchemos."
+      }
+    ]
+  },
+  "homeFaq": {
+    "heading": "Preguntas Habituales",
+    "items": [
+      {
+        "q": "¿Necesito estar en la propiedad durante la instalación?",
+        "a": "No. El acceso mediante caja de llaves o código de puerta funciona perfectamente. Terminamos el trabajo y le enviamos una entrega completa por escrito con todo documentado."
+      },
+      {
+        "q": "¿Cuánto cuesta un proyecto típico?",
+        "a": "Depende de la propiedad. Una instalación de conectividad suele costar entre €900 y €2.500. Una finca completa con internet, seguridad, automatización y energía se presupuesta por proyecto tras la visita gratuita — cada finca es diferente."
+      },
+      {
+        "q": "¿Qué zonas cubren?",
+        "a": "Tenemos base en Almansa y cubrimos el sureste de España — Valencia, Alicante, Murcia, la Costa Blanca y todo lo que quede a aproximadamente una hora en coche."
+      },
+      {
+        "q": "No estamos en España todo el año. ¿Pueden gestionar las cosas en remoto?",
+        "a": "Sí — ese es precisamente el objetivo. Todo lo que instalamos es monitorizable en remoto. Los suscriptores de Finca Care reciben alertas proactivas si algo necesita atención."
+      }
+    ]
   }
 }

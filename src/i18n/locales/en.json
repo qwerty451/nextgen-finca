@@ -93,7 +93,8 @@
             "a": "If you have a backup connection set up, it switches over automatically within seconds. Your cameras, remote access, and any automations stay running — no manual intervention needed."
           }
         ]
-      }
+      },
+      "pricingNote": "Typical starting investment: from €900. Confirmed after free site assessment."
     },
     "security": {
       "title": "Smart Security",
@@ -134,7 +135,8 @@
             "a": "We can fit a battery backup so your key cameras and the recording unit stay running during short outages. Combined with solar power this can be extended considerably."
           }
         ]
-      }
+      },
+      "pricingNote": "Typical starting investment: from €1,200. Confirmed after free site assessment."
     },
     "automation": {
       "title": "Smart Automation",
@@ -175,7 +177,8 @@
             "a": "Most likely yes. The platform we work with supports a huge range of brands and devices. We check compatibility during the site visit — bring a list and we'll tell you what's possible."
           }
         ]
-      }
+      },
+      "pricingNote": "Typical starting investment: from €800. Confirmed after free site assessment."
     },
     "energy": {
       "title": "Solar & Energy",
@@ -216,7 +219,8 @@
             "a": "For most home installations up to 10kWp, a simplified notification is all that's required rather than full planning permission. We'll guide you through what applies to your specific situation."
           }
         ]
-      }
+      },
+      "pricingNote": "Typical starting investment: from €1,500. Confirmed after free site assessment."
     }
   },
   "fincaCare": {
@@ -407,7 +411,11 @@
       "heading": "Request Received",
       "body": "We've got your request and sent a confirmation to your email. You can expect to hear from us within 4 hours on a workday.",
       "checkEmail": "Can't find it? Check your spam folder.",
-      "cta": "Back to Home"
+      "cta": "Back to Home",
+      "fincaCareHeading": "Explore Finca Care",
+      "fincaCareBody": "Recurring plans to keep your finca protected year-round.",
+      "whatsappPrompt": "Want a faster response?",
+      "whatsappCta": "Message us on WhatsApp"
     },
     "error": {
       "heading": "Something went wrong",
@@ -451,15 +459,15 @@
   "about": {
     "badge": "Who We Are",
     "heading": "Construction Know-How. IT Expertise. One Family Team.",
-    "intro": "Eleven years of combined experience — half in construction, half in IT. We built this company because we had the skills to fill a gap nobody else around here was filling properly.",
+    "intro": "We moved to southeast Spain because we wanted to — and when we looked around, the opportunity was obvious. Great properties, frustrating technology. We had exactly the skills to fix that, so we built NextGen Finca.",
     "sections": [
-      {
-        "heading": "The Background",
-        "body": "Between us we have over eleven years of hands-on professional experience — half in construction and project management, half in IT infrastructure and smart home systems. In the Netherlands we spent years installing exactly the kind of setups we now bring to fincas in Spain: networks, security systems, home automation, and solar monitoring. For real clients, on real projects, with real deadlines."
-      },
       {
         "heading": "Why We're Here",
         "body": "We moved to southeast Spain because we wanted to — and when we looked around, the opportunity was obvious. Stunning properties with frustrating technology. No reliable internet, gates opened by hand, solar systems nobody had looked at in years. We knew exactly how to fix those things, so we built NextGen Finca to do it."
+      },
+      {
+        "heading": "The Background",
+        "body": "Between us we have over eleven years of hands-on professional experience — half in construction and project management, half in IT infrastructure and smart home systems. In the Netherlands we spent years installing exactly the kind of setups we now bring to fincas in Spain: networks, security systems, home automation, and solar monitoring. For real clients, on real projects, with real deadlines."
       },
       {
         "heading": "How We Operate",
@@ -521,5 +529,74 @@
     ],
     "contactHeading": "Data Protection Enquiries",
     "contactBody": "For any questions about your personal data, or to exercise your rights, please contact us directly:"
+  },
+  "promoBanner": {
+    "text": "Launch offer: 20% off all Finca Care plans — permanently, for clients who join before 1 December 2026.",
+    "linkLabel": "See plans",
+    "expiry": "Ends 30 Nov 2026"
+  },
+  "whyUs": {
+    "badge": "Why Us",
+    "heading": "Why NextGen Finca",
+    "items": [
+      {
+        "title": "11+ Years Combined Experience",
+        "body": "Half in construction, half in IT infrastructure. Both matter for this kind of work — most installers have only one."
+      },
+      {
+        "title": "Based Here, Not Dispatched",
+        "body": "We live in southeast Spain. You get us directly — not a call centre, not a subcontractor sent from a city."
+      },
+      {
+        "title": "Professional-Grade Equipment",
+        "body": "We install Ubiquiti, Victron, Starlink, and Reolink — what serious installations use, not consumer shelf products."
+      },
+      {
+        "title": "Documented Handover, Every Time",
+        "body": "Every job ends with a written system summary and a full walkthrough. You know exactly what you have and how it works."
+      }
+    ]
+  },
+  "howItWorks": {
+    "badge": "The Process",
+    "heading": "From First Call to Working System",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Free Site Assessment",
+        "body": "We come to your property, look at what you have, and tell you exactly what we'd do and why. No cost, no commitment."
+      },
+      {
+        "number": "02",
+        "title": "Clear Quote, No Surprises",
+        "body": "You get a written quote with line items. We explain every choice. Nothing gets added after you say yes."
+      },
+      {
+        "number": "03",
+        "title": "Installation & Handover",
+        "body": "Most projects take 1–2 days on-site. We don't leave until it works, and you get a full written summary before we go."
+      }
+    ]
+  },
+  "homeFaq": {
+    "heading": "Common Questions",
+    "items": [
+      {
+        "q": "Do I need to be at the property during installation?",
+        "a": "No. Key-safe or gate-code access works fine. We complete the job and send you a full written handover with everything documented."
+      },
+      {
+        "q": "What does a typical project cost?",
+        "a": "It depends on the property. A connectivity setup typically runs €900–€2,500. A full estate covering internet, security, automation, and energy is quoted per project after the free site visit — every finca is different."
+      },
+      {
+        "q": "Which areas do you cover?",
+        "a": "We're based in Almansa and cover southeast Spain — Valencia, Alicante, Murcia, the Costa Blanca, and everything within roughly an hour's drive."
+      },
+      {
+        "q": "We're not in Spain full-time. Can you manage things remotely?",
+        "a": "Yes — that's the whole point. Everything we install is remotely monitorable. Finca Care subscribers get proactive alerts if something needs attention."
+      }
+    ]
   }
 }

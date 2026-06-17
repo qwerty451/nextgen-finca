@@ -96,6 +96,9 @@ const s = t.services.energy;
             </a>
             <div class="border-t border-slate-700 pt-4 mt-4">
               <p class="text-slate-400 text-xs text-center">{t.contact.responsePromise}</p>
+              {(s as any).pricingNote && (
+                <p class="text-slate-400 text-xs text-center mt-3 leading-relaxed">{(s as any).pricingNote}</p>
+              )}
             </div>
           </div>
         </aside>
