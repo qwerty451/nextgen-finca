@@ -3,7 +3,7 @@
     "siteName": "NextGen Finca",
     "homeTitle": "Soluciones Inteligentes para su Finca en España | NextGen Finca",
     "homeDesc": "Internet fiable, cámaras de seguridad inteligentes, domótica y energía solar para fincas en el sureste de España. Empresa familiar en Almansa — resultados profesionales.",
-    "servicesTitle": "Nuestros Servicios | NextGen Finca",
+    "servicesTitle": "Internet, Seguridad, Solar y Automatización para Fincas | NextGen Finca",
     "servicesDesc": "Internet fiable, cámaras inteligentes, domótica y energía solar para fincas españolas. Nos encargamos de la parte técnica para que usted pueda disfrutar de su propiedad.",
     "connectivityTitle": "Internet Fiable para su Finca | NextGen Finca",
     "connectivityDesc": "Instalamos Starlink, añadimos una línea de respaldo móvil y llevamos wifi potente a cada rincón de su propiedad, incluida la puerta, la piscina y la casa de invitados.",
@@ -15,10 +15,12 @@
     "energyDesc": "Optimización solar, modernización de baterías y corte automático del agua. Mantenemos su sistema energético en funcionamiento y le avisamos cuando algo necesita atención.",
     "fincaCareTitle": "Suscripciones Finca Care — Protección Continua | NextGen Finca",
     "fincaCareDesc": "Digital Core €49/mes, Finca Essential €129/mes o Absolute Elite €249/mes. Supervisión y mantenimiento continuo para fincas en el sureste de España.",
-    "contactTitle": "Solicitar Evaluación Gratuita | NextGen Finca",
+    "contactTitle": "Reserve una Evaluación Gratuita de su Finca — Sureste de España | NextGen Finca",
     "contactDesc": "Visita gratuita para su finca. Trabajamos en el sureste de España, Valencia, Alicante, Murcia y la Costa Blanca. Respuesta en 24 horas.",
-    "aboutTitle": "Quiénes Somos — La Historia de NextGen Finca | NextGen Finca",
-    "aboutDesc": "Un equipo familiar con 11 años de experiencia combinada en construcción e informática, trayendo soluciones inteligentes para propiedades al sureste de España."
+    "aboutTitle": "Sobre NextGen Finca — Especialistas en Propiedades Inteligentes, Almansa España",
+    "aboutDesc": "Un equipo familiar con 11 años de experiencia combinada en construcción e informática, trayendo soluciones inteligentes para propiedades al sureste de España.",
+    "privacyTitle": "Política de Privacidad | NextGen Finca",
+    "privacyDesc": "Cómo NextGen Finca recopila, usa y protege sus datos personales. Política de privacidad conforme al RGPD para clientes en el sureste de España."
   },
   "nav": {
     "home": "Inicio",
@@ -328,7 +330,8 @@
     "serviceContext": {
       "heading": "¿Qué es Finca Care?",
       "body": "Finca Care es un servicio continuo de mantenimiento y monitorización — no es obligatorio con ningún trabajo de instalación. Instalamos sistemas como proyecto independiente: redes, seguridad, automatización, solar. Si prefiere gestionarlo usted mismo después, no necesita suscripción. Finca Care es para propietarios que prefieren que nos encarguemos de todo durante todo el año."
-    }
+    },
+    "viewAllDetails": "Ver todos los detalles del plan"
   },
   "compliance": {
     "notice": "NextGen Finca diseña, monta y configura toda la infraestructura técnica. Las conexiones a la red de alta tensión se coordinan con nuestra red de electricistas locales certificados."
@@ -456,6 +459,58 @@
     ],
     "closingHeading": "Cuéntenos sobre su finca.",
     "closingBody": "Una visita no le cuesta nada. Venimos a ver lo que tiene, le decimos qué haríamos y le damos un presupuesto claro.",
-    "ctaLabel": "Solicitar Evaluación Gratuita"
+    "ctaLabel": "Solicitar Evaluación Gratuita",
+    "glance": {
+      "label": "De un Vistazo",
+      "stats": [
+        { "value": "11+", "text": "Años de experiencia combinada en construcción e IT" },
+        { "value": "NL", "text": "Activos profesionalmente en los Países Bajos — ahora con base en Almansa, España" },
+        { "value": "2", "text": "Disciplinas bajo un mismo techo: conocimiento en construcción + infraestructura IT" }
+      ],
+      "howWeWorkLabel": "Cómo Trabajamos",
+      "howWeWorkItems": [
+        "Evaluación del sitio gratuita, sin compromiso",
+        "Sin jerga — explicamos todo con claridad",
+        "Trata directamente con nosotros, no con un centro de llamadas",
+        "Cada trabajo debidamente documentado"
+      ]
+    }
+  },
+  "privacy": {
+    "badge": "Legal",
+    "heading": "Política de Privacidad",
+    "lastUpdated": "Última actualización: junio de 2026",
+    "sections": [
+      {
+        "heading": "Quiénes Somos",
+        "body": "NextGen Finca es una empresa de tecnología y servicios inmobiliarios con sede en Almansa, Castilla-La Mancha, España. Somos el responsable del tratamiento de los datos personales recopilados a través de este sitio web. Contacto: info@nextgenfinca.com"
+      },
+      {
+        "heading": "Qué Datos Recopilamos",
+        "body": "Cuando envía una consulta a través de nuestro formulario de contacto, recopilamos: su nombre, dirección de correo electrónico, número de teléfono (opcional), ubicación de la propiedad, detalles de la propiedad (tipo, tamaño, conexión a internet actual, plazo), interés en servicios, rango presupuestario y cualquier información adicional que proporcione."
+      },
+      {
+        "heading": "Cómo Usamos Sus Datos",
+        "body": "Utilizamos su información exclusivamente para responder a su consulta, enviarle un correo de confirmación y proporcionarle un presupuesto o evaluación de su propiedad. No vendemos, compartimos ni alquilamos sus datos a terceros."
+      },
+      {
+        "heading": "Retención de Datos",
+        "body": "Conservamos los datos de su consulta durante un máximo de 2 años para poder hacer seguimiento y mantener un registro de nuestras comunicaciones. Puede solicitar la eliminación en cualquier momento."
+      },
+      {
+        "heading": "Sus Derechos",
+        "body": "Bajo el RGPD, tiene derecho a acceder, rectificar o eliminar sus datos personales. También tiene derecho a restringir u oponerse al tratamiento, y el derecho a la portabilidad de los datos. Para ejercer cualquiera de estos derechos, contacte con nosotros en info@nextgenfinca.com."
+      },
+      {
+        "heading": "Cookies",
+        "body": "Este sitio web no utiliza cookies de seguimiento ni análisis de terceros. Solo utilizamos la funcionalidad técnicamente necesaria para operar el sitio."
+      },
+      {
+        "heading": "Servicio de Correo Electrónico",
+        "body": "Los correos de confirmación se envían a través de Resend (resend.com), un proveedor de correo electrónico transaccional. Su dirección de correo electrónico se transmite a Resend únicamente para entregar su confirmación. Resend no utiliza sus datos para marketing."
+      }
+    ],
+    "contactHeading": "Consultas sobre Protección de Datos",
+    "contactBody": "Para cualquier pregunta sobre sus datos personales o para ejercer sus derechos, contáctenos directamente:"
   }
 }

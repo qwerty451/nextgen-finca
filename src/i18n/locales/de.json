@@ -3,7 +3,7 @@
     "siteName": "NextGen Finca",
     "homeTitle": "Smarte Lösungen für Ihre Spanische Finca | NextGen Finca",
     "homeDesc": "Zuverlässiges Internet, smarte Sicherheitskameras, Hausautomation und Solarenergie für Fincas in Südostspanien. Familienbetrieb in Almansa — professionelle Ergebnisse.",
-    "servicesTitle": "Unsere Leistungen | NextGen Finca",
+    "servicesTitle": "Internet, Sicherheit, Solar & Automation für Fincas | NextGen Finca",
     "servicesDesc": "Zuverlässiges Internet, smarte Kameras, Hausautomation und Solarenergie für Fincas in Spanien. Wir kümmern uns um die Technik, damit Sie Ihre Immobilie genießen können.",
     "connectivityTitle": "Zuverlässiges Internet für Ihre Finca | NextGen Finca",
     "connectivityDesc": "Wir installieren Starlink, fügen ein mobiles Backup hinzu und sorgen für starkes WLAN in jeder Ecke Ihrer Immobilie — am Tor, am Pool und im Gästehaus.",
@@ -15,10 +15,12 @@
     "energyDesc": "Solar-Optimierung, moderne Batterie-Upgrades und smarte Wasserabsperrung. Wir halten Ihr Energiesystem am Laufen und warnen Sie, wenn etwas Aufmerksamkeit braucht.",
     "fincaCareTitle": "Finca Care Abonnements — Laufender Anwesens-Schutz | NextGen Finca",
     "fincaCareDesc": "Digital Core €49/Mon, Finca Essential €129/Mon oder Absolute Elite €249/Mon. Laufende Überwachung und Wartung für Fincas in Südostspanien.",
-    "contactTitle": "Kostenloses Assessment Anfordern | NextGen Finca",
+    "contactTitle": "Kostenloses Finca-Assessment buchen — Südostspanien | NextGen Finca",
     "contactDesc": "Kostenloser Vor-Ort-Besuch für Ihre Finca. Wir bedienen Südostspanien, Valencia, Alicante, Murcia und die Costa Blanca. Antwort innerhalb von 24 Stunden.",
-    "aboutTitle": "Über Uns — Die Geschichte hinter NextGen Finca | NextGen Finca",
-    "aboutDesc": "Ein Familienteam mit 11 Jahren Erfahrung in Bau und IT, das smarte Immobilienlösungen nach Südostspanien bringt."
+    "aboutTitle": "Über NextGen Finca — Smarte Immobilienspezialisten, Almansa Spanien",
+    "aboutDesc": "Ein Familienteam mit 11 Jahren Erfahrung in Bau und IT, das smarte Immobilienlösungen nach Südostspanien bringt.",
+    "privacyTitle": "Datenschutzerklärung | NextGen Finca",
+    "privacyDesc": "Wie NextGen Finca Ihre persönlichen Daten erhebt, verwendet und schützt. DSGVO-konforme Datenschutzerklärung für Kunden in Südostspanien."
   },
   "nav": {
     "home": "Startseite",
@@ -328,7 +330,8 @@
     "serviceContext": {
       "heading": "Was ist Finca Care?",
       "body": "Finca Care ist ein laufender Wartungs- und Überwachungsservice — kein Pflichtbestandteil unserer Installationsarbeit. Wir installieren Systeme auch als eigenständige Projekte: Netzwerke, Sicherheit, Automatisierung, Solar. Wer danach alles selbst verwalten möchte, braucht kein Abonnement. Finca Care ist für Eigentümer, die möchten dass wir das ganze Jahr über alles im Blick behalten."
-    }
+    },
+    "viewAllDetails": "Alle Plandetails ansehen"
   },
   "compliance": {
     "notice": "NextGen Finca entwickelt, montiert und konfiguriert die gesamte technische Infrastruktur. Hochspannungs-zertifizierte Netzanschlüsse werden über unser Netzwerk lizenzierter lokaler Elektriker koordiniert."
@@ -456,6 +459,58 @@
     ],
     "closingHeading": "Erzählen Sie uns von Ihrer Finca.",
     "closingBody": "Ein Vor-Ort-Besuch kostet Sie nichts. Wir kommen und schauen uns an was Sie haben, sagen Ihnen was wir tun würden und geben Ihnen ein klares Angebot.",
-    "ctaLabel": "Kostenloses Assessment Anfordern"
+    "ctaLabel": "Kostenloses Assessment Anfordern",
+    "glance": {
+      "label": "Auf einen Blick",
+      "stats": [
+        { "value": "11+", "text": "Jahre kombinierte Erfahrung in Bau & IT" },
+        { "value": "NL", "text": "Professionell tätig in den Niederlanden — jetzt ansässig in Almansa, Spanien" },
+        { "value": "2", "text": "Disziplinen unter einem Dach: Bau-Know-how + IT-Infrastruktur" }
+      ],
+      "howWeWorkLabel": "Unsere Arbeitsweise",
+      "howWeWorkItems": [
+        "Kostenlose Standortbewertung, kein Engagement",
+        "Kein Fachjargon — wir erklären alles verständlich",
+        "Sie arbeiten direkt mit uns, nicht mit einem Callcenter",
+        "Jede Arbeit ordentlich dokumentiert"
+      ]
+    }
+  },
+  "privacy": {
+    "badge": "Rechtliches",
+    "heading": "Datenschutzerklärung",
+    "lastUpdated": "Zuletzt aktualisiert: Juni 2026",
+    "sections": [
+      {
+        "heading": "Wer Wir Sind",
+        "body": "NextGen Finca ist ein Technologie- und Immobiliendienstleistungsunternehmen mit Sitz in Almansa, Castilla-La Mancha, Spanien. Wir sind der Verantwortliche für personenbezogene Daten, die über diese Website erhoben werden. Kontakt: info@nextgenfinca.com"
+      },
+      {
+        "heading": "Welche Daten Wir Erheben",
+        "body": "Wenn Sie eine Anfrage über unser Kontaktformular stellen, erheben wir: Ihren Namen, Ihre E-Mail-Adresse, Telefonnummer (optional), Lage Ihrer Immobilie, Immobiliendetails (Art, Größe, aktueller Internetanschluss, Zeitplan), Dienstleistungsinteresse, Budgetrahmen und etwaige zusätzliche Informationen."
+      },
+      {
+        "heading": "Wie Wir Ihre Daten Verwenden",
+        "body": "Wir verwenden Ihre Daten ausschließlich zur Beantwortung Ihrer Anfrage, zum Versand einer Bestätigungs-E-Mail und zur Erstellung eines Angebots oder einer Bewertung für Ihre Immobilie. Wir verkaufen, teilen oder vermieten Ihre Daten nicht an Dritte."
+      },
+      {
+        "heading": "Datenspeicherung",
+        "body": "Wir speichern Ihre Anfragedaten bis zu 2 Jahre lang, um Nachfassaktionen durchführen und unsere Kommunikation dokumentieren zu können. Sie können jederzeit die Löschung beantragen."
+      },
+      {
+        "heading": "Ihre Rechte",
+        "body": "Gemäß DSGVO haben Sie das Recht auf Auskunft, Berichtigung oder Löschung Ihrer personenbezogenen Daten. Sie haben außerdem das Recht auf Einschränkung oder Widerspruch gegen die Verarbeitung sowie das Recht auf Datenübertragbarkeit. Kontaktieren Sie uns unter info@nextgenfinca.com, um diese Rechte auszuüben."
+      },
+      {
+        "heading": "Cookies",
+        "body": "Diese Website verwendet keine Tracking-Cookies oder Drittanbieter-Analytics. Wir verwenden ausschließlich technisch notwendige Funktionen zum Betrieb der Website."
+      },
+      {
+        "heading": "E-Mail-Dienst",
+        "body": "Bestätigungs-E-Mails werden über Resend (resend.com) versendet, einen Anbieter für transaktionale E-Mails. Ihre E-Mail-Adresse wird ausschließlich zur Zustellung Ihrer Bestätigung an Resend übermittelt. Resend verwendet Ihre Daten nicht für Marketingzwecke."
+      }
+    ],
+    "contactHeading": "Fragen zum Datenschutz",
+    "contactBody": "Bei Fragen zu Ihren personenbezogenen Daten oder zur Ausübung Ihrer Rechte kontaktieren Sie uns bitte direkt:"
   }
 }

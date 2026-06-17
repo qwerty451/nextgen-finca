@@ -3,7 +3,7 @@
     "siteName": "NextGen Finca",
     "homeTitle": "Slimme Oplossingen voor Uw Spaanse Finca | NextGen Finca",
     "homeDesc": "Betrouwbaar internet, slimme beveiligingscamera's, domotica en zonne-energie voor finca's in zuidoost Spanje. Familiebedrijf gevestigd in Almansa — professionele resultaten.",
-    "servicesTitle": "Onze Diensten | NextGen Finca",
+    "servicesTitle": "Internet, Beveiliging, Zonne-energie & Domotica voor Finca's | NextGen Finca",
     "servicesDesc": "Betrouwbaar internet, slimme camera's, domotica en zonne-energie voor Spaanse finca's. Wij regelen de techniek zodat u kunt genieten van uw finca.",
     "connectivityTitle": "Betrouwbaar Internet voor Uw Finca | NextGen Finca",
     "connectivityDesc": "Wij installeren Starlink, voegen mobiele back-up toe en zorgen voor sterk wifi in elke hoek van uw finca — inclusief de poort, het zwembad en het gastenverblijf.",
@@ -15,10 +15,12 @@
     "energyDesc": "Zonnepaneel optimalisatie, moderne accu-upgrades en slimme waterafsluiting. Wij houden uw energiesysteem op orde en waarschuwen u wanneer er iets aandacht nodig heeft.",
     "fincaCareTitle": "Finca Care Abonnementen — Doorlopende Bescherming | NextGen Finca",
     "fincaCareDesc": "Digital Core €49/mnd, Finca Essential €129/mnd of Absolute Elite €249/mnd. Doorlopende monitoring en onderhoud voor finca's in zuidoost Spanje.",
-    "contactTitle": "Gratis Assessment Aanvragen | NextGen Finca",
+    "contactTitle": "Vraag een Gratis Finca-beoordeling aan — Zuidoost-Spanje | NextGen Finca",
     "contactDesc": "Gratis locatiebezoek voor uw finca. Wij bedienen zuidoost Spanje, inclusief Valencia, Alicante, Murcia en de Costa Blanca. Reactie binnen 24 uur.",
-    "aboutTitle": "Over Ons — Het Verhaal achter NextGen Finca | NextGen Finca",
-    "aboutDesc": "Een familieteam met 11 jaar gecombineerde ervaring in bouw en IT, dat slimme oplossingen brengt naar zuidoost Spanje."
+    "aboutTitle": "Over NextGen Finca — Slimme Vastgoedspecialisten, Almansa Spanje",
+    "aboutDesc": "Een familieteam met 11 jaar gecombineerde ervaring in bouw en IT, dat slimme oplossingen brengt naar zuidoost Spanje.",
+    "privacyTitle": "Privacybeleid | NextGen Finca",
+    "privacyDesc": "Hoe NextGen Finca uw persoonlijke gegevens verzamelt, gebruikt en beschermt. AVG-conform privacybeleid voor klanten in zuidoost-Spanje."
   },
   "nav": {
     "home": "Home",
@@ -328,7 +330,8 @@
     "serviceContext": {
       "heading": "Wat is Finca Care?",
       "body": "Finca Care is een doorlopende onderhouds- en monitoringservice — geen verplichting bij onze installatieprojecten. Wij installeren ook los: netwerken, beveiliging, domotica, zonne-energie. Wilt u daarna alles zelf beheren? Prima, dan is er geen abonnement nodig. Finca Care is er voor eigenaren die willen dat wij het jaar rond voor hen bijhouden."
-    }
+    },
+    "viewAllDetails": "Bekijk alle plandetails"
   },
   "compliance": {
     "notice": "NextGen Finca ontwerpt, monteert en configureert alle technische infrastructuur. Hoogspanning gecertificeerde netaansluitingen worden gecoördineerd via ons netwerk van erkende lokale elektriciens."
@@ -456,6 +459,58 @@
     ],
     "closingHeading": "Vertel ons over uw finca.",
     "closingBody": "Een locatiebezoek kost u niets. Wij komen kijken wat u heeft, vertellen u wat wij zouden doen en geven u een duidelijke offerte.",
-    "ctaLabel": "Gratis Assessment Aanvragen"
+    "ctaLabel": "Gratis Assessment Aanvragen",
+    "glance": {
+      "label": "In het Kort",
+      "stats": [
+        { "value": "11+", "text": "Jaar gecombineerde ervaring in bouw & IT" },
+        { "value": "NL", "text": "Professioneel actief in Nederland — nu gevestigd in Almansa, Spanje" },
+        { "value": "2", "text": "Disciplines onder één dak: bouwkennis + IT-infrastructuur" }
+      ],
+      "howWeWorkLabel": "Hoe Wij Werken",
+      "howWeWorkItems": [
+        "Gratis locatiebeoordeling, geen verplichtingen",
+        "Geen jargon — we leggen alles duidelijk uit",
+        "U werkt rechtstreeks met ons, niet met een callcenter",
+        "Elk project goed gedocumenteerd"
+      ]
+    }
+  },
+  "privacy": {
+    "badge": "Juridisch",
+    "heading": "Privacybeleid",
+    "lastUpdated": "Laatst bijgewerkt: juni 2026",
+    "sections": [
+      {
+        "heading": "Wie Wij Zijn",
+        "body": "NextGen Finca is een technologie- en vastgoedservicebedrijf gevestigd in Almansa, Castilla-La Mancha, Spanje. Wij zijn de verwerkingsverantwoordelijke voor persoonsgegevens die via deze website worden verzameld. Contact: info@nextgenfinca.com"
+      },
+      {
+        "heading": "Welke Gegevens Wij Verzamelen",
+        "body": "Wanneer u een aanvraag indient via ons contactformulier, verzamelen wij: uw naam, e-mailadres, telefoonnummer (optioneel), locatie van uw eigendom, details van het eigendom (type, grootte, huidige internetverbinding, tijdlijn), dienstinteresse, budgetindicatie en eventuele aanvullende informatie."
+      },
+      {
+        "heading": "Hoe Wij Uw Gegevens Gebruiken",
+        "body": "Wij gebruiken uw gegevens uitsluitend om te reageren op uw aanvraag, u een bevestigingsmail te sturen en u een offerte of beoordeling voor uw eigendom te verstrekken. Wij verkopen, delen of verhuren uw gegevens niet aan derden."
+      },
+      {
+        "heading": "Bewaartermijn",
+        "body": "Wij bewaren uw aanvraaggegevens maximaal 2 jaar om contact te kunnen opnemen en een administratie van onze communicatie bij te houden. U kunt op elk moment om verwijdering verzoeken."
+      },
+      {
+        "heading": "Uw Rechten",
+        "body": "Onder de AVG heeft u het recht op inzage, rectificatie of verwijdering van uw persoonsgegevens. U heeft ook het recht op beperking of bezwaar tegen verwerking, en het recht op gegevensoverdraagbaarheid. Neem contact op via info@nextgenfinca.com om deze rechten uit te oefenen."
+      },
+      {
+        "heading": "Cookies",
+        "body": "Deze website gebruikt geen tracking cookies of analytics van derden. Wij gebruiken uitsluitend technisch noodzakelijke functionaliteit om de site te laten werken."
+      },
+      {
+        "heading": "E-maildienst",
+        "body": "Bevestigingsmails worden verzonden via Resend (resend.com), een aanbieder van transactionele e-mail. Uw e-mailadres wordt uitsluitend doorgegeven aan Resend voor het bezorgen van uw bevestiging. Resend gebruikt uw gegevens niet voor marketingdoeleinden."
+      }
+    ],
+    "contactHeading": "Vragen over Gegevensbescherming",
+    "contactBody": "Voor vragen over uw persoonsgegevens of om uw rechten uit te oefenen, kunt u rechtstreeks contact met ons opnemen:"
   }
 }

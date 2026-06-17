@@ -2,6 +2,7 @@
 import Page from '@/layouts/Page.astro';
 import ComplianceNotice from '@/components/ui/ComplianceNotice.astro';
 import LocalBusinessSchema from '@/components/schema/LocalBusinessSchema.astro';
+import FaqSchema from '@/components/schema/FaqSchema.astro';
 import { getDictionary, getLocalizedPath } from '@/i18n/index';
 import { SUPPORTED_LANGS } from '@/i18n/types';
 import type { Lang } from '@/i18n/types';
@@ -23,6 +24,7 @@ const s = t.services.energy;
   canonicalPath="services/energy"
 >
   <LocalBusinessSchema lang={lang} pageType="service" serviceName={s.title} pagePath="services/energy" slot="head" />
+  <FaqSchema items={s.faq.items} slot="head" />
 
   <!-- Hero -->
   <section class="bg-slate-bg py-14 md:py-20 border-b border-slate-border">

@@ -1,5 +1,6 @@
 ---
 import Page from '@/layouts/Page.astro';
+import LocalBusinessSchema from '@/components/schema/LocalBusinessSchema.astro';
 import { getDictionary, getLocalizedPath } from '@/i18n/index';
 import { SUPPORTED_LANGS } from '@/i18n/types';
 import type { Lang } from '@/i18n/types';
@@ -20,6 +21,7 @@ const a = t.about;
   description={t.meta.aboutDesc}
   canonicalPath="about"
 >
+  <LocalBusinessSchema lang={lang} pageType="home" slot="head" />
   <!-- Hero -->
   <section class="bg-slate-bg py-12 md:py-16 border-b border-slate-border">
     <div class="container-xl max-w-3xl">
@@ -68,32 +70,21 @@ const a = t.about;
         <aside class="lg:col-span-1">
           <div class="sticky top-24 flex flex-col gap-5">
             <div class="bg-navy rounded-2xl p-6 text-white">
-              <p class="text-slate-400 text-xs uppercase tracking-widest mb-5">At a Glance</p>
+              <p class="text-slate-400 text-xs uppercase tracking-widest mb-5">{a.glance.label}</p>
               <div class="flex flex-col gap-4">
-                <div class="flex items-start gap-3">
-                  <span class="text-electric text-xl font-bold shrink-0 w-10">11+</span>
-                  <span class="text-slate-300 text-sm leading-snug">Years combined experience in construction & IT</span>
-                </div>
-                <div class="border-t border-slate-700 pt-4 flex items-start gap-3">
-                  <span class="text-electric text-xl font-bold shrink-0 w-10">NL</span>
-                  <span class="text-slate-300 text-sm leading-snug">Professionally active in the Netherlands — now based in Almansa, Spain</span>
-                </div>
-                <div class="border-t border-slate-700 pt-4 flex items-start gap-3">
-                  <span class="text-electric text-xl font-bold shrink-0 w-10">2</span>
-                  <span class="text-slate-300 text-sm leading-snug">Disciplines under one roof: construction know-how + IT infrastructure</span>
-                </div>
+                {a.glance.stats.map((stat, i) => (
+                  <div class={i > 0 ? "border-t border-slate-700 pt-4 flex items-start gap-3" : "flex items-start gap-3"}>
+                    <span class="text-electric text-xl font-bold shrink-0 w-10">{stat.value}</span>
+                    <span class="text-slate-300 text-sm leading-snug">{stat.text}</span>
+                  </div>
+                ))}
               </div>
             </div>
 
             <div class="bg-slate-bg rounded-2xl p-5 border border-slate-border">
-              <p class="text-navy text-xs font-bold uppercase tracking-widest mb-3">How We Work</p>
+              <p class="text-navy text-xs font-bold uppercase tracking-widest mb-3">{a.glance.howWeWorkLabel}</p>
               <ul class="flex flex-col gap-2.5">
-                {[
-                  'Free site assessment, no commitment',
-                  'No jargon — we explain everything clearly',
-                  'You deal with us directly, not a call centre',
-                  'Every job properly documented',
-                ].map((item) => (
+                {a.glance.howWeWorkItems.map((item) => (
                   <li class="flex items-start gap-2 text-sm text-slate-600">
                     <span class="w-1.5 h-1.5 rounded-full bg-electric mt-1.5 shrink-0" aria-hidden="true"></span>
                     {item}

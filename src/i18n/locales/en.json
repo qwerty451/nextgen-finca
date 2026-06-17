@@ -3,7 +3,6 @@
     "siteName": "NextGen Finca",
     "homeTitle": "Smart Solutions for Your Spanish Finca | NextGen Finca",
     "homeDesc": "Reliable internet, smart security cameras, home automation, and solar energy for fincas across southeast Spain. Family-run, based in Almansa — professional results.",
-    "servicesTitle": "Our Services | NextGen Finca",
     "servicesDesc": "Reliable internet, smart cameras, home automation, and solar energy for Spanish fincas. We take care of the technical side so you can enjoy your property.",
     "connectivityTitle": "Reliable Internet for Your Finca | NextGen Finca",
     "connectivityDesc": "We install Starlink, add a mobile backup, and make sure every corner of your property has strong Wi-Fi — including the gate, the pool, and the guest house.",
@@ -15,10 +14,13 @@
     "energyDesc": "Solar optimisation, modern battery upgrades, and smart water shut-off. We keep your energy system working and alert you when something needs attention.",
     "fincaCareTitle": "Finca Care Subscriptions — Ongoing Estate Protection | NextGen Finca",
     "fincaCareDesc": "Digital Core €49/mo, Finca Essential €129/mo, or Absolute Elite €249/mo. Ongoing monitoring and maintenance for fincas across southeast Spain.",
-    "contactTitle": "Book a Free Assessment | NextGen Finca",
+    "servicesTitle": "Internet, Security, Solar & Automation for Fincas | NextGen Finca",
+    "contactTitle": "Book a Free Finca Assessment — Southeast Spain | NextGen Finca",
     "contactDesc": "Free site assessment for your finca. We serve southeast Spain including Valencia, Alicante, Murcia, and the Costa Blanca. Response within 24 hours.",
-    "aboutTitle": "About Us — The Story Behind NextGen Finca | NextGen Finca",
-    "aboutDesc": "A family team with 11 years of combined experience in construction and IT, bringing smart property solutions to southeast Spain."
+    "aboutTitle": "About NextGen Finca — Smart Estate Specialists, Almansa Spain",
+    "aboutDesc": "A family team with 11 years of combined experience in construction and IT, bringing smart property solutions to southeast Spain.",
+    "privacyTitle": "Privacy Policy | NextGen Finca",
+    "privacyDesc": "How NextGen Finca collects, uses, and protects your personal data. GDPR-compliant privacy policy for clients across southeast Spain."
   },
   "nav": {
     "home": "Home",
@@ -328,7 +330,8 @@
     "serviceContext": {
       "heading": "What is Finca Care?",
       "body": "Finca Care is an ongoing maintenance and monitoring service — not a requirement for any installation work. We install systems as a standalone job: networks, security, automation, solar. If you'd rather manage things yourself after that, no subscription needed. Finca Care is for owners who want us to keep an eye on everything all year round."
-    }
+    },
+    "viewAllDetails": "View all plan details"
   },
   "compliance": {
     "notice": "NextGen Finca engineers, mounts, and configures all technical infrastructure. High-voltage certified grid tie-ins are coordinated via our network of licensed local electricians."
@@ -456,6 +459,58 @@
     ],
     "closingHeading": "Tell us about your finca.",
     "closingBody": "A site visit costs you nothing. We'll come and look at what you have, tell you what we'd do, and give you a clear quote.",
-    "ctaLabel": "Book a Free Assessment"
+    "ctaLabel": "Book a Free Assessment",
+    "glance": {
+      "label": "At a Glance",
+      "stats": [
+        { "value": "11+", "text": "Years combined experience in construction & IT" },
+        { "value": "NL", "text": "Professionally active in the Netherlands — now based in Almansa, Spain" },
+        { "value": "2", "text": "Disciplines under one roof: construction know-how + IT infrastructure" }
+      ],
+      "howWeWorkLabel": "How We Work",
+      "howWeWorkItems": [
+        "Free site assessment, no commitment",
+        "No jargon — we explain everything clearly",
+        "You deal with us directly, not a call centre",
+        "Every job properly documented"
+      ]
+    }
+  },
+  "privacy": {
+    "badge": "Legal",
+    "heading": "Privacy Policy",
+    "lastUpdated": "Last updated: June 2026",
+    "sections": [
+      {
+        "heading": "Who We Are",
+        "body": "NextGen Finca is a technology and estate services company based in Almansa, Castilla-La Mancha, Spain. We are the data controller for personal information collected through this website. Contact: info@nextgenfinca.com"
+      },
+      {
+        "heading": "What Data We Collect",
+        "body": "When you submit an enquiry through our contact form, we collect: your name, email address, phone number (optional), property location, property details (type, size, current internet setup, timeline), service interest, budget range, and any additional message you provide."
+      },
+      {
+        "heading": "How We Use Your Data",
+        "body": "We use your information solely to respond to your enquiry, send you a confirmation email, and provide you with a quote or assessment for your property. We do not sell, share, or rent your data to third parties."
+      },
+      {
+        "heading": "Data Retention",
+        "body": "We retain your enquiry data for up to 2 years to allow us to follow up and maintain a record of our communications. You may request deletion at any time."
+      },
+      {
+        "heading": "Your Rights",
+        "body": "Under GDPR, you have the right to access, correct, or delete your personal data. You also have the right to restrict or object to processing, and the right to data portability. To exercise any of these rights, contact us at info@nextgenfinca.com."
+      },
+      {
+        "heading": "Cookies",
+        "body": "This website does not use tracking cookies or third-party analytics. We use only technically necessary functionality to operate the site."
+      },
+      {
+        "heading": "Email Service",
+        "body": "Confirmation emails are sent via Resend (resend.com), a transactional email provider. Your email address is transmitted to Resend solely for the purpose of delivering your confirmation. Resend does not use your data for marketing."
+      }
+    ],
+    "contactHeading": "Data Protection Enquiries",
+    "contactBody": "For any questions about your personal data, or to exercise your rights, please contact us directly:"
   }
 }

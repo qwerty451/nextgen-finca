@@ -1,10 +1,10 @@
 ---
-import { SITE_URL } from '@/config/site';
+import { SITE_URL, REGIONS } from '@/config/site';
 import type { Lang } from '@/i18n/types';
 
 interface Props {
   lang: Lang;
-  pageType: 'home' | 'service' | 'contact' | 'finca-care';
+  pageType: 'home' | 'service' | 'contact' | 'finca-care' | 'services';
   serviceName?: string;
   pageTitle?: string;
   pagePath?: string;
@@ -25,12 +25,7 @@ const localBusiness = {
   description:
     'Premium smart estate engineering and automation for off-grid country homes in inland Spain. Specialists in Starlink, Ubiquiti, Home Assistant, Victron and Reolink integration.',
   priceRange: '€€€',
-  areaServed: [
-    { '@type': 'City', name: 'Almansa' },
-    { '@type': 'City', name: 'Ontinyent' },
-    { '@type': 'City', name: 'Yecla' },
-    { '@type': 'City', name: 'Villena' },
-  ],
+  areaServed: REGIONS.map((name) => ({ '@type': 'City', name })),
   address: {
     '@type': 'PostalAddress',
     addressRegion: 'Castilla-La Mancha',
@@ -103,14 +98,71 @@ function buildSchema() {
     );
   }
 
-  if (pageType === 'finca-care') {
+  if (pageType === 'services') {
     graph.push({
       '@type': 'BreadcrumbList',
       itemListElement: [
         breadcrumbHome,
-        { '@type': 'ListItem', position: 2, name: 'Finca Care', item: pageUrl },
+        { '@type': 'ListItem', position: 2, name: 'Services', item: `${SITE_URL}/${lang}/services/` },
       ],
     });
+  }
+
+  if (pageType === 'finca-care') {
+    graph.push(
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          breadcrumbHome,
+          { '@type': 'ListItem', position: 2, name: 'Finca Care', item: pageUrl },
+        ],
+      },
+      {
+        '@type': 'Service',
+        name: 'Finca Care — Estate Monitoring & Maintenance',
+        provider: { '@id': `${SITE_URL}/#business` },
+        areaServed: REGIONS.map((name) => ({ '@type': 'City', name })),
+        url: pageUrl,
+        offers: [
+          {
+            '@type': 'Offer',
+            name: 'Digital Core',
+            price: '49',
+            priceCurrency: 'EUR',
+            priceSpecification: {
+              '@type': 'UnitPriceSpecification',
+              price: '49',
+              priceCurrency: 'EUR',
+              unitText: 'MONTH',
+            },
+          },
+          {
+            '@type': 'Offer',
+            name: 'Finca Essential',
+            price: '129',
+            priceCurrency: 'EUR',
+            priceSpecification: {
+              '@type': 'UnitPriceSpecification',
+              price: '129',
+              priceCurrency: 'EUR',
+              unitText: 'MONTH',
+            },
+          },
+          {
+            '@type': 'Offer',
+            name: 'Absolute Elite',
+            price: '249',
+            priceCurrency: 'EUR',
+            priceSpecification: {
+              '@type': 'UnitPriceSpecification',
+              price: '249',
+              priceCurrency: 'EUR',
+              unitText: 'MONTH',
+            },
+          },
+        ],
+      }
+    );
   }
 
   return { '@context': 'https://schema.org', '@graph': graph };
