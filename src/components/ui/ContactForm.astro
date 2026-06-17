@@ -9,7 +9,11 @@ interface Props {
 }
 
 const { t, lang, showSuccess = false } = Astro.props;
-const { fields, serviceOptions, success } = t.contact;
+const { fields, serviceOptions, propertyTypeOptions, currentInternetOptions, timelineOptions, budgetOptions, success } = t.contact;
+
+const inputClass = "w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow";
+const selectClass = "w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow appearance-none";
+const labelClass = "text-sm font-semibold text-navy";
 ---
 
 {showSuccess ? (
@@ -39,78 +43,85 @@ const { fields, serviceOptions, success } = t.contact;
     <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true" />
     <input type="hidden" name="lang" value={lang} />
 
-    <!-- Name + Email row -->
+    <!-- Name + Email -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
       <div class="flex flex-col gap-1.5">
-        <label for="name" class="text-sm font-semibold text-navy">
+        <label for="name" class={labelClass}>
           {fields.name} <span class="text-red-500" aria-hidden="true">*</span>
         </label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          required
-          autocomplete="name"
-          class="w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow"
-          placeholder="Jan de Vries"
-        />
+        <input type="text" id="name" name="name" required autocomplete="name" class={inputClass} placeholder="Jan de Vries" />
       </div>
       <div class="flex flex-col gap-1.5">
-        <label for="email" class="text-sm font-semibold text-navy">
+        <label for="email" class={labelClass}>
           {fields.email} <span class="text-red-500" aria-hidden="true">*</span>
         </label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          required
-          autocomplete="email"
-          class="w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow"
-          placeholder="jan@example.com"
-        />
+        <input type="email" id="email" name="email" required autocomplete="email" class={inputClass} placeholder="jan@example.com" />
       </div>
     </div>
 
-    <!-- Phone + Location row -->
+    <!-- Phone + Location -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
       <div class="flex flex-col gap-1.5">
-        <label for="phone" class="text-sm font-semibold text-navy">
-          {fields.phone}
-        </label>
-        <input
-          type="tel"
-          id="phone"
-          name="phone"
-          autocomplete="tel"
-          class="w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow"
-          placeholder="+31 6 ..."
-        />
+        <label for="phone" class={labelClass}>{fields.phone}</label>
+        <input type="tel" id="phone" name="phone" autocomplete="tel" class={inputClass} placeholder="+31 6 ..." />
       </div>
       <div class="flex flex-col gap-1.5">
-        <label for="location" class="text-sm font-semibold text-navy">
-          {fields.location}
-        </label>
-        <input
-          type="text"
-          id="location"
-          name="location"
-          class="w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow"
-          placeholder={fields.locationPlaceholder}
-        />
+        <label for="location" class={labelClass}>{fields.location}</label>
+        <input type="text" id="location" name="location" class={inputClass} placeholder={fields.locationPlaceholder} />
       </div>
     </div>
 
-    <!-- Service select -->
+    <!-- Property Type + Size -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      <div class="flex flex-col gap-1.5">
+        <label for="propertyType" class={labelClass}>{fields.propertyType}</label>
+        <select id="propertyType" name="propertyType" class={selectClass}>
+          {Object.entries(propertyTypeOptions).map(([value, label]) => (
+            <option value={value}>{label}</option>
+          ))}
+        </select>
+      </div>
+      <div class="flex flex-col gap-1.5">
+        <label for="propertySize" class={labelClass}>{fields.propertySize}</label>
+        <input type="text" id="propertySize" name="propertySize" class={inputClass} placeholder={fields.propertySizePlaceholder} />
+      </div>
+    </div>
+
+    <!-- Current Internet + Timeline -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      <div class="flex flex-col gap-1.5">
+        <label for="currentInternet" class={labelClass}>{fields.currentInternet}</label>
+        <select id="currentInternet" name="currentInternet" class={selectClass}>
+          {Object.entries(currentInternetOptions).map(([value, label]) => (
+            <option value={value}>{label}</option>
+          ))}
+        </select>
+      </div>
+      <div class="flex flex-col gap-1.5">
+        <label for="timeline" class={labelClass}>{fields.timeline}</label>
+        <select id="timeline" name="timeline" class={selectClass}>
+          {Object.entries(timelineOptions).map(([value, label]) => (
+            <option value={value}>{label}</option>
+          ))}
+        </select>
+      </div>
+    </div>
+
+    <!-- Service Interest -->
     <div class="flex flex-col gap-1.5">
-      <label for="service" class="text-sm font-semibold text-navy">
-        {fields.service}
-      </label>
-      <select
-        id="service"
-        name="service"
-        class="w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow appearance-none"
-      >
+      <label for="service" class={labelClass}>{fields.service}</label>
+      <select id="service" name="service" class={selectClass}>
         {Object.entries(serviceOptions).map(([value, label]) => (
+          <option value={value}>{label}</option>
+        ))}
+      </select>
+    </div>
+
+    <!-- Budget -->
+    <div class="flex flex-col gap-1.5">
+      <label for="budget" class={labelClass}>{fields.budget}</label>
+      <select id="budget" name="budget" class={selectClass}>
+        {Object.entries(budgetOptions).map(([value, label]) => (
           <option value={value}>{label}</option>
         ))}
       </select>
@@ -118,14 +129,12 @@ const { fields, serviceOptions, success } = t.contact;
 
     <!-- Message -->
     <div class="flex flex-col gap-1.5">
-      <label for="message" class="text-sm font-semibold text-navy">
-        {fields.message}
-      </label>
+      <label for="message" class={labelClass}>{fields.message}</label>
       <textarea
         id="message"
         name="message"
-        rows={5}
-        class="w-full px-4 py-3 rounded-xl border border-slate-border bg-white text-navy placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-electric focus:border-transparent transition-shadow resize-none"
+        rows={4}
+        class={`${inputClass} resize-none`}
         placeholder={fields.messagePlaceholder}
       ></textarea>
     </div>

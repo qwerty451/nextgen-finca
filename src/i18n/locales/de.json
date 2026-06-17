@@ -347,9 +347,15 @@
       "phone": "Telefon (optional)",
       "location": "Lage der Immobilie",
       "locationPlaceholder": "z.B. Almansa, bei Villena...",
+      "propertyType": "Art der Immobilie",
+      "propertySize": "Ungefähre Größe",
+      "propertySizePlaceholder": "z.B. 3 ha, 5.000 m²",
+      "currentInternet": "Aktuelle Internetverbindung",
+      "timeline": "Projektzeitraum",
+      "budget": "Ungefähres Budget (optional)",
       "service": "Primäres Interesse",
-      "message": "Erzählen Sie uns von Ihrer Finca",
-      "messagePlaceholder": "Größe der Immobilie, aktuelle Installation, Hauptherausforderungen...",
+      "message": "Noch etwas, das wir wissen sollten?",
+      "messagePlaceholder": "Besondere Anforderungen, Herausforderungen oder Fragen...",
       "submit": "Bewertungsanfrage Senden"
     },
     "serviceOptions": {
@@ -360,6 +366,39 @@
       "energy": "Solar & Energie",
       "fincaCare": "Finca Care Abonnement",
       "all": "Vollständiges Anwesen-Assessment"
+    },
+    "propertyTypeOptions": {
+      "": "Typ auswählen...",
+      "finca": "Finca",
+      "villa": "Villa",
+      "cortijo": "Cortijo / Bauernhaus",
+      "rural": "Landhaus",
+      "other": "Sonstiges"
+    },
+    "currentInternetOptions": {
+      "": "Aktuelle Installation wählen...",
+      "none": "Kein Internet",
+      "mobile": "Nur mobile Daten",
+      "4g": "4G-Router / MiFi",
+      "satellite": "Satellit (Starlink / andere)",
+      "adsl": "ADSL / VDSL",
+      "fiber": "Glasfaser"
+    },
+    "timelineOptions": {
+      "": "Zeitraum auswählen...",
+      "asap": "So schnell wie möglich",
+      "1-3m": "1–3 Monate",
+      "3-6m": "3–6 Monate",
+      "6plus": "Mehr als 6 Monate",
+      "exploring": "Erst mal erkunden"
+    },
+    "budgetOptions": {
+      "": "Keine Angabe",
+      "under2k": "Unter €2.000",
+      "2k-5k": "€2.000 – €5.000",
+      "5k-10k": "€5.000 – €10.000",
+      "10kplus": "€10.000+",
+      "discuss": "Lieber besprechen"
     },
     "success": {
       "heading": "Bewertungsanfrage Erhalten",

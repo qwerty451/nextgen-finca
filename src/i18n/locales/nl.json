@@ -347,9 +347,15 @@
       "phone": "Telefoon (optioneel)",
       "location": "Locatie Finca",
       "locationPlaceholder": "bijv. Almansa, bij Villena...",
+      "propertyType": "Type eigendom",
+      "propertySize": "Geschatte omvang",
+      "propertySizePlaceholder": "bijv. 3 ha, 5.000 m²",
+      "currentInternet": "Huidige internetverbinding",
+      "timeline": "Gewenste planning",
+      "budget": "Geschat budget (optioneel)",
       "service": "Primaire Interesse",
-      "message": "Vertel ons over uw finca",
-      "messagePlaceholder": "Grootte van de finca, huidige installatie, grootste uitdagingen...",
+      "message": "Nog iets wat we moeten weten?",
+      "messagePlaceholder": "Specifieke uitdagingen, wensen of vragen...",
       "submit": "Assessmentaanvraag Verzenden"
     },
     "serviceOptions": {
@@ -360,6 +366,39 @@
       "energy": "Zonne-energie & Utilities",
       "fincaCare": "Finca Care Abonnement",
       "all": "Volledig Finca Assessment"
+    },
+    "propertyTypeOptions": {
+      "": "Selecteer type...",
+      "finca": "Finca",
+      "villa": "Villa",
+      "cortijo": "Cortijo / Boerderij",
+      "rural": "Landelijk huis",
+      "other": "Anders"
+    },
+    "currentInternetOptions": {
+      "": "Selecteer huidige situatie...",
+      "none": "Geen internet",
+      "mobile": "Alleen mobiele data",
+      "4g": "4G-router / MiFi",
+      "satellite": "Satelliet (Starlink / anders)",
+      "adsl": "ADSL / VDSL",
+      "fiber": "Glasvezel"
+    },
+    "timelineOptions": {
+      "": "Selecteer planning...",
+      "asap": "Zo snel mogelijk",
+      "1-3m": "1–3 maanden",
+      "3-6m": "3–6 maanden",
+      "6plus": "6+ maanden",
+      "exploring": "Alleen oriënterend"
+    },
+    "budgetOptions": {
+      "": "Liever niet zeggen",
+      "under2k": "Onder €2.000",
+      "2k-5k": "€2.000 – €5.000",
+      "5k-10k": "€5.000 – €10.000",
+      "10kplus": "€10.000+",
+      "discuss": "Liever bespreken"
     },
     "success": {
       "heading": "Assessmentaanvraag Ontvangen",
