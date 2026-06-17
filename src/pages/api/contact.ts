@@ -1,6 +1,7 @@
 export const prerender = false;
 
 import type { APIRoute } from 'astro';
+import nodemailer from 'nodemailer';
 
 type Lang = 'en' | 'nl' | 'de' | 'es';
 
@@ -85,21 +86,6 @@ function buildInternalHtml(fields: Record<string, string>): string {
   `;
 }
 
-async function sendEmail(apiKey: string, payload: object): Promise<void> {
-  const res = await fetch('https://api.resend.com/emails', {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(payload),
-  });
-  if (!res.ok) {
-    const text = await res.text();
-    console.error('Resend error:', res.status, text);
-  }
-}
-
 export const POST: APIRoute = async ({ request, redirect }) => {
   let formData: FormData;
   try {
@@ -132,27 +118,35 @@ export const POST: APIRoute = async ({ request, redirect }) => {
 
   const safeLang: Lang = ['en', 'nl', 'de', 'es'].includes(lang) ? lang : 'en';
 
-  const resendKey = import.meta.env.RESEND_API_KEY;
+  const smtpUser = import.meta.env.SMTP_USER;
+  const smtpPass = import.meta.env.SMTP_PASS;
 
-  if (resendKey) {
+  if (smtpUser && smtpPass) {
     try {
+      const transporter = nodemailer.createTransport({
+        host: 'smtp.gmail.com',
+        port: 587,
+        secure: false,
+        auth: { user: smtpUser, pass: smtpPass },
+      });
+
       await Promise.all([
-        sendEmail(resendKey, {
-          from: 'NextGen Finca <noreply@nextgenfinca.com>',
-          to: ['invoice@nextgenfinca.com'],
-          reply_to: email,
+        transporter.sendMail({
+          from: `NextGen Finca <${smtpUser}>`,
+          to: 'invoice@nextgenfinca.com',
+          replyTo: email,
           subject: `New Assessment Request — ${name} (${service || 'General'})`,
           html: buildInternalHtml({ name, email, phone, location, propertyType, propertySize, currentInternet, timeline, service, budget, message, lang: safeLang }),
         }),
-        sendEmail(resendKey, {
-          from: 'NextGen Finca <noreply@nextgenfinca.com>',
-          to: [email],
+        transporter.sendMail({
+          from: `NextGen Finca <${smtpUser}>`,
+          to: email,
           subject: confirmations[safeLang].subject,
           html: buildConfirmationHtml(safeLang, name),
         }),
       ]);
-    } catch {
-      console.error('Email send failed');
+    } catch (err) {
+      console.error('Email send failed:', err);
     }
   }
 
