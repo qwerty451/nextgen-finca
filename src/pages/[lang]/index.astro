@@ -6,6 +6,7 @@ import ServiceCard from '@/components/ui/ServiceCard.astro';
 import SubscriptionTable from '@/components/ui/SubscriptionTable.astro';
 import LocalBusinessSchema from '@/components/schema/LocalBusinessSchema.astro';
 import HowItWorks from '@/components/ui/HowItWorks.astro';
+import LanguageSwitcher from '@/components/global/LanguageSwitcher.astro';
 import { getDictionary, getLocalizedPath } from '@/i18n/index';
 import { SUPPORTED_LANGS } from '@/i18n/types';
 import { SERVICES } from '@/config/services';
@@ -40,6 +41,16 @@ const t = await getDictionary(lang);
         {t.promoBanner.linkLabel} →
       </a>
       <span class="text-slate-400 text-xs italic hidden sm:inline">{t.promoBanner.expiry}</span>
+    </div>
+  </div>
+
+  <!-- Mobile-only language switcher strip (desktop nav already has this) -->
+  <div class="md:hidden bg-white border-b border-slate-border">
+    <div class="container-xl py-2 flex items-center justify-center gap-2">
+      <svg class="w-3.5 h-3.5 text-slate-400 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+      <LanguageSwitcher currentLang={lang} currentPath={`/${lang}/`} />
     </div>
   </div>
 
