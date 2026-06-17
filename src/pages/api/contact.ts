@@ -120,6 +120,7 @@ export const POST: APIRoute = async ({ request, redirect }) => {
 
   const smtpUser = import.meta.env.SMTP_USER;
   const smtpPass = import.meta.env.SMTP_PASS;
+  const notifyEmail = import.meta.env.NOTIFY_EMAIL ?? 'invoice@nextgenfinca.com';
 
   if (smtpUser && smtpPass) {
     try {
@@ -133,7 +134,7 @@ export const POST: APIRoute = async ({ request, redirect }) => {
       await Promise.all([
         transporter.sendMail({
           from: `NextGen Finca <${smtpUser}>`,
-          to: 'invoice@nextgenfinca.com',
+          to: notifyEmail,
           replyTo: email,
           subject: `New Assessment Request — ${name} (${service || 'General'})`,
           html: buildInternalHtml({ name, email, phone, location, propertyType, propertySize, currentInternet, timeline, service, budget, message, lang: safeLang }),
