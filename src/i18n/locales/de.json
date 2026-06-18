@@ -20,7 +20,9 @@
     "aboutTitle": "Über NextGen Finca — Smarte Immobilienspezialisten, Almansa Spanien",
     "aboutDesc": "Ein Familienteam mit 11 Jahren Erfahrung in Bau und IT, das smarte Immobilienlösungen nach Südostspanien bringt.",
     "privacyTitle": "Datenschutzerklärung | NextGen Finca",
-    "privacyDesc": "Wie NextGen Finca Ihre persönlichen Daten erhebt, verwendet und schützt. DSGVO-konforme Datenschutzerklärung für Kunden in Südostspanien."
+    "privacyDesc": "Wie NextGen Finca Ihre persönlichen Daten erhebt, verwendet und schützt. DSGVO-konforme Datenschutzerklärung für Kunden in Südostspanien.",
+    "termsTitle": "Allgemeine Geschäftsbedingungen | NextGen Finca",
+    "termsDesc": "AGB für alle Dienstleistungen von NextGen Finca — Installationen, Finca Care Abonnements und laufende Wartung in Südostspanien."
   },
   "nav": {
     "home": "Startseite",
@@ -454,6 +456,7 @@
     "contactLabel": "Kontakt",
     "legal": "© 2025 NextGen Finca. Alle Rechte vorbehalten.",
     "privacy": "Datenschutzrichtlinie",
+    "terms": "AGB",
     "whatsapp": "WhatsApp"
   },
   "about": {
@@ -612,5 +615,207 @@
         "a": "Ja — das ist der ganze Sinn. Alles was wir installieren ist fernüberwachbar. Finca Care Abonnenten erhalten proaktive Warnmeldungen wenn etwas Aufmerksamkeit benötigt."
       }
     ]
+  },
+  "terms": {
+    "badge": "Rechtliches",
+    "heading": "Allgemeine Geschäftsbedingungen",
+    "lastUpdated": "Version 1.0 — Juni 2026",
+    "intro": "Diese Allgemeinen Geschäftsbedingungen gelten für alle Dienstleistungen von NextGen Finca mit Sitz in Almansa, Castilla-La Mancha, Spanien. Mit der Inanspruchnahme unserer Dienstleistungen akzeptieren Sie diese Bedingungen.",
+    "sections": [
+      {
+        "article": "Artikel 1",
+        "heading": "Begriffsbestimmungen",
+        "items": [
+          "Auftragnehmer: NextGen Finca, ansässig in Almansa, Castilla-La Mancha, Spanien.",
+          "Auftraggeber: die natürliche oder juristische Person, die einen Vertrag mit NextGen Finca abschließt.",
+          "Dienstleistungen: alle Installations- und Abonnementdienste von NextGen Finca, einschließlich Konnektivität, Sicherheit, Automatisierung, Energiemanagement und Finca Care Abonnements.",
+          "Abonnement: ein laufender Finca Care Wartungs- und Überwachungsdienst (Digital Core, Finca Essential oder Absolute Elite).",
+          "Geräte/Hardware: Hardware, die von oder im Auftrag von NextGen Finca am Objekt des Auftraggebers geliefert und installiert wird.",
+          "Objekt: die Immobilie des Auftraggebers in Spanien, an der die Dienstleistungen erbracht werden.",
+          "Vertrag: die schriftliche oder digitale Bestätigung eines Auftrags, Angebots oder Abonnements.",
+          "Dritte: Lieferanten, deren Produkte Teil der Lösung sind, darunter Starlink, Ubiquiti, Victron Energy, Reolink und Home Assistant."
+        ]
+      },
+      {
+        "article": "Artikel 2",
+        "heading": "Geltungsbereich",
+        "items": [
+          "Diese AGB gelten für alle Angebote, Aufträge, Verträge und Dienstleistungen von NextGen Finca.",
+          "Diese Bedingungen sind auf der Website von NextGen Finca verfügbar und jedem Angebot beigefügt oder darin ausdrücklich erwähnt. Mit der Annahme eines Angebots, der Bestätigung eines Auftrags oder dem Abschluss eines Abonnements akzeptiert der Auftraggeber diese Bedingungen.",
+          "Abweichungen sind nur gültig, wenn sie schriftlich vereinbart wurden.",
+          "Die Geltung von AGB des Auftraggebers wird ausdrücklich abgelehnt.",
+          "Sollte eine Bestimmung nichtig oder unwirksam sein, bleiben die übrigen Bestimmungen unberührt."
+        ]
+      },
+      {
+        "article": "Artikel 3",
+        "heading": "Angebote",
+        "items": [
+          "Alle Angebote sind freibleibend und 30 Tage gültig, sofern nicht anders angegeben.",
+          "Eine kostenlose Vor-Ort-Besichtigung ist unverbindlich und verpflichtet nicht zur Auftragserteilung.",
+          "Angebote basieren auf den vom Auftraggeber bereitgestellten Informationen. Weicht die tatsächliche Situation vor Ort ab, kann der Preis angepasst werden. Der Auftraggeber wird vor Beginn der angepassten Arbeiten informiert.",
+          "Storniert der Auftraggeber einen bestätigten Auftrag, nachdem NextGen Finca Materialien bestellt oder Arbeiten eingeplant hat, werden die nachweislich entstandenen Kosten zuzüglich einer Stornogebühr von 15% des verbleibenden Angebotswerts berechnet.",
+          "Offensichtliche Irrtümer oder Tippfehler in Angeboten sind für NextGen Finca nicht bindend."
+        ]
+      },
+      {
+        "article": "Artikel 4",
+        "heading": "Vertragsschluss",
+        "items": [
+          "Ein Vertrag kommt durch schriftliche Bestätigung per E-Mail durch den Auftraggeber und Annahme durch NextGen Finca zustande. Nachrichten via WhatsApp, SMS oder andere Messaging-Dienste gelten nicht als schriftliche Bestätigung, sofern keine explizite E-Mail-Bestätigung folgt.",
+          "Mündliche Zusagen sind erst nach schriftlicher Bestätigung per E-Mail bindend.",
+          "Bei Fernabsatzverträgen (per E-Mail, online oder telefonisch geschlossen) können Verbrauchern gemäß EU-Richtlinie 2011/83 ein 14-tägiges Widerrufsrecht zustehen. Bittet der Auftraggeber NextGen Finca, vor Ablauf dieser Frist mit den Arbeiten zu beginnen, verzichtet der Auftraggeber ausdrücklich auf das Widerrufsrecht für den bereits erbrachten Teil und schuldet den Wert der bereits geleisteten Dienste.",
+          "NextGen Finca behält sich das Recht vor, einen Auftrag ohne Angabe von Gründen abzulehnen."
+        ]
+      },
+      {
+        "article": "Artikel 5",
+        "heading": "Durchführung der Arbeiten",
+        "items": [
+          "NextGen Finca führt alle Arbeiten nach bestem Können und gemäß den geltenden Berufsstandards durch.",
+          "Der Auftraggeber stellt sicher, dass NextGen Finca rechtzeitig Zugang zum Objekt hat, einschließlich der erforderlichen Räume und Stromversorgung. Soweit vorhanden, stellt der Auftraggeber auch eine aktive Internetverbindung für Remote-Konfigurationszwecke zur Verfügung. Bei Installationen, bei denen die Internetverbindung selbst Gegenstand des Auftrags ist (wie eine neue Starlink-Installation), entfällt die Anforderung einer vorhandenen Verbindung.",
+          "Kann NextGen Finca das Objekt an einem vereinbarten Datum nicht betreten, werden die Kosten des vergeblichen Besuchs zum dann gültigen Anfahrtssatz berechnet.",
+          "Änderungen am Auftragsumfang (Mehrarbeit) werden schriftlich vereinbart und können zur Anpassung des Preises oder Termins führen.",
+          "Zertifizierte Elektroarbeiten am Netz werden durch oder in Abstimmung mit zugelassenen lokalen Elektrikern durchgeführt. NextGen Finca haftet nicht für deren Arbeiten.",
+          "Genannte Liefertermine sind Richtwerte. Überschreitungen berechtigen nicht zu Schadensersatz oder Vertragsauflösung, es sei denn, die Überschreitung beträgt mehr als 30 Werktage und ist allein NextGen Finca zuzurechnen.",
+          "Die Abnahme gilt als erfolgt, sobald NextGen Finca dem Auftraggeber oder dessen Vertreter vor Ort die Funktion des Systems nachgewiesen hat und die Schlussrechnung versendet wurde. Ist der Auftraggeber beim Abschluss der Arbeiten nicht anwesend, gilt das Datum der Schlussrechnung als Abnahmedatum. Die 12-monatige Gewährleistungsfrist (Artikel 13) und der Eigentumsübergang der Geräte (Artikel 9) beginnen ab diesem Datum."
+        ]
+      },
+      {
+        "article": "Artikel 6",
+        "heading": "Pflichten des Auftraggebers",
+        "items": [
+          "Der Auftraggeber stellt alle für die Durchführung erforderlichen Informationen rechtzeitig bereit.",
+          "Der Auftraggeber ist verantwortlich für die Einholung erforderlicher Genehmigungen oder Erlaubnisse.",
+          "Der Auftraggeber sorgt für eine sichere Arbeitsumgebung und ermöglicht Zugang (Schlüsselsafe, Torcode) bei seiner Abwesenheit. Der Auftraggeber informiert NextGen Finca im Voraus über vorhandene Risiken auf dem Objekt, einschließlich aber nicht beschränkt auf: frei laufende oder aggressive Tiere, instabile Konstruktionen, unsichere Elektroanlagen oder andere gefährliche Bedingungen.",
+          "Der Auftraggeber informiert NextGen Finca unverzüglich über Umstände, die die Ausführung beeinflussen können, einschließlich des Zustands der bestehenden Elektroinfrastruktur. Schäden an Geräten oder Mehrkosten durch nicht gemeldete gefährliche oder mangelhafte bestehende Infrastruktur gehen zu Lasten des Auftraggebers.",
+          "Schäden oder Mehrkosten durch Nichterfüllung der Pflichten aus diesem Artikel gehen zu Lasten des Auftraggebers."
+        ]
+      },
+      {
+        "article": "Artikel 7",
+        "heading": "Preise und Zahlung",
+        "items": [
+          "Alle Preise sind in Euro (€) und verstehen sich zuzüglich MwSt./IVA, sofern nicht anders angegeben.",
+          "Bei Installationen: 50% Anzahlung bei Auftragserteilung, 50% bei Abnahme, sofern nicht schriftlich anders vereinbart.",
+          "Abonnements werden monatlich oder jährlich im Voraus in Rechnung gestellt.",
+          "Zahlung ist innerhalb von 14 Tagen nach Rechnungsdatum fällig.",
+          "Bei Zahlungsverzug sind gesetzliche Zinsen sowie außergerichtliche Inkassokosten geschuldet.",
+          "NextGen Finca behält sich das Recht vor, Dienstleistungen bei ausbleibender Zahlung auszusetzen."
+        ]
+      },
+      {
+        "article": "Artikel 8",
+        "heading": "Abonnements (Finca Care)",
+        "items": [
+          "Finca Care Abonnements (Digital Core, Finca Essential, Absolute Elite) umfassen die auf der Website von NextGen Finca zum Zeitpunkt des Abonnementabschlusses beschriebenen Leistungen. Spätere Änderungen der Website-Beschreibung berühren bestehende Abonnements nicht, sofern NextGen Finca die aktualisierte Leistungsbeschreibung dem Abonnenten nicht schriftlich mitteilt.",
+          "Monatliche Abonnements können mit einer Frist von 30 Tagen zum Ende der laufenden Abrechnungsperiode nach Ablauf der Kündigungsfrist gekündigt werden.",
+          "Jahresabonnements haben eine Mindestlaufzeit von 12 Monaten. Bei vorzeitiger Kündigung erfolgt keine Erstattung vorausbezahlter Beträge.",
+          "Kündigungen sind schriftlich per E-Mail an info@nextgenfinca.com einzureichen.",
+          "Der 'Launch Founder-Tarif' (20% Rabatt) gilt, solange das Abonnement ununterbrochen aktiv ist. Bei Kündigung verfällt dieser Vorteil dauerhaft; eine Reaktivierung erfolgt zum dann gültigen Standardpreis.",
+          "NextGen Finca kann Tarife ändern. Der Auftraggeber kann das Abonnement kostenlos vor Inkrafttreten der Änderung kündigen.",
+          "Nicht im Abonnement enthalten: Hardwareersatz, Materialkosten, umfangreiche Elektroarbeiten und Reisekosten außerhalb des Servicegebiets (ca. eine Fahrstunde von Almansa).",
+          "Bei Aussetzung eines Abonnements wegen Zahlungsverzugs gilt Artikel 16 dieser Bedingungen."
+        ]
+      },
+      {
+        "article": "Artikel 9",
+        "heading": "Hardware und Geräte",
+        "items": [
+          "Das Eigentum an gelieferter und installierter Hardware geht nach vollständiger Zahlung auf den Auftraggeber über. Bis dahin behält NextGen Finca einen Eigentumsvorbehalt.",
+          "Gelieferte Geräte unterliegen der gesetzlichen 2-jährigen Konformitätsgarantie gemäß EU-Verbraucherrecht (Richtlinie 2019/771, umgesetzt im spanischen LGDCU). Der Auftraggeber richtet Garantieansprüche bei Herstellungsfehlern zunächst an NextGen Finca; NextGen Finca klärt dies dann mit dem Lieferanten oder Hersteller.",
+          "Arbeits- und Anfahrtskosten für den Ersatz oder die Neuinstallation eines Garantieteils sind nicht in der Herstellergarantie enthalten und werden gesondert zum dann gültigen Stundensatz berechnet, es sei denn, der Defekt wurde durch NextGen Fincas eigenen Installationsfehler verursacht.",
+          "Die gesetzliche Konformitätsgarantie gilt nicht für: Stromspitzen, Blitzschlag, extreme Wetterbedingungen (einschließlich Calima/Staubstürme), Tierschäden, nicht autorisierte Änderungen oder normalen Verschleiß.",
+          "Der Auftraggeber ist für eine angemessene Versicherung der installierten Geräte verantwortlich."
+        ]
+      },
+      {
+        "article": "Artikel 10",
+        "heading": "Drittanbieterdienste",
+        "items": [
+          "NextGen Finca nutzt Dienste von Drittanbietern (u.a. Starlink, Ubiquiti, Victron, Reolink, Home Assistant). NextGen Finca haftet nicht für Ausfälle, Preisänderungen oder Einstellung dieser Dienste.",
+          "Die Verfügbarkeit von Internetverbindungen hängt von externen Faktoren ab. NextGen Finca garantiert keine durchgehende Konnektivität.",
+          "Die Fernüberwachung erkennt Störungen anhand verfügbarer Sensoren. NextGen Finca garantiert keine 100%ige Erkennung aller möglichen Störungen.",
+          "Zugelassene Elektriker werden von NextGen Finca als Teil der Dienstleistung ausgewählt und koordiniert. NextGen Finca haftet nicht für die technische Qualität ihrer Ausführung.",
+          "Konten und Abonnements für Drittanbieterdienste (einschließlich Starlink, Cloud-Plattformen und Smart-Home-Dienste) werden standardmäßig auf den Namen des Auftraggebers registriert und bleiben dessen Eigentum. Registriert NextGen Finca ausnahmsweise ein Konto auf eigenen Namen für den Auftraggeber, wird dies ausdrücklich schriftlich vereinbart, und NextGen Finca überträgt das Konto bei Beendigung der Dienstleistung an den Auftraggeber. NextGen Finca haftet nicht für Richtlinienänderungen, Preisänderungen oder die Einstellung von Diensten durch Dritte."
+        ]
+      },
+      {
+        "article": "Artikel 11",
+        "heading": "Haftung und Versicherung",
+        "items": [
+          "NextGen Finca verfügt über eine Berufshaftpflichtversicherung (RC Profesional). Ansprüche auf Ersatz direkter Sachschäden am Eigentum des Auftraggebers oder Dritter, die nachweislich durch fehlerhafte Ausführung von Arbeiten durch NextGen Finca entstanden sind, werden über diese Versicherung abgewickelt.",
+          "NextGen Finca haftet ausschließlich für unmittelbare Schäden, die direkte Folge einer nachweisbaren, zurechenbaren Pflichtverletzung sind.",
+          "Die Haftung für mittelbare Schäden — entgangene Einnahmen, Folgeschäden, Datenverlust, Wertminderung von Eigentum oder Vermögensschäden durch Einbruch oder Vandalismus — ist ausdrücklich ausgeschlossen.",
+          "Für alle sonstigen direkten Schäden, die nicht als Sachschäden einzustufen sind, ist die Gesamthaftung auf den in den vorangegangenen 12 Monaten an NextGen Finca gezahlten Betrag begrenzt, maximal €5.000 je Schadensfall.",
+          "NextGen Finca haftet nicht für Schäden durch: Nichtbefolgung von Empfehlungen, Ausfälle externer Dienste, Schäden durch Dritte, Tiere oder Wetter, oder unrichtige Informationen des Auftraggebers.",
+          "Diese Einschränkungen gelten nicht bei Vorsatz oder grober Fahrlässigkeit seitens NextGen Finca."
+        ]
+      },
+      {
+        "article": "Artikel 12",
+        "heading": "Höhere Gewalt",
+        "items": [
+          "NextGen Finca ist nicht zur Leistungserbringung verpflichtet, wenn diese durch höhere Gewalt unmöglich ist.",
+          "Höhere Gewalt umfasst: extreme Wetterereignisse (Calima, Sturm, außergewöhnlicher Regen), Stromausfälle, Netzunterbrechungen, Streiks, Lieferprobleme bei Zulieferern, behördliche Maßnahmen und Epidemien.",
+          "Dauert die Situation länger als 60 Tage, haben beide Parteien das Recht, den Vertrag schriftlich ohne Schadensersatzpflicht aufzulösen."
+        ]
+      },
+      {
+        "article": "Artikel 13",
+        "heading": "Gewährleistung",
+        "items": [
+          "NextGen Finca gewährleistet die ordnungsgemäße Ausführung der Installation für 12 Monate nach Abnahme.",
+          "Vor der Installation von Geräten an oder in bestehenden Konstruktionen (wie Tore, Scharniere, Wände oder Dachkonstruktionen) führt NextGen Finca eine technische Eignungsprüfung durch. Wird eine bestehende Konstruktion als ungeeignet für das vorgesehene Gerät befunden, informiert NextGen Finca den Auftraggeber schriftlich vor Arbeitsbeginn. Versäumt NextGen Finca die Identifizierung einer ungeeigneten oder inkompatiblen Situation, die eine fachkundige Beurteilung vernünftigerweise hätte erkennen müssen, haftet NextGen Finca für die daraus resultierenden Schäden an der Konstruktion und den installierten Geräten.",
+          "Die Gewährleistung umfasst die kostenlose Behebung von Mängeln, die nachweislich auf fehlerhafte Ausführung durch NextGen Finca zurückzuführen sind, einschließlich Schäden an bestehenden Konstruktionen durch fehlerhafte Installation.",
+          "Die Gewährleistung erlischt für das veränderte Bauteil, wenn der Auftraggeber oder ein nicht von NextGen Finca beauftragter Dritter das System verändert hat. Die Gewährleistung für andere, nicht veränderte Teile der Installation bleibt in Kraft, sofern die Änderung nicht nachweislich die Ursache des Mangels an anderer Stelle im System ist.",
+          "Die Gewährleistung gilt nicht für normalen Verschleiß, Verbrauchsmaterial oder durch externe Faktoren verursachte Schäden."
+        ]
+      },
+      {
+        "article": "Artikel 14",
+        "heading": "Geistiges Eigentum und Vertraulichkeit",
+        "items": [
+          "Konfigurationen, Dokumentationen und technische Designs von NextGen Finca bleiben Eigentum von NextGen Finca bis zur vollständigen Zahlung. Danach erhält der Auftraggeber eine nicht-exklusive Lizenz zur Nutzung auf dem eigenen Objekt.",
+          "NextGen Finca behält das Recht, generische Konfigurationslogik und Arbeitsmethoden für andere Projekte zu verwenden.",
+          "Bei Verkauf oder Übertragung des Objekts kann der neue Eigentümer die bestehende Systemkonfiguration ohne zusätzliche Lizenzkosten nutzen, sofern das System am selben Standort verbleibt. Der neue Eigentümer ist nicht automatisch an ein bestehendes Finca Care Abonnement gebunden; dies muss neu vereinbart werden.",
+          "NextGen Finca darf Fotos von Installationen für Portfolio- und Marketingzwecke verwenden, sofern der Auftraggeber bei der Auftragserteilung keinen schriftlichen Einwand erhebt. Bildmaterial wird anonymisiert oder der Standort nicht erkennbar gemacht, sofern der Auftraggeber nicht ausdrücklich der Namensnennung zustimmt.",
+          "NextGen Finca behandelt alle Informationen über das Objekt und die persönlichen Umstände des Auftraggebers vertraulich.",
+          "Personenbezogene Daten werden gemäß der Datenschutzerklärung auf www.nextgenfinca.com verarbeitet."
+        ]
+      },
+      {
+        "article": "Artikel 15",
+        "heading": "Beschwerden",
+        "items": [
+          "Beschwerden über die Ausführung müssen innerhalb von 14 Tagen nach Entdeckung schriftlich an info@nextgenfinca.com gemeldet werden.",
+          "Das Einreichen einer Beschwerde setzt die Zahlungspflicht des Auftraggebers nicht aus.",
+          "Kann eine Beschwerde nicht zufriedenstellend gelöst werden, können die Parteien einen unabhängigen Mediator einschalten."
+        ]
+      },
+      {
+        "article": "Artikel 16",
+        "heading": "Aussetzung und Kündigung",
+        "items": [
+          "NextGen Finca kann Dienstleistungen aussetzen, wenn der Auftraggeber seinen Pflichten nicht nachkommt, einschließlich Zahlungsverzug.",
+          "NextGen Finca kann ein Abonnement kündigen, wenn zwei oder mehr aufeinanderfolgende Monatsraten nach schriftlicher Mahnung unbezahlt bleiben.",
+          "Der Auftraggeber kann den Vertrag bei einer schwerwiegenden, nachweisbaren Pflichtverletzung von NextGen Finca auflösen, die nicht innerhalb von 30 Tagen nach schriftlicher Mitteilung behoben wird. 'Schwerwiegende Pflichtverletzung' bedeutet: wiederholte und nachweisliche Nichteinhaltung der vereinbarten Leistung, anhaltende Nichterreichbarkeit von NextGen Finca ohne triftigen Grund oder eine wesentliche Vertragsverletzung, die objektiv und nachweislich zu einem Schaden beim Auftraggeber führt.",
+          "Bei Beendigung werden alle offenen Beträge sofort fällig.",
+          "Bei Beendigung eines Abonnements oder Dienstleistungsvertrags kann der Auftraggeber von NextGen Finca eine Übersicht der Systemkonfigurationen, Netzwerkeinstellungen, Automatisierungsregeln und Anmeldedaten anfordern, die Eigentum des Auftraggebers sind (einschließlich Starlink-Kontodaten, NVR-Einstellungen und Smart-Home-Konfigurationen), soweit technisch exportierbar. NextGen Fincas eigener Plattformzugang und API-Schlüssel werden nach der Übergabe widerrufen."
+        ]
+      },
+      {
+        "article": "Artikel 17",
+        "heading": "Anwendbares Recht und Streitigkeiten",
+        "items": [
+          "Für alle Verträge gilt ausschließlich spanisches Recht.",
+          "Streitigkeiten werden vorzugsweise einvernehmlich beigelegt. Andernfalls werden sie dem zuständigen Gericht in Albacete (dem Gerichtsbezirk, zu dem Almansa gehört), Spanien, vorgelegt.",
+          "Verbraucher mit Wohnsitz in einem EU-Mitgliedstaat haben gemäß EU-Verordnung 1215/2012 (Brüssel I bis) das Recht, rechtliche Schritte vor den Gerichten ihres Wohnsitzlandes einzuleiten, ungeachtet der Gerichtsstandsklausel in Absatz 2. Diese Klausel berührt dieses Recht nicht.",
+          "Für Verbraucher mit Wohnsitz in der Europäischen Union bleiben die zwingenden Verbraucherschutzbestimmungen des Wohnsitzlandes des Verbrauchers anwendbar, soweit diese günstiger als das spanische Recht sind."
+        ]
+      }
+    ],
+    "contactHeading": "Fragen zu diesen Bedingungen?",
+    "contactBody": "Bei Fragen zu diesen Allgemeinen Geschäftsbedingungen wenden Sie sich bitte direkt an NextGen Finca."
   }
 }

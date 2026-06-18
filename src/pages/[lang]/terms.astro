@@ -1,0 +1,73 @@
+---
+import Page from '@/layouts/Page.astro';
+import { getDictionary, getLocalizedPath } from '@/i18n/index';
+import { SUPPORTED_LANGS } from '@/i18n/types';
+import type { Lang } from '@/i18n/types';
+
+export function getStaticPaths() {
+  return SUPPORTED_LANGS.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const t = await getDictionary(lang);
+const tc = t.terms;
+---
+
+<Page
+  lang={lang}
+  t={t}
+  title={t.meta.termsTitle}
+  description={t.meta.termsDesc}
+  canonicalPath="terms"
+>
+  <section class="bg-slate-bg py-12 md:py-16 border-b border-slate-border">
+    <div class="container-xl max-w-3xl">
+      <span class="inline-block text-electric text-xs font-bold uppercase tracking-widest mb-3">
+        {tc.badge}
+      </span>
+      <h1 class="text-4xl md:text-5xl font-bold text-navy mb-4">{tc.heading}</h1>
+      <p class="text-slate-500 text-sm">{tc.lastUpdated}</p>
+    </div>
+  </section>
+
+  <section class="py-12 md:py-16 bg-white">
+    <div class="container-xl max-w-3xl flex flex-col gap-2">
+
+      <!-- Intro -->
+      <p class="text-slate-600 leading-relaxed mb-8 p-5 bg-slate-bg rounded-xl border border-slate-border text-sm">
+        {tc.intro}
+      </p>
+
+      <!-- Articles -->
+      {tc.sections.map((section) => (
+        <div class="flex flex-col gap-3 py-6 border-b border-slate-border last:border-0">
+          <div class="flex items-start gap-3">
+            <span class="shrink-0 w-1 h-5 mt-1 bg-electric rounded-full" aria-hidden="true"></span>
+            <div>
+              <p class="text-xs font-bold uppercase tracking-widest text-electric mb-0.5">{section.article}</p>
+              <h2 class="text-xl font-bold text-navy">{section.heading}</h2>
+            </div>
+          </div>
+          <ol class="flex flex-col gap-2 pl-4 list-none">
+            {section.items.map((item, i) => (
+              <li class="flex gap-3 text-slate-600 text-sm leading-relaxed">
+                <span class="shrink-0 font-semibold text-slate-400 tabular-nums w-6 text-right">{i + 1}.</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ol>
+        </div>
+      ))}
+
+      <!-- Contact block -->
+      <div class="bg-slate-bg rounded-2xl p-6 border border-slate-border mt-4">
+        <p class="font-semibold text-navy text-sm mb-1">{tc.contactHeading}</p>
+        <p class="text-slate-600 text-sm leading-relaxed mb-2">{tc.contactBody}</p>
+        <a href="mailto:info@nextgenfinca.com" class="text-electric text-sm hover:underline font-medium">
+          info@nextgenfinca.com
+        </a>
+      </div>
+
+    </div>
+  </section>
+</Page>

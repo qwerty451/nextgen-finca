@@ -20,7 +20,9 @@
     "aboutTitle": "About NextGen Finca — Smart Estate Specialists, Almansa Spain",
     "aboutDesc": "A family team with 11 years of combined experience in construction and IT, bringing smart property solutions to southeast Spain.",
     "privacyTitle": "Privacy Policy | NextGen Finca",
-    "privacyDesc": "How NextGen Finca collects, uses, and protects your personal data. GDPR-compliant privacy policy for clients across southeast Spain."
+    "privacyDesc": "How NextGen Finca collects, uses, and protects your personal data. GDPR-compliant privacy policy for clients across southeast Spain.",
+    "termsTitle": "Terms and Conditions | NextGen Finca",
+    "termsDesc": "General terms and conditions governing all services provided by NextGen Finca — installations, Finca Care subscriptions, and ongoing maintenance across southeast Spain."
   },
   "nav": {
     "home": "Home",
@@ -454,6 +456,7 @@
     "contactLabel": "Contact",
     "legal": "© 2025 NextGen Finca. All rights reserved.",
     "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
     "whatsapp": "WhatsApp"
   },
   "about": {
@@ -612,5 +615,207 @@
         "a": "Yes — that's the whole point. Everything we install is remotely monitorable. Finca Care subscribers get proactive alerts if something needs attention."
       }
     ]
+  },
+  "terms": {
+    "badge": "Legal",
+    "heading": "Terms and Conditions",
+    "lastUpdated": "Version 1.0 — June 2026",
+    "intro": "These general terms and conditions apply to all services provided by NextGen Finca, based in Almansa, Castilla-La Mancha, Spain. By engaging our services you accept these terms.",
+    "sections": [
+      {
+        "article": "Article 1",
+        "heading": "Definitions",
+        "items": [
+          "Service Provider: NextGen Finca, based in Almansa, Castilla-La Mancha, Spain.",
+          "Client: the natural or legal person who enters into an agreement with NextGen Finca.",
+          "Services: all installation and subscription services offered by NextGen Finca, including connectivity, security, automation, energy management, and Finca Care subscriptions.",
+          "Subscription: an ongoing Finca Care maintenance and monitoring service (Digital Core, Finca Essential, or Absolute Elite).",
+          "Equipment: hardware supplied and installed by or on behalf of NextGen Finca at the client's property.",
+          "Property: the client's real estate in Spain where services are performed.",
+          "Agreement: the written or digital confirmation of an order, quotation, or subscription.",
+          "Third Parties: suppliers whose products form part of the solution, including but not limited to Starlink, Ubiquiti, Victron Energy, Reolink, and Home Assistant."
+        ]
+      },
+      {
+        "article": "Article 2",
+        "heading": "Applicability",
+        "items": [
+          "These terms apply to all quotations, offers, agreements, and services of NextGen Finca.",
+          "These terms are made available via the NextGen Finca website and are attached to or expressly referenced in every quotation. By accepting a quotation, confirming an order, or taking out a subscription, the client accepts these terms.",
+          "Deviations from these terms are only valid if agreed in writing.",
+          "The applicability of any terms and conditions of the client is expressly rejected.",
+          "If any provision is found to be void or unenforceable, the remaining provisions remain in full force."
+        ]
+      },
+      {
+        "article": "Article 3",
+        "heading": "Quotations and Offers",
+        "items": [
+          "All quotations are non-binding and valid for 30 days unless otherwise stated.",
+          "A free site assessment is non-binding and creates no obligation to place an order.",
+          "Quotations are based on information provided by the client. If the actual on-site situation differs, the price may be adjusted. The client will be informed before any adjusted work is carried out.",
+          "If the client cancels a confirmed order after NextGen Finca has ordered materials or scheduled work, the demonstrably incurred costs plus a cancellation fee of 15% of the remaining quoted value will be charged.",
+          "Obvious errors or typographical mistakes in quotations are not binding on NextGen Finca."
+        ]
+      },
+      {
+        "article": "Article 4",
+        "heading": "Formation of Agreement",
+        "items": [
+          "An agreement is formed upon written confirmation by email by the client and acceptance by NextGen Finca. Messages via WhatsApp, SMS, or other messaging services do not constitute written confirmation unless followed by an explicit email confirmation.",
+          "Verbal commitments are only binding after written confirmation by email.",
+          "Agreements concluded remotely (by email, online, or by telephone) may entitle consumers to a 14-calendar-day right of withdrawal under EU Directive 2011/83. If the client requests that NextGen Finca begins work before this period expires, the client expressly waives the right of withdrawal for the portion already performed and is liable for the value of services already delivered.",
+          "NextGen Finca reserves the right to decline an order without giving reasons."
+        ]
+      },
+      {
+        "article": "Article 5",
+        "heading": "Execution of Services",
+        "items": [
+          "NextGen Finca carries out all work to the best of its ability and in accordance with applicable professional standards.",
+          "The client ensures timely access to the property, including necessary spaces and power supply. Where available, the client also provides an active internet connection for remote configuration purposes. Where the internet connection itself is the subject of the installation (such as a new Starlink installation), the requirement for a pre-existing connection does not apply.",
+          "If NextGen Finca cannot access the property on an agreed date due to the client's actions or omissions, the costs of the wasted visit will be charged at the then-current call-out rate.",
+          "Changes to scope (additional work) are agreed in writing and may result in adjusted price or delivery timeline.",
+          "Certified mains electrical work is performed by or coordinated with licensed local electricians. NextGen Finca is not liable for their work.",
+          "Stated delivery timelines are indicative. Exceeding a timeline does not entitle the client to compensation or termination, unless the delay exceeds 30 working days and is solely attributable to NextGen Finca.",
+          "Completion (oplevering) is deemed to have occurred once NextGen Finca has demonstrated the functioning of the system to the client or their on-site representative and the final invoice has been sent. If the client is not present at the conclusion of the work, the date of the final invoice serves as the completion date. The 12-month warranty period (Article 13) and equipment ownership transfer (Article 9) run from this date."
+        ]
+      },
+      {
+        "article": "Article 6",
+        "heading": "Client Obligations",
+        "items": [
+          "The client provides all information required for the execution of services in a timely manner.",
+          "The client is responsible for obtaining any permits, licences, or approvals required for the desired work.",
+          "The client ensures a safe working environment and arranges access (key safe, gate code) for visits in their absence. The client must inform NextGen Finca in advance of any hazards on the property, including but not limited to: free-roaming or aggressive animals, unstable structures, unsafe electrical installations, or other dangerous conditions.",
+          "The client must promptly inform NextGen Finca of circumstances that may affect execution, including the condition of existing electrical infrastructure. Damage to equipment or additional costs resulting from undisclosed hazardous or defective existing infrastructure are for the client's account.",
+          "Damage or additional costs resulting from non-compliance with obligations in this article are for the client's account."
+        ]
+      },
+      {
+        "article": "Article 7",
+        "heading": "Prices and Payment",
+        "items": [
+          "All prices are in euros (€) and exclusive of VAT/IVA unless stated otherwise.",
+          "For installations: 50% deposit on order confirmation, 50% on completion, unless otherwise agreed in writing.",
+          "Subscriptions are invoiced monthly or annually in advance.",
+          "Payment is due within 14 days of invoice date.",
+          "Late payment entitles NextGen Finca to statutory commercial interest plus out-of-court collection costs.",
+          "NextGen Finca reserves the right to suspend services in the event of non-payment."
+        ]
+      },
+      {
+        "article": "Article 8",
+        "heading": "Subscriptions (Finca Care)",
+        "items": [
+          "Finca Care subscriptions (Digital Core, Finca Essential, Absolute Elite) include the services as described on the NextGen Finca website at the time of subscription commencement. Subsequent changes to the website description do not affect existing subscriptions unless NextGen Finca communicates the updated service description in writing to existing subscribers.",
+          "Monthly subscriptions may be cancelled with 30 days' notice, effective at the end of the current billing period following expiry of the notice period.",
+          "Annual subscriptions have a minimum term of 12 months. No refund is given for prepaid annual amounts on early cancellation.",
+          "Cancellation must be submitted in writing to info@nextgenfinca.com.",
+          "The 'Launch Founder Rate' (20% discount) remains in force as long as the subscription remains continuously active. Upon cancellation this discount is permanently lost; reactivation is at the then-current standard rate.",
+          "NextGen Finca may change subscription rates. The client may terminate without charge before the new rate takes effect.",
+          "Not included in subscriptions: hardware replacement costs, materials, major electrical works, and travel costs outside the standard service area (approximately one hour's drive from Almansa).",
+          "Where NextGen Finca suspends a subscription due to non-payment, Article 16 of these terms applies."
+        ]
+      },
+      {
+        "article": "Article 9",
+        "heading": "Hardware and Equipment",
+        "items": [
+          "Ownership of supplied and installed equipment transfers to the client upon full payment. Until then NextGen Finca retains a retention-of-title claim.",
+          "Supplied equipment is subject to the statutory 2-year conformity warranty under EU consumer law (Directive 2019/771, implemented in Spanish law via the LGDCU). The client directs warranty claims for manufacturing defects to NextGen Finca in the first instance; NextGen Finca then resolves the matter with its supplier or the manufacturer.",
+          "Labour and call-out costs for replacing or reinstalling a warranty part are not included in the manufacturer's warranty and are charged separately at the then-current hourly rate, unless the defect was caused by NextGen Finca's own installation error.",
+          "The statutory conformity warranty does not cover: power surges, lightning strikes, extreme weather (including calima/dust storms), animal damage, unauthorised modifications, or normal wear and tear.",
+          "The client is responsible for adequately insuring installed equipment."
+        ]
+      },
+      {
+        "article": "Article 10",
+        "heading": "Third-Party Services",
+        "items": [
+          "NextGen Finca uses third-party services and hardware (including Starlink, Ubiquiti, Victron, Reolink, Home Assistant). NextGen Finca is not liable for outages, price changes, or discontinuation of services by these parties.",
+          "Internet connectivity availability depends on external factors beyond NextGen Finca's control. NextGen Finca does not guarantee continuous connectivity.",
+          "Remote monitoring detects faults based on available sensors. NextGen Finca does not guarantee 100% detection of all possible faults or incidents.",
+          "Licensed electricians are selected and coordinated by NextGen Finca as part of the service. NextGen Finca is not liable for the technical quality of their execution.",
+          "Accounts and subscriptions for third-party services (including Starlink, any cloud platforms, and home automation services) are by default registered in the client's name and remain the client's property. Where NextGen Finca exceptionally registers an account in its own name on the client's behalf, this is agreed explicitly in writing and NextGen Finca transfers the account to the client upon termination of the service. NextGen Finca is not liable for policy changes, price changes, or discontinuation of services by third parties."
+        ]
+      },
+      {
+        "article": "Article 11",
+        "heading": "Liability and Insurance",
+        "items": [
+          "NextGen Finca holds professional liability insurance (RC Profesional). Claims for direct physical damage to property of the client or third parties, demonstrably caused by faulty execution of work by NextGen Finca, are handled through this insurance.",
+          "NextGen Finca is only liable for direct loss that is the direct result of a demonstrable, attributable failure.",
+          "Liability for indirect loss — including lost income, consequential loss, data loss, depreciation of property, or asset damage from break-in or vandalism — is expressly excluded.",
+          "For all other direct loss not qualifying as physical property damage, total liability is limited to the amount paid to NextGen Finca in the preceding 12 months, with a maximum of €5,000 per incident.",
+          "NextGen Finca is not liable for damage resulting from: failure to follow advice, third-party service outages, damage by third parties, animals, or weather, or inaccurate information provided by the client.",
+          "These limitations do not apply in cases of intent or gross negligence on the part of NextGen Finca."
+        ]
+      },
+      {
+        "article": "Article 12",
+        "heading": "Force Majeure",
+        "items": [
+          "NextGen Finca is not obliged to perform any obligation when prevented by force majeure.",
+          "Force majeure includes: extreme weather events (calima, storm, exceptional rainfall), power failures, network disruptions, strikes, supplier delivery issues (including Starlink hardware delays), government measures, and epidemics.",
+          "If force majeure persists for more than 60 days, both parties have the right to dissolve the agreement in writing without owing compensation."
+        ]
+      },
+      {
+        "article": "Article 13",
+        "heading": "Workmanship Warranty",
+        "items": [
+          "NextGen Finca warrants the soundness of installation work for 12 months after completion.",
+          "Prior to installing equipment on or into existing structures (such as gates, hinges, walls, or roof structures), NextGen Finca carries out a technical suitability assessment. If an existing structure is found unsuitable for the intended equipment, NextGen Finca will notify the client in writing before commencing work. If NextGen Finca fails to identify an unsuitable or incompatible situation that a professional assessment should reasonably have detected, NextGen Finca is liable for the resulting damage to the structure and the installed equipment.",
+          "The warranty covers the cost-free repair of defects demonstrably caused by incorrect execution by NextGen Finca, including damage to existing structures caused by faulty installation.",
+          "The warranty is void for the modified component if the client or a third party not engaged by NextGen Finca has modified the system. The warranty on other, unmodified components of the installation remains in force unless the modification is demonstrably the cause of the defect elsewhere in the system.",
+          "The warranty does not cover normal wear and tear, consumables, or damage caused by external factors."
+        ]
+      },
+      {
+        "article": "Article 14",
+        "heading": "Intellectual Property and Confidentiality",
+        "items": [
+          "Configurations, documentation, and technical designs by NextGen Finca remain property of NextGen Finca until full payment. The client then receives a non-exclusive licence for use at their own property.",
+          "NextGen Finca retains the right to reuse generic configuration logic and working methods for other projects.",
+          "Upon sale or transfer of the property, the new owner may use the existing system configuration without additional licence costs, provided the system remains at the same location. The new owner is not automatically bound by any existing Finca Care subscription; this must be agreed anew.",
+          "NextGen Finca may use photographs of installations for portfolio and marketing purposes, unless the client raises a written objection at the time of ordering. Images will be anonymised or the location will not be made identifiable unless the client explicitly consents to attribution.",
+          "NextGen Finca treats all information about the client's property and personal circumstances as confidential.",
+          "Personal data is processed in accordance with the privacy policy at www.nextgenfinca.com."
+        ]
+      },
+      {
+        "article": "Article 15",
+        "heading": "Complaints",
+        "items": [
+          "Complaints about service execution must be reported in writing within 14 days of discovery to info@nextgenfinca.com.",
+          "Filing a complaint does not suspend the client's payment obligation.",
+          "If a complaint is not resolved to satisfaction, parties may mutually agree to engage an independent mediator."
+        ]
+      },
+      {
+        "article": "Article 16",
+        "heading": "Suspension and Termination",
+        "items": [
+          "NextGen Finca may suspend services if the client fails to meet their obligations, including non-payment.",
+          "NextGen Finca may terminate a subscription if two or more consecutive monthly instalments remain unpaid following written notice.",
+          "The client may dissolve the agreement in the event of a serious, demonstrable failure by NextGen Finca that is not remedied within 30 days of written notice. 'Serious failure' means: repeated and demonstrable non-compliance with the agreed service, prolonged unavailability of NextGen Finca without good cause, or a material breach that objectively and demonstrably causes damage to the client.",
+          "Upon termination all outstanding amounts become immediately payable.",
+          "Upon termination of a subscription or service agreement, the client may request from NextGen Finca an overview of system configurations, network settings, automation rules, and login credentials that are the client's property (including Starlink account details, NVR settings, and home automation configurations), to the extent technically exportable. NextGen Finca's own platform access and API keys will be revoked after handover."
+        ]
+      },
+      {
+        "article": "Article 17",
+        "heading": "Governing Law and Disputes",
+        "items": [
+          "All agreements are exclusively governed by Spanish law.",
+          "Disputes are preferably resolved by mutual consultation. Failing that, disputes are submitted to the competent court in Albacete (the judicial district in which Almansa falls), Spain.",
+          "Consumers resident in an EU member state have the right under EU Regulation 1215/2012 (Brussels I Recast) to bring legal proceedings in the courts of their country of domicile, regardless of the jurisdiction clause in paragraph 2. That clause does not override this right.",
+          "For consumers resident within the European Union, the mandatory consumer protection provisions of the consumer's country of residence apply to the extent that they are more favourable than Spanish law."
+        ]
+      }
+    ],
+    "contactHeading": "Questions about these terms?",
+    "contactBody": "For any questions about these terms and conditions, please contact NextGen Finca directly."
   }
 }

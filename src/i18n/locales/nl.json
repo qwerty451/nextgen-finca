@@ -20,7 +20,9 @@
     "aboutTitle": "Over NextGen Finca — Slimme Vastgoedspecialisten, Almansa Spanje",
     "aboutDesc": "Een familieteam met 11 jaar gecombineerde ervaring in bouw en IT, dat slimme oplossingen brengt naar zuidoost Spanje.",
     "privacyTitle": "Privacybeleid | NextGen Finca",
-    "privacyDesc": "Hoe NextGen Finca uw persoonlijke gegevens verzamelt, gebruikt en beschermt. AVG-conform privacybeleid voor klanten in zuidoost-Spanje."
+    "privacyDesc": "Hoe NextGen Finca uw persoonlijke gegevens verzamelt, gebruikt en beschermt. AVG-conform privacybeleid voor klanten in zuidoost-Spanje.",
+    "termsTitle": "Algemene Voorwaarden | NextGen Finca",
+    "termsDesc": "Algemene voorwaarden van toepassing op alle diensten van NextGen Finca — installaties, Finca Care abonnementen en doorlopend onderhoud in zuidoost-Spanje."
   },
   "nav": {
     "home": "Home",
@@ -454,6 +456,7 @@
     "contactLabel": "Contact",
     "legal": "© 2025 NextGen Finca. Alle rechten voorbehouden.",
     "privacy": "Privacybeleid",
+    "terms": "Algemene Voorwaarden",
     "whatsapp": "WhatsApp"
   },
   "about": {
@@ -612,5 +615,207 @@
         "a": "Ja — dat is precies het punt. Alles wat wij installeren is op afstand te monitoren. Finca Care abonnees ontvangen proactieve meldingen als er iets aandacht nodig heeft."
       }
     ]
+  },
+  "terms": {
+    "badge": "Juridisch",
+    "heading": "Algemene Voorwaarden",
+    "lastUpdated": "Versie 1.0 — Juni 2026",
+    "intro": "Deze algemene voorwaarden zijn van toepassing op alle diensten van NextGen Finca, gevestigd te Almansa, Castilla-La Mancha, Spanje. Door gebruik te maken van onze diensten aanvaardt u deze voorwaarden.",
+    "sections": [
+      {
+        "article": "Artikel 1",
+        "heading": "Definities",
+        "items": [
+          "Opdrachtnemer: NextGen Finca, gevestigd te Almansa, Castilla-La Mancha, Spanje.",
+          "Opdrachtgever: de natuurlijke of rechtspersoon die een overeenkomst sluit met NextGen Finca.",
+          "Diensten: alle installatie- en abonnementsdiensten van NextGen Finca, waaronder connectiviteit, beveiliging, automatisering, energiebeheer en Finca Care abonnementen.",
+          "Abonnement: een doorlopende Finca Care onderhouds- en monitoringsdienst (Digital Core, Finca Essential of Absolute Elite).",
+          "Apparatuur: hardware geleverd en geïnstalleerd door of namens NextGen Finca op de locatie van de opdrachtgever.",
+          "Locatie: het onroerend goed van de opdrachtgever in Spanje waar de diensten worden uitgevoerd.",
+          "Overeenkomst: de schriftelijke of digitale bevestiging van een opdracht, offerte of abonnement.",
+          "Derden: leveranciers wiens producten deel uitmaken van de oplossing, waaronder Starlink, Ubiquiti, Victron Energy, Reolink en Home Assistant."
+        ]
+      },
+      {
+        "article": "Artikel 2",
+        "heading": "Toepasselijkheid",
+        "items": [
+          "Deze algemene voorwaarden zijn van toepassing op alle offertes, aanbiedingen, overeenkomsten en diensten van NextGen Finca.",
+          "Deze voorwaarden worden beschikbaar gesteld via de website van NextGen Finca en zijn bijgevoegd bij of uitdrukkelijk vermeld in elke offerte. Door een offerte te accepteren, een opdracht te bevestigen of een abonnement af te sluiten, aanvaardt de opdrachtgever deze voorwaarden.",
+          "Afwijkingen zijn slechts geldig indien schriftelijk overeengekomen.",
+          "De toepasselijkheid van algemene voorwaarden van de opdrachtgever wordt uitdrukkelijk van de hand gewezen.",
+          "Indien een of meerdere bepalingen nietig of vernietigbaar blijken, blijven de overige bepalingen onverminderd van kracht."
+        ]
+      },
+      {
+        "article": "Artikel 3",
+        "heading": "Offertes en Aanbiedingen",
+        "items": [
+          "Alle offertes zijn vrijblijvend en geldig gedurende 30 dagen, tenzij anders vermeld.",
+          "Een gratis locatiebezoek is niet-bindend en schept geen verplichting tot het plaatsen van een opdracht.",
+          "Offertes zijn gebaseerd op door de opdrachtgever verstrekte informatie. Indien de werkelijke situatie op de locatie afwijkt, kan de prijs worden bijgesteld. De opdrachtgever wordt geïnformeerd alvorens bijgestelde werkzaamheden worden uitgevoerd.",
+          "Indien de opdrachtgever een bevestigde opdracht annuleert nadat NextGen Finca materialen heeft besteld of werkzaamheden heeft ingepland, worden de aantoonbaar gemaakte kosten alsmede een redelijke annuleringsvergoeding in rekening gebracht.",
+          "Kennelijke vergissingen of typefouten in offertes binden NextGen Finca niet."
+        ]
+      },
+      {
+        "article": "Artikel 4",
+        "heading": "Totstandkoming van de Overeenkomst",
+        "items": [
+          "Een overeenkomst komt tot stand na schriftelijke bevestiging per e-mail door de opdrachtgever en acceptatie door NextGen Finca. Berichten via WhatsApp, SMS of andere berichtendiensten gelden niet als schriftelijke bevestiging tenzij een expliciete e-mailbevestiging volgt.",
+          "Mondelinge toezeggingen zijn uitsluitend bindend na schriftelijke bevestiging per e-mail.",
+          "Overeenkomsten gesloten op afstand (per e-mail, online of telefonisch) kunnen voor consumenten vallen onder het herroepingsrecht van EU Richtlijn 2011/83 (Wet Consumentenkoop). Consumenten hebben in dat geval het recht de overeenkomst zonder opgave van reden te herroepen binnen 14 kalenderdagen na totstandkoming. Indien de opdrachtgever verzoekt dat NextGen Finca de werkzaamheden vóór het verstrijken van de herroepingstermijn aanvangt, doet de opdrachtgever daarmee uitdrukkelijk afstand van dit herroepingsrecht voor het reeds uitgevoerde deel en is hij de waarde van de reeds geleverde diensten verschuldigd.",
+          "NextGen Finca behoudt het recht een opdracht te weigeren zonder opgave van reden."
+        ]
+      },
+      {
+        "article": "Artikel 5",
+        "heading": "Uitvoering van de Werkzaamheden",
+        "items": [
+          "NextGen Finca voert alle werkzaamheden naar beste kunnen uit, in overeenstemming met geldende professionele standaarden.",
+          "De opdrachtgever zorgt voor tijdige toegang tot de locatie, inclusief benodigde ruimten en energievoorziening. Indien beschikbaar, stelt de opdrachtgever ook een actieve internetverbinding beschikbaar ten behoeve van remote configuratie. Bij installaties waarbij de internetverbinding zelf het onderwerp van de opdracht is (zoals een nieuwe Starlink installatie), vervalt de eis van een vooraf aanwezige verbinding.",
+          "Indien NextGen Finca op een afgesproken datum de locatie niet kan betreden door toedoen van de opdrachtgever, worden de kosten van het vergeefse bezoek in rekening gebracht tegen het op dat moment geldende voorrijtarief.",
+          "Wijzigingen in de opdracht (meerwerk) worden schriftelijk overeengekomen en kunnen leiden tot aanpassing van prijs en/of uitvoeringstermijn.",
+          "Gecertificeerd elektriciteitswerk aan het net wordt uitgevoerd door of gecoördineerd met erkende lokale elektriciens. NextGen Finca is niet aansprakelijk voor hun werkzaamheden.",
+          "Opgegeven oplevertermijnen zijn indicatief. Overschrijding geeft de opdrachtgever geen recht op schadevergoeding of ontbinding, tenzij sprake is van een overschrijding van meer dan 30 werkdagen die uitsluitend aan NextGen Finca is toe te rekenen.",
+          "Oplevering heeft plaatsgevonden zodra NextGen Finca de werking van het systeem heeft aangetoond aan de opdrachtgever (of diens vertegenwoordiger ter plaatse) en de eindfactuur is verstuurd. Indien de opdrachtgever niet aanwezig is bij de afrondende werkzaamheden, geldt de datum van verzending van de eindfactuur als datum van oplevering. De 12-maanden garantietermijn (Artikel 13) en de overdrachtsdatum voor apparatuureigendom (Artikel 9) lopen vanaf deze datum."
+        ]
+      },
+      {
+        "article": "Artikel 6",
+        "heading": "Verplichtingen van de Opdrachtgever",
+        "items": [
+          "De opdrachtgever verstrekt tijdig alle benodigde informatie voor de uitvoering van de werkzaamheden.",
+          "De opdrachtgever is verantwoordelijk voor het verkrijgen van benodigde vergunningen, ontheffingen of toestemmingen.",
+          "De opdrachtgever zorgt voor een veilige werkomgeving en regelt toegang (sleutelkluis, poortcode) voor bezoeken bij afwezigheid. De opdrachtgever informeert NextGen Finca vooraf over aanwezige risico's op de locatie, waaronder maar niet beperkt tot: loslopende of agressieve dieren, onstabiele constructies, onveilige elektrische installaties of andere gevaarlijke omstandigheden.",
+          "De opdrachtgever informeert NextGen Finca onverwijld over omstandigheden die de uitvoering kunnen beïnvloeden, waaronder de staat van de bestaande elektrische infrastructuur. Schade aan apparatuur of vertraging als gevolg van niet-gemelde gevaarlijke of gebrekkige bestaande infrastructuur komt voor rekening van de opdrachtgever.",
+          "Schade of meerkosten door het niet nakomen van de verplichtingen in dit artikel zijn voor rekening van de opdrachtgever."
+        ]
+      },
+      {
+        "article": "Artikel 7",
+        "heading": "Prijzen en Betaling",
+        "items": [
+          "Alle prijzen zijn in euro's (€), exclusief btw/IVA, tenzij anders vermeld.",
+          "Voor installaties: 50% aanbetaling bij opdrachtverstrekking, 50% bij oplevering, tenzij schriftelijk anders overeengekomen.",
+          "Abonnementen worden maandelijks of jaarlijks vooraf gefactureerd.",
+          "Betaling dient te geschieden binnen 14 dagen na factuurdatum.",
+          "Bij te late betaling is de opdrachtgever wettelijke handelsrente verschuldigd, alsmede buitengerechtelijke incassokosten.",
+          "NextGen Finca behoudt het recht dienstverlening op te schorten bij uitblijven van betaling."
+        ]
+      },
+      {
+        "article": "Artikel 8",
+        "heading": "Abonnementen (Finca Care)",
+        "items": [
+          "Finca Care abonnementen (Digital Core, Finca Essential, Absolute Elite) omvatten de diensten zoals beschreven op de website van NextGen Finca ten tijde van de totstandkoming van het abonnement. Latere wijzigingen van de websitebeschrijving hebben geen automatisch effect op bestaande abonnementen.",
+          "Maandelijkse abonnementen kunnen worden opgezegd met een opzegtermijn van 30 dagen, ingaande per het einde van de lopende facturatieperiode na het verstrijken van de opzegtermijn.",
+          "Jaarlijkse abonnementen hebben een minimale looptijd van 12 maanden. Er vindt geen restitutie plaats van vooruitbetaalde bedragen bij tussentijdse opzegging.",
+          "Opzegging dient schriftelijk te geschieden via info@nextgenfinca.com.",
+          "Het 'Launch Founder Tarief' (20% korting) blijft van kracht zolang het abonnement aaneengesloten actief is. Bij opzegging vervalt dit voordeel definitief; bij heractivering geldt het dan geldende standaardtarief.",
+          "NextGen Finca kan tarieven wijzigen. De opdrachtgever heeft het recht het abonnement kosteloos te beëindigen vóór de ingangsdatum van de wijziging.",
+          "Niet in het abonnement inbegrepen: vervangingskosten van defecte hardware, materiaalkosten, grootschalig elektriciteitswerk en reiskosten buiten het standaard servicegebied (ruwweg een uur rijden vanaf Almansa).",
+          "Bij opschorting wegens wanbetaling geldt Artikel 16 van deze voorwaarden."
+        ]
+      },
+      {
+        "article": "Artikel 9",
+        "heading": "Hardware en Apparatuur",
+        "items": [
+          "Eigendom van geleverde en geïnstalleerde apparatuur gaat over op de opdrachtgever na volledige betaling. Tot dan behoudt NextGen Finca een eigendomsvoorbehoud.",
+          "Geleverde apparatuur is onderhevig aan de wettelijke conformiteitsgarantie van 2 jaar conform Europees consumentenrecht (EU Richtlijn 2019/771, geïmplementeerd in de Spaanse LGDCU). De opdrachtgever richt garantieclaims voor fabricagegebreken in eerste instantie aan NextGen Finca; NextGen Finca handelt dit vervolgens af met de leverancier of fabrikant.",
+          "Arbeids- en voorrijkosten voor vervanging of herinstallatie van een garantieonderdeel zijn niet inbegrepen in de fabrieksgarantie en worden afzonderlijk in rekening gebracht tegen het op dat moment geldende uurtarief, tenzij NextGen Finca zelf de oorzaak van het defect heeft veroorzaakt.",
+          "De wettelijke conformiteitsgarantie geldt niet voor: stroompieken, blikseminslag, extreme weersomstandigheden (waaronder calima/stofstormen), schade door dieren, ongeautoriseerde aanpassingen of normale slijtage.",
+          "De opdrachtgever is verantwoordelijk voor het adequaat verzekeren van de geïnstalleerde apparatuur."
+        ]
+      },
+      {
+        "article": "Artikel 10",
+        "heading": "Diensten van Derden",
+        "items": [
+          "NextGen Finca maakt gebruik van diensten van derden (o.a. Starlink, Ubiquiti, Victron, Reolink, Home Assistant). NextGen Finca is niet aansprakelijk voor storingen, prijswijzigingen of het beëindigen van diensten door deze partijen.",
+          "De beschikbaarheid van internetverbindingen is afhankelijk van externe factoren buiten de invloedssfeer van NextGen Finca. NextGen Finca garandeert geen continue verbindingsbeschikbaarheid.",
+          "Remote monitoring detecteert storingen op basis van beschikbare sensoren. NextGen Finca garandeert geen 100% detectie van alle mogelijke storingen of incidenten.",
+          "Gecertificeerde elektriciens worden door NextGen Finca geselecteerd en gecoördineerd als onderdeel van de dienstverlening. NextGen Finca is niet aansprakelijk voor de kwaliteit van de technische uitvoering door deze elektriciens.",
+          "Abonnementen en accounts voor diensten van derden (waaronder Starlink, eventuele cloudplatforms en domoticadiensten) worden standaard op naam van de opdrachtgever geregistreerd en zijn eigendom van de opdrachtgever. Indien NextGen Finca bij uitzondering een account op eigen naam registreert ten behoeve van de opdrachtgever, wordt dit uitdrukkelijk schriftelijk overeengekomen en draagt NextGen Finca het account over aan de opdrachtgever zodra de dienstverlening eindigt. NextGen Finca is niet aansprakelijk voor beleidswijzigingen, tariefwijzigingen of beëindiging van diensten door derden."
+        ]
+      },
+      {
+        "article": "Artikel 11",
+        "heading": "Aansprakelijkheid en Verzekering",
+        "items": [
+          "NextGen Finca draagt een aansprakelijkheidsverzekering (RC Profesional / beroepsaansprakelijkheidsverzekering). Claims voor directe fysieke schade aan eigendommen van de opdrachtgever of derden, veroorzaakt door aantoonbaar foutieve uitvoering van werkzaamheden door NextGen Finca, worden afgewikkeld via deze verzekering.",
+          "NextGen Finca is uitsluitend aansprakelijk voor directe schade die het rechtstreekse gevolg is van een aantoonbare toerekenbare tekortkoming.",
+          "Aansprakelijkheid voor indirecte schade — gederfde inkomsten, gevolgschade, dataverlies, waardedaling van eigendommen, of vermogensschade door inbraak of vandalisme — is uitdrukkelijk uitgesloten.",
+          "Voor alle overige directe schade die niet als fysieke zaaksbeschadiging te kwalificeren is, is de totale aansprakelijkheid beperkt tot het bedrag dat in de voorafgaande 12 maanden aan NextGen Finca is betaald, met een maximum van €5.000 per schadegeval.",
+          "NextGen Finca is niet aansprakelijk voor schade door: het niet opvolgen van adviezen, storingen in externe diensten, schade door derden/dieren/weersomstandigheden, of onjuiste informatie van de opdrachtgever.",
+          "Bovenstaande beperkingen gelden niet bij opzet of grove schuld van NextGen Finca."
+        ]
+      },
+      {
+        "article": "Artikel 12",
+        "heading": "Overmacht",
+        "items": [
+          "NextGen Finca is niet gehouden tot nakoming van enige verplichting bij overmacht.",
+          "Overmacht omvat: extreme weersomstandigheden (calima, storm, uitzonderlijke regenval), stroomuitval, verstoringen in netwerken, stakingen, leveringsproblemen bij toeleveranciers, overheidsmaatregelen en epidemieën.",
+          "Indien overmacht langer dan 60 dagen duurt, hebben beide partijen het recht de overeenkomst schriftelijk te ontbinden, zonder dat schadevergoeding verschuldigd is."
+        ]
+      },
+      {
+        "article": "Artikel 13",
+        "heading": "Garantie op Werkzaamheden",
+        "items": [
+          "NextGen Finca staat gedurende 12 maanden na oplevering in voor de deugdelijkheid van de uitgevoerde installatie.",
+          "Voorafgaand aan de installatie van apparatuur aan of in bestaande constructies (zoals poorten, scharnieren, gevels, dakconstructies) voert NextGen Finca een beoordeling uit van de technische geschiktheid. Indien een bestaande constructie ongeschikt wordt geacht voor de gewenste apparatuur, stelt NextGen Finca de opdrachtgever hiervan schriftelijk in kennis vóór aanvang van de werkzaamheden. Indien NextGen Finca een ondeugdelijke of incompatibele situatie redelijkerwijs had moeten identificeren maar dit heeft nagelaten, is NextGen Finca aansprakelijk voor de daardoor ontstane schade aan de constructie en de geïnstalleerde apparatuur.",
+          "De garantie omvat het kosteloos herstellen van gebreken die aantoonbaar zijn veroorzaakt door onjuiste uitvoering door NextGen Finca, inclusief schade aan bestaande constructies veroorzaakt door ondeugdelijke installatie.",
+          "De garantie vervalt voor het gewijzigde onderdeel indien de opdrachtgever of een niet door NextGen Finca ingeschakelde derde het systeem heeft aangepast. De garantie op overige, niet-aangepaste onderdelen van de installatie blijft van kracht, tenzij de aanpassing aantoonbaar de oorzaak is van het defect elders in het systeem.",
+          "De garantie geldt niet voor normale slijtage, verbruiksartikelen of schade veroorzaakt door externe factoren."
+        ]
+      },
+      {
+        "article": "Artikel 14",
+        "heading": "Intellectueel Eigendom en Vertrouwelijkheid",
+        "items": [
+          "Configuraties, documentatie en technische ontwerpen van NextGen Finca blijven eigendom van NextGen Finca tot volledige betaling. Daarna verkrijgt de opdrachtgever een niet-exclusieve licentie voor gebruik op de eigen locatie.",
+          "NextGen Finca behoudt het recht generieke configuratielogica en werkmethoden te hergebruiken voor andere projecten.",
+          "Bij verkoop of overdracht van de locatie kan de nieuwe eigenaar de bestaande systeemconfiguratie gebruiken zonder aanvullende licentiekosten, mits het systeem op dezelfde locatie blijft. De nieuwe eigenaar is niet automatisch gebonden aan een bestaand Finca Care abonnement; dit dient opnieuw te worden overeengekomen.",
+          "NextGen Finca mag foto's van installaties gebruiken voor portfolio- en marketingdoeleinden, tenzij de opdrachtgever bij opdrachtverstrekking schriftelijk bezwaar maakt. Beeldmateriaal wordt geanonimiseerd of de locatie wordt niet herleidbaar gepubliceerd tenzij de opdrachtgever uitdrukkelijk toestemming geeft voor vermelding.",
+          "NextGen Finca behandelt alle informatie over de locatie en persoonlijke omstandigheden van de opdrachtgever als vertrouwelijk.",
+          "Persoonsgegevens worden verwerkt conform het privacybeleid op www.nextgenfinca.com."
+        ]
+      },
+      {
+        "article": "Artikel 15",
+        "heading": "Klachten",
+        "items": [
+          "Klachten over de uitvoering van werkzaamheden dienen binnen 14 dagen na ontdekking schriftelijk te worden gemeld via info@nextgenfinca.com.",
+          "Het indienen van een klacht schort de betalingsverplichting van de opdrachtgever niet op.",
+          "Indien een klacht niet naar tevredenheid wordt opgelost, kunnen partijen in overleg een onafhankelijke mediator inschakelen."
+        ]
+      },
+      {
+        "article": "Artikel 16",
+        "heading": "Opschorting en Ontbinding",
+        "items": [
+          "NextGen Finca kan de dienstverlening opschorten indien de opdrachtgever zijn verplichtingen niet nakomt, waaronder niet tijdig betalen.",
+          "NextGen Finca kan een abonnement beëindigen indien de opdrachtgever twee of meer opeenvolgende maandtermijnen onbetaald laat, na schriftelijke aanmaning.",
+          "De opdrachtgever kan de overeenkomst ontbinden bij een aantoonbare, ernstige tekortkoming van NextGen Finca die niet binnen 30 dagen na schriftelijke kennisgeving is hersteld. Onder 'ernstige tekortkoming' wordt verstaan: herhaaldelijke en aantoonbare niet-naleving van de overeengekomen dienstverlening, langdurige onbereikbaarheid van NextGen Finca zonder gegronde reden, of een wanprestatie die objectief aantoonbaar tot schade aan de opdrachtgever leidt.",
+          "Bij beëindiging zijn alle openstaande bedragen onmiddellijk opeisbaar.",
+          "Bij beëindiging van het abonnement of de dienstverleningsovereenkomst kan de opdrachtgever de systeemconfiguratie, netwerkinstellingen, automatiseringsregels en inloggegevens die eigendom zijn van de opdrachtgever (waaronder Starlink accountgegevens, NVR instellingen en domoticaconfiguraties) opvragen bij NextGen Finca, voor zover technisch exporteerbaar. Eigen platformtoegang en API-sleutels van NextGen Finca worden na overdracht ingetrokken."
+        ]
+      },
+      {
+        "article": "Artikel 17",
+        "heading": "Toepasselijk Recht en Geschillen",
+        "items": [
+          "Op alle overeenkomsten is uitsluitend Spaans recht van toepassing.",
+          "Geschillen worden bij voorkeur in onderling overleg opgelost. Bij mislukken worden geschillen voorgelegd aan de bevoegde rechter te Albacete (het arrondissement waarbinnen Almansa valt), Spanje.",
+          "Consumenten die woonachtig zijn in een EU-lidstaat hebben op grond van EU Verordening 1215/2012 (Brussel I bis) het recht juridische procedures te starten in het land van hun woonplaats, ongeacht de forumkeuze in deze voorwaarden. De bevoegdheidsclausule in lid 2 doet geen afbreuk aan dit recht.",
+          "Voor EU-consumenten blijven de dwingende bepalingen van consumentenbescherming van het woonland van de consument van toepassing, voor zover gunstiger dan het Spaanse recht."
+        ]
+      }
+    ],
+    "contactHeading": "Vragen over deze voorwaarden?",
+    "contactBody": "Voor vragen over deze algemene voorwaarden kunt u rechtstreeks contact opnemen met NextGen Finca."
   }
 }
