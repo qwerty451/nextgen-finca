@@ -20,6 +20,19 @@ const s = t.contact.success;
   description={s.body}
   canonicalPath="contact/success"
 >
+  <script slot="head">
+    window.addEventListener('load', function () {
+      if (window.gtag) {
+        gtag('event', 'generate_lead', {
+          event_category: 'conversion',
+          event_label: 'contact_form',
+        });
+      }
+      if (window.fbq) {
+        fbq('track', 'Lead');
+      }
+    });
+  </script>
   <section class="min-h-[70vh] flex items-center justify-center bg-slate-bg py-20 px-4">
     <div class="max-w-lg w-full text-center">
 
