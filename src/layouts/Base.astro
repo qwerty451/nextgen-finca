@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import GoogleAnalytics from '@/components/global/GoogleAnalytics.astro';
 import MetaPixel from '@/components/global/MetaPixel.astro';
+import { Analytics } from '@vercel/analytics/astro';
 
 interface Props {
   lang: string;
@@ -92,6 +93,7 @@ const ogLocaleAlternates = Object.values(ogLocaleMap).filter((l) => l !== ogLoca
 
     <GoogleAnalytics />
     <MetaPixel />
+    <Analytics />
     <slot name="head" />
   </head>
   <body>
