@@ -81,6 +81,12 @@ const labelClass = "text-sm font-semibold text-navy";
       </select>
     </div>
 
+    <!-- Message -->
+    <div class="flex flex-col gap-1.5">
+      <label for="message" class={labelClass}>{fields.message}</label>
+      <textarea id="message" name="message" rows="4" class={inputClass} placeholder={fields.messagePlaceholder} style="resize:vertical"></textarea>
+    </div>
+
     <!-- Submit -->
     <button
       type="submit"

@@ -26,6 +26,11 @@ const showSuccess = url.searchParams.get('success') === '1';
   canonicalPath="contact"
 >
   <LocalBusinessSchema lang={lang} pageType="contact" pageTitle={t.meta.contactTitle} pagePath="contact" slot="head" />
+  <script slot="head">
+    window.addEventListener('load', function () {
+      if (window.fbq) fbq('track', 'Contact');
+    });
+  </script>
 
   <!-- Hero -->
   <section class="bg-slate-bg py-14 md:py-20 border-b border-slate-border">

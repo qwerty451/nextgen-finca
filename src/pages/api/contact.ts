@@ -64,6 +64,10 @@ function buildInternalHtml(fields: Record<string, string>): string {
     ['Language', fields.lang],
   ];
 
+  const messageBlock = fields.message
+    ? `<div style="margin-top:16px;padding:16px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;font-size:14px;line-height:1.7;white-space:pre-wrap">${fields.message}</div>`
+    : '';
+
   const tableRows = rows.map(([label, value]) =>
     `<tr><td style="padding:8px 12px;border-bottom:1px solid #f1f5f9;font-weight:600;width:160px;color:#475569;font-size:13px">${label}</td><td style="padding:8px 12px;border-bottom:1px solid #f1f5f9;font-size:14px">${value}</td></tr>`
   ).join('');
@@ -76,6 +80,7 @@ function buildInternalHtml(fields: Record<string, string>): string {
       <table style="width:100%;border-collapse:collapse;background:#fff;border:1px solid #e2e8f0;border-top:none;border-radius:0 0 8px 8px">
         ${tableRows}
       </table>
+      ${messageBlock}
     </div>
   `;
 }
@@ -99,6 +104,7 @@ export const POST: APIRoute = async ({ request, redirect }) => {
   const phone = String(formData.get('phone') ?? '').trim();
   const location = String(formData.get('location') ?? '').trim();
   const service = String(formData.get('service') ?? '').trim();
+  const message = String(formData.get('message') ?? '').trim();
 
   if (!name || !email || !email.includes('@')) {
     return new Response('Missing required fields', { status: 400 });
@@ -126,7 +132,7 @@ export const POST: APIRoute = async ({ request, redirect }) => {
           to: notifyEmail,
           replyTo: email,
           subject: `New Assessment Request — ${name} (${service || 'General'})`,
-          html: buildInternalHtml({ name, email, phone, location, service, lang: safeLang }),
+          html: buildInternalHtml({ name, email, phone, location, service, message, lang: safeLang }),
         }),
         transporter.sendMail({
           from: `NextGen Finca <${smtpFrom}>`,
