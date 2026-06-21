@@ -7,7 +7,9 @@ import partytown from '@astrojs/partytown';
 export default defineConfig({
   site: 'https://nextgenfinca.com',
   output: 'static',
-  adapter: vercel(),
+  adapter: vercel({
+    webAnalytics: { enabled: true },
+  }),
   trailingSlash: 'always',
   vite: {
     plugins: [tailwindcss()],
