@@ -60,7 +60,7 @@
       "title": "Zuverlässiges Internet",
       "shortDesc": "Immer verfügbares Internet für Ihre Finca — wir installieren Starlink, fügen ein mobiles Backup hinzu und bringen starkes WLAN in jede Ecke Ihrer Immobilie, einschließlich Pool, Tor und Gästehaus.",
       "cta": "Mehr Erfahren",
-      "hero": "Gutes Internet auf einer ländlichen Finca sollte keine Luxus sein — wir machen es selbstverständlich.",
+      "hero": "Gutes Internet auf einer ländlichen Finca sollte kein Luxus sein — wir machen es selbstverständlich.",
       "sections": {
         "starlink": {
           "title": "Starlink Installation",
@@ -416,7 +416,7 @@
       "cta": "Zurück zur Startseite",
       "fincaCareHeading": "Finca Care entdecken",
       "fincaCareBody": "Laufende Pläne für den ganzjährigen Schutz Ihrer Finca.",
-      "whatsappPrompt": "Möchten Sie schneller antworten?",
+      "whatsappPrompt": "Möchten Sie eine schnellere Antwort?",
       "whatsappCta": "Schreiben Sie uns auf WhatsApp"
     },
     "error": {
@@ -561,7 +561,7 @@
       },
       {
         "title": "Professionelle Ausrüstung",
-        "body": "Wir installieren Ubiquiti, Victron, Starlink und Reolink — was professionelle Installationen verwenden, keine Produkte von der Konsumgüterregale."
+        "body": "Wir installieren Ubiquiti, Victron, Starlink und Reolink — was professionelle Installationen verwenden, keine Produkte aus dem Konsumgüterregal."
       },
       {
         "title": "Dokumentierte Übergabe, Immer",

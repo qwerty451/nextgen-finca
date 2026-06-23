@@ -274,7 +274,7 @@
         "features": [
           "Alles in Digital Core & Finca Essential",
           "Kwartaalbezoek ter plaatse — 4 volledige bezoeken per jaar",
-          "Diepgaand hardware-onderhoud: serverreiniging, zonnepaneel calima wip, accudiagnostiek",
+          "Diepgaand hardware-onderhoud: serverreiniging, calima-reiniging zonnepanelen, accudiagnostiek",
           "Versneld noodbezoek inbegrepen bij storingen — prioriteitsrespons",
           "24/7 prioriteit noodondersteuningskanaal",
           "Premium digitaal rapport met foto's na elke kwartaalinspectie"
@@ -416,7 +416,7 @@
       "cta": "Terug naar Home",
       "fincaCareHeading": "Ontdek Finca Care",
       "fincaCareBody": "Doorlopende plannen om uw finca het hele jaar door beschermd te houden.",
-      "whatsappPrompt": "Wil je sneller antwoord?",
+      "whatsappPrompt": "Wilt u sneller antwoord?",
       "whatsappCta": "Stuur ons een bericht via WhatsApp"
     },
     "error": {
